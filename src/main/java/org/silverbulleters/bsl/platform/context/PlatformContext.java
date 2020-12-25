@@ -21,28 +21,12 @@
  */
 package org.silverbulleters.bsl.platform.context;
 
-import org.junit.jupiter.api.Test;
+import lombok.Getter;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import java.util.ArrayList;
+import java.util.List;
 
-class BSLPlatformContextTest {
-
-  @Test
-  void test() {
-    var platformContext = new BSLPlatformContext();
-    platformContext.initialize();
-
-    var methodName = "СтрНайти";
-    var typeName = "ГлобальныйКонтекст";
-
-    var typeOpt = platformContext.getTypeByName(typeName);
-    var type = typeOpt.get();
-    var methods = type.getBaseMethods();
-    var methodOpt = methods.stream()
-      .filter(methodDefinition -> methodDefinition.getName().equalsIgnoreCase(methodName))
-      .findAny();
-
-    assertThat(methodOpt).isPresent();
-  }
-
+public class PlatformContext {
+  @Getter
+  private List<PlatformType> types = new ArrayList<>();
 }

@@ -21,28 +21,7 @@
  */
 package org.silverbulleters.bsl.platform.context;
 
-import org.junit.jupiter.api.Test;
-
-import static org.assertj.core.api.Assertions.assertThat;
-
-class BSLPlatformContextTest {
-
-  @Test
-  void test() {
-    var platformContext = new BSLPlatformContext();
-    platformContext.initialize();
-
-    var methodName = "СтрНайти";
-    var typeName = "ГлобальныйКонтекст";
-
-    var typeOpt = platformContext.getTypeByName(typeName);
-    var type = typeOpt.get();
-    var methods = type.getBaseMethods();
-    var methodOpt = methods.stream()
-      .filter(methodDefinition -> methodDefinition.getName().equalsIgnoreCase(methodName))
-      .findAny();
-
-    assertThat(methodOpt).isPresent();
-  }
-
+public enum PlatformEdition {
+  VERSION_8_2_16,
+  VERSION_8_3_10
 }
