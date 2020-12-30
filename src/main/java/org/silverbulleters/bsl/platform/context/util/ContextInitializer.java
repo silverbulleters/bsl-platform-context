@@ -22,14 +22,9 @@
 package org.silverbulleters.bsl.platform.context.util;
 
 import lombok.experimental.UtilityClass;
-import org.silverbulleters.bsl.platform.context.MethodDefinitionAlpha;
-import org.silverbulleters.bsl.platform.context.PlatformContext;
 import org.silverbulleters.bsl.platform.context.PlatformContextStorage;
-import org.silverbulleters.bsl.platform.context.PlatformEdition;
-import org.silverbulleters.bsl.platform.context.PlatformType;
+import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 @UtilityClass
@@ -42,16 +37,6 @@ public class ContextInitializer {
   }
 
   private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {
-    var context = new PlatformContext();
-
-    List<MethodDefinitionAlpha> methods = new ArrayList<>();
-    var type = new PlatformType("ГлобальныйКонтекст", PlatformEdition.VERSION_8_3_10,
-      methods, Collections.emptyList(), Collections.emptyList());
-    var method = new MethodDefinitionAlpha("СтрНайти", Collections.emptyList());
-    methods.add(method);
-    context.getTypes().add(type);
-
-    storage.getContextByEditions().put(PlatformEdition.VERSION_8_3_10, context);
+    // TODO Читаем контекст из внешних файлов
   }
-
 }

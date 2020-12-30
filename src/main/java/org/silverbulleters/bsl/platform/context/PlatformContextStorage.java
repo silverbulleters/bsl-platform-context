@@ -22,11 +22,13 @@
 package org.silverbulleters.bsl.platform.context;
 
 import lombok.Getter;
+import org.silverbulleters.bsl.platform.context.platform.PlatformContext;
+import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
-import java.util.HashMap;
+import java.util.EnumMap;
 import java.util.Map;
 
 public class PlatformContextStorage {
   @Getter
-  private Map<PlatformEdition, PlatformContext> contextByEditions = new HashMap<>();
+  protected final Map<PlatformEdition, PlatformContext> contextByEditions = new EnumMap<>(PlatformEdition.class);
 }

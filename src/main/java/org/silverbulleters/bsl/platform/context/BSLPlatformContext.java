@@ -21,40 +21,19 @@
  */
 package org.silverbulleters.bsl.platform.context;
 
+import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.util.ContextInitializer;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class BSLPlatformContext {
   private PlatformContextStorage storage;
-  private List<PlatformEdition> editions = new ArrayList<>();
 
-  public BSLPlatformContext() {
-    storage = new PlatformContextStorage();
-    editions.add(PlatformEdition.VERSION_8_3_10);
+  public BSLPlatformContext(List<PlatformEdition> platformEditions) {
+    initialize(platformEditions);
   }
 
-  public void initialize() {
-    ContextInitializer.initializeContext(storage, editions);
+  public void initialize(List<PlatformEdition> platformEditions) {
+    ContextInitializer.initializeContext(storage, platformEditions);
   }
-
-  public List<PlatformType> platformTypeVersionsByEdition(PlatformEdition edition) {
-    var context = storage.getContextByEditions().get(edition);
-    return context.getTypes();
-  }
-
-  public Optional<PlatformType> getTypeByName(String name) {
-    var context = storage.getContextByEditions().get(editions.get(0));
-    return context.getTypes().stream()
-      .filter(typeVersion -> typeVersion.getName().equalsIgnoreCase(name))
-      .findAny();
-  }
-
-//  public List<MethodDefinition> methodDefinitionsByPlatformTypeVersion(PlatformTypeVersion typeVersion) {
-//    var context = storage.getContextByEditions().get(typeVersion.getPlatformEdition());
-//
-//  }
-
 }

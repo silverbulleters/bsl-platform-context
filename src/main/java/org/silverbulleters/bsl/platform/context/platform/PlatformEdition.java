@@ -19,14 +19,9 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context;
+package org.silverbulleters.bsl.platform.context.platform;
 
-import lombok.Getter;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class PlatformContext {
-  @Getter
-  private List<PlatformType> types = new ArrayList<>();
+public enum PlatformEdition {
+  VERSION_8_2_16,
+  VERSION_8_3_10
 }
