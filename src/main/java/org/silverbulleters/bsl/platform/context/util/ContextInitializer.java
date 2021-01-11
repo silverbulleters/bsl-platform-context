@@ -21,22 +21,62 @@
  */
 package org.silverbulleters.bsl.platform.context.util;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.experimental.UtilityClass;
-import org.silverbulleters.bsl.platform.context.PlatformContextStorage;
+import lombok.extern.slf4j.Slf4j;
+import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
+import org.silverbulleters.bsl.platform.context.internal.EventData;
+import org.silverbulleters.bsl.platform.context.platform.Event;
+import org.silverbulleters.bsl.platform.context.platform.PlatformContext;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.Collections;
 import java.util.List;
 
 @UtilityClass
+@Slf4j
 public class ContextInitializer {
 
-  public void initializeContext(PlatformContextStorage storage, List<PlatformEdition> editions) {
-    for (PlatformEdition edition : editions) {
-      loadContextByEdition(storage, edition);
-    }
-  }
+    // TODO подумать над параметром указание пути к внешним файлам
+    private String resourcePathDir;
 
-  private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {
-    // TODO Читаем контекст из внешних файлов
-  }
+    public static void setResourcePath(String resourcePathDir) {
+        ContextInitializer.resourcePathDir = resourcePathDir;
+    }
+
+    public void initializeContext(PlatformContextStorage storage, List<PlatformEdition> editions) {
+        for (PlatformEdition edition : editions) {
+            loadContextByEdition(storage, edition);
+        }
+    }
+
+    private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {
+        // TODO Читаем контекст из внешних файлов
+        var platformContext = new PlatformContext();
+        platformContext.setEvents(readEventsFromFile(edition));
+        var contextMap = storage.getContextByEditions();
+        contextMap.put(edition, platformContext);
+    }
+
+    private List<Event> readEventsFromFile(PlatformEdition platformEdition) {
+        var pathToFile = Paths.get(resourcePathDir + platformEdition.getVersion() + "_events.json");
+
+        if (!Files.exists(pathToFile)) {
+            return Collections.emptyList();
+        }
+
+        ObjectMapper mapper = new ObjectMapper();
+        EventData eventData;
+        try {
+            eventData = mapper.readValue(Paths.get(resourcePathDir + "8_3_10_events.json").toFile(), EventData.class);
+        } catch (IOException e) {
+            log.error("Can't parse JSON file: " + e.getMessage());
+            return Collections.emptyList();
+        }
+
+        return eventData.getEvents() == null ? Collections.emptyList() : eventData.getEvents();
+    }
 }

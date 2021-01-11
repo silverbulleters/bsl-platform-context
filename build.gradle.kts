@@ -25,6 +25,14 @@ java {
 
 dependencies {
     compileOnly("org.projectlombok", "lombok", lombok.version)
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
+    implementation("com.fasterxml.jackson.core", "jackson-core", "2.12.1")
+    implementation("com.fasterxml.jackson.core", "jackson-databind", "2.12.1")
+    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+    implementation("org.apache.logging.log4j", "log4j-api","2.14.0")
+    implementation("org.apache.logging.log4j", "log4j-core","2.14.0")
+    implementation("org.apache.logging.log4j", "log4j-slf4j-impl","2.14.0")
+    implementation("org.jetbrains", "annotations", "16.0.2")
 
     // junit
     testImplementation("org.junit.jupiter", "junit-jupiter-api", junitVersion)

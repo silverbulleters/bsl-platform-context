@@ -21,6 +21,8 @@
  */
 package org.silverbulleters.bsl.platform.context;
 
+import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
+import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.util.ContextInitializer;
 
@@ -33,7 +35,14 @@ public class BSLPlatformContext {
     initialize(platformEditions);
   }
 
-  public void initialize(List<PlatformEdition> platformEditions) {
+  public List<Event> getEventsByPlatform(PlatformEdition edition) {
+    return storage.getEventsByPlatform(edition);
+  }
+
+  private void initialize(List<PlatformEdition> platformEditions) {
+    storage = new PlatformContextStorage();
     ContextInitializer.initializeContext(storage, platformEditions);
   }
+
+
 }

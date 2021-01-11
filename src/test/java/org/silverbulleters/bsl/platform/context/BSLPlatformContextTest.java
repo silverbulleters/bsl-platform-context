@@ -22,14 +22,23 @@
 package org.silverbulleters.bsl.platform.context;
 
 import org.junit.jupiter.api.Test;
+import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
+import org.silverbulleters.bsl.platform.context.util.ContextInitializer;
+
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class BSLPlatformContextTest {
 
-  @Test
-  void test() {
-    // TODO тесты
-  }
+    @Test
+    void testReadingEventsFromFile() {
+        var platform = List.of(PlatformEdition.VERSION_8_3_10);
+        ContextInitializer.setResourcePath("src/test/resources/");
+        var bslContext = new BSLPlatformContext(platform);
+        var events = bslContext.getEventsByPlatform(platform.get(0));
+
+        assertThat(events).isNotEmpty();
+    }
 
 }

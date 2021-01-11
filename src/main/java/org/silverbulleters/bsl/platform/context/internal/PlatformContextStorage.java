@@ -19,16 +19,29 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context;
+package org.silverbulleters.bsl.platform.context.internal;
 
 import lombok.Getter;
+import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.PlatformContext;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
+import java.util.Collections;
 import java.util.EnumMap;
+import java.util.List;
 import java.util.Map;
 
 public class PlatformContextStorage {
   @Getter
-  protected final Map<PlatformEdition, PlatformContext> contextByEditions = new EnumMap<>(PlatformEdition.class);
+  private final Map<PlatformEdition, PlatformContext> contextByEditions = new EnumMap<>(PlatformEdition.class);
+
+  public List<Event> getEventsByPlatform(PlatformEdition platformEdition) {
+
+    if (platformEdition == null) {
+      return Collections.emptyList();
+    }
+
+    var platformContext = contextByEditions.get(platformEdition);
+    return platformContext == null ? Collections.emptyList() : platformContext.getEvents();
+  }
 }

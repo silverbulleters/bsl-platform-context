@@ -22,6 +22,16 @@
 package org.silverbulleters.bsl.platform.context.platform;
 
 public enum PlatformEdition {
-  VERSION_8_2_16,
-  VERSION_8_3_10
+  VERSION_8_2_16("8_2_16"),
+  VERSION_8_3_10("8_3_10");
+
+  private final String version;
+
+  PlatformEdition(String version) {
+    this.version = version;
+  }
+
+  public String getVersion() {
+    return version;
+  }
 }
