@@ -17,4 +17,5 @@ public abstract class BaseMethod implements ContextItem {
   protected Resource description;
   protected ContextType parent;
   protected List<Signature> signatures;
+  protected List<ContextType> returnTypes;
 }
