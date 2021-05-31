@@ -74,3 +74,5 @@ license {
     exclude("**/*.java.orig")
     exclude("**/*.impl")
 }
+
+apply(from = "gradle/generate.gradle.kts")
