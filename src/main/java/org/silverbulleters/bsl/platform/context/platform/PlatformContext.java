@@ -1,19 +1,16 @@
 package org.silverbulleters.bsl.platform.context.platform;
 
-import lombok.Data;
+import lombok.Builder;
+import lombok.Value;
 import org.jetbrains.annotations.NotNull;
-import org.silverbulleters.bsl.platform.context.internal.BaseMethod;
 
-import java.util.Collections;
-import java.util.List;
+import java.util.Set;
 
-@Data
+@Value
+@Builder
 public class PlatformContext {
-
-    @NotNull
-    private List<Event> events = Collections.emptyList();
-    @NotNull
-    private List<BaseMethod> globalMethods = Collections.emptyList();
-    @NotNull
-    private List<BaseMethod> typeMethods = Collections.emptyList();
+  @NotNull
+  Set<ContextType> types;
+  @NotNull
+  Set<Event> events;
 }

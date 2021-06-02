@@ -23,29 +23,24 @@ package org.silverbulleters.bsl.platform.context;
 
 import org.junit.jupiter.api.Test;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
-import org.silverbulleters.bsl.platform.context.util.ContextInitializer;
 
-import java.net.URISyntaxException;
-import java.nio.file.Paths;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class BSLPlatformContextTest {
 
-    @Test
-    void testReadingEventsFromFile() throws URISyntaxException {
-        var platform = List.of(PlatformEdition.VERSION_8_3_10);
-        var eventsDir = this.getClass().getClassLoader().getResource("events");
+  @Test
+  void testReadingEventsFromFile() {
+    final var edition = PlatformEdition.VERSION_8_3_10;
+    var platform = List.of(edition);
+    var context = new BSLPlatformContext(platform);
 
-        assertThat(eventsDir).isNotNull();
+    var events = context.getEventsByPlatform(edition);
+    assertThat(events).isNotEmpty();
 
-        var eventsPath = Paths.get(eventsDir.toURI());
-        ContextInitializer.setResourceSrcDir(eventsPath.toString());
-        var bslContext = new BSLPlatformContext(platform);
-        var events = bslContext.getEventsByPlatform(platform.get(0));
-
-        assertThat(events).isNotEmpty();
-    }
+    var types = context.getTypesByPlatform(edition);
+    assertThat(types).isNotEmpty();
+  }
 
 }

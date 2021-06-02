@@ -21,17 +21,33 @@
  */
 package org.silverbulleters.bsl.platform.context.platform;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
 public enum PlatformEdition {
   VERSION_8_2_16("8_2_16"),
-  VERSION_8_3_10("8_3_10");
+  VERSION_8_2_17("8_2_17"),
+  VERSION_8_2_18("8_2_18"),
+  VERSION_8_2_19("8_2_19"),
+  VERSION_8_3_3("8_3_3"),
+  VERSION_8_3_4("8_3_4"),
+  VERSION_8_3_5("8_3_5"),
+  VERSION_8_3_6("8_3_6"),
+  VERSION_8_3_7("8_3_7"),
+  VERSION_8_3_8("8_3_8"),
+  VERSION_8_3_9("8_3_9"),
+  VERSION_8_3_10("8_3_10"),
+  VERSION_8_3_11("8_3_11"),
+  VERSION_8_3_12("8_3_12"),
+  VERSION_8_3_13("8_3_13"),
+  VERSION_8_3_14("8_3_14"),
+  VERSION_8_3_15("8_3_15"),
+  VERSION_8_3_16("8_3_16"),
+  VERSION_8_3_17("8_3_17"),
+  VERSION_8_3_18("8_3_18"),
+  VERSION_8_3_19("8_3_19");
 
+  @Getter
   private final String version;
-
-  PlatformEdition(String version) {
-    this.version = version;
-  }
-
-  public String getVersion() {
-    return version;
-  }
 }

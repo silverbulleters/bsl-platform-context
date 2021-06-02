@@ -1,21 +1,18 @@
 package org.silverbulleters.bsl.platform.context.internal;
 
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import org.silverbulleters.bsl.platform.context.platform.ContextType;
-import org.silverbulleters.bsl.platform.context.platform.Signature;
 import org.silverbulleters.bsl.platform.context.types.ContextItem;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
-import java.util.List;
-
 @Getter
 @Setter(AccessLevel.PACKAGE)
+@AllArgsConstructor
 public abstract class BaseMethod implements ContextItem {
-  protected Resource name;
-  protected Resource description;
-  protected ContextType parent;
-  protected List<Signature> signatures;
-  protected List<ContextType> returnTypes;
+  protected final Resource name;
+  // description
+  // signatures
+  // returnTypes
 }

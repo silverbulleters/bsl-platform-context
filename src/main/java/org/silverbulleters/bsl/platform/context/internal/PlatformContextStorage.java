@@ -22,26 +22,38 @@
 package org.silverbulleters.bsl.platform.context.internal;
 
 import lombok.Getter;
+import org.jetbrains.annotations.NotNull;
+import org.silverbulleters.bsl.platform.context.platform.ContextType;
 import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.PlatformContext;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
 import java.util.Collections;
 import java.util.EnumMap;
-import java.util.List;
 import java.util.Map;
+import java.util.Optional;
+import java.util.Set;
 
 public class PlatformContextStorage {
   @Getter
   private final Map<PlatformEdition, PlatformContext> contextByEditions = new EnumMap<>(PlatformEdition.class);
 
-  public List<Event> getEventsByPlatform(PlatformEdition platformEdition) {
-
-    if (platformEdition == null) {
-      return Collections.emptyList();
+  public Set<Event> getEventsByPlatform(@NotNull PlatformEdition platformEdition) {
+    var platformContext = Optional.ofNullable(contextByEditions.get(platformEdition));
+    if (platformContext.isEmpty()) {
+      return Collections.emptySet();
     }
 
-    var platformContext = contextByEditions.get(platformEdition);
-    return platformContext == null ? Collections.emptyList() : platformContext.getEvents();
+    return platformContext.get().getEvents();
   }
+
+  public Set<ContextType> getTypesByPlatform(@NotNull PlatformEdition platformEdition) {
+    var platformContext = Optional.ofNullable(contextByEditions.get(platformEdition));
+    if (platformContext.isEmpty()) {
+      return Collections.emptySet();
+    }
+
+    return platformContext.get().getTypes();
+  }
+
 }

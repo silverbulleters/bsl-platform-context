@@ -22,11 +22,13 @@
 package org.silverbulleters.bsl.platform.context;
 
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
+import org.silverbulleters.bsl.platform.context.platform.ContextType;
 import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.util.ContextInitializer;
 
 import java.util.List;
+import java.util.Set;
 
 public class BSLPlatformContext {
   private PlatformContextStorage storage;
@@ -35,14 +37,17 @@ public class BSLPlatformContext {
     initialize(platformEditions);
   }
 
-  public List<Event> getEventsByPlatform(PlatformEdition edition) {
+  public Set<Event> getEventsByPlatform(PlatformEdition edition) {
     return storage.getEventsByPlatform(edition);
+  }
+
+  public Set<ContextType> getTypesByPlatform(PlatformEdition edition) {
+    return storage.getTypesByPlatform(edition);
   }
 
   private void initialize(List<PlatformEdition> platformEditions) {
     storage = new PlatformContextStorage();
     ContextInitializer.initializeContext(storage, platformEditions);
   }
-
 
 }
