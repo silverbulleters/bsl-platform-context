@@ -7,8 +7,8 @@ open class GeneratePlatformTypeIdentifier @Inject constructor(objects: ObjectFac
     private val pathToTemplate = "gradle/template/TemplatePlatformTypeIdentifier.java"
     private val pathToResultFile = "src/main/java/org/silverbulleters/bsl/platform/context/types/PlatformTypeIdentifier.java"
     private val pathToIdentifiers = "src/main/resources/identifiers.json"
-    private val valueFormat = "  %s(\"%s\",\"%s\"),"
-    private val contentReplace = "  UNKNOWN(\"\", \"\");"
+    private val valueFormat = "  %s(\"%s\", \"%s\",\"%s\"),"
+    private val contentReplace = "  UNKNOWN(\"\", \"\", \"\");"
 
     @TaskAction
     fun generate() {
@@ -30,7 +30,7 @@ open class GeneratePlatformTypeIdentifier @Inject constructor(objects: ObjectFac
         val identifiers = data.toMap()["Identifiers"] as ArrayList<*>
         return identifiers.stream()
                 .map { it as Map<*, *> }
-                .map { String.format(valueFormat, it["Id"], it["Name"], it["NameRu"]) }
+                .map { String.format(valueFormat, it["Id"], it["Id"], it["Name"], it["NameRu"]) }
                 .toList()
                 .joinToString("\n")
     }

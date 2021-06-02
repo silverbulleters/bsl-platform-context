@@ -1,20 +1,26 @@
 package org.silverbulleters.bsl.platform.context.types;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.util.Arrays;
 
 @AllArgsConstructor
 public enum TemplatePlatformTypeIdentifier {
-  UNKNOWN("", "");
+  UNKNOWN("", "", "");
 
+  @Getter
+  private final String id;
+  @Getter
   private final String name;
+  @Getter
   private final String nameRu;
 
-  public String getName() {
-    return name;
-  }
-
-  public String getNameRu() {
-    return nameRu;
+  public static PlatformTypeIdentifier valueById(String id) {
+    return Arrays.stream(PlatformTypeIdentifier.values())
+      .filter(value -> value.getId().equals(id))
+      .findAny()
+      .orElse(PlatformTypeIdentifier.UNKNOWN);
   }
 
 }
