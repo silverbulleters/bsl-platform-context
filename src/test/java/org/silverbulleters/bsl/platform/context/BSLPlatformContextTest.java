@@ -23,7 +23,9 @@ package org.silverbulleters.bsl.platform.context;
 
 import org.junit.jupiter.api.Test;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
+import org.silverbulleters.bsl.platform.context.util.ReadDataCollector;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -31,16 +33,35 @@ import static org.assertj.core.api.Assertions.assertThat;
 class BSLPlatformContextTest {
 
   @Test
-  void testReadingEventsFromFile() {
-    final var edition = PlatformEdition.VERSION_8_3_10;
-    var platform = List.of(edition);
-    var context = new BSLPlatformContext(platform);
+  void testReadingDataFromFile() {
+    checkBSLContext(PlatformEdition.VERSION_8_3_10);
+    checkBSLContext(PlatformEdition.VERSION_8_2_19);
+    checkBSLContext(List.of(PlatformEdition.VERSION_8_2_19, PlatformEdition.VERSION_8_3_10));
+  }
 
-    var events = context.getEventsByPlatform(edition);
-    assertThat(events).isNotEmpty();
+  @Test
+  void testAvailabilityOfDataForEachVersion() {
+    Arrays.stream(PlatformEdition.values()).forEach(this::checkDataVersion);
+  }
 
-    var types = context.getTypesByPlatform(edition);
-    assertThat(types).isNotEmpty();
+  private void checkDataVersion(PlatformEdition platformEdition) {
+    var path = ReadDataCollector.pathToData(platformEdition.getVersion());
+    assertThat(path).withFailMessage("Problem with version %s", platformEdition.getVersion())
+      .isNotEmpty();
+  }
+
+  private void checkBSLContext(PlatformEdition edition) {
+    checkBSLContext(List.of(edition));
+  }
+
+  private void checkBSLContext(List<PlatformEdition> editions) {
+    var context = new BSLPlatformContext(editions);
+    editions.forEach(platformEdition -> {
+      var events = context.getEventsByPlatform(platformEdition);
+      assertThat(events).isNotEmpty();
+      var types = context.getTypesByPlatform(platformEdition);
+      assertThat(types).isNotEmpty();
+    });
   }
 
 }

@@ -7,14 +7,10 @@ import java.util.Arrays;
 
 @AllArgsConstructor
 public enum TemplatePlatformTypeIdentifier {
-  UNKNOWN("", "", "");
+  UNKNOWN("");
 
   @Getter
   private final String id;
-  @Getter
-  private final String name;
-  @Getter
-  private final String nameRu;
 
   public static PlatformTypeIdentifier valueById(String id) {
     return Arrays.stream(PlatformTypeIdentifier.values())

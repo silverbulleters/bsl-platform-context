@@ -26,9 +26,6 @@ import lombok.Getter;
 
 @AllArgsConstructor
 public enum PlatformEdition {
-  VERSION_8_2_16("8_2_16"),
-  VERSION_8_2_17("8_2_17"),
-  VERSION_8_2_18("8_2_18"),
   VERSION_8_2_19("8_2_19"),
   VERSION_8_3_3("8_3_3"),
   VERSION_8_3_4("8_3_4"),
