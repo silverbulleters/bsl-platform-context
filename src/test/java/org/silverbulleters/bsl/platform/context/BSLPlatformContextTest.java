@@ -45,9 +45,9 @@ class BSLPlatformContextTest {
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
-    var path = ReadDataCollector.pathToData(platformEdition.getVersion());
-    assertThat(path).withFailMessage("Problem with version %s", platformEdition.getVersion())
-      .isNotEmpty();
+    var data = ReadDataCollector.readToPlatformContext(platformEdition);
+    assertThat(data).withFailMessage("Problem with version %s", platformEdition.getVersion())
+      .isPresent();
   }
 
   private void checkBSLContext(PlatformEdition edition) {

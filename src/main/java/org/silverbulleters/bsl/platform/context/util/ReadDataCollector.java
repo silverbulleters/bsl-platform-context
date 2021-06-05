@@ -1,6 +1,5 @@
 package org.silverbulleters.bsl.platform.context.util;
 
-import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 import org.silverbulleters.bsl.platform.context.internal.loader.DataFromCollector;
@@ -12,8 +11,7 @@ import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
 import java.io.IOException;
-import java.net.URL;
-import java.nio.file.Path;
+import java.io.InputStream;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Optional;
@@ -23,18 +21,17 @@ import java.util.stream.Collectors;
 @UtilityClass
 @Slf4j
 public class ReadDataCollector {
-  private final URL URL_DATA_DIRECTORY = ReadDataCollector.class.getClassLoader().getResource("data");
 
   public Optional<PlatformContext> readToPlatformContext(PlatformEdition edition) {
-    var pathToData = pathToData(edition.getVersion());
-    if (pathToData.isEmpty()) {
+    var dataStreamOptional = getDataInputStream(edition.getVersion());
+    if (dataStreamOptional.isEmpty()) {
       // TODO
       return Optional.empty();
     }
 
     DataFromCollector data;
     try {
-      data = readDataFromPath(pathToData.get());
+      data = readDataFromPath(dataStreamOptional.get());
     } catch (IOException e) {
       e.printStackTrace();
       return Optional.empty();
@@ -73,30 +70,14 @@ public class ReadDataCollector {
     return Optional.of(platformContext);
   }
 
-  public Optional<Path> pathToData(String version) {
-    var pathToDataDirectory = getPathDataDirectory();
-    if (pathToDataDirectory.isEmpty()) {
-      return Optional.empty();
-    }
-    var path = Path.of(pathToDataDirectory.get().toString(), version + ".json");
-    if (!path.toFile().exists()) {
-      return Optional.empty();
-    }
-
-    return Optional.of(path);
+  public Optional<InputStream> getDataInputStream(String version) {
+    var path = String.format("/data/%s.json", version);
+    return Optional.ofNullable(ReadDataCollector.class.getResourceAsStream(path));
   }
 
-  private DataFromCollector readDataFromPath(Path path) throws IOException {
+  private DataFromCollector readDataFromPath(InputStream stream) throws IOException {
     var mapper = ObjectMapperFactory.getObjectMapper();
-    return mapper.readValue(path.toFile(), DataFromCollector.class);
-  }
-
-  @SneakyThrows
-  private Optional<Path> getPathDataDirectory() {
-    if (URL_DATA_DIRECTORY == null) {
-      return Optional.empty();
-    }
-    return Optional.of(Path.of(URL_DATA_DIRECTORY.toURI()));
+    return mapper.readValue(stream, DataFromCollector.class);
   }
 
 }
