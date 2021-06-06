@@ -22,8 +22,9 @@
 package org.silverbulleters.bsl.platform.context;
 
 import org.junit.jupiter.api.Test;
+import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
+import org.silverbulleters.bsl.platform.context.internal.util.ReadDataCollector;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
-import org.silverbulleters.bsl.platform.context.util.ReadDataCollector;
 
 import java.util.Arrays;
 import java.util.List;
@@ -45,7 +46,8 @@ class BSLPlatformContextTest {
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
-    var data = ReadDataCollector.readToPlatformContext(platformEdition);
+    var contextStorage = new PlatformContextStorage();
+    var data = ReadDataCollector.readToPlatformContext(platformEdition, contextStorage.getTypeRefs());
     assertThat(data).withFailMessage("Problem with version %s", platformEdition.getVersion())
       .isPresent();
   }

@@ -19,31 +19,27 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context.util;
+package org.silverbulleters.bsl.platform.context.internal.util;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.Getter;
 import lombok.experimental.UtilityClass;
-import lombok.extern.slf4j.Slf4j;
-import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
-import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
-import java.util.List;
-
+/**
+ * Служебный класс для переиспользования ObjectMapper
+ */
 @UtilityClass
-@Slf4j
-public class ContextInitializer {
+public class ObjectMapperFactory {
+  /**
+   * Объект маппер для чтения данных из JSON
+   */
+  @Getter(lazy = true)
+  private final ObjectMapper objectMapper = createObjectMapper();
 
-  public void initializeContext(PlatformContextStorage storage, List<PlatformEdition> editions) {
-    for (PlatformEdition edition : editions) {
-      loadContextByEdition(storage, edition);
-    }
-  }
-
-  private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {
-    var platformContext = ReadDataCollector.readToPlatformContext(edition);
-    if (platformContext.isEmpty()) {
-      return;
-    }
-    storage.getContextByEditions().put(edition, platformContext.get());
+  private ObjectMapper createObjectMapper() {
+    return new ObjectMapper()
+      .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
   }
 
 }

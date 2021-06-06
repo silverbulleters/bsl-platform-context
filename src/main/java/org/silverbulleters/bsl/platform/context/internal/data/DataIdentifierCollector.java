@@ -19,29 +19,33 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context.platform;
+package org.silverbulleters.bsl.platform.context.internal.data;
 
-import lombok.EqualsAndHashCode;
-import lombok.Value;
-import org.silverbulleters.bsl.platform.context.internal.BaseMethod;
-import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
-import org.silverbulleters.bsl.platform.context.types.Resource;
+import com.fasterxml.jackson.annotation.JsonAlias;
+import lombok.Data;
 
 import java.util.Set;
 
 /**
- * Определение события типа
+ * Вспомогательный класс для загрузки данных об идентификаторах типов
  */
-@Value
-@EqualsAndHashCode(callSuper = true)
-public class Event extends BaseMethod {
+@Data
+public class DataIdentifierCollector {
   /**
-   * Набор ссылок на типы, у которых есть данное событие
+   * Список идентификаторов
    */
-  Set<PlatformTypeReference> types;
+  @JsonAlias("Identifiers")
+  private Set<DataIdentifier> identifiers;
 
-  public Event(Resource name, Set<PlatformTypeReference> types) {
-    super(name);
-    this.types = types;
+  /**
+   * Представление идентификатора типа
+   */
+  @Data
+  public static class DataIdentifier {
+    /**
+     * Идентификатор типа
+     */
+    @JsonAlias("Id")
+    private String id;
   }
 }

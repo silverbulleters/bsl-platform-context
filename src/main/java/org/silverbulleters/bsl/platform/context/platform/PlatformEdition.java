@@ -24,6 +24,9 @@ package org.silverbulleters.bsl.platform.context.platform;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/**
+ * Поддерживаемые версии платформы
+ */
 @AllArgsConstructor
 public enum PlatformEdition {
   VERSION_8_2_19("8_2_19"),

@@ -19,29 +19,30 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context.platform;
+package org.silverbulleters.bsl.platform.context.internal;
 
-import lombok.EqualsAndHashCode;
+import lombok.Builder;
 import lombok.Value;
-import org.silverbulleters.bsl.platform.context.internal.BaseMethod;
-import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
-import org.silverbulleters.bsl.platform.context.types.Resource;
+import org.jetbrains.annotations.NotNull;
+import org.silverbulleters.bsl.platform.context.platform.ContextType;
+import org.silverbulleters.bsl.platform.context.platform.Event;
 
 import java.util.Set;
 
 /**
- * Определение события типа
+ * Контекст по конкретной версии платформы
  */
 @Value
-@EqualsAndHashCode(callSuper = true)
-public class Event extends BaseMethod {
+@Builder
+public class PlatformContext {
   /**
-   * Набор ссылок на типы, у которых есть данное событие
+   * Набор типов
    */
-  Set<PlatformTypeReference> types;
-
-  public Event(Resource name, Set<PlatformTypeReference> types) {
-    super(name);
-    this.types = types;
-  }
+  @NotNull
+  Set<ContextType> types;
+  /**
+   * Набор событий
+   */
+  @NotNull
+  Set<Event> events;
 }

@@ -19,28 +19,31 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context.types;
+package org.silverbulleters.bsl.platform.context.internal.util;
 
-import org.junit.jupiter.api.Test;
+import lombok.experimental.UtilityClass;
+import lombok.extern.slf4j.Slf4j;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
+import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import java.util.List;
 
-class PlatformTypeIdentifierTest {
+@UtilityClass
+@Slf4j
+public class ContextInitializer {
 
-  /**
-   * Проверим значения PlatformTypeIdentifier с данными в PlatformContextStorage. Обнаружает ошибки
-   * при изменении идентификаторов типов
-   */
-  @Test
-  void testValueAndReference() {
-    var contextStorage = new PlatformContextStorage();
-    for (PlatformTypeIdentifier value : PlatformTypeIdentifier.values()) {
-      if (value == PlatformTypeIdentifier.UNKNOWN) {
-        continue;
-      }
-      assertThat(contextStorage.getTypeRefs().get(value.id())).isNotNull();
+  public void initializeContext(PlatformContextStorage storage, List<PlatformEdition> editions) {
+    for (PlatformEdition edition : editions) {
+      loadContextByEdition(storage, edition);
     }
+  }
+
+  private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {
+    var platformContext = ReadDataCollector.readToPlatformContext(edition, storage.getTypeRefs());
+    if (platformContext.isEmpty()) {
+      return;
+    }
+    storage.getContextByEditions().put(edition, platformContext.get());
   }
 
 }
