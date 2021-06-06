@@ -21,6 +21,7 @@
  */
 package org.silverbulleters.bsl.platform.context;
 
+import org.jetbrains.annotations.NotNull;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.internal.util.ContextInitializer;
 import org.silverbulleters.bsl.platform.context.platform.ContextType;
@@ -39,7 +40,7 @@ public class BSLPlatformContext {
    */
   private final PlatformContextStorage storage = new PlatformContextStorage();
 
-  public BSLPlatformContext(List<PlatformEdition> platformEditions) {
+  public BSLPlatformContext(@NotNull List<PlatformEdition> platformEditions) {
     initialize(platformEditions);
   }
 
@@ -49,7 +50,8 @@ public class BSLPlatformContext {
    * @param edition - версия платформы
    * @return набор событий типов
    */
-  public Set<Event> getEventsByPlatform(PlatformEdition edition) {
+  @NotNull
+  public Set<Event> getEventsByPlatform(@NotNull PlatformEdition edition) {
     return storage.getEventsByPlatform(edition);
   }
 
@@ -59,7 +61,8 @@ public class BSLPlatformContext {
    * @param edition - версия платформы
    * @return набор типов
    */
-  public Set<ContextType> getTypesByPlatform(PlatformEdition edition) {
+  @NotNull
+  public Set<ContextType> getTypesByPlatform(@NotNull PlatformEdition edition) {
     return storage.getTypesByPlatform(edition);
   }
 

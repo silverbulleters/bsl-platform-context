@@ -39,7 +39,7 @@ class PlatformTypeIdentifierTest {
       if (value == PlatformTypeIdentifier.UNKNOWN) {
         continue;
       }
-      assertThat(contextStorage.getTypeRefs().get(value.id())).isNotNull();
+      assertThat(contextStorage.getTypeRefs().get(value.value())).isNotNull();
     }
   }
 

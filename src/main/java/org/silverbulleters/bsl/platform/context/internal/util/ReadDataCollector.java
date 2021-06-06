@@ -76,7 +76,7 @@ public class ReadDataCollector {
     Set<ContextType> types = new HashSet<>(data.getTypes().size());
     Set<Event> events = new HashSet<>(data.getEvents().size());
 
-    final var unknownType = typeRefs.get(PlatformTypeIdentifier.UNKNOWN.id());
+    final var unknownType = typeRefs.get(PlatformTypeIdentifier.UNKNOWN.value());
 
     data.getTypes().forEach(typeFromData -> {
       var reference = typeRefs.getOrDefault(typeFromData.getId(), unknownType);

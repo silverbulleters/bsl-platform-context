@@ -80,6 +80,6 @@ public enum PlatformTypeIdentifier {
 
   @Accessors(fluent = true)
   @Getter
-  private final String id;
+  private final String value;
 
 }
