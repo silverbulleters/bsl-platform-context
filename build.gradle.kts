@@ -8,6 +8,7 @@ val junitVersion = "5.6.1"
 
 plugins {
     java
+    `maven-publish`
     id("io.franzbecker.gradle-lombok") version "4.0.0"
     id("com.github.gradle-git-version-calculator") version "1.1.0"
     id("net.kyori.indra.license-header") version "1.2.1"
@@ -44,13 +45,15 @@ dependencies {
 
 tasks.withType<JavaCompile> {
     options.encoding = encoding
+    options.compilerArgs.add("-Xlint:unchecked")
+    options.compilerArgs.add("-parameters")
 }
 
 tasks.test {
     useJUnitPlatform()
 
     testLogging {
-        events("passed", "skipped", "failed", "standard_error")
+        events("passed", "skipped", "failed")
     }
 
     reports {
@@ -73,4 +76,38 @@ license {
     exclude("**/*.txt")
     exclude("**/*.java.orig")
     exclude("**/*.impl")
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+            pom {
+                description.set("Platform context 1C:Enterprise 8")
+                url.set("https://github.com/silverbulleters/bsl-platform-context")
+                licenses {
+                    license {
+                        name.set("GNU LGPL 3")
+                        url.set("https://www.gnu.org/licenses/lgpl-3.0.txt")
+                        distribution.set("repo")
+                    }
+                }
+                developers {
+                    developer {
+                        id.set("team")
+                        name.set("Team Silverbulleters")
+                        email.set("team@silverbulleters.org")
+                        url.set("https://github.com/silverbulleters")
+                        organization.set("silverbulleters")
+                        organizationUrl.set("https://github.com/silverbulleters")
+                    }
+                }
+                scm {
+                    connection.set("scm:git:git://github.com/silverbulleters/bsl-platform-context.git")
+                    developerConnection.set("scm:git:git@github.com:silverbulleters/bsl-platform-context.git")
+                    url.set("https://github.com/silverbulleters/bsl-platform-context")
+                }
+            }
+        }
+    }
 }
