@@ -8,6 +8,7 @@ val junitVersion = "5.6.1"
 
 plugins {
     java
+    maven
     id("io.franzbecker.gradle-lombok") version "4.0.0"
     id("com.github.gradle-git-version-calculator") version "1.1.0"
     id("net.kyori.indra.license-header") version "1.2.1"
@@ -44,13 +45,15 @@ dependencies {
 
 tasks.withType<JavaCompile> {
     options.encoding = encoding
+    options.compilerArgs.add("-Xlint:unchecked")
+    options.compilerArgs.add("-parameters")
 }
 
 tasks.test {
     useJUnitPlatform()
 
     testLogging {
-        events("passed", "skipped", "failed", "standard_error")
+        events("passed", "skipped", "failed")
     }
 
     reports {
