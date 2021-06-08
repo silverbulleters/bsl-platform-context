@@ -25,6 +25,7 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import org.silverbulleters.bsl.platform.context.types.ContextItem;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
@@ -34,6 +35,7 @@ import org.silverbulleters.bsl.platform.context.types.Resource;
 @Getter
 @Setter(AccessLevel.PACKAGE)
 @AllArgsConstructor
+@ToString
 public abstract class BaseMethod implements ContextItem {
   /**
    * Имя метода на двух языках

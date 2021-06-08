@@ -31,9 +31,9 @@ import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 
 import java.util.Collections;
 import java.util.EnumMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.Set;
 
 /**
  * Внутреннее API над контекстами платформы
@@ -60,10 +60,10 @@ public class PlatformContextStorage {
    * @param platformEdition - версия платформы
    * @return
    */
-  public Set<Event> getEventsByPlatform(@NotNull PlatformEdition platformEdition) {
+  public List<Event> getEventsByPlatform(@NotNull PlatformEdition platformEdition) {
     var platformContext = Optional.ofNullable(contextByEditions.get(platformEdition));
     if (platformContext.isEmpty()) {
-      return Collections.emptySet();
+      return Collections.emptyList();
     }
     return platformContext.get().getEvents();
   }
@@ -74,10 +74,10 @@ public class PlatformContextStorage {
    * @param platformEdition - версия платформы
    * @return
    */
-  public Set<ContextType> getTypesByPlatform(@NotNull PlatformEdition platformEdition) {
+  public List<ContextType> getTypesByPlatform(@NotNull PlatformEdition platformEdition) {
     var platformContext = Optional.ofNullable(contextByEditions.get(platformEdition));
     if (platformContext.isEmpty()) {
-      return Collections.emptySet();
+      return Collections.emptyList();
     }
     return platformContext.get().getTypes();
   }

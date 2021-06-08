@@ -26,6 +26,8 @@ import lombok.Value;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
+import java.util.List;
+
 /**
  * Определение типа платформы
  */
@@ -35,6 +37,6 @@ public class ContextType {
   Resource name;
   PlatformTypeReference reference;
   boolean isPrimitive;
+  List<Method> methods;
   // свойства
-  // методы
 }

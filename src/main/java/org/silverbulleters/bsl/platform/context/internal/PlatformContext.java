@@ -27,7 +27,7 @@ import org.jetbrains.annotations.NotNull;
 import org.silverbulleters.bsl.platform.context.platform.ContextType;
 import org.silverbulleters.bsl.platform.context.platform.Event;
 
-import java.util.Set;
+import java.util.List;
 
 /**
  * Контекст по конкретной версии платформы
@@ -39,10 +39,10 @@ public class PlatformContext {
    * Набор типов
    */
   @NotNull
-  Set<ContextType> types;
+  List<ContextType> types;
   /**
    * Набор событий
    */
   @NotNull
-  Set<Event> events;
+  List<Event> events;
 }

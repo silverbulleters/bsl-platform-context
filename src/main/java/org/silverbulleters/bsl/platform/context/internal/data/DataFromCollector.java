@@ -22,6 +22,7 @@
 package org.silverbulleters.bsl.platform.context.internal.data;
 
 import lombok.Data;
+import org.silverbulleters.bsl.platform.context.platform.Method;
 
 import java.util.List;
 
@@ -60,6 +61,11 @@ public class DataFromCollector {
      * Имя типа на английском
      */
     private String nameRu;
+
+    /**
+     * Методы типа платформы
+     */
+    private List<Method> methods;
   }
 
   /**
@@ -79,6 +85,28 @@ public class DataFromCollector {
      * Список типов платформы, у которых есть текущее событие
      */
     private List<String> types;
+  }
+
+  /**
+   * Представление метода
+   */
+  @Data
+  public static class Method {
+
+    /**
+     * Имя метода на английском
+     */
+    private String name;
+
+    /**
+     * Имя метода на русском
+     */
+    private String nameRu;
+
+    /**
+     * Признак, является ли метод функцией
+     */
+    private Boolean isFunction;
   }
 
 }
