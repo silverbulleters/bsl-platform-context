@@ -21,16 +21,30 @@
  */
 package org.silverbulleters.bsl.platform.context.platform;
 
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+import lombok.Value;
 import org.silverbulleters.bsl.platform.context.internal.BaseMethod;
+import org.silverbulleters.bsl.platform.context.internal.data.DataFromCollector;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
 /**
  * Определение метода типа
  */
+@Value
+@EqualsAndHashCode(callSuper = true)
+@ToString(callSuper = true)
 public class Method extends BaseMethod {
 
-  public Method(Resource name) {
-    super(name);
+  boolean isFunction;
+
+  public static Method createMethodFromData(DataFromCollector.Method methodFromData) {
+    var resource = new Resource(methodFromData.getNameRu(), methodFromData.getName());
+    return new Method(resource, methodFromData.getIsFunction());
   }
 
+  public Method(Resource name, boolean isFunction) {
+    super(name);
+    this.isFunction = isFunction;
+  }
 }
