@@ -32,6 +32,7 @@ import org.silverbulleters.bsl.platform.context.platform.ContextType;
 import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.Method;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
+import org.silverbulleters.bsl.platform.context.platform.Property;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.Resource;
@@ -80,9 +81,9 @@ public class ReadDataCollector {
     var events = fillPlatformEvents(typeRefs, data, unknownType);
 
     var platformContext = PlatformContext.builder()
-        .types(Collections.unmodifiableList(types))
-        .events(events)
-        .build();
+      .types(Collections.unmodifiableList(types))
+      .events(events)
+      .build();
 
     return Optional.of(platformContext);
   }
@@ -99,9 +100,9 @@ public class ReadDataCollector {
       var data = mapper.readValue(stream, DataIdentifierCollector.class);
       var unknownPlatformTypeReference = new PlatformTypeReference("");
 
-      var platformTypeReferences =  data.getIdentifiers().stream()
-          .map(value -> new PlatformTypeReference(value.getId()))
-          .collect(Collectors.toMap(PlatformTypeReference::getValue, ref -> ref));
+      var platformTypeReferences = data.getIdentifiers().stream()
+        .map(value -> new PlatformTypeReference(value.getId()))
+        .collect(Collectors.toMap(PlatformTypeReference::getValue, ref -> ref));
 
       platformTypeReferences.put(PlatformTypeIdentifier.UNKNOWN.value(), unknownPlatformTypeReference);
       return platformTypeReferences;
@@ -109,15 +110,15 @@ public class ReadDataCollector {
   }
 
   private List<Event> fillPlatformEvents(Map<String, PlatformTypeReference> typeRefs, DataFromCollector data,
-                                        PlatformTypeReference unknownType) {
+                                         PlatformTypeReference unknownType) {
 
     List<Event> events = new ArrayList<>(data.getEvents().size());
 
     data.getEvents().forEach(eventFromData -> {
       var resource = new Resource(eventFromData.getNameRu(), eventFromData.getName());
       var typesByEvent = eventFromData.getTypes().stream()
-          .map(identifier -> typeRefs.getOrDefault(identifier, unknownType))
-          .collect(Collectors.toSet());
+        .map(identifier -> typeRefs.getOrDefault(identifier, unknownType))
+        .collect(Collectors.toSet());
       events.add(new Event(resource, typesByEvent));
     });
 
@@ -125,20 +126,22 @@ public class ReadDataCollector {
   }
 
   private List<ContextType> fillContextTypes(Map<String, PlatformTypeReference> typeRefs, DataFromCollector data,
-                                            PlatformTypeReference unknownType) {
+                                             PlatformTypeReference unknownType) {
 
     List<ContextType> types = new ArrayList<>(data.getTypes().size());
 
     data.getTypes().forEach(typeFromData -> {
       var reference = typeRefs.getOrDefault(typeFromData.getId(), unknownType);
       var typeName = new Resource(typeFromData.getNameRu(), typeFromData.getName());
-      List<Method> typeMethods = createMethodsFromData(typeFromData.getMethods());
+      var typeMethods = createMethodsFromData(typeFromData.getMethods());
+      var typeProperties = createPropertiesFromData(typeFromData.getProperties());
       var type = ContextType.builder()
-          .reference(reference)
-          .name(typeName)
-          .isPrimitive(false)
-          .methods(typeMethods)
-          .build();
+        .reference(reference)
+        .name(typeName)
+        .isPrimitive(false)
+        .methods(typeMethods)
+        .properties(typeProperties)
+        .build();
       types.add(type);
     });
 
@@ -147,6 +150,10 @@ public class ReadDataCollector {
 
   private static List<Method> createMethodsFromData(List<DataFromCollector.Method> methods) {
     return methods.stream().map(Method::createMethodFromData).collect(Collectors.toList());
+  }
+
+  private static List<Property> createPropertiesFromData(List<DataFromCollector.Property> properties) {
+    return properties.stream().map(Property::createPropertyFromData).collect(Collectors.toList());
   }
 
   private Optional<InputStream> getDataInputStream(String version) {

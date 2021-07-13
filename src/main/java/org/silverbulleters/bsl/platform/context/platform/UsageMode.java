@@ -21,22 +21,38 @@
  */
 package org.silverbulleters.bsl.platform.context.platform;
 
-import lombok.Builder;
-import lombok.Value;
-import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
-import org.silverbulleters.bsl.platform.context.types.Resource;
-
-import java.util.List;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
- * Определение типа платформы
+ * Режим использования свойства типа
  */
-@Value
-@Builder
-public class ContextType {
-  Resource name;
-  PlatformTypeReference reference;
-  boolean isPrimitive;
-  List<Method> methods;
-  List<Property> properties;
+@RequiredArgsConstructor
+public enum UsageMode {
+  /**
+   * Только чтение
+   */
+  READ_ONLY("ReadOnly"),
+  /**
+   * Только запись
+   */
+  WRITE_ONLY("WriteOnly"),
+  /**
+   * Чтение и запись
+   */
+  READ_AND_WRITE("ReadAndWrite");
+
+  @Accessors(fluent = true)
+  @Getter
+  private final String value;
+
+  public static UsageMode valueByName(String name) {
+    for (var value : UsageMode.values()) {
+      if (value.value().equals(name)) {
+        return value;
+      }
+    }
+    throw new IllegalArgumentException();
+  }
 }

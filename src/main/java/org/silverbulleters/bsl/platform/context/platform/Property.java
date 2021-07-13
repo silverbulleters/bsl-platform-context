@@ -21,22 +21,22 @@
  */
 package org.silverbulleters.bsl.platform.context.platform;
 
-import lombok.Builder;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 import lombok.Value;
-import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
+import org.silverbulleters.bsl.platform.context.internal.data.DataFromCollector;
+import org.silverbulleters.bsl.platform.context.types.ContextItem;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
-import java.util.List;
-
-/**
- * Определение типа платформы
- */
 @Value
-@Builder
-public class ContextType {
+@EqualsAndHashCode
+@ToString
+public class Property implements ContextItem {
   Resource name;
-  PlatformTypeReference reference;
-  boolean isPrimitive;
-  List<Method> methods;
-  List<Property> properties;
+  UsageMode usageMode;
+
+  public static Property createPropertyFromData(DataFromCollector.Property propertyFromData) {
+    var resource = new Resource(propertyFromData.getNameRu(), propertyFromData.getName());
+    return new Property(resource, UsageMode.valueByName(propertyFromData.getUsage()));
+  }
 }
