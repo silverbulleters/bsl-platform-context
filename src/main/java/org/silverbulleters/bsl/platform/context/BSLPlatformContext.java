@@ -32,6 +32,7 @@ import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
@@ -96,6 +97,20 @@ public class BSLPlatformContext {
   @NotNull
   public List<ContextType> getTypesByPlatform(@NotNull PlatformEdition edition) {
     return storage.getTypesByPlatform(edition);
+  }
+
+  /**
+   * Получить тип по версии платформы и имени
+   *
+   * @param edition - - версия платформы
+   * @param name - имя типа на русском или английском
+   * @return
+   */
+  public Optional<ContextType> getTypeByName(@NotNull PlatformEdition edition, String name) {
+    return storage.getTypesByPlatform(edition).stream()
+      .filter(contextType -> contextType.getName().getNameRu().equalsIgnoreCase(name)
+        || contextType.getName().getNameEn().equalsIgnoreCase(name))
+      .findAny();
   }
 
   private void initialize(List<PlatformEdition> platformEditions) {

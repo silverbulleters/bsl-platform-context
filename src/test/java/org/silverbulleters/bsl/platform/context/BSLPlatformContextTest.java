@@ -26,6 +26,7 @@ import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.internal.util.ReadDataCollector;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
+import org.silverbulleters.bsl.platform.context.types.Resource;
 
 import java.util.Arrays;
 import java.util.List;
@@ -53,8 +54,8 @@ class BSLPlatformContextTest {
     var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
     var globalMethods = context.getGlobalMethodsByPlatform(PlatformEdition.VERSION_8_3_10);
     var strLenMethod = globalMethods.stream()
-        .filter(method -> method.getName().getNameEn().equals("StrLen"))
-        .findFirst().orElseThrow(IllegalArgumentException::new);
+      .filter(method -> method.getName().getNameEn().equals("StrLen"))
+      .findFirst().orElseThrow(IllegalArgumentException::new);
 
     assertThat(strLenMethod.getName().getNameEn()).isEqualTo("StrLen");
     assertThat(strLenMethod.getName().getNameRu()).isEqualTo("СтрДлина");
@@ -65,13 +66,24 @@ class BSLPlatformContextTest {
   void testReadingObjectMethodsFromFile() {
     var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
     var objectMethods = context.getTypeMethodsByPlatform(PlatformEdition.VERSION_8_3_10,
-        PlatformTypeIdentifier.DOCUMENT_OBJECT);
+      PlatformTypeIdentifier.DOCUMENT_OBJECT);
     assertThat(objectMethods).isNotEmpty();
   }
 
   @Test
   void testAvailabilityOfDataForEachVersion() {
     Arrays.stream(PlatformEdition.values()).forEach(this::checkDataVersion);
+  }
+
+  @Test
+  void testGetTypeByName() {
+    var edition = PlatformEdition.VERSION_8_3_10;
+    var context = new BSLPlatformContext(List.of(edition));
+    var names = new Resource("Запрос", "Query");
+    checkGetTypeByName(context, edition, names);
+
+    var optType = context.getTypeByName(edition, "ЧтотоДругое");
+    assertThat(optType).isEmpty();
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
@@ -95,4 +107,13 @@ class BSLPlatformContextTest {
     });
   }
 
+  private static void checkGetTypeByName(BSLPlatformContext context, PlatformEdition edition, Resource names) {
+    var optionalType = context.getTypeByName(edition, names.getNameRu());
+    assertThat(optionalType).isPresent();
+    assertThat(optionalType.get().getName()).isEqualTo(names);
+
+    optionalType = context.getTypeByName(edition, names.getNameEn());
+    assertThat(optionalType).isPresent();
+    assertThat(optionalType.get().getName()).isEqualTo(names);
+  }
 }
