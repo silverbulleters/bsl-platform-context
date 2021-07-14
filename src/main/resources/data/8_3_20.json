@@ -1,5 +1,5 @@
 {
-"platformVersion": "8_3_18",
+"platformVersion": "8_3_20",
 "types": [
 {
 "id": "GLOBAL_CONTEXT",
@@ -7,28 +7,363 @@
 "nameRu": "ГлобальныйКонтекст",
 "methods": [
 {
-"name": "MainServerAvailable",
-"nameRu": "ОсновнойСерверДоступен",
+"name": "StrLen",
+"nameRu": "СтрДлина",
 "isFunction": true
 },
 {
-"name": "SetUsedServer",
-"nameRu": "УстановитьИспользуемыйСервер",
-"isFunction": false
-},
-{
-"name": "SetPreferableMainServerUse",
-"nameRu": "УстановитьПреимущественноеИспользованиеОсновногоСервера",
-"isFunction": false
-},
-{
-"name": "GetPreferableMainServerUse",
-"nameRu": "ПолучитьПреимущественноеИспользованиеОсновногоСервера",
+"name": "TrimL",
+"nameRu": "СокрЛ",
 "isFunction": true
 },
 {
-"name": "GetUsedServer",
-"nameRu": "ПолучитьИспользуемыйСервер",
+"name": "TrimR",
+"nameRu": "СокрП",
+"isFunction": true
+},
+{
+"name": "TrimAll",
+"nameRu": "СокрЛП",
+"isFunction": true
+},
+{
+"name": "Left",
+"nameRu": "Лев",
+"isFunction": true
+},
+{
+"name": "Right",
+"nameRu": "Прав",
+"isFunction": true
+},
+{
+"name": "Mid",
+"nameRu": "Сред",
+"isFunction": true
+},
+{
+"name": "StrFind",
+"nameRu": "СтрНайти",
+"isFunction": true
+},
+{
+"name": "Upper",
+"nameRu": "ВРег",
+"isFunction": true
+},
+{
+"name": "Lower",
+"nameRu": "НРег",
+"isFunction": true
+},
+{
+"name": "Title",
+"nameRu": "ТРег",
+"isFunction": true
+},
+{
+"name": "Char",
+"nameRu": "Символ",
+"isFunction": true
+},
+{
+"name": "CharCode",
+"nameRu": "КодСимвола",
+"isFunction": true
+},
+{
+"name": "IsBlankString",
+"nameRu": "ПустаяСтрока",
+"isFunction": true
+},
+{
+"name": "StrReplace",
+"nameRu": "СтрЗаменить",
+"isFunction": true
+},
+{
+"name": "StrLineCount",
+"nameRu": "СтрЧислоСтрок",
+"isFunction": true
+},
+{
+"name": "StrGetLine",
+"nameRu": "СтрПолучитьСтроку",
+"isFunction": true
+},
+{
+"name": "StrOccurrenceCount",
+"nameRu": "СтрЧислоВхождений",
+"isFunction": true
+},
+{
+"name": "StrCompare",
+"nameRu": "СтрСравнить",
+"isFunction": true
+},
+{
+"name": "StrStartsWith",
+"nameRu": "СтрНачинаетсяС",
+"isFunction": true
+},
+{
+"name": "StrEndsWith",
+"nameRu": "СтрЗаканчиваетсяНа",
+"isFunction": true
+},
+{
+"name": "StrSplit",
+"nameRu": "СтрРазделить",
+"isFunction": true
+},
+{
+"name": "StrConcat",
+"nameRu": "СтрСоединить",
+"isFunction": true
+},
+{
+"name": "GetStringDeclensions",
+"nameRu": "ПолучитьСклоненияСтроки",
+"isFunction": true
+},
+{
+"name": "GetStringDeclensionsByNumber",
+"nameRu": "ПолучитьСклоненияСтрокиПоЧислу",
+"isFunction": true
+},
+{
+"name": "StrFindAndHighlightByAppearance",
+"nameRu": "СтрНайтиИВыделитьОформлением",
+"isFunction": true
+},
+{
+"name": "Int",
+"nameRu": "Цел",
+"isFunction": true
+},
+{
+"name": "Round",
+"nameRu": "Окр",
+"isFunction": true
+},
+{
+"name": "Log",
+"nameRu": "Log",
+"isFunction": true
+},
+{
+"name": "Log10",
+"nameRu": "Log10",
+"isFunction": true
+},
+{
+"name": "Sin",
+"nameRu": "Sin",
+"isFunction": true
+},
+{
+"name": "Cos",
+"nameRu": "Cos",
+"isFunction": true
+},
+{
+"name": "Tan",
+"nameRu": "Tan",
+"isFunction": true
+},
+{
+"name": "ASin",
+"nameRu": "ASin",
+"isFunction": true
+},
+{
+"name": "ACos",
+"nameRu": "ACos",
+"isFunction": true
+},
+{
+"name": "ATan",
+"nameRu": "ATan",
+"isFunction": true
+},
+{
+"name": "Exp",
+"nameRu": "Exp",
+"isFunction": true
+},
+{
+"name": "Pow",
+"nameRu": "Pow",
+"isFunction": true
+},
+{
+"name": "Sqrt",
+"nameRu": "Sqrt",
+"isFunction": true
+},
+{
+"name": "Year",
+"nameRu": "Год",
+"isFunction": true
+},
+{
+"name": "Month",
+"nameRu": "Месяц",
+"isFunction": true
+},
+{
+"name": "Day",
+"nameRu": "День",
+"isFunction": true
+},
+{
+"name": "Hour",
+"nameRu": "Час",
+"isFunction": true
+},
+{
+"name": "Minute",
+"nameRu": "Минута",
+"isFunction": true
+},
+{
+"name": "Second",
+"nameRu": "Секунда",
+"isFunction": true
+},
+{
+"name": "BegOfYear",
+"nameRu": "НачалоГода",
+"isFunction": true
+},
+{
+"name": "BegOfQuarter",
+"nameRu": "НачалоКвартала",
+"isFunction": true
+},
+{
+"name": "BegOfMonth",
+"nameRu": "НачалоМесяца",
+"isFunction": true
+},
+{
+"name": "BegOfWeek",
+"nameRu": "НачалоНедели",
+"isFunction": true
+},
+{
+"name": "BegOfDay",
+"nameRu": "НачалоДня",
+"isFunction": true
+},
+{
+"name": "BegOfHour",
+"nameRu": "НачалоЧаса",
+"isFunction": true
+},
+{
+"name": "BegOfMinute",
+"nameRu": "НачалоМинуты",
+"isFunction": true
+},
+{
+"name": "EndOfYear",
+"nameRu": "КонецГода",
+"isFunction": true
+},
+{
+"name": "EndOfQuarter",
+"nameRu": "КонецКвартала",
+"isFunction": true
+},
+{
+"name": "EndOfMonth",
+"nameRu": "КонецМесяца",
+"isFunction": true
+},
+{
+"name": "EndOfWeek",
+"nameRu": "КонецНедели",
+"isFunction": true
+},
+{
+"name": "EndOfDay",
+"nameRu": "КонецДня",
+"isFunction": true
+},
+{
+"name": "EndOfHour",
+"nameRu": "КонецЧаса",
+"isFunction": true
+},
+{
+"name": "EndOfMinute",
+"nameRu": "КонецМинуты",
+"isFunction": true
+},
+{
+"name": "WeekOfYear",
+"nameRu": "НеделяГода",
+"isFunction": true
+},
+{
+"name": "DayOfYear",
+"nameRu": "ДеньГода",
+"isFunction": true
+},
+{
+"name": "WeekDay",
+"nameRu": "ДеньНедели",
+"isFunction": true
+},
+{
+"name": "AddMonth",
+"nameRu": "ДобавитьМесяц",
+"isFunction": true
+},
+{
+"name": "CurrentDate",
+"nameRu": "ТекущаяДата",
+"isFunction": true
+},
+{
+"name": "Type",
+"nameRu": "Тип",
+"isFunction": true
+},
+{
+"name": "TypeOf",
+"nameRu": "ТипЗнч",
+"isFunction": true
+},
+{
+"name": "Boolean",
+"nameRu": "Булево",
+"isFunction": true
+},
+{
+"name": "Number",
+"nameRu": "Число",
+"isFunction": true
+},
+{
+"name": "String",
+"nameRu": "Строка",
+"isFunction": true
+},
+{
+"name": "Date",
+"nameRu": "Дата",
+"isFunction": true
+},
+{
+"name": "NumberFromHexString",
+"nameRu": "ЧислоИзШестнадцатеричнойСтроки",
+"isFunction": true
+},
+{
+"name": "NumberFromBinaryString",
+"nameRu": "ЧислоИзДвоичнойСтроки",
 "isFunction": true
 },
 {
@@ -192,83 +527,443 @@
 "isFunction": true
 },
 {
-"name": "WriteJSON",
-"nameRu": "ЗаписатьJSON",
+"name": "ShowInputValue",
+"nameRu": "ПоказатьВводЗначения",
 "isFunction": false
 },
 {
-"name": "ReadJSON",
-"nameRu": "ПрочитатьJSON",
+"name": "InputValueAsync",
+"nameRu": "ВвестиЗначениеАсинх",
 "isFunction": true
 },
 {
-"name": "ReadJSONDate",
-"nameRu": "ПрочитатьДатуJSON",
+"name": "InputValue",
+"nameRu": "ВвестиЗначение",
 "isFunction": true
 },
 {
-"name": "WriteJSONDate",
-"nameRu": "ЗаписатьДатуJSON",
-"isFunction": true
-},
-{
-"name": "XMLString",
-"nameRu": "XMLСтрока",
-"isFunction": true
-},
-{
-"name": "XMLValue",
-"nameRu": "XMLЗначение",
-"isFunction": true
-},
-{
-"name": "XMLType",
-"nameRu": "XMLТип",
-"isFunction": true
-},
-{
-"name": "XMLTypeOf",
-"nameRu": "XMLТипЗнч",
-"isFunction": true
-},
-{
-"name": "FromXMLType",
-"nameRu": "ИзXMLТипа",
-"isFunction": true
-},
-{
-"name": "CanReadXML",
-"nameRu": "ВозможностьЧтенияXML",
-"isFunction": true
-},
-{
-"name": "GetXMLType",
-"nameRu": "ПолучитьXMLТип",
-"isFunction": true
-},
-{
-"name": "ReadXML",
-"nameRu": "ПрочитатьXML",
-"isFunction": true
-},
-{
-"name": "WriteXML",
-"nameRu": "ЗаписатьXML",
+"name": "ShowInputNumber",
+"nameRu": "ПоказатьВводЧисла",
 "isFunction": false
 },
 {
-"name": "FindDisallowedXMLCharacters",
-"nameRu": "НайтиНедопустимыеСимволыXML",
+"name": "InputNumberAsync",
+"nameRu": "ВвестиЧислоАсинх",
 "isFunction": true
 },
 {
-"name": "ImportXDTOModel",
-"nameRu": "ИмпортМоделиXDTO",
+"name": "InputNumber",
+"nameRu": "ВвестиЧисло",
 "isFunction": true
 },
 {
-"name": "CreateXDTOFactory",
-"nameRu": "СоздатьФабрикуXDTO",
+"name": "ShowInputString",
+"nameRu": "ПоказатьВводСтроки",
+"isFunction": false
+},
+{
+"name": "InputStringAsync",
+"nameRu": "ВвестиСтрокуАсинх",
+"isFunction": true
+},
+{
+"name": "InputString",
+"nameRu": "ВвестиСтроку",
+"isFunction": true
+},
+{
+"name": "ShowInputDate",
+"nameRu": "ПоказатьВводДаты",
+"isFunction": true
+},
+{
+"name": "InputDateAsync",
+"nameRu": "ВвестиДатуАсинх",
+"isFunction": true
+},
+{
+"name": "InputDate",
+"nameRu": "ВвестиДату",
+"isFunction": true
+},
+{
+"name": "Format",
+"nameRu": "Формат",
+"isFunction": true
+},
+{
+"name": "NumberInWords",
+"nameRu": "ЧислоПрописью",
+"isFunction": true
+},
+{
+"name": "NStr",
+"nameRu": "НСтр",
+"isFunction": true
+},
+{
+"name": "PeriodPresentation",
+"nameRu": "ПредставлениеПериода",
+"isFunction": true
+},
+{
+"name": "StrTemplate",
+"nameRu": "СтрШаблон",
+"isFunction": true
+},
+{
+"name": "StringWithNumber",
+"nameRu": "СтрокаСЧислом",
+"isFunction": true
+},
+{
+"name": "GetCommonTemplate",
+"nameRu": "ПолучитьОбщийМакет",
+"isFunction": true
+},
+{
+"name": "GetCommonForm",
+"nameRu": "ПолучитьОбщуюФорму",
+"isFunction": true
+},
+{
+"name": "PredefinedValue",
+"nameRu": "ПредопределенноеЗначение",
+"isFunction": false
+},
+{
+"name": "GetPredefinedValueFullName",
+"nameRu": "ПолучитьПолноеИмяПредопределенногоЗначения",
+"isFunction": true
+},
+{
+"name": "GetClientConnectionSpeed",
+"nameRu": "ПолучитьСкоростьКлиентскогоСоединения",
+"isFunction": true
+},
+{
+"name": "AttachIdleHandler",
+"nameRu": "ПодключитьОбработчикОжидания",
+"isFunction": false
+},
+{
+"name": "DetachIdleHandler",
+"nameRu": "ОтключитьОбработчикОжидания",
+"isFunction": false
+},
+{
+"name": "ComputerName",
+"nameRu": "ИмяКомпьютера",
+"isFunction": true
+},
+{
+"name": "Exit",
+"nameRu": "ЗавершитьРаботуСистемы",
+"isFunction": false
+},
+{
+"name": "UserName",
+"nameRu": "ИмяПользователя",
+"isFunction": true
+},
+{
+"name": "Terminate",
+"nameRu": "ПрекратитьРаботуСистемы",
+"isFunction": false
+},
+{
+"name": "UserFullName",
+"nameRu": "ПолноеИмяПользователя",
+"isFunction": true
+},
+{
+"name": "LockApplication",
+"nameRu": "ЗаблокироватьРаботуПользователя",
+"isFunction": false
+},
+{
+"name": "BinDir",
+"nameRu": "КаталогПрограммы",
+"isFunction": true
+},
+{
+"name": "TempFilesDirAsync",
+"nameRu": "КаталогВременныхФайловАсинх",
+"isFunction": true
+},
+{
+"name": "TempFilesDir",
+"nameRu": "КаталогВременныхФайлов",
+"isFunction": true
+},
+{
+"name": "AccessRight",
+"nameRu": "ПравоДоступа",
+"isFunction": true
+},
+{
+"name": "IsInRole",
+"nameRu": "РольДоступна",
+"isFunction": true
+},
+{
+"name": "CurrentLanguage",
+"nameRu": "ТекущийЯзык",
+"isFunction": true
+},
+{
+"name": "CurrentLocaleCode",
+"nameRu": "ТекущийКодЛокализации",
+"isFunction": true
+},
+{
+"name": "InfoBaseConnectionString",
+"nameRu": "СтрокаСоединенияИнформационнойБазы",
+"isFunction": true
+},
+{
+"name": "AttachNotificationHandler",
+"nameRu": "ПодключитьОбработчикОповещения",
+"isFunction": false
+},
+{
+"name": "DetachNotificationHandler",
+"nameRu": "ОтключитьОбработчикОповещения",
+"isFunction": false
+},
+{
+"name": "GetUserMessages",
+"nameRu": "ПолучитьСообщенияПользователю",
+"isFunction": true
+},
+{
+"name": "AccessParameters",
+"nameRu": "ПараметрыДоступа",
+"isFunction": true
+},
+{
+"name": "ApplicationPresentation",
+"nameRu": "ПредставлениеПриложения",
+"isFunction": true
+},
+{
+"name": "CurrentSystemLanguage",
+"nameRu": "ТекущийЯзыкСистемы",
+"isFunction": true
+},
+{
+"name": "RunSystem",
+"nameRu": "ЗапуститьСистему",
+"isFunction": false
+},
+{
+"name": "CurrentRunMode",
+"nameRu": "ТекущийРежимЗапуска",
+"isFunction": true
+},
+{
+"name": "SetSessionTimeZone",
+"nameRu": "УстановитьЧасовойПоясСеанса",
+"isFunction": false
+},
+{
+"name": "SessionTimeZone",
+"nameRu": "ЧасовойПоясСеанса",
+"isFunction": true
+},
+{
+"name": "CurrentSessionDate",
+"nameRu": "ТекущаяДатаСеанса",
+"isFunction": true
+},
+{
+"name": "RightPresentation",
+"nameRu": "ПредставлениеПрава",
+"isFunction": true
+},
+{
+"name": "VerifyAccessRights",
+"nameRu": "ВыполнитьПроверкуПравДоступа",
+"isFunction": false
+},
+{
+"name": "UserDataWorkDirAsync",
+"nameRu": "РабочийКаталогДанныхПользователяАсинх",
+"isFunction": true
+},
+{
+"name": "UserDataWorkDir",
+"nameRu": "РабочийКаталогДанныхПользователя",
+"isFunction": true
+},
+{
+"name": "DocumentsDirAsync",
+"nameRu": "КаталогДокументовАсинх",
+"isFunction": true
+},
+{
+"name": "DocumentsDir",
+"nameRu": "КаталогДокументов",
+"isFunction": true
+},
+{
+"name": "GetClientDisplaysInformation",
+"nameRu": "ПолучитьИнформациюЭкрановКлиента",
+"isFunction": true
+},
+{
+"name": "MobileDeviceLibraryDir",
+"nameRu": "КаталогБиблиотекиМобильногоУстройства",
+"isFunction": true
+},
+{
+"name": "BeginGettingTempFilesDir",
+"nameRu": "НачатьПолучениеКаталогаВременныхФайлов",
+"isFunction": false
+},
+{
+"name": "BeginGettingDocumentsDir",
+"nameRu": "НачатьПолучениеКаталогаДокументов",
+"isFunction": false
+},
+{
+"name": "BeginGettingUserDataWorkDir",
+"nameRu": "НачатьПолучениеРабочегоКаталогаДанныхПользователя",
+"isFunction": false
+},
+{
+"name": "AttachLicensingClientParametersRequestHandler",
+"nameRu": "ПодключитьОбработчикЗапросаНастроекКлиентаЛицензирования",
+"isFunction": false
+},
+{
+"name": "BeginGettingMobileDeviceLibraryDir",
+"nameRu": "НачатьПолучениеКаталогаБиблиотекиМобильногоУстройства",
+"isFunction": false
+},
+{
+"name": "DetachLicensingClientParametersRequestHandler",
+"nameRu": "ОтключитьОбработчикЗапросаНастроекКлиентаЛицензирования",
+"isFunction": false
+},
+{
+"name": "SessionBeginningOfCentury",
+"nameRu": "НачалоСтолетияСеанса",
+"isFunction": true
+},
+{
+"name": "MobileDeviceLibraryDirAsync",
+"nameRu": "КаталогБиблиотекиМобильногоУстройстваАсинх",
+"isFunction": true
+},
+{
+"name": "GetSessionRegionalSettings",
+"nameRu": "ПолучитьРегиональныеНастройкиСеанса",
+"isFunction": true
+},
+{
+"name": "SaveValue",
+"nameRu": "СохранитьЗначение",
+"isFunction": false
+},
+{
+"name": "RestoreValue",
+"nameRu": "ВосстановитьЗначение",
+"isFunction": true
+},
+{
+"name": "ValueToStringInternal",
+"nameRu": "ЗначениеВСтрокуВнутр",
+"isFunction": true
+},
+{
+"name": "ValueFromStringInternal",
+"nameRu": "ЗначениеИзСтрокиВнутр",
+"isFunction": true
+},
+{
+"name": "ValueToFile",
+"nameRu": "ЗначениеВФайл",
+"isFunction": true
+},
+{
+"name": "ValueFromFile",
+"nameRu": "ЗначениеИзФайла",
+"isFunction": true
+},
+{
+"name": "SaveUserSettings",
+"nameRu": "СохранитьНастройкиПользователя",
+"isFunction": false
+},
+{
+"name": "ClearUserSettings",
+"nameRu": "ОчиститьНастройкиПользователя",
+"isFunction": false
+},
+{
+"name": "System",
+"nameRu": "КомандаСистемы",
+"isFunction": false
+},
+{
+"name": "RunAppAsync",
+"nameRu": "ЗапуститьПриложениеАсинх",
+"isFunction": true
+},
+{
+"name": "RunApp",
+"nameRu": "ЗапуститьПриложение",
+"isFunction": false
+},
+{
+"name": "GetCOMObject",
+"nameRu": "ПолучитьCOMОбъект",
+"isFunction": true
+},
+{
+"name": "WindowsUsers",
+"nameRu": "ПользователиWindows",
+"isFunction": true
+},
+{
+"name": "OSUsers",
+"nameRu": "ПользователиОС",
+"isFunction": true
+},
+{
+"name": "BeginRunningApplication",
+"nameRu": "НачатьЗапускПриложения",
+"isFunction": false
+},
+{
+"name": "BeginInstallingComputerInformationExtension",
+"nameRu": "НачатьУстановкуРасширенияПолученияИнформацииОКомпьютере",
+"isFunction": false
+},
+{
+"name": "BeginAttachingComputerInformationExtension",
+"nameRu": "НачатьПодключениеРасширенияПолученияИнформацииОКомпьютере",
+"isFunction": true
+},
+{
+"name": "BeginGettingNetworkAdaptersInformation",
+"nameRu": "НачатьПолучениеИнформацииОСетевыхАдаптерах",
+"isFunction": true
+},
+{
+"name": "InstallComputerInformationExtensionAsync",
+"nameRu": "УстановитьРасширениеПолученияИнформацииОКомпьютереАсинх",
+"isFunction": true
+},
+{
+"name": "AttachComputerInformationExtensionAsync",
+"nameRu": "ПодключитьРасширениеПолученияИнформацииОКомпьютереАсинх",
+"isFunction": true
+},
+{
+"name": "GetNetworkAdaptersInformationAsync",
+"nameRu": "ПолучитьИнформациюОСетевыхАдаптерахАсинх",
 "isFunction": true
 },
 {
@@ -312,274 +1007,274 @@
 "isFunction": true
 },
 {
-"name": "GetAddressByLocation",
-"nameRu": "ПолучитьАдресПоМестоположению",
+"name": "CopyFileAsync",
+"nameRu": "КопироватьФайлАсинх",
 "isFunction": true
 },
 {
-"name": "GetLocationByAddress",
-"nameRu": "ПолучитьМестоположениеПоАдресу",
-"isFunction": true
-},
-{
-"name": "ShowOnMap",
-"nameRu": "ПоказатьНаКарте",
+"name": "FileCopy",
+"nameRu": "КопироватьФайл",
 "isFunction": false
 },
 {
-"name": "MapRepresentationSupported",
-"nameRu": "ПоддерживаетсяОтображениеКарты",
+"name": "MoveFileAsync",
+"nameRu": "ПереместитьФайлАсинх",
 "isFunction": true
 },
 {
-"name": "FindMarkedForDeletion",
-"nameRu": "НайтиПомеченныеНаУдаление",
-"isFunction": true
-},
-{
-"name": "FindByRef",
-"nameRu": "НайтиПоСсылкам",
-"isFunction": true
-},
-{
-"name": "DeleteObjects",
-"nameRu": "УдалитьОбъекты",
+"name": "MoveFile",
+"nameRu": "ПереместитьФайл",
 "isFunction": false
 },
 {
-"name": "SetInfoBasePredefinedDataUpdate",
-"nameRu": "УстановитьОбновлениеПредопределенныхДанныхИнформационнойБазы",
+"name": "DeleteFilesAsync",
+"nameRu": "УдалитьФайлыАсинх",
+"isFunction": true
+},
+{
+"name": "DeleteFiles",
+"nameRu": "УдалитьФайлы",
 "isFunction": false
 },
 {
-"name": "GetInfoBasePredefinedData",
-"nameRu": "ПолучитьОбновлениеПредопределенныхДанныхИнформационнойБазы",
+"name": "FindFilesAsync",
+"nameRu": "НайтиФайлыАсинх",
 "isFunction": true
 },
 {
-"name": "ConcatBinaryDataBuffers",
-"nameRu": "СоединитьБуферыДвоичныхДанных",
+"name": "FindFiles",
+"nameRu": "НайтиФайлы",
 "isFunction": true
 },
 {
-"name": "ConcatBinaryData",
-"nameRu": "СоединитьДвоичныеДанные",
+"name": "CreateDirectoryAsync",
+"nameRu": "СоздатьКаталогАсинх",
 "isFunction": true
 },
 {
-"name": "SplitBinaryData",
-"nameRu": "РазделитьДвоичныеДанные",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataFromString",
-"nameRu": "ПолучитьДвоичныеДанныеИзСтроки",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataBufferFromString",
-"nameRu": "ПолучитьБуферДвоичныхДанныхИзСтроки",
-"isFunction": true
-},
-{
-"name": "GetStringFromBinaryData",
-"nameRu": "ПолучитьСтрокуИзДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetStringFromBinaryDataBuffer",
-"nameRu": "ПолучитьСтрокуИзБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataFromBase64String",
-"nameRu": "ПолучитьДвоичныеДанныеИзBase64Строки",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataBufferFromBase64String",
-"nameRu": "ПолучитьБуферДвоичныхДанныхИзBase64Строки",
-"isFunction": true
-},
-{
-"name": "GetBase64StringFromBinaryData",
-"nameRu": "ПолучитьBase64СтрокуИзДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBase64StringFromBinaryDataBuffer",
-"nameRu": "ПолучитьBase64СтрокуИзБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataFromBase64BinaryData",
-"nameRu": "ПолучитьДвоичныеДанныеИзBase64ДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataBufferFromBase64BinaryDataBuffer",
-"nameRu": "ПолучитьБуферДвоичныхДанныхИзBase64БуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBase64BinaryDataFromBinaryData",
-"nameRu": "ПолучитьBase64ДвоичныеДанныеИзДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBase64BinaryDataBufferFromBinaryDataBuffer",
-"nameRu": "ПолучитьBase64БуферДвоичныхДанныхИзБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataFromHexString",
-"nameRu": "ПолучитьДвоичныеДанныеИзHexСтроки",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataBufferFromHexString",
-"nameRu": "ПолучитьБуферДвоичныхДанныхИзHexСтроки",
-"isFunction": true
-},
-{
-"name": "GetHexStringFromBinaryData",
-"nameRu": "ПолучитьHexСтрокуИзДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetHexStringFromBinaryDataBuffer",
-"nameRu": "ПолучитьHexСтрокуИзБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataFromHexBinaryData",
-"nameRu": "ПолучитьДвоичныеДанныеИзHexДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataBufferFromHexBinaryDataBuffer",
-"nameRu": "ПолучитьБуферДвоичныхДанныхИзHexБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetHexBinaryDataFromBinaryData",
-"nameRu": "ПолучитьHexДвоичныеДанныеИзДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetHexBinaryDataBufferFromBinaryDataBuffer",
-"nameRu": "ПолучитьHexБуферДвоичныхДанныхИзБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataBufferFromBinaryData",
-"nameRu": "ПолучитьБуферДвоичныхДанныхИзДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "GetBinaryDataFromBinaryDataBuffer",
-"nameRu": "ПолучитьДвоичныеДанныеИзБуфераДвоичныхДанных",
-"isFunction": true
-},
-{
-"name": "CheckBit",
-"nameRu": "ПроверитьБит",
-"isFunction": true
-},
-{
-"name": "CheckByBitMask",
-"nameRu": "ПроверитьПоБитовойМаске",
-"isFunction": true
-},
-{
-"name": "SetBit",
-"nameRu": "УстановитьБит",
-"isFunction": true
-},
-{
-"name": "BitwiseAnd",
-"nameRu": "ПобитовоеИ",
-"isFunction": true
-},
-{
-"name": "BitwiseOr",
-"nameRu": "ПобитовоеИли",
-"isFunction": true
-},
-{
-"name": "BitwiseNot",
-"nameRu": "ПобитовоеНе",
-"isFunction": true
-},
-{
-"name": "BitwiseXor",
-"nameRu": "ПобитовоеИсключительноеИли",
-"isFunction": true
-},
-{
-"name": "BitwiseAndNot",
-"nameRu": "ПобитовоеИНе",
-"isFunction": true
-},
-{
-"name": "BitwiseShiftLeft",
-"nameRu": "ПобитовыйСдвигВлево",
-"isFunction": true
-},
-{
-"name": "BitwiseShiftRight",
-"nameRu": "ПобитовыйСдвигВправо",
-"isFunction": true
-},
-{
-"name": "WriteLogEvent",
-"nameRu": "ЗаписьЖурналаРегистрации",
+"name": "CreateDirectory",
+"nameRu": "СоздатьКаталог",
 "isFunction": false
 },
 {
-"name": "GetEventLogUsing",
-"nameRu": "ПолучитьИспользованиеЖурналаРегистрации",
+"name": "GetTempFileName",
+"nameRu": "ПолучитьИмяВременногоФайла",
 "isFunction": true
 },
 {
-"name": "SetEventLogUsing",
-"nameRu": "УстановитьИспользованиеЖурналаРегистрации",
-"isFunction": false
-},
-{
-"name": "EventLogEventPresentation",
-"nameRu": "ПредставлениеСобытияЖурналаРегистрации",
+"name": "SplitFile",
+"nameRu": "РазделитьФайл",
 "isFunction": true
 },
 {
-"name": "UnloadEventLog",
-"nameRu": "ВыгрузитьЖурналРегистрации",
+"name": "MergeFiles",
+"nameRu": "ОбъединитьФайлы",
 "isFunction": false
 },
 {
-"name": "GetEventLogFilterValues",
-"nameRu": "ПолучитьЗначенияОтбораЖурналаРегистрации",
+"name": "GetFile",
+"nameRu": "ПолучитьФайл",
 "isFunction": true
 },
 {
-"name": "SetEventLogEventUse",
-"nameRu": "УстановитьИспользованиеСобытияЖурналаРегистрации",
+"name": "BeginPutFile",
+"nameRu": "НачатьПомещениеФайла",
 "isFunction": false
 },
 {
-"name": "GetEventLogEventUse",
-"nameRu": "ПолучитьИспользованиеСобытияЖурналаРегистрации",
+"name": "PutFile",
+"nameRu": "ПоместитьФайл",
 "isFunction": true
 },
 {
-"name": "CopyEventLog",
-"nameRu": "СкопироватьЖурналРегистрации",
+"name": "IsTempStorageURL",
+"nameRu": "ЭтоАдресВременногоХранилища",
+"isFunction": true
+},
+{
+"name": "DeleteFromTempStorage",
+"nameRu": "УдалитьИзВременногоХранилища",
 "isFunction": false
 },
 {
-"name": "ClearEventLog",
-"nameRu": "ОчиститьЖурналРегистрации",
+"name": "GetFromTempStorage",
+"nameRu": "ПолучитьИзВременногоХранилища",
+"isFunction": true
+},
+{
+"name": "PutToTempStorage",
+"nameRu": "ПоместитьВоВременноеХранилище",
+"isFunction": true
+},
+{
+"name": "AttachFileSystemExtension",
+"nameRu": "ПодключитьРасширениеРаботыСФайлами",
+"isFunction": true
+},
+{
+"name": "AttachFileSystemExtensionAsync",
+"nameRu": "ПодключитьРасширениеРаботыСФайламиАсинх",
+"isFunction": true
+},
+{
+"name": "BeginInstallFileSystemExtension",
+"nameRu": "НачатьУстановкуРасширенияРаботыСФайлами",
 "isFunction": false
+},
+{
+"name": "InstallFileSystemExtension",
+"nameRu": "УстановитьРасширениеРаботыСФайлами",
+"isFunction": false
+},
+{
+"name": "InstallFileSystemExtensionAsync",
+"nameRu": "УстановитьРасширениеРаботыСФайламиАсинх",
+"isFunction": true
+},
+{
+"name": "GetFiles",
+"nameRu": "ПолучитьФайлы",
+"isFunction": true
+},
+{
+"name": "PutFiles",
+"nameRu": "ПоместитьФайлы",
+"isFunction": true
+},
+{
+"name": "RequestUserPermissionAsync",
+"nameRu": "ЗапроситьРазрешениеПользователяАсинх",
+"isFunction": true
+},
+{
+"name": "RequestUserPermission",
+"nameRu": "ЗапроситьРазрешениеПользователя",
+"isFunction": true
+},
+{
+"name": "GetAllFilesMask",
+"nameRu": "ПолучитьМаскуВсеФайлы",
+"isFunction": true
+},
+{
+"name": "GetClientAllFilesMask",
+"nameRu": "ПолучитьМаскуВсеФайлыКлиента",
+"isFunction": true
+},
+{
+"name": "GetServerAllFilesMask",
+"nameRu": "ПолучитьМаскуВсеФайлыСервера",
+"isFunction": true
+},
+{
+"name": "GetPathSeparator",
+"nameRu": "ПолучитьРазделительПути",
+"isFunction": true
+},
+{
+"name": "GetClientPathSeparator",
+"nameRu": "ПолучитьРазделительПутиКлиента",
+"isFunction": true
+},
+{
+"name": "GetServerPathSeparator",
+"nameRu": "ПолучитьРазделительПутиСервера",
+"isFunction": true
+},
+{
+"name": "BeginAttachingFileSystemExtension",
+"nameRu": "НачатьПодключениеРасширенияРаботыСФайлами",
+"isFunction": true
+},
+{
+"name": "BeginRequestingUserPermission",
+"nameRu": "НачатьЗапросРазрешенияПользователя",
+"isFunction": false
+},
+{
+"name": "BeginFindingFiles",
+"nameRu": "НачатьПоискФайлов",
+"isFunction": false
+},
+{
+"name": "BeginCreatingDirectory",
+"nameRu": "НачатьСозданиеКаталога",
+"isFunction": false
+},
+{
+"name": "BeginCopyingFile",
+"nameRu": "НачатьКопированиеФайла",
+"isFunction": false
+},
+{
+"name": "BeginMovingFile",
+"nameRu": "НачатьПеремещениеФайла",
+"isFunction": false
+},
+{
+"name": "BeginDeletingFiles",
+"nameRu": "НачатьУдалениеФайлов",
+"isFunction": false
+},
+{
+"name": "BeginGettingFiles",
+"nameRu": "НачатьПолучениеФайлов",
+"isFunction": false
+},
+{
+"name": "BeginPuttingFiles",
+"nameRu": "НачатьПомещениеФайлов",
+"isFunction": false
+},
+{
+"name": "CreateBinaryDataFromFileAsync",
+"nameRu": "СоздатьДвоичныеДанныеИзФайлаАсинх",
+"isFunction": true
+},
+{
+"name": "BeginCreateBinaryDataFromFile",
+"nameRu": "НачатьСозданиеДвоичныхДанныхИзФайла",
+"isFunction": false
+},
+{
+"name": "PutFileToServerAsync",
+"nameRu": "ПоместитьФайлНаСерверАсинх",
+"isFunction": true
+},
+{
+"name": "BeginPutFileToServer",
+"nameRu": "НачатьПомещениеФайлаНаСервер",
+"isFunction": false
+},
+{
+"name": "PutFilesToServerAsync",
+"nameRu": "ПоместитьФайлыНаСерверАсинх",
+"isFunction": true
+},
+{
+"name": "BeginPutFilesToServer",
+"nameRu": "НачатьПомещениеФайловНаСервер",
+"isFunction": false
+},
+{
+"name": "GetFileFromServerAsync",
+"nameRu": "ПолучитьФайлССервераАсинх",
+"isFunction": true
+},
+{
+"name": "BeginGetFileFromServer",
+"nameRu": "НачатьПолучениеФайлаССервера",
+"isFunction": false
+},
+{
+"name": "BeginGetFilesFromServer",
+"nameRu": "НачатьПолучениеФайловССервера",
+"isFunction": false
+},
+{
+"name": "GetFilesFromServerAsync",
+"nameRu": "ПолучитьФайлыССервераАсинх",
+"isFunction": true
 },
 {
 "name": "BeginTransaction",
@@ -872,6 +1567,11 @@
 "isFunction": true
 },
 {
+"name": "GetExclusiveModeParameters",
+"nameRu": "ПолучитьПараметрыМонопольногоРежима",
+"isFunction": true
+},
+{
 "name": "SetMobileClientSignatureVerificationMethod",
 "nameRu": "УстановитьСпособПроверкиПодписиМобильногоКлиента",
 "isFunction": false
@@ -879,102 +1579,197 @@
 {
 "name": "GetMobileClientSignatureVerificationMethod",
 "nameRu": "ПолучитьСпособПроверкиПодписиМобильногоКлиента",
-"isFunction": true
-},
-{
-"name": "InstallCryptoExtensionAsync",
-"nameRu": "УстановитьРасширениеРаботыСКриптографиейАсинх",
-"isFunction": true
-},
-{
-"name": "InstallCryptoExtension",
-"nameRu": "УстановитьРасширениеРаботыСКриптографией",
 "isFunction": false
 },
 {
-"name": "BeginInstallCryptoExtension",
-"nameRu": "НачатьУстановкуРасширенияРаботыСКриптографией",
+"name": "GetInfoBaseRegionalSettings",
+"nameRu": "ПолучитьРегиональныеНастройкиИнформационнойБазы",
+"isFunction": true
+},
+{
+"name": "SetInfoBaseRegionalSettings",
+"nameRu": "УстановитьРегиональныеНастройкиИнформационнойБазы",
 "isFunction": false
 },
 {
-"name": "AttachCryptoExtensionAsync",
-"nameRu": "ПодключитьРасширениеРаботыСКриптографиейАсинх",
+"name": "FindMarkedForDeletion",
+"nameRu": "НайтиПомеченныеНаУдаление",
 "isFunction": true
 },
 {
-"name": "AttachCryptoExtension",
-"nameRu": "ПодключитьРасширениеРаботыСКриптографией",
+"name": "FindByRef",
+"nameRu": "НайтиПоСсылкам",
 "isFunction": true
 },
 {
-"name": "BeginAttachingCryptoExtension",
-"nameRu": "НачатьПодключениеРасширенияРаботыСКриптографией",
+"name": "DeleteObjects",
+"nameRu": "УдалитьОбъекты",
 "isFunction": false
 },
 {
-"name": "System",
-"nameRu": "КомандаСистемы",
+"name": "SetInfoBasePredefinedDataUpdate",
+"nameRu": "УстановитьОбновлениеПредопределенныхДанныхИнформационнойБазы",
 "isFunction": false
 },
 {
-"name": "RunAppAsync",
-"nameRu": "ЗапуститьПриложениеАсинх",
+"name": "GetInfoBasePredefinedData",
+"nameRu": "ПолучитьОбновлениеПредопределенныхДанныхИнформационнойБазы",
 "isFunction": true
 },
 {
-"name": "RunApp",
-"nameRu": "ЗапуститьПриложение",
+"name": "XMLString",
+"nameRu": "XMLСтрока",
+"isFunction": true
+},
+{
+"name": "XMLValue",
+"nameRu": "XMLЗначение",
+"isFunction": true
+},
+{
+"name": "XMLType",
+"nameRu": "XMLТип",
+"isFunction": true
+},
+{
+"name": "XMLTypeOf",
+"nameRu": "XMLТипЗнч",
+"isFunction": true
+},
+{
+"name": "FromXMLType",
+"nameRu": "ИзXMLТипа",
+"isFunction": true
+},
+{
+"name": "CanReadXML",
+"nameRu": "ВозможностьЧтенияXML",
+"isFunction": true
+},
+{
+"name": "GetXMLType",
+"nameRu": "ПолучитьXMLТип",
+"isFunction": true
+},
+{
+"name": "ReadXML",
+"nameRu": "ПрочитатьXML",
+"isFunction": true
+},
+{
+"name": "WriteXML",
+"nameRu": "ЗаписатьXML",
 "isFunction": false
 },
 {
-"name": "GetCOMObject",
-"nameRu": "ПолучитьCOMОбъект",
+"name": "FindDisallowedXMLCharacters",
+"nameRu": "НайтиНедопустимыеСимволыXML",
 "isFunction": true
 },
 {
-"name": "WindowsUsers",
-"nameRu": "ПользователиWindows",
+"name": "ImportXDTOModel",
+"nameRu": "ИмпортМоделиXDTO",
 "isFunction": true
 },
 {
-"name": "OSUsers",
-"nameRu": "ПользователиОС",
+"name": "CreateXDTOFactory",
+"nameRu": "СоздатьФабрикуXDTO",
 "isFunction": true
 },
 {
-"name": "BeginRunningApplication",
-"nameRu": "НачатьЗапускПриложения",
+"name": "WriteJSON",
+"nameRu": "ЗаписатьJSON",
 "isFunction": false
 },
 {
-"name": "BeginInstallingComputerInformationExtension",
-"nameRu": "НачатьУстановкуРасширенияПолученияИнформацииОКомпьютере",
+"name": "ReadJSON",
+"nameRu": "ПрочитатьJSON",
+"isFunction": true
+},
+{
+"name": "ReadJSONDate",
+"nameRu": "ПрочитатьДатуJSON",
+"isFunction": true
+},
+{
+"name": "WriteJSONDate",
+"nameRu": "ЗаписатьДатуJSON",
+"isFunction": true
+},
+{
+"name": "WriteLogEvent",
+"nameRu": "ЗаписьЖурналаРегистрации",
 "isFunction": false
 },
 {
-"name": "BeginAttachingComputerInformationExtension",
-"nameRu": "НачатьПодключениеРасширенияПолученияИнформацииОКомпьютере",
+"name": "GetEventLogUsing",
+"nameRu": "ПолучитьИспользованиеЖурналаРегистрации",
 "isFunction": true
 },
 {
-"name": "BeginGettingNetworkAdaptersInformation",
-"nameRu": "НачатьПолучениеИнформацииОСетевыхАдаптерах",
+"name": "SetEventLogUsing",
+"nameRu": "УстановитьИспользованиеЖурналаРегистрации",
+"isFunction": false
+},
+{
+"name": "EventLogEventPresentation",
+"nameRu": "ПредставлениеСобытияЖурналаРегистрации",
 "isFunction": true
 },
 {
-"name": "InstallComputerInformationExtensionAsync",
-"nameRu": "УстановитьРасширениеПолученияИнформацииОКомпьютереАсинх",
+"name": "UnloadEventLog",
+"nameRu": "ВыгрузитьЖурналРегистрации",
+"isFunction": false
+},
+{
+"name": "UnloadEventLog",
+"nameRu": "ВыгрузитьЖурналРегистрации#&^@^%&*^#1",
+"isFunction": false
+},
+{
+"name": "GetEventLogFilterValues",
+"nameRu": "ПолучитьЗначенияОтбораЖурналаРегистрации",
 "isFunction": true
 },
 {
-"name": "AttachComputerInformationExtensionAsync",
-"nameRu": "ПодключитьРасширениеПолученияИнформацииОКомпьютереАсинх",
+"name": "SetEventLogEventUse",
+"nameRu": "УстановитьИспользованиеСобытияЖурналаРегистрации",
+"isFunction": false
+},
+{
+"name": "GetEventLogEventUse",
+"nameRu": "ПолучитьИспользованиеСобытияЖурналаРегистрации",
 "isFunction": true
 },
 {
-"name": "GetNetworkAdaptersInformationAsync",
-"nameRu": "ПолучитьИнформациюОСетевыхАдаптерахАсинх",
+"name": "CopyEventLog",
+"nameRu": "СкопироватьЖурналРегистрации",
+"isFunction": false
+},
+{
+"name": "ClearEventLog",
+"nameRu": "ОчиститьЖурналРегистрации",
+"isFunction": false
+},
+{
+"name": "GetEventLogDataStorageSplitPeriod",
+"nameRu": "ПолучитьПериодРазделенияХраненияДанныхЖурналаРегистрации",
 "isFunction": true
+},
+{
+"name": "SetEventLogDataStorageSplitPeriod",
+"nameRu": "УстановитьПериодРазделенияХраненияДанныхЖурналаРегистрации",
+"isFunction": false
+},
+{
+"name": "GetEventLogPeriod",
+"nameRu": "ПолучитьПериодЖурналаРегистрации",
+"isFunction": true
+},
+{
+"name": "TruncateEventLog",
+"nameRu": "СократитьЖурналРегистрации",
+"isFunction": false
 },
 {
 "name": "ValueToFormData",
@@ -1012,276 +1807,6 @@
 "isFunction": true
 },
 {
-"name": "CopyFileAsync",
-"nameRu": "КопироватьФайлАсинх",
-"isFunction": true
-},
-{
-"name": "CopyFile",
-"nameRu": "КопироватьФайл",
-"isFunction": false
-},
-{
-"name": "MoveFileAsync",
-"nameRu": "ПереместитьФайлАсинх",
-"isFunction": true
-},
-{
-"name": "MoveFile",
-"nameRu": "ПереместитьФайл",
-"isFunction": false
-},
-{
-"name": "DeleteFilesAsync",
-"nameRu": "УдалитьФайлыАсинх",
-"isFunction": true
-},
-{
-"name": "DeleteFiles",
-"nameRu": "УдалитьФайлы",
-"isFunction": false
-},
-{
-"name": "FindFilesAsync",
-"nameRu": "НайтиФайлыАсинх",
-"isFunction": true
-},
-{
-"name": "FindFiles",
-"nameRu": "НайтиФайлы",
-"isFunction": true
-},
-{
-"name": "CreateDirectoryAsync",
-"nameRu": "СоздатьКаталогАсинх",
-"isFunction": true
-},
-{
-"name": "CreateDirectory",
-"nameRu": "СоздатьКаталог",
-"isFunction": false
-},
-{
-"name": "GetTempFileName",
-"nameRu": "ПолучитьИмяВременногоФайла",
-"isFunction": true
-},
-{
-"name": "SplitFile",
-"nameRu": "РазделитьФайл",
-"isFunction": true
-},
-{
-"name": "MergeFiles",
-"nameRu": "ОбъединитьФайлы",
-"isFunction": false
-},
-{
-"name": "GetFile",
-"nameRu": "ПолучитьФайл",
-"isFunction": true
-},
-{
-"name": "BeginPutFile",
-"nameRu": "НачатьПомещениеФайла",
-"isFunction": false
-},
-{
-"name": "PutFile",
-"nameRu": "ПоместитьФайл",
-"isFunction": true
-},
-{
-"name": "IsTempStorageURL",
-"nameRu": "ЭтоАдресВременногоХранилища",
-"isFunction": true
-},
-{
-"name": "DeleteFromTempStorage",
-"nameRu": "УдалитьИзВременногоХранилища",
-"isFunction": false
-},
-{
-"name": "GetFromTempStorage",
-"nameRu": "ПолучитьИзВременногоХранилища",
-"isFunction": true
-},
-{
-"name": "PutToTempStorage",
-"nameRu": "ПоместитьВоВременноеХранилище",
-"isFunction": true
-},
-{
-"name": "AttachFileSystemExtension",
-"nameRu": "ПодключитьРасширениеРаботыСФайлами",
-"isFunction": true
-},
-{
-"name": "AttachFileSystemExtensionAsync",
-"nameRu": "ПодключитьРасширениеРаботыСФайламиАсинх",
-"isFunction": true
-},
-{
-"name": "BeginInstallFileSystemExtension",
-"nameRu": "НачатьУстановкуРасширенияРаботыСФайлами",
-"isFunction": false
-},
-{
-"name": "InstallFileSystemExtension",
-"nameRu": "УстановитьРасширениеРаботыСФайлами",
-"isFunction": false
-},
-{
-"name": "InstallFileSystemExtensionAsync",
-"nameRu": "УстановитьРасширениеРаботыСФайламиАсинх",
-"isFunction": true
-},
-{
-"name": "GetFiles",
-"nameRu": "ПолучитьФайлы",
-"isFunction": true
-},
-{
-"name": "PutFiles",
-"nameRu": "ПоместитьФайлы",
-"isFunction": true
-},
-{
-"name": "RequestUserPermissionAsync",
-"nameRu": "ЗапроситьРазрешениеПользователяАсинх",
-"isFunction": true
-},
-{
-"name": "RequestUserPermission",
-"nameRu": "ЗапроситьРазрешениеПользователя",
-"isFunction": true
-},
-{
-"name": "GetAllFilesMask",
-"nameRu": "ПолучитьМаскуВсеФайлы",
-"isFunction": true
-},
-{
-"name": "GetClientAllFilesMask",
-"nameRu": "ПолучитьМаскуВсеФайлыКлиента",
-"isFunction": true
-},
-{
-"name": "GetServerAllFilesMask",
-"nameRu": "ПолучитьМаскуВсеФайлыСервера",
-"isFunction": true
-},
-{
-"name": "GetPathSeparator",
-"nameRu": "ПолучитьРазделительПути",
-"isFunction": true
-},
-{
-"name": "GetClientPathSeparator",
-"nameRu": "ПолучитьРазделительПутиКлиента",
-"isFunction": true
-},
-{
-"name": "GetServerPathSeparator",
-"nameRu": "ПолучитьРазделительПутиСервера",
-"isFunction": true
-},
-{
-"name": "BeginAttachingFileSystemExtension",
-"nameRu": "НачатьПодключениеРасширенияРаботыСФайлами",
-"isFunction": true
-},
-{
-"name": "BeginRequestingUserPermission",
-"nameRu": "НачатьЗапросРазрешенияПользователя",
-"isFunction": false
-},
-{
-"name": "BeginFindingFiles",
-"nameRu": "НачатьПоискФайлов",
-"isFunction": false
-},
-{
-"name": "BeginCreatingDirectory",
-"nameRu": "НачатьСозданиеКаталога",
-"isFunction": false
-},
-{
-"name": "BeginCopyingFile",
-"nameRu": "НачатьКопированиеФайла",
-"isFunction": false
-},
-{
-"name": "BeginMovingFile",
-"nameRu": "НачатьПеремещениеФайла",
-"isFunction": false
-},
-{
-"name": "BeginDeletingFiles",
-"nameRu": "НачатьУдалениеФайлов",
-"isFunction": false
-},
-{
-"name": "BeginGettingFiles",
-"nameRu": "НачатьПолучениеФайлов",
-"isFunction": false
-},
-{
-"name": "BeginPuttingFiles",
-"nameRu": "НачатьПомещениеФайлов",
-"isFunction": false
-},
-{
-"name": "CreateBinaryDataFromFileAsync",
-"nameRu": "СоздатьДвоичныеДанныеИзФайлаАсинх",
-"isFunction": true
-},
-{
-"name": "BeginCreateBinaryDataFromFile",
-"nameRu": "НачатьСозданиеДвоичныхДанныхИзФайла",
-"isFunction": false
-},
-{
-"name": "PutFileToServerAsync",
-"nameRu": "ПоместитьФайлНаСерверАсинх",
-"isFunction": true
-},
-{
-"name": "BeginPutFileToServer",
-"nameRu": "НачатьПомещениеФайлаНаСервер",
-"isFunction": false
-},
-{
-"name": "PutFilesToServerAsync",
-"nameRu": "ПоместитьФайлыНаСерверАсинх",
-"isFunction": true
-},
-{
-"name": "BeginPutFilesToServer",
-"nameRu": "НачатьПомещениеФайловНаСервер",
-"isFunction": false
-},
-{
-"name": "GetFileFromServerAsync",
-"nameRu": "ПолучитьФайлССервераАсинх",
-"isFunction": true
-},
-{
-"name": "BeginGetFileFromServer",
-"nameRu": "НачатьПолучениеФайлаССервера",
-"isFunction": false
-},
-{
-"name": "BeginGetFilesFromServer",
-"nameRu": "НачатьПолучениеФайловССервера",
-"isFunction": false
-},
-{
-"name": "GetFilesFromServerAsync",
-"nameRu": "ПолучитьФайлыССервераАсинх",
-"isFunction": true
-},
-{
 "name": "GetFunctionalOption",
 "nameRu": "ПолучитьФункциональнуюОпцию",
 "isFunction": true
@@ -1307,6 +1832,56 @@
 "isFunction": false
 },
 {
+"name": "InstallCryptoExtensionAsync",
+"nameRu": "УстановитьРасширениеРаботыСКриптографиейАсинх",
+"isFunction": true
+},
+{
+"name": "InstallCryptoExtension",
+"nameRu": "УстановитьРасширениеРаботыСКриптографией",
+"isFunction": false
+},
+{
+"name": "BeginInstallCryptoExtension",
+"nameRu": "НачатьУстановкуРасширенияРаботыСКриптографией",
+"isFunction": false
+},
+{
+"name": "AttachCryptoExtensionAsync",
+"nameRu": "ПодключитьРасширениеРаботыСКриптографиейАсинх",
+"isFunction": true
+},
+{
+"name": "AttachCryptoExtension",
+"nameRu": "ПодключитьРасширениеРаботыСКриптографией",
+"isFunction": true
+},
+{
+"name": "BeginAttachingCryptoExtension",
+"nameRu": "НачатьПодключениеРасширенияРаботыСКриптографией",
+"isFunction": false
+},
+{
+"name": "GetAddressByLocation",
+"nameRu": "ПолучитьАдресПоМестоположению",
+"isFunction": true
+},
+{
+"name": "GetLocationByAddress",
+"nameRu": "ПолучитьМестоположениеПоАдресу",
+"isFunction": true
+},
+{
+"name": "ShowOnMap",
+"nameRu": "ПоказатьНаКарте",
+"isFunction": false
+},
+{
+"name": "MapRepresentationSupported",
+"nameRu": "ПоддерживаетсяОтображениеКарты",
+"isFunction": true
+},
+{
 "name": "SetStandardODataInterfaceContent",
 "nameRu": "УстановитьСоставСтандартногоИнтерфейсаOData",
 "isFunction": false
@@ -1317,264 +1892,179 @@
 "isFunction": true
 },
 {
-"name": "GetClientConnectionSpeed",
-"nameRu": "ПолучитьСкоростьКлиентскогоСоединения",
+"name": "ConcatBinaryDataBuffers",
+"nameRu": "СоединитьБуферыДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "AttachIdleHandler",
-"nameRu": "ПодключитьОбработчикОжидания",
-"isFunction": false
-},
-{
-"name": "DetachIdleHandler",
-"nameRu": "ОтключитьОбработчикОжидания",
-"isFunction": false
-},
-{
-"name": "ComputerName",
-"nameRu": "ИмяКомпьютера",
+"name": "ConcatBinaryData",
+"nameRu": "СоединитьДвоичныеДанные",
 "isFunction": true
 },
 {
-"name": "Exit",
-"nameRu": "ЗавершитьРаботуСистемы",
-"isFunction": false
-},
-{
-"name": "UserName",
-"nameRu": "ИмяПользователя",
+"name": "SplitBinaryData",
+"nameRu": "РазделитьДвоичныеДанные",
 "isFunction": true
 },
 {
-"name": "Terminate",
-"nameRu": "ПрекратитьРаботуСистемы",
-"isFunction": false
-},
-{
-"name": "UserFullName",
-"nameRu": "ПолноеИмяПользователя",
+"name": "GetBinaryDataFromString",
+"nameRu": "ПолучитьДвоичныеДанныеИзСтроки",
 "isFunction": true
 },
 {
-"name": "LockApplication",
-"nameRu": "ЗаблокироватьРаботуПользователя",
-"isFunction": false
-},
-{
-"name": "BinDir",
-"nameRu": "КаталогПрограммы",
+"name": "GetBinaryDataBufferFromString",
+"nameRu": "ПолучитьБуферДвоичныхДанныхИзСтроки",
 "isFunction": true
 },
 {
-"name": "TempFilesDirAsync",
-"nameRu": "КаталогВременныхФайловАсинх",
+"name": "GetStringFromBinaryData",
+"nameRu": "ПолучитьСтрокуИзДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "TempFilesDir",
-"nameRu": "КаталогВременныхФайлов",
+"name": "GetStringFromBinaryDataBuffer",
+"nameRu": "ПолучитьСтрокуИзБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "AccessRight",
-"nameRu": "ПравоДоступа",
+"name": "GetBinaryDataFromBase64String",
+"nameRu": "ПолучитьДвоичныеДанныеИзBase64Строки",
 "isFunction": true
 },
 {
-"name": "IsInRole",
-"nameRu": "РольДоступна",
+"name": "GetBinaryDataBufferFromBase64String",
+"nameRu": "ПолучитьБуферДвоичныхДанныхИзBase64Строки",
 "isFunction": true
 },
 {
-"name": "CurrentLanguage",
-"nameRu": "ТекущийЯзык",
+"name": "GetBase64StringFromBinaryData",
+"nameRu": "ПолучитьBase64СтрокуИзДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "CurrentLocaleCode",
-"nameRu": "ТекущийКодЛокализации",
+"name": "GetBase64StringFromBinaryDataBuffer",
+"nameRu": "ПолучитьBase64СтрокуИзБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "InfoBaseConnectionString",
-"nameRu": "СтрокаСоединенияИнформационнойБазы",
+"name": "GetBinaryDataFromBase64BinaryData",
+"nameRu": "ПолучитьДвоичныеДанныеИзBase64ДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "AttachNotificationHandler",
-"nameRu": "ПодключитьОбработчикОповещения",
-"isFunction": false
-},
-{
-"name": "DetachNotificationHandler",
-"nameRu": "ОтключитьОбработчикОповещения",
-"isFunction": false
-},
-{
-"name": "GetUserMessages",
-"nameRu": "ПолучитьСообщенияПользователю",
+"name": "GetBinaryDataBufferFromBase64BinaryDataBuffer",
+"nameRu": "ПолучитьБуферДвоичныхДанныхИзBase64БуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "AccessParameters",
-"nameRu": "ПараметрыДоступа",
+"name": "GetBase64BinaryDataFromBinaryData",
+"nameRu": "ПолучитьBase64ДвоичныеДанныеИзДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "ApplicationPresentation",
-"nameRu": "ПредставлениеПриложения",
+"name": "GetBase64BinaryDataBufferFromBinaryDataBuffer",
+"nameRu": "ПолучитьBase64БуферДвоичныхДанныхИзБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "CurrentSystemLanguage",
-"nameRu": "ТекущийЯзыкСистемы",
+"name": "GetBinaryDataFromHexString",
+"nameRu": "ПолучитьДвоичныеДанныеИзHexСтроки",
 "isFunction": true
 },
 {
-"name": "RunSystem",
-"nameRu": "ЗапуститьСистему",
-"isFunction": false
-},
-{
-"name": "CurrentRunMode",
-"nameRu": "ТекущийРежимЗапуска",
+"name": "GetBinaryDataBufferFromHexString",
+"nameRu": "ПолучитьБуферДвоичныхДанныхИзHexСтроки",
 "isFunction": true
 },
 {
-"name": "SetSessionTimeZone",
-"nameRu": "УстановитьЧасовойПоясСеанса",
-"isFunction": false
-},
-{
-"name": "SessionTimeZone",
-"nameRu": "ЧасовойПоясСеанса",
+"name": "GetHexStringFromBinaryData",
+"nameRu": "ПолучитьHexСтрокуИзДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "CurrentSessionDate",
-"nameRu": "ТекущаяДатаСеанса",
+"name": "GetHexStringFromBinaryDataBuffer",
+"nameRu": "ПолучитьHexСтрокуИзБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "RightPresentation",
-"nameRu": "ПредставлениеПрава",
+"name": "GetBinaryDataFromHexBinaryData",
+"nameRu": "ПолучитьДвоичныеДанныеИзHexДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "VerifyAccessRights",
-"nameRu": "ВыполнитьПроверкуПравДоступа",
-"isFunction": false
-},
-{
-"name": "UserDataWorkDirAsync",
-"nameRu": "РабочийКаталогДанныхПользователяАсинх",
+"name": "GetBinaryDataBufferFromHexBinaryDataBuffer",
+"nameRu": "ПолучитьБуферДвоичныхДанныхИзHexБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "UserDataWorkDir",
-"nameRu": "РабочийКаталогДанныхПользователя",
+"name": "GetHexBinaryDataFromBinaryData",
+"nameRu": "ПолучитьHexДвоичныеДанныеИзДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "DocumentsDirAsync",
-"nameRu": "КаталогДокументовАсинх",
+"name": "GetHexBinaryDataBufferFromBinaryDataBuffer",
+"nameRu": "ПолучитьHexБуферДвоичныхДанныхИзБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "DocumentsDir",
-"nameRu": "КаталогДокументов",
+"name": "GetBinaryDataBufferFromBinaryData",
+"nameRu": "ПолучитьБуферДвоичныхДанныхИзДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "GetClientDisplaysInformation",
-"nameRu": "ПолучитьИнформациюЭкрановКлиента",
+"name": "GetBinaryDataFromBinaryDataBuffer",
+"nameRu": "ПолучитьДвоичныеДанныеИзБуфераДвоичныхДанных",
 "isFunction": true
 },
 {
-"name": "MobileDeviceLibraryDir",
-"nameRu": "КаталогБиблиотекиМобильногоУстройства",
+"name": "CheckBit",
+"nameRu": "ПроверитьБит",
 "isFunction": true
 },
 {
-"name": "BeginGettingTempFilesDir",
-"nameRu": "НачатьПолучениеКаталогаВременныхФайлов",
-"isFunction": false
-},
-{
-"name": "BeginGettingDocumentsDir",
-"nameRu": "НачатьПолучениеКаталогаДокументов",
-"isFunction": false
-},
-{
-"name": "BeginGettingUserDataWorkDir",
-"nameRu": "НачатьПолучениеРабочегоКаталогаДанныхПользователя",
-"isFunction": false
-},
-{
-"name": "AttachLicensingClientParametersRequestHandler",
-"nameRu": "ПодключитьОбработчикЗапросаНастроекКлиентаЛицензирования",
-"isFunction": false
-},
-{
-"name": "BeginGettingMobileDeviceLibraryDir",
-"nameRu": "НачатьПолучениеКаталогаБиблиотекиМобильногоУстройства",
-"isFunction": false
-},
-{
-"name": "DetachLicensingClientParametersRequestHandler",
-"nameRu": "ОтключитьОбработчикЗапросаНастроекКлиентаЛицензирования",
-"isFunction": false
-},
-{
-"name": "SessionBeginningOfCentury",
-"nameRu": "НачалоСтолетияСеанса",
+"name": "CheckByBitMask",
+"nameRu": "ПроверитьПоБитовойМаске",
 "isFunction": true
 },
 {
-"name": "MobileDeviceLibraryDirAsync",
-"nameRu": "КаталогБиблиотекиМобильногоУстройстваАсинх",
+"name": "SetBit",
+"nameRu": "УстановитьБит",
 "isFunction": true
 },
 {
-"name": "SaveValue",
-"nameRu": "СохранитьЗначение",
-"isFunction": false
-},
-{
-"name": "RestoreValue",
-"nameRu": "ВосстановитьЗначение",
+"name": "BitwiseAnd",
+"nameRu": "ПобитовоеИ",
 "isFunction": true
 },
 {
-"name": "ValueToStringInternal",
-"nameRu": "ЗначениеВСтрокуВнутр",
+"name": "BitwiseOr",
+"nameRu": "ПобитовоеИли",
 "isFunction": true
 },
 {
-"name": "ValueFromStringInternal",
-"nameRu": "ЗначениеИзСтрокиВнутр",
+"name": "BitwiseNot",
+"nameRu": "ПобитовоеНе",
 "isFunction": true
 },
 {
-"name": "ValueToFile",
-"nameRu": "ЗначениеВФайл",
+"name": "BitwiseXor",
+"nameRu": "ПобитовоеИсключительноеИли",
 "isFunction": true
 },
 {
-"name": "ValueFromFile",
-"nameRu": "ЗначениеИзФайла",
+"name": "BitwiseAndNot",
+"nameRu": "ПобитовоеИНе",
 "isFunction": true
 },
 {
-"name": "SaveUserSettings",
-"nameRu": "СохранитьНастройкиПользователя",
-"isFunction": false
+"name": "BitwiseShiftLeft",
+"nameRu": "ПобитовыйСдвигВлево",
+"isFunction": true
 },
 {
-"name": "ClearUserSettings",
-"nameRu": "ОчиститьНастройкиПользователя",
-"isFunction": false
+"name": "BitwiseShiftRight",
+"nameRu": "ПобитовыйСдвигВправо",
+"isFunction": true
 },
 {
 "name": "CheckScriptCircularRefs",
@@ -1734,7 +2224,7 @@
 {
 "name": "DecodeString",
 "nameRu": "РаскодироватьСтроку",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "Find",
@@ -1757,473 +2247,28 @@
 "isFunction": true
 },
 {
-"name": "ShowInputValue",
-"nameRu": "ПоказатьВводЗначения",
+"name": "MainServerAvailable",
+"nameRu": "ОсновнойСерверДоступен",
+"isFunction": true
+},
+{
+"name": "SetUsedServer",
+"nameRu": "УстановитьИспользуемыйСервер",
 "isFunction": false
 },
 {
-"name": "InputValueAsync",
-"nameRu": "ВвестиЗначениеАсинх",
-"isFunction": true
-},
-{
-"name": "InputValue",
-"nameRu": "ВвестиЗначение",
-"isFunction": true
-},
-{
-"name": "ShowInputNumber",
-"nameRu": "ПоказатьВводЧисла",
+"name": "SetPreferableMainServerUse",
+"nameRu": "УстановитьПреимущественноеИспользованиеОсновногоСервера",
 "isFunction": false
 },
 {
-"name": "InputNumberAsync",
-"nameRu": "ВвестиЧислоАсинх",
+"name": "GetPreferableMainServerUse",
+"nameRu": "ПолучитьПреимущественноеИспользованиеОсновногоСервера",
 "isFunction": true
 },
 {
-"name": "InputNumber",
-"nameRu": "ВвестиЧисло",
-"isFunction": true
-},
-{
-"name": "ShowInputString",
-"nameRu": "ПоказатьВводСтроки",
-"isFunction": false
-},
-{
-"name": "InputStringAsync",
-"nameRu": "ВвестиСтрокуАсинх",
-"isFunction": true
-},
-{
-"name": "InputString",
-"nameRu": "ВвестиСтроку",
-"isFunction": true
-},
-{
-"name": "ShowInputDate",
-"nameRu": "ПоказатьВводДаты",
-"isFunction": true
-},
-{
-"name": "InputDateAsync",
-"nameRu": "ВвестиДатуАсинх",
-"isFunction": true
-},
-{
-"name": "InputDate",
-"nameRu": "ВвестиДату",
-"isFunction": true
-},
-{
-"name": "GetCommonTemplate",
-"nameRu": "ПолучитьОбщийМакет",
-"isFunction": true
-},
-{
-"name": "GetCommonForm",
-"nameRu": "ПолучитьОбщуюФорму",
-"isFunction": true
-},
-{
-"name": "PredefinedValue",
-"nameRu": "ПредопределенноеЗначение",
-"isFunction": false
-},
-{
-"name": "GetPredefinedValueFullName",
-"nameRu": "ПолучитьПолноеИмяПредопределенногоЗначения",
-"isFunction": true
-},
-{
-"name": "Boolean",
-"nameRu": "Булево",
-"isFunction": true
-},
-{
-"name": "Number",
-"nameRu": "Число",
-"isFunction": true
-},
-{
-"name": "String",
-"nameRu": "Строка",
-"isFunction": true
-},
-{
-"name": "Date",
-"nameRu": "Дата",
-"isFunction": true
-},
-{
-"name": "NumberFromHexString",
-"nameRu": "ЧислоИзШестнадцатеричнойСтроки",
-"isFunction": true
-},
-{
-"name": "NumberFromBinaryString",
-"nameRu": "ЧислоИзДвоичнойСтроки",
-"isFunction": true
-},
-{
-"name": "Year",
-"nameRu": "Год",
-"isFunction": true
-},
-{
-"name": "Month",
-"nameRu": "Месяц",
-"isFunction": true
-},
-{
-"name": "Day",
-"nameRu": "День",
-"isFunction": true
-},
-{
-"name": "Hour",
-"nameRu": "Час",
-"isFunction": true
-},
-{
-"name": "Minute",
-"nameRu": "Минута",
-"isFunction": true
-},
-{
-"name": "Second",
-"nameRu": "Секунда",
-"isFunction": true
-},
-{
-"name": "BegOfYear",
-"nameRu": "НачалоГода",
-"isFunction": true
-},
-{
-"name": "BegOfQuarter",
-"nameRu": "НачалоКвартала",
-"isFunction": true
-},
-{
-"name": "BegOfMonth",
-"nameRu": "НачалоМесяца",
-"isFunction": true
-},
-{
-"name": "BegOfWeek",
-"nameRu": "НачалоНедели",
-"isFunction": true
-},
-{
-"name": "BegOfDay",
-"nameRu": "НачалоДня",
-"isFunction": true
-},
-{
-"name": "BegOfHour",
-"nameRu": "НачалоЧаса",
-"isFunction": true
-},
-{
-"name": "BegOfMinute",
-"nameRu": "НачалоМинуты",
-"isFunction": true
-},
-{
-"name": "EndOfYear",
-"nameRu": "КонецГода",
-"isFunction": true
-},
-{
-"name": "EndOfQuarter",
-"nameRu": "КонецКвартала",
-"isFunction": true
-},
-{
-"name": "EndOfMonth",
-"nameRu": "КонецМесяца",
-"isFunction": true
-},
-{
-"name": "EndOfWeek",
-"nameRu": "КонецНедели",
-"isFunction": true
-},
-{
-"name": "EndOfDay",
-"nameRu": "КонецДня",
-"isFunction": true
-},
-{
-"name": "EndOfHour",
-"nameRu": "КонецЧаса",
-"isFunction": true
-},
-{
-"name": "EndOfMinute",
-"nameRu": "КонецМинуты",
-"isFunction": true
-},
-{
-"name": "WeekOfYear",
-"nameRu": "НеделяГода",
-"isFunction": true
-},
-{
-"name": "DayOfYear",
-"nameRu": "ДеньГода",
-"isFunction": true
-},
-{
-"name": "WeekDay",
-"nameRu": "ДеньНедели",
-"isFunction": true
-},
-{
-"name": "AddMonth",
-"nameRu": "ДобавитьМесяц",
-"isFunction": true
-},
-{
-"name": "CurrentDate",
-"nameRu": "ТекущаяДата",
-"isFunction": true
-},
-{
-"name": "StrLen",
-"nameRu": "СтрДлина",
-"isFunction": true
-},
-{
-"name": "TrimL",
-"nameRu": "СокрЛ",
-"isFunction": true
-},
-{
-"name": "TrimR",
-"nameRu": "СокрП",
-"isFunction": true
-},
-{
-"name": "TrimAll",
-"nameRu": "СокрЛП",
-"isFunction": true
-},
-{
-"name": "Left",
-"nameRu": "Лев",
-"isFunction": true
-},
-{
-"name": "Right",
-"nameRu": "Прав",
-"isFunction": true
-},
-{
-"name": "Mid",
-"nameRu": "Сред",
-"isFunction": true
-},
-{
-"name": "StrFind",
-"nameRu": "СтрНайти",
-"isFunction": true
-},
-{
-"name": "Upper",
-"nameRu": "ВРег",
-"isFunction": true
-},
-{
-"name": "Lower",
-"nameRu": "НРег",
-"isFunction": true
-},
-{
-"name": "Title",
-"nameRu": "ТРег",
-"isFunction": true
-},
-{
-"name": "Char",
-"nameRu": "Символ",
-"isFunction": true
-},
-{
-"name": "CharCode",
-"nameRu": "КодСимвола",
-"isFunction": true
-},
-{
-"name": "IsBlankString",
-"nameRu": "ПустаяСтрока",
-"isFunction": true
-},
-{
-"name": "StrReplace",
-"nameRu": "СтрЗаменить",
-"isFunction": true
-},
-{
-"name": "StrLineCount",
-"nameRu": "СтрЧислоСтрок",
-"isFunction": true
-},
-{
-"name": "StrGetLine",
-"nameRu": "СтрПолучитьСтроку",
-"isFunction": true
-},
-{
-"name": "StrOccurrenceCount",
-"nameRu": "СтрЧислоВхождений",
-"isFunction": true
-},
-{
-"name": "StrCompare",
-"nameRu": "СтрСравнить",
-"isFunction": true
-},
-{
-"name": "StrStartsWith",
-"nameRu": "СтрНачинаетсяС",
-"isFunction": true
-},
-{
-"name": "StrEndsWith",
-"nameRu": "СтрЗаканчиваетсяНа",
-"isFunction": true
-},
-{
-"name": "StrSplit",
-"nameRu": "СтрРазделить",
-"isFunction": true
-},
-{
-"name": "StrConcat",
-"nameRu": "СтрСоединить",
-"isFunction": true
-},
-{
-"name": "GetStringDeclensions",
-"nameRu": "ПолучитьСклоненияСтроки",
-"isFunction": true
-},
-{
-"name": "GetStringDeclensionsByNumber",
-"nameRu": "ПолучитьСклоненияСтрокиПоЧислу",
-"isFunction": true
-},
-{
-"name": "StrFindAndHighlightByAppearance",
-"nameRu": "СтрНайтиИВыделитьОформлением",
-"isFunction": true
-},
-{
-"name": "Type",
-"nameRu": "Тип",
-"isFunction": true
-},
-{
-"name": "TypeOf",
-"nameRu": "ТипЗнч",
-"isFunction": true
-},
-{
-"name": "Int",
-"nameRu": "Цел",
-"isFunction": true
-},
-{
-"name": "Round",
-"nameRu": "Окр",
-"isFunction": true
-},
-{
-"name": "Log",
-"nameRu": "Log",
-"isFunction": true
-},
-{
-"name": "Log10",
-"nameRu": "Log10",
-"isFunction": true
-},
-{
-"name": "Sin",
-"nameRu": "Sin",
-"isFunction": true
-},
-{
-"name": "Cos",
-"nameRu": "Cos",
-"isFunction": true
-},
-{
-"name": "Tan",
-"nameRu": "Tan",
-"isFunction": true
-},
-{
-"name": "ASin",
-"nameRu": "ASin",
-"isFunction": true
-},
-{
-"name": "ACos",
-"nameRu": "ACos",
-"isFunction": true
-},
-{
-"name": "ATan",
-"nameRu": "ATan",
-"isFunction": true
-},
-{
-"name": "Exp",
-"nameRu": "Exp",
-"isFunction": true
-},
-{
-"name": "Pow",
-"nameRu": "Pow",
-"isFunction": true
-},
-{
-"name": "Sqrt",
-"nameRu": "Sqrt",
-"isFunction": true
-},
-{
-"name": "Format",
-"nameRu": "Формат",
-"isFunction": true
-},
-{
-"name": "NumberInWords",
-"nameRu": "ЧислоПрописью",
-"isFunction": true
-},
-{
-"name": "NStr",
-"nameRu": "НСтр",
-"isFunction": true
-},
-{
-"name": "PeriodPresentation",
-"nameRu": "ПредставлениеПериода",
-"isFunction": true
-},
-{
-"name": "StrTemplate",
-"nameRu": "СтрШаблон",
-"isFunction": true
-},
-{
-"name": "StringWithNumber",
-"nameRu": "СтрокаСЧислом",
+"name": "GetUsedServer",
+"nameRu": "ПолучитьИспользуемыйСервер",
 "isFunction": true
 }
 ],
@@ -2394,6 +2439,11 @@
 "usage": "ReadOnly"
 },
 {
+"name": "XMLStringProcessing",
+"nameRu": "ОбработкаСтрокиXML",
+"usage": "ReadOnly"
+},
+{
 "name": "DataProcessors",
 "nameRu": "Обработки",
 "usage": "ReadOnly"
@@ -2466,6 +2516,11 @@
 {
 "name": "FullTextSearch",
 "nameRu": "ПолнотекстовыйПоиск",
+"usage": "ReadOnly"
+},
+{
+"name": "LicenseAcquisition",
+"nameRu": "ПолучениеЛицензий",
 "usage": "ReadOnly"
 },
 {
@@ -2611,6 +2666,11 @@
 {
 "name": "ReportsVariantsStorage",
 "nameRu": "ХранилищеВариантовОтчетов",
+"usage": "ReadOnly"
+},
+{
+"name": "URLExternalDataStorage",
+"nameRu": "ХранилищеВнешнихДанныхНавигационныхСсылок",
 "usage": "ReadOnly"
 },
 {
@@ -15294,73 +15354,7 @@
 "id": "XML_CANONICALIZING_WRITER",
 "name": "XMLCanonicalizingWriter",
 "nameRu": "КаноническаяЗаписьXML",
-"methods": [
-{
-"name": "Close",
-"nameRu": "Закрыть",
-"isFunction": true
-},
-{
-"name": "WriteAttribute",
-"nameRu": "ЗаписатьАтрибут",
-"isFunction": false
-},
-{
-"name": "WriteRaw",
-"nameRu": "ЗаписатьБезОбработки",
-"isFunction": false
-},
-{
-"name": "WriteProcessingInstruction",
-"nameRu": "ЗаписатьИнструкциюОбработки",
-"isFunction": false
-},
-{
-"name": "WriteComment",
-"nameRu": "ЗаписатьКомментарий",
-"isFunction": false
-},
-{
-"name": "WriteEndElement",
-"nameRu": "ЗаписатьКонецЭлемента",
-"isFunction": false
-},
-{
-"name": "WriteStartElement",
-"nameRu": "ЗаписатьНачалоЭлемента",
-"isFunction": false
-},
-{
-"name": "WriteXMLDeclaration",
-"nameRu": "ЗаписатьОбъявлениеXML",
-"isFunction": false
-},
-{
-"name": "WriteNamespaceMapping",
-"nameRu": "ЗаписатьСоответствиеПространстваИмен",
-"isFunction": false
-},
-{
-"name": "WriteText",
-"nameRu": "ЗаписатьТекст",
-"isFunction": false
-},
-{
-"name": "LookupPrefix",
-"nameRu": "НайтиПрефикс",
-"isFunction": true
-},
-{
-"name": "OpenFile",
-"nameRu": "ОткрытьФайл",
-"isFunction": false
-},
-{
-"name": "SetString",
-"nameRu": "УстановитьСтроку",
-"isFunction": false
-}
-],
+"methods": [],
 "properties": [],
 "values": []
 },
@@ -16021,6 +16015,25 @@
 "name": "CanonicalizeToFile",
 "nameRu": "КанонизироватьВФайл",
 "isFunction": false
+}
+],
+"properties": [],
+"values": []
+},
+{
+"id": "XML_STRING_PROCESSING_MANAGER",
+"name": "XMLStringProcessingManager",
+"nameRu": "МенеджерОбработкиСтрокиXML",
+"methods": [
+{
+"name": "FindDisallowedXMLCharacters",
+"nameRu": "НайтиНедопустимыеСимволыXML",
+"isFunction": true
+},
+{
+"name": "DeleteDisallowedXMLCharacters",
+"nameRu": "УдалитьНедопустимыеСимволыXML",
+"isFunction": true
 }
 ],
 "properties": [],
@@ -22045,11 +22058,6 @@
 "usage": "ReadAndWrite"
 },
 {
-"name": "Left",
-"nameRu": "Лево",
-"usage": "ReadOnly"
-},
-{
 "name": "Title",
 "nameRu": "Наименование",
 "usage": "ReadAndWrite"
@@ -27144,23 +27152,7 @@
 "name": "NSSSecureConnection",
 "nameRu": "ЗащищенноеСоединениеNSS",
 "methods": [],
-"properties": [
-{
-"name": "ClientCertificateName",
-"nameRu": "ИмяСертификатаКлиента",
-"usage": "ReadOnly"
-},
-{
-"name": "Directory",
-"nameRu": "Каталог",
-"usage": "ReadOnly"
-},
-{
-"name": "VerifyServerCertificate",
-"nameRu": "ПроверятьСертификатСервера",
-"usage": "ReadOnly"
-}
-],
+"properties": [],
 "values": []
 },
 {
@@ -28102,7 +28094,7 @@
 {
 "name": "GetPictures",
 "nameRu": "ПолучитьКартинки",
-"isFunction": true
+"isFunction": false
 },
 {
 "name": "GetPicture",
@@ -28144,6 +28136,11 @@
 "nameRu": "КлиентскоеПриложение",
 "methods": [
 {
+"name": "ClientUsesStandaloneServer",
+"nameRu": "КлиентСИспользованиемАвтономногоСервера",
+"isFunction": true
+},
+{
 "name": "GetCaption",
 "nameRu": "ПолучитьЗаголовок",
 "isFunction": true
@@ -28171,6 +28168,11 @@
 {
 "name": "CurrentBaseFontVariant",
 "nameRu": "ТекущийВариантОсновногоШрифта",
+"isFunction": true
+},
+{
+"name": "ApplicationType",
+"nameRu": "ТипПриложения",
 "isFunction": true
 },
 {
@@ -29081,6 +29083,74 @@
 "values": []
 },
 {
+"id": "USED_DATABASE_COPY",
+"name": "UsedDatabaseCopy",
+"nameRu": "ИспользуемаяКопияБазыДанных",
+"methods": [],
+"properties": [
+{
+"name": "Name",
+"nameRu": "Имя",
+"usage": "ReadAndWrite"
+}
+],
+"values": []
+},
+{
+"id": "USED_DATABASE_COPIES",
+"name": "UsedDatabaseCopies",
+"nameRu": "ИспользуемыеКопииБазыДанных",
+"methods": [
+{
+"name": "Insert",
+"nameRu": "Вставить",
+"isFunction": true
+},
+{
+"name": "Add",
+"nameRu": "Добавить",
+"isFunction": true
+},
+{
+"name": "IndexOf",
+"nameRu": "Индекс",
+"isFunction": true
+},
+{
+"name": "Count",
+"nameRu": "Количество",
+"isFunction": true
+},
+{
+"name": "Find",
+"nameRu": "Найти",
+"isFunction": true
+},
+{
+"name": "Clear",
+"nameRu": "Очистить",
+"isFunction": false
+},
+{
+"name": "Get",
+"nameRu": "Получить",
+"isFunction": true
+},
+{
+"name": "Move",
+"nameRu": "Сдвинуть",
+"isFunction": false
+},
+{
+"name": "Delete",
+"nameRu": "Удалить",
+"isFunction": false
+}
+],
+"properties": [],
+"values": []
+},
+{
 "id": "CRYPTO_MANAGER",
 "name": "CryptoManager",
 "nameRu": "МенеджерКриптографии",
@@ -29789,6 +29859,79 @@
 "values": []
 },
 {
+"id": "URL_CHOICE_LIST_ITEM_DESCRIPTION",
+"name": "URLChoiceListItemDescription",
+"nameRu": "ОписаниеЭлементаСпискаВыбораНавигационнойСсылки",
+"methods": [],
+"properties": [
+{
+"name": "RequestUserPresentation",
+"nameRu": "ЗапрашиватьПользовательскоеПредставление",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Key",
+"nameRu": "Ключ",
+"usage": "ReadOnly"
+},
+{
+"name": "Presentation",
+"nameRu": "Представление",
+"usage": "ReadAndWrite"
+}
+],
+"values": []
+},
+{
+"id": "URL_CHOISE_LIST",
+"name": "URLChoiseList",
+"nameRu": "СписокВыбораНавигационнойСсылки",
+"methods": [
+{
+"name": "Insert",
+"nameRu": "Вставить",
+"isFunction": false
+},
+{
+"name": "Add",
+"nameRu": "Добавить",
+"isFunction": false
+},
+{
+"name": "IndexOf",
+"nameRu": "Индекс",
+"isFunction": true
+},
+{
+"name": "Count",
+"nameRu": "Количество",
+"isFunction": true
+},
+{
+"name": "Clear",
+"nameRu": "Очистить",
+"isFunction": false
+},
+{
+"name": "Get",
+"nameRu": "Получить",
+"isFunction": true
+},
+{
+"name": "Move",
+"nameRu": "Сдвинуть",
+"isFunction": false
+},
+{
+"name": "Delete",
+"nameRu": "Удалить",
+"isFunction": false
+}
+],
+"properties": [],
+"values": []
+},
+{
 "id": "CONNECTION_STOP_REQUEST",
 "name": "ConnectionStopRequest",
 "nameRu": "НеобходимостьЗавершенияСоединения",
@@ -30056,6 +30199,11 @@
 {
 "name": "AdditionalReportInformation",
 "nameRu": "ДополнительнаяИнформацияОтчета",
+"usage": "ReadAndWrite"
+},
+{
+"name": "SendReport",
+"nameRu": "ОтправлятьОтчет",
 "usage": "ReadAndWrite"
 },
 {
@@ -30693,6 +30841,25 @@
 "name": "RestrictionByCondition",
 "nameRu": "ОграничениеУсловием",
 "usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "EXCLUSIVE_MODE_PARAMETERS",
+"name": "ExclusiveModeParameters",
+"nameRu": "ПараметрыМонопольногоРежима",
+"methods": [],
+"properties": [
+{
+"name": "AllowTerminationAtSessionStart",
+"nameRu": "РазрешитьЗавершатьПриНачалеСеанса",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Message",
+"nameRu": "Сообщение",
+"usage": "ReadAndWrite"
 }
 ],
 "values": []
@@ -32106,6 +32273,354 @@
 {
 "name": "Presentation",
 "nameRu": "Представление",
+"usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "LICENSE_ACQUISITION_KEY_FINGERPRINT_PARAMETERS",
+"name": "LicenseAcquisitionKeyFingerprintParameters",
+"nameRu": "ПараметрыПривязкиККлючуПолученияЛицензий",
+"methods": [],
+"properties": [
+{
+"name": "KeyID",
+"nameRu": "ИдентификаторКлюча",
+"usage": "ReadOnly"
+},
+{
+"name": "MaxUsers",
+"nameRu": "МаксимальноеКоличествоПользователей",
+"usage": "ReadOnly"
+},
+{
+"name": "Presentation",
+"nameRu": "Представление",
+"usage": "ReadOnly"
+},
+{
+"name": "KeySeries",
+"nameRu": "СерияКлюча",
+"usage": "ReadOnly"
+},
+{
+"name": "NetworkKey",
+"nameRu": "СетевойКлюч",
+"usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "LICENSE_ACQUISITION_COMPUTER_FINGERPRINT_PARAMETERS",
+"name": "LicenseAcquisitionComputerFingerprintParameters",
+"nameRu": "ПараметрыПривязкиККомпьютеруПолученияЛицензий",
+"methods": [],
+"properties": [
+{
+"name": "ComputerName",
+"nameRu": "ИмяКомпьютера",
+"usage": "ReadOnly"
+},
+{
+"name": "RAM",
+"nameRu": "ОперативнаяПамять",
+"usage": "ReadOnly"
+},
+{
+"name": "OS",
+"nameRu": "ОС",
+"usage": "ReadOnly"
+},
+{
+"name": "Presentation",
+"nameRu": "Представление",
+"usage": "ReadOnly"
+},
+{
+"name": "Processor",
+"nameRu": "Процессор",
+"usage": "ReadOnly"
+},
+{
+"name": "EquipmentList",
+"nameRu": "СписокОборудования",
+"usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "LICENSE_ACQUISITION_LICENSING_CENTER_AVAILABILITY",
+"name": "LicenseAcquisitionLicensingCenterAvailability",
+"nameRu": "ДоступностьЦентраЛицензированияПолученияЛицензий",
+"methods": [],
+"properties": [
+{
+"name": "Available",
+"nameRu": "Доступен",
+"usage": "ReadOnly"
+},
+{
+"name": "ErrorDescription",
+"nameRu": "ОписаниеОшибки",
+"usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "LICENSE_ACQUISITION_REQUEST",
+"name": "LicenseAcquisitionRequest",
+"nameRu": "ЗапросНаПолучениеЛицензии",
+"methods": [],
+"properties": [
+{
+"name": "AgentIPAddress",
+"nameRu": "IPАдресАгента",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Email",
+"nameRu": "АдресЭлектроннойПочты",
+"usage": "ReadAndWrite"
+},
+{
+"name": "RequestTime",
+"nameRu": "ВремяЗапроса",
+"usage": "ReadAndWrite"
+},
+{
+"name": "City",
+"nameRu": "Город",
+"usage": "ReadAndWrite"
+},
+{
+"name": "ForAllUsers",
+"nameRu": "ДляВсехПользователей",
+"usage": "ReadAndWrite"
+},
+{
+"name": "House",
+"nameRu": "Дом",
+"usage": "ReadAndWrite"
+},
+{
+"name": "FirstName",
+"nameRu": "Имя",
+"usage": "ReadAndWrite"
+},
+{
+"name": "LicenseFileName",
+"nameRu": "ИмяФайлаЛицензии",
+"usage": "ReadAndWrite"
+},
+{
+"name": "ZipCode",
+"nameRu": "Индекс",
+"usage": "WriteOnly"
+},
+{
+"name": "Appartment",
+"nameRu": "Квартира",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Building",
+"nameRu": "Корпус",
+"usage": "ReadAndWrite"
+},
+{
+"name": "MiddleName",
+"nameRu": "Отчество",
+"usage": "ReadAndWrite"
+},
+{
+"name": "FingerprintParameters",
+"nameRu": "ПараметрыПривязки",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Pin",
+"nameRu": "Пинкод",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Port",
+"nameRu": "Порт",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Company",
+"nameRu": "Предприятие",
+"usage": "ReadAndWrite"
+},
+{
+"name": "District",
+"nameRu": "Район",
+"usage": "ReadAndWrite"
+},
+{
+"name": "State",
+"nameRu": "Регион",
+"usage": "ReadAndWrite"
+},
+{
+"name": "RegistrationNumber",
+"nameRu": "РегистрационныйНомер",
+"usage": "ReadAndWrite"
+},
+{
+"name": "OldPin",
+"nameRu": "СтарыйПинкод",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Country",
+"nameRu": "Страна",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Street",
+"nameRu": "Улица",
+"usage": "ReadAndWrite"
+},
+{
+"name": "LastName",
+"nameRu": "Фамилия",
+"usage": "ReadAndWrite"
+}
+],
+"values": []
+},
+{
+"id": "LICENSE_ACQUISITION_MANAGER",
+"name": "LicenseAcquisitionManager",
+"nameRu": "МенеджерПолученияЛицензий",
+"methods": [
+{
+"name": "LicensingCenterAddress",
+"nameRu": "АдресЦентраЛицензирования",
+"isFunction": true
+},
+{
+"name": "LicensingCenterEmail",
+"nameRu": "АдресЭлектроннойПочтыЦентраЛицензирования",
+"isFunction": true
+},
+{
+"name": "LoadLicenseAcquisitionRequest",
+"nameRu": "ЗагрузитьЗапросНаПолучениеЛицензии",
+"isFunction": true
+},
+{
+"name": "LicensingCenterPhoneNumber",
+"nameRu": "НомерТелефонаЦентраЛицензирования",
+"isFunction": true
+},
+{
+"name": "GetAvailableCountries",
+"nameRu": "ПолучитьДопустимыеСтраны",
+"isFunction": true
+},
+{
+"name": "GetLicenseAcquisitionAvailability",
+"nameRu": "ПолучитьДоступностьПолученияЛицензии",
+"isFunction": true
+},
+{
+"name": "GetLicensingCenterAvailability",
+"nameRu": "ПолучитьДоступностьЦентраЛицензирования",
+"isFunction": true
+},
+{
+"name": "GetAvailableKeys",
+"nameRu": "ПолучитьДоступныеКлючи",
+"isFunction": true
+},
+{
+"name": "AcquireLicenseAutomatically",
+"nameRu": "ПолучитьЛицензиюАвтоматически",
+"isFunction": false
+},
+{
+"name": "AcquireLicenseFromStorageDevice",
+"nameRu": "ПолучитьЛицензиюНаНосителе",
+"isFunction": false
+},
+{
+"name": "AcquireLicenseByPhone",
+"nameRu": "ПолучитьЛицензиюПоТелефону",
+"isFunction": false
+},
+{
+"name": "GetComputerFingerprintParameters",
+"nameRu": "ПолучитьПараметрыПривязкиККомпьютеру",
+"isFunction": true
+},
+{
+"name": "LicensingCenterPresentation",
+"nameRu": "ПредставлениеЦентраЛицензирования",
+"isFunction": true
+},
+{
+"name": "CreateLicenseAcquisitionRequestOnStorageDevice",
+"nameRu": "СоздатьЗапросНаПолучениеЛицензииНаНосителе",
+"isFunction": true
+},
+{
+"name": "CreateLicenseAcquisitionRequestByPhone",
+"nameRu": "СоздатьЗапросНаПолучениеЛицензииПоТелефону",
+"isFunction": true
+},
+{
+"name": "SaveLicenseAcquisitionRequest",
+"nameRu": "СохранитьЗапросНаПолучениеЛицензии",
+"isFunction": false
+},
+{
+"name": "GenerateLicenseAcquisitionCodeStringChecksum",
+"nameRu": "СформироватьКонтрольнуюСуммуСтрокиКодаПолученияЛицензии",
+"isFunction": true
+}
+],
+"properties": [],
+"values": []
+},
+{
+"id": "AVAILABLE_LICENSE_ACQUISITION_COUNTRY",
+"name": "AvailableLicenseAcquisitionCountry",
+"nameRu": "ДопустимаяСтранаПолученияЛицензий",
+"methods": [],
+"properties": [
+{
+"name": "Code",
+"nameRu": "Код",
+"usage": "ReadOnly"
+},
+{
+"name": "Presentation",
+"nameRu": "Представление",
+"usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "LICENSE_ACQUISITION_AVAILABILITY",
+"name": "LicenseAcquisitionAvailability",
+"nameRu": "ДоступностьПолученияЛицензий",
+"methods": [],
+"properties": [
+{
+"name": "Available",
+"nameRu": "Доступно",
+"usage": "ReadOnly"
+},
+{
+"name": "ErrorDescription",
+"nameRu": "ОписаниеОшибки",
 "usage": "ReadOnly"
 }
 ],
@@ -34071,11 +34586,6 @@
 "usage": "ReadAndWrite"
 },
 {
-"name": "PageNumber",
-"nameRu": "НомерСтраницы",
-"usage": "ReadAndWrite"
-},
-{
 "name": "ModificationAccessPermissions",
 "nameRu": "РазрешенияДоступаИзменения",
 "usage": "ReadAndWrite"
@@ -34120,8 +34630,23 @@
 "usage": "ReadAndWrite"
 },
 {
+"name": "Name",
+"nameRu": "Имя",
+"usage": "ReadOnly"
+},
+{
 "name": "Left",
 "nameRu": "Лево",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Left",
+"nameRu": "Лево",
+"usage": "ReadAndWrite"
+},
+{
+"name": "PageNumber",
+"nameRu": "НомерСтраницы",
 "usage": "ReadAndWrite"
 },
 {
@@ -35453,6 +35978,11 @@
 "usage": "ReadOnly"
 },
 {
+"name": "Bots",
+"nameRu": "Боты",
+"usage": "ReadOnly"
+},
+{
 "name": "ScriptVariant",
 "nameRu": "ВариантВстроенногоЯзыка",
 "usage": "ReadOnly"
@@ -35788,6 +36318,11 @@
 "usage": "ReadOnly"
 },
 {
+"name": "MobileClientSignature",
+"nameRu": "ПодписьМобильногоКлиента",
+"usage": "ReadOnly"
+},
+{
 "name": "DetailedInformation",
 "nameRu": "ПодробнаяИнформация",
 "usage": "ReadOnly"
@@ -35963,6 +36498,11 @@
 "usage": "ReadOnly"
 },
 {
+"name": "URLExternalDataStorage",
+"nameRu": "ХранилищеВнешнихДанныхНавигационныхСсылок",
+"usage": "ReadOnly"
+},
+{
 "name": "FormDataSettingsStorage",
 "nameRu": "ХранилищеНастроекДанныхФорм",
 "usage": "ReadOnly"
@@ -36003,7 +36543,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36088,7 +36628,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36183,7 +36723,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36253,7 +36793,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36543,7 +37083,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36623,7 +37163,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36703,7 +37243,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36773,7 +37313,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -36853,7 +37393,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -37168,7 +37708,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -37303,7 +37843,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -37608,7 +38148,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -37668,7 +38208,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -37893,7 +38433,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -37963,7 +38503,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38013,6 +38553,11 @@
 "usage": "ReadOnly"
 },
 {
+"name": "Transactioned",
+"nameRu": "ВТранзакции",
+"usage": "ReadOnly"
+},
+{
 "name": "ExternalIntegrationServiceChannelName",
 "nameRu": "ИмяКаналаВнешнегоСервисаИнтеграции",
 "usage": "ReadOnly"
@@ -38038,7 +38583,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38148,7 +38693,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38333,7 +38878,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38453,7 +38998,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38520,6 +39065,11 @@
 {
 "name": "UseStandardCommands",
 "nameRu": "ИспользоватьСтандартныеКоманды",
+"usage": "ReadOnly"
+},
+{
+"name": "Commands",
+"nameRu": "Команды",
 "usage": "ReadOnly"
 },
 {
@@ -38603,7 +39153,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38692,7 +39242,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38777,7 +39327,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38907,7 +39457,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -38982,7 +39532,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39097,7 +39647,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39202,7 +39752,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39407,7 +39957,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39497,7 +40047,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39562,7 +40112,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39722,7 +40272,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39792,7 +40342,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39867,7 +40417,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39932,7 +40482,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -39997,7 +40547,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -40072,7 +40622,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -40222,7 +40772,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -40537,7 +41087,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -40882,7 +41432,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -41172,7 +41722,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -41507,7 +42057,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -41582,7 +42132,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -41677,7 +42227,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -41842,7 +42392,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -41932,7 +42482,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -42072,7 +42622,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -42212,7 +42762,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -42387,7 +42937,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -42557,7 +43107,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -42752,7 +43302,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -42972,7 +43522,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -43072,7 +43622,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -43262,7 +43812,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -43432,7 +43982,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -43504,6 +44054,11 @@
 {
 "name": "FillFromFillingValue",
 "nameRu": "ЗаполнятьИзДанныхЗаполнения",
+"usage": "ReadOnly"
+},
+{
+"name": "FillingValue",
+"nameRu": "ЗначениеЗаполнения",
 "usage": "ReadOnly"
 },
 {
@@ -43617,7 +44172,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -43682,7 +44237,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -43757,7 +44312,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44122,7 +44677,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44187,7 +44742,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44462,7 +45017,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44544,6 +45099,11 @@
 {
 "name": "UseStandardCommands",
 "nameRu": "ИспользоватьСтандартныеКоманды",
+"usage": "ReadOnly"
+},
+{
+"name": "Commands",
+"nameRu": "Команды",
 "usage": "ReadOnly"
 },
 {
@@ -44637,7 +45197,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44722,7 +45282,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44817,7 +45377,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44892,7 +45452,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -44967,7 +45527,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -45062,7 +45622,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -45132,7 +45692,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -45202,7 +45762,7 @@
 {
 "name": "ChangedByConfigurationExtensions",
 "nameRu": "ЕстьИзмененияРасширениямиКонфигурации",
-"isFunction": false
+"isFunction": true
 },
 {
 "name": "FullName",
@@ -46129,6 +46689,11 @@
 "name": "TypesFilterField",
 "nameRu": "ПолеОтбораВидов",
 "usage": "ReadOnly"
+},
+{
+"name": "DataPathField",
+"nameRu": "ПолеПутиКДанным",
+"usage": "ReadOnly"
 }
 ],
 "values": []
@@ -46714,7 +47279,7 @@
 "usage": "ReadAndWrite"
 },
 {
-"name": "MultipleChoice",
+"name": "Multiselect",
 "nameRu": "МножественныйВыбор",
 "usage": "ReadAndWrite"
 },
@@ -46746,25 +47311,6 @@
 "name": "FileRef",
 "nameRu": "СсылкаНаФайл",
 "usage": "ReadAndWrite"
-}
-],
-"values": []
-},
-{
-"id": "GET_FILES_AS_ARCHIVE_MODE",
-"name": "GetFilesAsArchiveMode",
-"nameRu": "РежимПолученияАрхиваФайлов",
-"methods": [],
-"properties": [
-{
-"name": "GetArchiveAlways",
-"nameRu": "ПолучатьАрхивВсегда",
-"usage": "ReadOnly"
-},
-{
-"name": "GetArchiveWhenRequired",
-"nameRu": "ПолучатьАрхивПриНеобходимости",
-"usage": "ReadOnly"
 }
 ],
 "values": []
@@ -46871,6 +47417,11 @@
 {
 "name": "OpenIDAuthentication",
 "nameRu": "АутентификацияOpenID",
+"usage": "ReadAndWrite"
+},
+{
+"name": "OpenIDConnectAuthentication",
+"nameRu": "АутентификацияOpenIDConnect",
 "usage": "ReadAndWrite"
 },
 {
@@ -47345,6 +47896,155 @@
 {
 "name": "Extension",
 "nameRu": "Расширение",
+"usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "INFO_BASE_REGIONAL_SETTINGS",
+"name": "InfoBaseRegionalSettings",
+"nameRu": "РегиональныеНастройкиИнформационнойБазы",
+"methods": [
+{
+"name": "GetFirstDayOfWeek",
+"nameRu": "ПолучитьПервыйДеньНедели",
+"isFunction": true
+},
+{
+"name": "Presentation",
+"nameRu": "Представление",
+"isFunction": true
+},
+{
+"name": "TimePresentation",
+"nameRu": "ПредставлениеВремени",
+"isFunction": true
+},
+{
+"name": "DatePresentation",
+"nameRu": "ПредставлениеДаты",
+"isFunction": true
+}
+],
+"properties": [
+{
+"name": "UseCurrentSessionSettings",
+"nameRu": "ИспользоватьНастройкиТекущегоСеанса",
+"usage": "ReadAndWrite"
+},
+{
+"name": "LocaleCode",
+"nameRu": "КодЛокализации",
+"usage": "ReadAndWrite"
+},
+{
+"name": "FirstDayOfWeek",
+"nameRu": "ПервыйДеньНедели",
+"usage": "ReadAndWrite"
+},
+{
+"name": "BooleanTruePresentation",
+"nameRu": "ПредставлениеБулевоИстина",
+"usage": "ReadAndWrite"
+},
+{
+"name": "BooleanFalsePresentation",
+"nameRu": "ПредставлениеБулевоЛожь",
+"usage": "ReadAndWrite"
+},
+{
+"name": "NegativeNumberPresentation",
+"nameRu": "ПредставлениеОтрицательныхЧисел",
+"usage": "ReadAndWrite"
+},
+{
+"name": "NumbersDigitGroupSeparator",
+"nameRu": "РазделительГруппЦифрЧисел",
+"usage": "ReadAndWrite"
+},
+{
+"name": "NumbersDecimalSeparator",
+"nameRu": "РазделительДробнойЧастиЧисел",
+"usage": "ReadAndWrite"
+},
+{
+"name": "NumbersDigitGroupFormat",
+"nameRu": "ФорматГруппировкиЦифрЧисел",
+"usage": "ReadAndWrite"
+},
+{
+"name": "TimePresentationFormat",
+"nameRu": "ФорматПредставленияВремени",
+"usage": "ReadAndWrite"
+},
+{
+"name": "DatePresentationFormat",
+"nameRu": "ФорматПредставленияДаты",
+"usage": "ReadAndWrite"
+}
+],
+"values": []
+},
+{
+"id": "SESSION_REGIONAL_SETTINGS",
+"name": "SessionRegionalSettings",
+"nameRu": "РегиональныеНастройкиСеанса",
+"methods": [],
+"properties": [
+{
+"name": "LocaleCode",
+"nameRu": "КодЛокализации",
+"usage": "ReadOnly"
+},
+{
+"name": "InterfaceLanguageCode",
+"nameRu": "КодЯзыкаИнтерфейса",
+"usage": "ReadOnly"
+},
+{
+"name": "FirstDayOfWeek",
+"nameRu": "ПервыйДеньНедели",
+"usage": "ReadOnly"
+},
+{
+"name": "BooleanTruePresentation",
+"nameRu": "ПредставлениеБулевоИстина",
+"usage": "ReadOnly"
+},
+{
+"name": "BooleanFalsePresentation",
+"nameRu": "ПредставлениеБулевоЛожь",
+"usage": "ReadOnly"
+},
+{
+"name": "NegativeNumberPresentation",
+"nameRu": "ПредставлениеОтрицательныхЧисел",
+"usage": "ReadOnly"
+},
+{
+"name": "NumbersDigitGroupSeparator",
+"nameRu": "РазделительГруппЦифрЧисел",
+"usage": "ReadOnly"
+},
+{
+"name": "NumbersDecimalSeparator",
+"nameRu": "РазделительДробнойЧастиЧисел",
+"usage": "ReadOnly"
+},
+{
+"name": "NumbersDigitGroupFormat",
+"nameRu": "ФорматГруппировкиЦифрЧисел",
+"usage": "ReadOnly"
+},
+{
+"name": "TimePresentationFormat",
+"nameRu": "ФорматПредставленияВремени",
+"usage": "ReadOnly"
+},
+{
+"name": "DatePresentationFormat",
+"nameRu": "ФорматПредставленияДаты",
 "usage": "ReadOnly"
 }
 ],
@@ -48448,7 +49148,7 @@
 {
 "name": "GetState",
 "nameRu": "ПолучитьСостояние",
-"isFunction": true
+"isFunction": false
 },
 {
 "name": "DeleteMessages",
@@ -48542,12 +49242,12 @@
 },
 {
 "name": "GetSchema",
-"nameRu": "ПолучитьСхему",
-"isFunction": true
+"nameRu": "Получить",
+"isFunction": false
 },
 {
 "name": "DeleteSchema",
-"nameRu": "УдалитьСхему",
+"nameRu": "Удалить",
 "isFunction": false
 }
 ],
@@ -48665,8 +49365,23 @@
 "isFunction": false
 },
 {
+"name": "SendExternalAccessURL",
+"nameRu": "ОтправитьНавигационнуюСсылкуВнешнегоДоступа",
+"isFunction": false
+},
+{
+"name": "ExternalAccessSupported",
+"nameRu": "ПоддерживаетсяВнешнийДоступ",
+"isFunction": true
+},
+{
 "name": "AttachmentsSupported",
 "nameRu": "ПоддерживаетсяРаботаСВложениями",
+"isFunction": true
+},
+{
+"name": "VideoconferenceSupported",
+"nameRu": "ПоддерживаютсяВидеоконференции",
 "isFunction": true
 },
 {
@@ -48727,6 +49442,11 @@
 {
 "name": "GetMaximumNumberOfParticipantsInVideoconference",
 "nameRu": "ПолучитьМаксимальноеКоличествоУчастниковВидеоконференции",
+"isFunction": true
+},
+{
+"name": "GetExternalAccessURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуВнешнегоДоступа",
 "isFunction": true
 },
 {
@@ -48853,6 +49573,11 @@
 "name": "SetSubscriberApplicationLinks",
 "nameRu": "УстановитьСовместноеИспользованиеПриложенийАбонента",
 "isFunction": false
+},
+{
+"name": "SetCurrentUser",
+"nameRu": "УстановитьТекущегоПользователя",
+"isFunction": false
 }
 ],
 "properties": [
@@ -48879,6 +49604,16 @@
 {
 "name": "Email",
 "nameRu": "АдресЭлектроннойПочты",
+"usage": "ReadAndWrite"
+},
+{
+"name": "AuthenticationEmail",
+"nameRu": "АдресЭлектроннойПочтыДляАутентификации",
+"usage": "ReadAndWrite"
+},
+{
+"name": "External",
+"nameRu": "Внешний",
 "usage": "ReadAndWrite"
 },
 {
@@ -48964,7 +49699,7 @@
 {
 "name": "Integration",
 "nameRu": "Интеграция",
-"usage": "ReadOnly"
+"usage": "ReadAndWrite"
 },
 {
 "name": "Key",
@@ -49581,6 +50316,11 @@
 "usage": "ReadAndWrite"
 },
 {
+"name": "EndpointURL",
+"nameRu": "НавигационнаяСсылкаТочкиПодключения",
+"usage": "ReadOnly"
+},
+{
 "name": "ExternalSystemParameters",
 "nameRu": "ПараметрыВнешнейСистемы",
 "usage": "ReadOnly"
@@ -49760,6 +50500,75 @@
 "name": "Predefined",
 "nameRu": "Предопределенный",
 "usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "COLLABORATION_SYSTEM_USERS_FILTER",
+"name": "CollaborationSystemUsersFilter",
+"nameRu": "ОтборПользователейСистемыВзаимодействия",
+"methods": [],
+"properties": [
+{
+"name": "Email",
+"nameRu": "АдресЭлектроннойПочты",
+"usage": "ReadAndWrite"
+},
+{
+"name": "AuthenticationEmail",
+"nameRu": "АдресЭлектроннойПочтыДляАутентификации",
+"usage": "ReadAndWrite"
+},
+{
+"name": "External",
+"nameRu": "Внешний",
+"usage": "ReadAndWrite"
+},
+{
+"name": "IsLocked",
+"nameRu": "Заблокирован",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Name",
+"nameRu": "Имя",
+"usage": "ReadAndWrite"
+},
+{
+"name": "MatchingKey",
+"nameRu": "КлючСопоставления",
+"usage": "ReadAndWrite"
+},
+{
+"name": "Count",
+"nameRu": "Количество",
+"usage": "ReadAndWrite"
+},
+{
+"name": "SortDirection",
+"nameRu": "НаправлениеСортировки",
+"usage": "ReadAndWrite"
+},
+{
+"name": "PhoneNumber",
+"nameRu": "НомерТелефона",
+"usage": "ReadAndWrite"
+},
+{
+"name": "FullName",
+"nameRu": "ПолноеИмя",
+"usage": "ReadAndWrite"
+},
+{
+"name": "After",
+"nameRu": "После",
+"usage": "ReadAndWrite"
+},
+{
+"name": "ExternalSystemType",
+"nameRu": "ТипВнешнейСистемы",
+"usage": "ReadAndWrite"
 }
 ],
 "values": []
@@ -66320,6 +67129,11 @@
 "isFunction": true
 },
 {
+"name": "GetObjectURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбъекта",
+"isFunction": true
+},
+{
 "name": "Read",
 "nameRu": "Прочитать",
 "isFunction": false
@@ -66374,6 +67188,11 @@
 "isFunction": true
 },
 {
+"name": "GetObjectURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбъекта",
+"isFunction": true
+},
+{
 "name": "Read",
 "nameRu": "Прочитать",
 "isFunction": false
@@ -66424,6 +67243,11 @@
 "isFunction": true
 },
 {
+"name": "GetObjectURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбъекта",
+"isFunction": true
+},
+{
 "name": "Read",
 "nameRu": "Прочитать",
 "isFunction": false
@@ -66464,6 +67288,31 @@
 "isFunction": false
 },
 {
+"name": "GetReportURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОтчета",
+"isFunction": true
+},
+{
+"name": "GetCurrentReportVariantURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуТекущегоВариантаОтчета",
+"isFunction": true
+},
+{
+"name": "GetCurrentReportSettingsURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуТекущихНастроекОтчета",
+"isFunction": true
+},
+{
+"name": "GetResultViewMode",
+"nameRu": "ПолучитьРежимОтображенияРезультата",
+"isFunction": true
+},
+{
+"name": "GetCurrentResultViewMode",
+"nameRu": "ПолучитьТекущийРежимОтображенияРезультата",
+"isFunction": true
+},
+{
 "name": "ComposeResult",
 "nameRu": "СкомпоноватьРезультат",
 "isFunction": false
@@ -66471,6 +67320,11 @@
 {
 "name": "CreateUserSettingsFormItems",
 "nameRu": "СоздатьЭлементыФормыПользовательскихНастроек",
+"isFunction": false
+},
+{
+"name": "SetResultViewMode",
+"nameRu": "УстановитьРежимОтображенияРезультата",
 "isFunction": false
 },
 {
@@ -66521,6 +67375,11 @@
 "usage": "ReadAndWrite"
 },
 {
+"name": "ViewModeApplicationOnSetResult",
+"nameRu": "ПрименениеРежимаОтображенияПриУстановкеРезультата",
+"usage": "ReadOnly"
+},
+{
 "name": "ResultViewMode",
 "nameRu": "РежимОтображенияРезультата",
 "usage": "ReadOnly"
@@ -66541,6 +67400,11 @@
 {
 "name": "Write",
 "nameRu": "Записать",
+"isFunction": true
+},
+{
+"name": "GetObjectURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбъекта",
 "isFunction": true
 },
 {
@@ -66576,6 +67440,11 @@
 {
 "name": "Write",
 "nameRu": "Записать",
+"isFunction": true
+},
+{
+"name": "GetObjectURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбъекта",
 "isFunction": true
 },
 {
@@ -66633,6 +67502,11 @@
 "isFunction": true
 },
 {
+"name": "GetRecordURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуЗаписи",
+"isFunction": true
+},
+{
 "name": "Read",
 "nameRu": "Прочитать",
 "isFunction": false
@@ -66645,7 +67519,18 @@
 "id": "CLIENT_APPLICATION_FORM_EXTENSION_FOR_DYNAMIC_LISTS",
 "name": "ClientApplicationFormExtensionForDynamicLists",
 "nameRu": "РасширениеФормыКлиентскогоПриложенияДляДинамическогоСписка",
-"methods": [],
+"methods": [
+{
+"name": "GetListURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуСписка",
+"isFunction": true
+},
+{
+"name": "GetCurrentListSettingsURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуТекущихНастроекСписка",
+"isFunction": true
+}
+],
 "properties": [],
 "values": []
 },
@@ -66657,6 +67542,11 @@
 {
 "name": "Write",
 "nameRu": "Записать",
+"isFunction": true
+},
+{
+"name": "GetObjectURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбъекта",
 "isFunction": true
 },
 {
@@ -66692,6 +67582,11 @@
 {
 "name": "Write",
 "nameRu": "Записать",
+"isFunction": true
+},
+{
+"name": "GetRecordURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуЗаписи",
 "isFunction": true
 },
 {
@@ -67017,6 +67912,20 @@
 "name": "Delete",
 "nameRu": "Удалить",
 "isFunction": false
+}
+],
+"properties": [],
+"values": []
+},
+{
+"id": "CLIENT_APPLICATION_FORM_EXTENSION_FOR_PROCESSINGS",
+"name": "ClientApplicationFormExtensionForProcessings",
+"nameRu": "РасширениеФормыКлиентскогоПриложенияДляОбработки",
+"methods": [
+{
+"name": "GetDataProcessorURL",
+"nameRu": "ПолучитьНавигационнуюСсылкуОбработки",
+"isFunction": true
 }
 ],
 "properties": [],
@@ -68034,7 +68943,7 @@
 {
 "name": "EnableDrag",
 "nameRu": "РазрешитьПеретаскивание",
-"usage": "ReadOnly"
+"usage": "ReadAndWrite"
 },
 {
 "name": "Border",
@@ -68064,7 +68973,7 @@
 {
 "name": "Width",
 "nameRu": "Ширина",
-"usage": "ReadAndWrite"
+"usage": "ReadOnly"
 },
 {
 "name": "WidthInMonths",
@@ -68600,7 +69509,7 @@
 {
 "name": "EnableDrag",
 "nameRu": "РазрешитьПеретаскивание",
-"usage": "ReadOnly"
+"usage": "ReadAndWrite"
 },
 {
 "name": "VerticalStretch",
@@ -69778,7 +70687,7 @@
 {
 "name": "EnableDrag",
 "nameRu": "РазрешитьПеретаскивание",
-"usage": "ReadOnly"
+"usage": "ReadAndWrite"
 },
 {
 "name": "VerticalStretch",
@@ -70335,6 +71244,35 @@
 "name": "Items",
 "nameRu": "Элементы",
 "usage": "ReadOnly"
+}
+],
+"values": []
+},
+{
+"id": "DYNAMIC_LIST_TABLE_SETTINGS",
+"name": "DynamicListTableSettings",
+"nameRu": "НастройкиТаблицыДинамическогоСписка",
+"methods": [],
+"properties": [
+{
+"name": "TableRepresentation",
+"nameRu": "ОтображениеТаблицы",
+"usage": "ReadAndWrite"
+},
+{
+"name": "UserSettings",
+"nameRu": "ПользовательскиеНастройки",
+"usage": "ReadAndWrite"
+},
+{
+"name": "CurrentRow",
+"nameRu": "ТекущаяСтрока",
+"usage": "ReadAndWrite"
+},
+{
+"name": "FixedSettings",
+"nameRu": "ФиксированныеНастройки",
+"usage": "ReadAndWrite"
 }
 ],
 "values": []
@@ -71737,6 +72675,11 @@
 "usage": "ReadAndWrite"
 },
 {
+"name": "CalculatedFields",
+"nameRu": "ВычисляемыеПоля",
+"usage": "ReadOnly"
+},
+{
 "name": "Group",
 "nameRu": "Группировка",
 "usage": "ReadOnly"
@@ -71772,9 +72715,19 @@
 "usage": "ReadOnly"
 },
 {
+"name": "DataParameters",
+"nameRu": "ПараметрыДанных",
+"usage": "ReadOnly"
+},
+{
 "name": "GetInvisibleFieldPresentations",
 "nameRu": "ПолучениеПредставленийДляНевидимыхПолей",
 "usage": "ReadAndWrite"
+},
+{
+"name": "Fields",
+"nameRu": "Поля",
+"usage": "ReadOnly"
 },
 {
 "name": "KeyFields",
@@ -72057,6 +73010,11 @@
 {
 "name": "Window",
 "nameRu": "Окно",
+"usage": "ReadOnly"
+},
+{
+"name": "Parameters",
+"nameRu": "Параметры",
 "usage": "ReadOnly"
 },
 {
@@ -83321,7 +84279,7 @@
 "isFunction": false
 },
 {
-"name": "GetAgregates",
+"name": "GetAggregates",
 "nameRu": "ПолучитьАгрегаты",
 "isFunction": true
 },
@@ -87967,6 +88925,11 @@
 ],
 "properties": [
 {
+"name": "ChangeDate",
+"nameRu": "ДатаИзменения",
+"usage": "ReadOnly"
+},
+{
 "name": "SettingsKey",
 "nameRu": "КлючНастроек",
 "usage": "ReadOnly"
@@ -89017,6 +89980,16 @@
 }
 ],
 "properties": [
+{
+"name": "DatabaseCopiesUse",
+"nameRu": "ИспользованиеКопийБазыДанных",
+"usage": "ReadAndWrite"
+},
+{
+"name": "UsedDatabaseCopies",
+"nameRu": "ИспользуемыеКопииБазыДанных",
+"usage": "ReadOnly"
+},
 {
 "name": "TempTablesManager",
 "nameRu": "МенеджерВременныхТаблиц",
@@ -93013,6 +93986,30 @@
 "values": []
 },
 {
+"id": "VIEW_MODE_APPLICATION_ON_SET_REPORT_RESULT",
+"name": "ViewModeApplicationOnSetReportResult",
+"nameRu": "ПрименениеРежимаОтображенияПриУстановкеРезультатаОтчета",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
+"id": "FORM_STANDARDURL_VARIANT",
+"name": "FormStandardURLVariant",
+"nameRu": "ВариантСтандартнойНавигационнойСсылкиФормы",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
+"id": "INTEGRATION_SERVICE_CHANNEL_STATE",
+"name": "IntegrationServiceChannelState",
+"nameRu": "СостояниеКаналаСервисаИнтеграции",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
 "id": "ACCOUNTING_RECORD_TYPE",
 "name": "AccountingRecordType",
 "nameRu": "ВидДвиженияБухгалтерии",
@@ -93474,6 +94471,25 @@
 "nameRu": "ТипРазмещенияИтогов",
 "methods": [],
 "properties": [],
+"values": []
+},
+{
+"id": "GET_FILES_AS_ARCHIVE_MODE",
+"name": "GetFilesAsArchiveMode",
+"nameRu": "РежимПолученияАрхиваФайлов",
+"methods": [],
+"properties": [
+{
+"name": "GetArchiveAlways",
+"nameRu": "ПолучатьАрхивВсегда",
+"usage": "ReadAndWrite"
+},
+{
+"name": "GetArchiveWhenRequired",
+"nameRu": "ПолучатьАрхивПриНеобходимости",
+"usage": "ReadAndWrite"
+}
+],
 "values": []
 },
 {
@@ -94517,6 +95533,14 @@
 "id": "EVENT_LOG_LEVEL",
 "name": "EventLogLevel",
 "nameRu": "УровеньЖурналаРегистрации",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
+"id": "EVENT_LOG_DATA_STORAGE_SPLIT_PERIOD",
+"name": "EventLogDataStorageSplitPeriod",
+"nameRu": "ПериодРазделенияХраненияДанныхЖурналаРегистрации",
 "methods": [],
 "properties": [],
 "values": []
@@ -96194,14 +97218,6 @@
 "values": []
 },
 {
-"id": "CLIENT_APPLICATION_AGENT_STATE",
-"name": "ClientApplicationAgentState",
-"nameRu": "СостояниеАгентаКлиентскогоПриложения",
-"methods": [],
-"properties": [],
-"values": []
-},
-{
 "id": "DATABASE_COPYDBMS_TYPE",
 "name": "DatabaseCopyDBMSType",
 "nameRu": "ТипСУБДКопииБазыДанных",
@@ -96250,6 +97266,14 @@
 "values": []
 },
 {
+"id": "DATABASE_COPIES_USE",
+"name": "DatabaseCopiesUse",
+"nameRu": "ИспользованиеКопийБазыДанных",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
 "id": "COLLABORATION_SYSTEM_COMMAND_SOURCE",
 "name": "CollaborationSystemCommandSource",
 "nameRu": "ИсточникКомандСистемыВзаимодействия",
@@ -96277,6 +97301,14 @@
 "id": "COLLABORATION_SYSTEM_USERS_CHOICE_PURPOSE",
 "name": "CollaborationSystemUsersChoicePurpose",
 "nameRu": "НазначениеВыбораПользователейСистемыВзаимодействия",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
+"id": "CLIENT_APPLICATION_AGENT_STATE",
+"name": "ClientApplicationAgentState",
+"nameRu": "СостояниеАгентаКлиентскогоПриложения",
 "methods": [],
 "properties": [],
 "values": []
@@ -96429,14 +97461,6 @@
 "id": "MOBILE_CLIENT_SIGNATURE_VERIFICATION_METHOD",
 "name": "MobileClientSignatureVerificationMethod",
 "nameRu": "СпособПроверкиПодписиМобильногоКлиента",
-"methods": [],
-"properties": [],
-"values": []
-},
-{
-"id": "INTEGRATION_SERVICE_CHANNEL_STATE",
-"name": "IntegrationServiceChannelState",
-"nameRu": "СостояниеКаналаСервисаИнтеграции",
 "methods": [],
 "properties": [],
 "values": []
@@ -96901,6 +97925,14 @@
 "id": "MOBILE_APPLICATION_FUNCTIONALITIES",
 "name": "MobileApplicationFunctionalities",
 "nameRu": "ФункциональностьМобильногоПриложения",
+"methods": [],
+"properties": [],
+"values": []
+},
+{
+"id": "CLIENT_APPLICATION_TYPE",
+"name": "ClientApplicationType",
+"nameRu": "ТипКлиентскогоПриложения",
 "methods": [],
 "properties": [],
 "values": []
@@ -97777,6 +98809,11 @@
 {
 "name": "SafeWorkingProcessesMemoryLimit",
 "nameRu": "SafeWorkingProcessesMemoryLimit",
+"usage": "ReadAndWrite"
+},
+{
+"name": "ServicePrincipalName",
+"nameRu": "ServicePrincipalName",
 "usage": "ReadAndWrite"
 },
 {
@@ -99264,6 +100301,11 @@
 {
 "name": "ComputerName",
 "nameRu": "ИмяКомпьютера",
+"usage": "ReadAndWrite"
+},
+{
+"name": "ServicePrincipalName",
+"nameRu": "ИмяСлужбыСервера",
 "usage": "ReadAndWrite"
 },
 {
@@ -100956,6 +101998,27 @@
 ]
 },
 {
+"name": "OnClientApplicationSuspend",
+"nameRu": "ПриЗасыпанииКлиентскогоПриложения",
+"types": [
+"GLOBAL_CONTEXT"
+]
+},
+{
+"name": "OnClientApplicationResume",
+"nameRu": "ПриПробужденииКлиентскогоПриложения",
+"types": [
+"GLOBAL_CONTEXT"
+]
+},
+{
+"name": "CollaborationSystemExternalUserInvitationProcessing",
+"nameRu": "ОбработкаПриглашенияВнешнегоПользователяСистемыВзаимодействия",
+"types": [
+"GLOBAL_CONTEXT"
+]
+},
+{
 "name": "SessionParametersSetting",
 "nameRu": "УстановкаПараметровСеанса",
 "types": [
@@ -101132,6 +102195,20 @@
 ]
 },
 {
+"name": "URLGetProcessing",
+"nameRu": "ОбработкаПолученияНавигационнойСсылки",
+"types": [
+"CLIENT_APPLICATION_FORM"
+]
+},
+{
+"name": "URLListGetProcessing",
+"nameRu": "ОбработкаПолученияСпискаНавигационныхСсылок",
+"types": [
+"CLIENT_APPLICATION_FORM"
+]
+},
+{
 "name": "FillCheckProcessingAtServer",
 "nameRu": "ОбработкаПроверкиЗаполненияНаСервере",
 "types": [
@@ -101252,6 +102329,8 @@
 "",
 "FORM_FIELD_EXTENSION_FORA_TEXT_DOCUMENT",
 "FORM_FIELD_EXTENSION_FORA_SPREADSHEET_DOCUMENT_FIELD",
+"FORM_FIELD_EXTENSION_FORA_FORMATTED_DOCUMENT",
+"FORM_EXTENSION_FORAHTML_DOCUMENT_FIELD",
 "FORM_FIELD_EXTENSION_FORA_GRAPHICAL_SCHEMA_FIELD",
 "FORM_FIELD_EXTENSION_FORA_GEOGRAPHICAL_SCHEMA_FIELD",
 "CONSTANT_VALUE_MANAGER",
@@ -101319,6 +102398,8 @@
 "",
 "FORM_FIELD_EXTENSION_FORA_TEXT_DOCUMENT",
 "FORM_FIELD_EXTENSION_FORA_SPREADSHEET_DOCUMENT_FIELD",
+"FORM_FIELD_EXTENSION_FORA_FORMATTED_DOCUMENT",
+"FORM_EXTENSION_FORAHTML_DOCUMENT_FIELD",
 "FORM_FIELD_EXTENSION_FORA_GRAPHICAL_SCHEMA_FIELD",
 "FORM_FIELD_EXTENSION_FORA_GEOGRAPHICAL_SCHEMA_FIELD",
 "CONSTANT_FORM_EXTENSION",
@@ -101663,8 +102744,11 @@
 "types": [
 "FORM_FIELD_EXTENSION_FORA_TEXT_DOCUMENT",
 "FORM_FIELD_EXTENSION_FORA_SPREADSHEET_DOCUMENT_FIELD",
+"FORM_FIELD_EXTENSION_FORA_FORMATTED_DOCUMENT",
+"FORM_EXTENSION_FORAHTML_DOCUMENT_FIELD",
 "FORM_FIELD_EXTENSION_FORA_GRAPHICAL_SCHEMA_FIELD",
-"FORM_FIELD_EXTENSION_FORA_GEOGRAPHICAL_SCHEMA_FIELD"
+"FORM_FIELD_EXTENSION_FORA_GEOGRAPHICAL_SCHEMA_FIELD",
+"FORM_FIELD_EXTENSION_FORA_PLANNER"
 ]
 },
 {
@@ -102020,6 +103104,7 @@
 "nameRu": "ОбработкаПолученияФормы",
 "types": [
 "CONSTANT_MANAGER",
+"FILTER_CRITERION_MANAGER",
 "CATALOG_MANAGER",
 "DOCUMENT_MANAGER",
 "DOCUMENT_JOURNAL_MANAGER",

@@ -46,7 +46,8 @@ public enum PlatformEdition {
   VERSION_8_3_16("8_3_16"),
   VERSION_8_3_17("8_3_17"),
   VERSION_8_3_18("8_3_18"),
-  VERSION_8_3_19("8_3_19");
+  VERSION_8_3_19("8_3_19"),
+  VERSION_8_3_20("8_3_20");
 
   @Getter
   private final String version;
