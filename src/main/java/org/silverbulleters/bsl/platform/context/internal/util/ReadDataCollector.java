@@ -99,13 +99,19 @@ public class ReadDataCollector {
     try (var stream = ReadDataCollector.class.getResourceAsStream("/identifiers.json")) {
       var mapper = ObjectMapperFactory.getObjectMapper();
       var data = mapper.readValue(stream, DataIdentifierCollector.class);
-      var unknownPlatformTypeReference = new PlatformTypeReference("");
-
       var platformTypeReferences = data.getIdentifiers().stream()
         .map(value -> new PlatformTypeReference(value.getId()))
         .collect(Collectors.toMap(PlatformTypeReference::getValue, ref -> ref));
 
-      platformTypeReferences.put(PlatformTypeIdentifier.UNKNOWN.value(), unknownPlatformTypeReference);
+      platformTypeReferences.put(PlatformTypeIdentifier.UNKNOWN.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.UNDEFINED.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.STRING.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.NUMBER.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.DATE.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.BOOLEAN.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.TYPE.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+      platformTypeReferences.put(PlatformTypeIdentifier.NULL.value(), PrimitiveType.BOOLEAN_TYPE.getReference());
+
       return platformTypeReferences;
     }
   }

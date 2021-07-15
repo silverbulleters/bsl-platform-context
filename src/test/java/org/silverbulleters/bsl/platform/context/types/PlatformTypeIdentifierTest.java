@@ -24,6 +24,8 @@ package org.silverbulleters.bsl.platform.context.types;
 import org.junit.jupiter.api.Test;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 
+import java.util.Arrays;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class PlatformTypeIdentifierTest {
@@ -35,12 +37,8 @@ class PlatformTypeIdentifierTest {
   @Test
   void testValueAndReference() {
     var contextStorage = new PlatformContextStorage();
-    for (PlatformTypeIdentifier value : PlatformTypeIdentifier.values()) {
-      if (value == PlatformTypeIdentifier.UNKNOWN) {
-        continue;
-      }
-      assertThat(contextStorage.getTypeRefs().get(value.value())).isNotNull();
-    }
+    Arrays.stream(PlatformTypeIdentifier.values())
+      .forEach(identifier -> assertThat(contextStorage.getTypeRefs().get(identifier.value())).isNotNull());
   }
 
 }
