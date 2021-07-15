@@ -26,6 +26,7 @@ import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.internal.util.ReadDataCollector;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
+import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
 import java.util.Arrays;
@@ -82,8 +83,8 @@ class BSLPlatformContextTest {
     var names = new Resource("Запрос", "Query");
     checkGetTypeByName(context, edition, names);
 
-    var optType = context.getTypeByName(edition, "ЧтотоДругое");
-    assertThat(optType).isEmpty();
+    var type = context.getTypeByName(edition, "ЧтотоДругое");
+    assertThat(type).isEqualTo(PrimitiveType.UNKNOWN_TYPE);
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
@@ -108,12 +109,12 @@ class BSLPlatformContextTest {
   }
 
   private static void checkGetTypeByName(BSLPlatformContext context, PlatformEdition edition, Resource names) {
-    var optionalType = context.getTypeByName(edition, names.getNameRu());
-    assertThat(optionalType).isPresent();
-    assertThat(optionalType.get().getName()).isEqualTo(names);
+    var type = context.getTypeByName(edition, names.getNameRu());
+    assertThat(type).isNotEqualTo(PrimitiveType.UNKNOWN_TYPE);
+    assertThat(type.getName()).isEqualTo(names);
 
-    optionalType = context.getTypeByName(edition, names.getNameEn());
-    assertThat(optionalType).isPresent();
-    assertThat(optionalType.get().getName()).isEqualTo(names);
+    type = context.getTypeByName(edition, names.getNameEn());
+    assertThat(type).isNotEqualTo(PrimitiveType.UNKNOWN_TYPE);
+    assertThat(type.getName()).isEqualTo(names);
   }
 }

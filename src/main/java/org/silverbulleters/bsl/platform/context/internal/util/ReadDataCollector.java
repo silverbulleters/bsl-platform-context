@@ -35,6 +35,7 @@ import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.platform.Property;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
+import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
 import java.io.IOException;
@@ -145,6 +146,15 @@ public class ReadDataCollector {
       types.add(type);
     });
 
+    types.add(PrimitiveType.UNKNOWN_TYPE);
+    types.add(PrimitiveType.NULL_TYPE);
+    types.add(PrimitiveType.BOOLEAN_TYPE);
+    types.add(PrimitiveType.DATE_TYPE);
+    types.add(PrimitiveType.UNDEFINED_TYPE);
+    types.add(PrimitiveType.STRING_TYPE);
+    types.add(PrimitiveType.TYPE);
+    types.add(PrimitiveType.NUMBER_TYPE);
+
     return types;
   }
 
@@ -165,5 +175,14 @@ public class ReadDataCollector {
     var mapper = ObjectMapperFactory.getObjectMapper();
     return mapper.readValue(stream, DataFromCollector.class);
   }
+
+  private static ContextType createContextTypeByIdentifier(PlatformTypeIdentifier identifier) {
+    var name = identifier.value();
+    return ContextType.builder()
+      .name(new Resource(name, name))
+      .reference(new PlatformTypeReference(name))
+      .build();
+  }
+
 
 }
