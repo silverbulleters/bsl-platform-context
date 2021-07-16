@@ -63,6 +63,11 @@ public class DataFromCollector {
     private String nameRu;
 
     /**
+     * Вид типа
+     */
+    private String kind;
+
+    /**
      * Методы типа платформы
      */
     private List<Method> methods;

@@ -33,6 +33,7 @@ import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.Method;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.platform.Property;
+import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
@@ -145,6 +146,7 @@ public class ReadDataCollector {
       var type = ContextType.builder()
         .reference(reference)
         .name(typeName)
+        .kind(ContextTypeKind.valueByName(typeFromData.getKind()))
         .isPrimitive(false)
         .methods(typeMethods)
         .properties(typeProperties)

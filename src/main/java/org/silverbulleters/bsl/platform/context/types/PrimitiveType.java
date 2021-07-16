@@ -55,6 +55,7 @@ public class PrimitiveType {
     var name = identifier.value();
     return ContextType.builder()
       .name(new Resource(name, name))
+      .kind(ContextTypeKind.TYPE)
       .reference(new PlatformTypeReference(name))
       .build();
   }
