@@ -30,6 +30,7 @@ import org.silverbulleters.bsl.platform.context.platform.Method;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
+import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -67,13 +68,13 @@ public class BSLPlatformContext {
     var globalContextReference = new PlatformTypeReference(PlatformTypeIdentifier.GLOBAL_CONTEXT.value());
 
     return storage.getTypesByPlatform(edition).stream()
-        .filter(type -> type.getReference().equals(globalContextReference))
-        .flatMap(type -> type.getMethods().stream())
-        .collect(Collectors.toList());
+      .filter(type -> type.getReference().equals(globalContextReference))
+      .flatMap(type -> type.getMethods().stream())
+      .collect(Collectors.toList());
   }
 
   /**
-   * @param edition - - версия платформы
+   * @param edition        - версия платформы
    * @param typeIdentifier - идентификатор типа, методы которого необходимо получить
    * @return список методов, доступных для переданного типа
    */
@@ -82,9 +83,9 @@ public class BSLPlatformContext {
     var typeReference = new PlatformTypeReference(typeIdentifier.value());
 
     return storage.getTypesByPlatform(edition).stream()
-        .filter(type -> type.getReference().equals(typeReference))
-        .flatMap(type -> type.getMethods().stream())
-        .collect(Collectors.toList());
+      .filter(type -> type.getReference().equals(typeReference))
+      .flatMap(type -> type.getMethods().stream())
+      .collect(Collectors.toList());
   }
 
   /**
@@ -96,6 +97,20 @@ public class BSLPlatformContext {
   @NotNull
   public List<ContextType> getTypesByPlatform(@NotNull PlatformEdition edition) {
     return storage.getTypesByPlatform(edition);
+  }
+
+  /**
+   * Получить тип по версии платформы и имени
+   *
+   * @param edition - версия платформы
+   * @param name    - имя типа на русском или английском
+   * @return если тип не найден, вернется тип UNKNOWN
+   */
+  public ContextType getTypeByName(@NotNull PlatformEdition edition, String name) {
+    return storage.getTypesByPlatform(edition).stream()
+      .filter(contextType -> contextType.getName().getNameRu().equalsIgnoreCase(name)
+        || contextType.getName().getNameEn().equalsIgnoreCase(name))
+      .findAny().orElse(PrimitiveType.UNKNOWN_TYPE);
   }
 
   private void initialize(List<PlatformEdition> platformEditions) {

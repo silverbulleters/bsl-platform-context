@@ -66,6 +66,11 @@ public class DataFromCollector {
      * Методы типа платформы
      */
     private List<Method> methods;
+
+    /**
+     * Свойства типа платформы
+     */
+    private List<Property> properties;
   }
 
   /**
@@ -107,6 +112,28 @@ public class DataFromCollector {
      * Признак, является ли метод функцией
      */
     private Boolean isFunction;
+  }
+
+  /**
+   * Представление свойства типа
+   */
+  @Data
+  public static class Property {
+
+    /**
+     * Имя свойства на английском
+     */
+    private String name;
+
+    /**
+     * Имя свойства на русском
+     */
+    private String nameRu;
+
+    /**
+     * Режим использования (строкой)
+     */
+    private String usage;
   }
 
 }

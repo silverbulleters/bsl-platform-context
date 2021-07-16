@@ -21,14 +21,14 @@
  */
 package org.silverbulleters.bsl.platform.context.types;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
  * Востребованные идентификаторы типов
  */
-@AllArgsConstructor
+@RequiredArgsConstructor
 public enum PlatformTypeIdentifier {
   GLOBAL_CONTEXT("GLOBAL_CONTEXT"),
   BOT_MODULE("BOT_MODULE"),
@@ -77,7 +77,15 @@ public enum PlatformTypeIdentifier {
   HTTP_SERVICE_MODULE("HTTP_SERVICE_MODULE"),
   WEB_SERVICE_MODULE("WEB_SERVICE_MODULE"),
   SETTINGS_STORAGE_MANAGER("SETTINGS_STORAGE_MANAGER"),
-  UNKNOWN("");
+  // Примитивы
+  NULL("NULL"),
+  BOOLEAN("BOOLEAN"),
+  DATE("DATE"),
+  UNDEFINED("UNDEFINED"),
+  STRING("STRING"),
+  TYPE("TYPE"),
+  NUMBER("NUMBER"),
+  UNKNOWN("UNKNOWN");
 
   @Accessors(fluent = true)
   @Getter

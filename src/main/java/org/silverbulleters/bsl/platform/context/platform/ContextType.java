@@ -38,5 +38,5 @@ public class ContextType {
   PlatformTypeReference reference;
   boolean isPrimitive;
   List<Method> methods;
-  // свойства
+  List<Property> properties;
 }

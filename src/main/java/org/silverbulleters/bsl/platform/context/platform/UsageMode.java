@@ -21,34 +21,38 @@
  */
 package org.silverbulleters.bsl.platform.context.platform;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
- * Поддерживаемые версии платформы
+ * Режим использования свойства типа
  */
-@AllArgsConstructor
-public enum PlatformEdition {
-  VERSION_8_2_19("8_2_19"),
-  VERSION_8_3_3("8_3_3"),
-  VERSION_8_3_4("8_3_4"),
-  VERSION_8_3_5("8_3_5"),
-  VERSION_8_3_6("8_3_6"),
-  VERSION_8_3_7("8_3_7"),
-  VERSION_8_3_8("8_3_8"),
-  VERSION_8_3_9("8_3_9"),
-  VERSION_8_3_10("8_3_10"),
-  VERSION_8_3_11("8_3_11"),
-  VERSION_8_3_12("8_3_12"),
-  VERSION_8_3_13("8_3_13"),
-  VERSION_8_3_14("8_3_14"),
-  VERSION_8_3_15("8_3_15"),
-  VERSION_8_3_16("8_3_16"),
-  VERSION_8_3_17("8_3_17"),
-  VERSION_8_3_18("8_3_18"),
-  VERSION_8_3_19("8_3_19"),
-  VERSION_8_3_20("8_3_20");
+@RequiredArgsConstructor
+public enum UsageMode {
+  /**
+   * Только чтение
+   */
+  READ_ONLY("ReadOnly"),
+  /**
+   * Только запись
+   */
+  WRITE_ONLY("WriteOnly"),
+  /**
+   * Чтение и запись
+   */
+  READ_AND_WRITE("ReadAndWrite");
 
+  @Accessors(fluent = true)
   @Getter
-  private final String version;
+  private final String value;
+
+  public static UsageMode valueByName(String name) {
+    for (var value : UsageMode.values()) {
+      if (value.value().equals(name)) {
+        return value;
+      }
+    }
+    throw new IllegalArgumentException();
+  }
 }
