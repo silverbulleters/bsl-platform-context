@@ -27,6 +27,7 @@ import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -36,9 +37,12 @@ import java.util.List;
 @Builder
 public class ContextType {
   Resource name;
-  ContextTypeKind kind;
+  @Builder.Default
+  ContextTypeKind kind = ContextTypeKind.TYPE;
   PlatformTypeReference reference;
   boolean isPrimitive;
-  List<Method> methods;
-  List<Property> properties;
+  @Builder.Default
+  List<Method> methods = Collections.emptyList();
+  @Builder.Default
+  List<Property> properties = Collections.emptyList();
 }
