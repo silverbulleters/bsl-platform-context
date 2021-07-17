@@ -76,6 +76,11 @@ public class DataFromCollector {
      * Свойства типа платформы
      */
     private List<Property> properties;
+
+    /**
+     * Тип исключен из глобального контекста
+     */
+    private boolean excludeFromGlobalContext;
   }
 
   /**

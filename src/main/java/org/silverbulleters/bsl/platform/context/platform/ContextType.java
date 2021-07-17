@@ -36,13 +36,36 @@ import java.util.List;
 @Value
 @Builder
 public class ContextType {
+  /**
+   * Имя на двух языках
+   */
   Resource name;
+  /**
+   * Вид типа
+   */
   @Builder.Default
   ContextTypeKind kind = ContextTypeKind.TYPE;
+  /**
+   * Ссылка на тип
+   */
   PlatformTypeReference reference;
-  boolean isPrimitive;
+  /**
+   * Признак примитива
+   */
+  boolean isPrimitive; // FIXME: переименовать
+  /**
+   * Методы типа
+   */
   @Builder.Default
   List<Method> methods = Collections.emptyList();
+  /**
+   * Свойства типа
+   */
   @Builder.Default
   List<Property> properties = Collections.emptyList();
+  /**
+   * Исключен из глобального контекста
+   */
+  @Builder.Default
+  boolean excludeFromGlobalContext = false;
 }

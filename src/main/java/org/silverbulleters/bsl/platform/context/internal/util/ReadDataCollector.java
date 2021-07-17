@@ -150,6 +150,7 @@ public class ReadDataCollector {
         .isPrimitive(false)
         .methods(typeMethods)
         .properties(typeProperties)
+        .excludeFromGlobalContext(typeFromData.isExcludeFromGlobalContext())
         .build();
       types.add(type);
     });
