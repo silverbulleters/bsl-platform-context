@@ -63,6 +63,11 @@ public class DataFromCollector {
     private String nameRu;
 
     /**
+     * Вид типа
+     */
+    private String kind;
+
+    /**
      * Методы типа платформы
      */
     private List<Method> methods;
@@ -71,6 +76,11 @@ public class DataFromCollector {
      * Свойства типа платформы
      */
     private List<Property> properties;
+
+    /**
+     * Тип исключен из глобального контекста
+     */
+    private boolean excludeFromGlobalContext;
   }
 
   /**

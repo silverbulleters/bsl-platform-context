@@ -25,9 +25,8 @@ import org.junit.jupiter.api.Test;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.internal.util.ReadDataCollector;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
+import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
-import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
-import org.silverbulleters.bsl.platform.context.types.Resource;
 
 import java.util.Arrays;
 import java.util.List;
@@ -77,14 +76,14 @@ class BSLPlatformContextTest {
   }
 
   @Test
-  void testGetTypeByName() {
-    var edition = PlatformEdition.VERSION_8_3_10;
-    var context = new BSLPlatformContext(List.of(edition));
-    var names = new Resource("Запрос", "Query");
-    checkGetTypeByName(context, edition, names);
+  void testContextTypeKind() {
+    var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
 
-    var type = context.getTypeByName(edition, "ЧтотоДругое");
-    assertThat(type).isEqualTo(PrimitiveType.UNKNOWN_TYPE);
+    var contextType = context.getTypeByName(PlatformEdition.VERSION_8_3_10, "Запрос");
+    assertThat(contextType.getKind()).isEqualTo(ContextTypeKind.TYPE);
+
+    contextType = context.getTypeByName(PlatformEdition.VERSION_8_3_10, "WebЦвета");
+    assertThat(contextType.getKind()).isEqualTo(ContextTypeKind.ENUM);
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
@@ -108,13 +107,4 @@ class BSLPlatformContextTest {
     });
   }
 
-  private static void checkGetTypeByName(BSLPlatformContext context, PlatformEdition edition, Resource names) {
-    var type = context.getTypeByName(edition, names.getNameRu());
-    assertThat(type).isNotEqualTo(PrimitiveType.UNKNOWN_TYPE);
-    assertThat(type.getName()).isEqualTo(names);
-
-    type = context.getTypeByName(edition, names.getNameEn());
-    assertThat(type).isNotEqualTo(PrimitiveType.UNKNOWN_TYPE);
-    assertThat(type.getName()).isEqualTo(names);
-  }
 }

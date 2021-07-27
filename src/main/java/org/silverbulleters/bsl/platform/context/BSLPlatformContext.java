@@ -28,6 +28,7 @@ import org.silverbulleters.bsl.platform.context.platform.ContextType;
 import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.Method;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
+import org.silverbulleters.bsl.platform.context.platform.Property;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
@@ -70,6 +71,20 @@ public class BSLPlatformContext {
     return storage.getTypesByPlatform(edition).stream()
       .filter(type -> type.getReference().equals(globalContextReference))
       .flatMap(type -> type.getMethods().stream())
+      .collect(Collectors.toList());
+  }
+
+  /**
+   * @param edition - версия платформы
+   * @return список свойств глобального контекста, доступных в переденной версии платформы
+   */
+  @NotNull
+  public List<Property> getGlobalPropertiesByPlatform(@NotNull PlatformEdition edition) {
+    var globalContextReference = new PlatformTypeReference(PlatformTypeIdentifier.GLOBAL_CONTEXT.value());
+
+    return storage.getTypesByPlatform(edition).stream()
+      .filter(type -> type.getReference().equals(globalContextReference))
+      .flatMap(type -> type.getProperties().stream())
       .collect(Collectors.toList());
   }
 
