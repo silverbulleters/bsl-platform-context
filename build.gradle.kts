@@ -5,13 +5,16 @@ version = gitVersionCalculator.calculateVersion("v")
 var javaVersion = JavaVersion.VERSION_11
 var encoding = "UTF-8"
 val junitVersion = "5.6.1"
+var log4jVersion = "2.14.0"
 
 plugins {
     java
     `maven-publish`
+    jacoco
     id("io.franzbecker.gradle-lombok") version "4.0.0"
     id("com.github.gradle-git-version-calculator") version "1.1.0"
     id("net.kyori.indra.license-header") version "1.2.1"
+    id("org.sonarqube") version "3.3"
 }
 
 repositories {
@@ -30,9 +33,9 @@ dependencies {
     implementation("com.fasterxml.jackson.core", "jackson-core", "2.12.1")
     implementation("com.fasterxml.jackson.core", "jackson-databind", "2.12.1")
     // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
-    implementation("org.apache.logging.log4j", "log4j-api","2.14.0")
-    implementation("org.apache.logging.log4j", "log4j-core","2.14.0")
-    implementation("org.apache.logging.log4j", "log4j-slf4j-impl","2.14.0")
+    implementation("org.apache.logging.log4j", "log4j-api", log4jVersion)
+    implementation("org.apache.logging.log4j", "log4j-core", log4jVersion)
+    implementation("org.apache.logging.log4j", "log4j-slf4j-impl", log4jVersion)
     implementation("org.jetbrains", "annotations", "16.0.2")
 
     // junit
@@ -58,6 +61,17 @@ tasks.test {
 
     reports {
         html.isEnabled = true
+    }
+}
+
+tasks.check {
+    dependsOn(tasks.jacocoTestReport)
+}
+
+tasks.jacocoTestReport {
+    reports {
+        xml.isEnabled = true
+        xml.destination = File("$buildDir/reports/jacoco/test/jacoco.xml")
     }
 }
 
@@ -109,5 +123,17 @@ publishing {
                 }
             }
         }
+    }
+}
+
+sonarqube {
+    properties {
+        property("sonar.sourceEncoding", "UTF-8")
+        property("sonar.host.url", "https://sonarcloud.io")
+        property("sonar.organization", "silverbulleters")
+        property("sonar.projectKey", "silverbulleters_bsl-platform-context")
+        property("sonar.projectName", "BSL: Platform context")
+        property("sonar.exclusions", "**/gen/**/*.*")
+        property("sonar.coverage.jacoco.xmlReportPaths", "$buildDir/reports/jacoco/test/jacoco.xml")
     }
 }
