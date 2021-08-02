@@ -25,6 +25,8 @@ import org.junit.jupiter.api.Test;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.internal.util.ReadDataCollector;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
+import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
+import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 
 import java.util.Arrays;
 import java.util.List;
@@ -41,8 +43,47 @@ class BSLPlatformContextTest {
   }
 
   @Test
+  void testReadingGlobalMethodsFromFile() {
+    var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
+    var globalMethods = context.getGlobalMethodsByPlatform(PlatformEdition.VERSION_8_3_10);
+    assertThat(globalMethods).isNotEmpty();
+  }
+
+  @Test
+  void testReadingMethodDataFromFile() {
+    var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
+    var globalMethods = context.getGlobalMethodsByPlatform(PlatformEdition.VERSION_8_3_10);
+    var strLenMethod = globalMethods.stream()
+      .filter(method -> method.getName().getNameEn().equals("StrLen"))
+      .findFirst().orElseThrow(IllegalArgumentException::new);
+
+    assertThat(strLenMethod.getName().getNameEn()).isEqualTo("StrLen");
+    assertThat(strLenMethod.getName().getNameRu()).isEqualTo("СтрДлина");
+    assertThat(strLenMethod.isFunction()).isTrue();
+  }
+
+  @Test
+  void testReadingObjectMethodsFromFile() {
+    var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
+    var objectMethods = context.getTypeMethodsByPlatform(PlatformEdition.VERSION_8_3_10,
+      PlatformTypeIdentifier.DOCUMENT_OBJECT);
+    assertThat(objectMethods).isNotEmpty();
+  }
+
+  @Test
   void testAvailabilityOfDataForEachVersion() {
     Arrays.stream(PlatformEdition.values()).forEach(this::checkDataVersion);
+  }
+
+  @Test
+  void testContextTypeKind() {
+    var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
+
+    var contextType = context.getTypeByName(PlatformEdition.VERSION_8_3_10, "Запрос");
+    assertThat(contextType.getKind()).isEqualTo(ContextTypeKind.TYPE);
+
+    contextType = context.getTypeByName(PlatformEdition.VERSION_8_3_10, "WebЦвета");
+    assertThat(contextType.getKind()).isEqualTo(ContextTypeKind.ENUM);
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {

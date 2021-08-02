@@ -21,30 +21,38 @@
  */
 package org.silverbulleters.bsl.platform.context.platform;
 
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
-import lombok.Value;
-import org.silverbulleters.bsl.platform.context.internal.BaseMethod;
-import org.silverbulleters.bsl.platform.context.internal.data.DataFromCollector;
-import org.silverbulleters.bsl.platform.context.types.Resource;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
 /**
- * Определение метода типа
+ * Режим использования свойства типа
  */
-@Value
-@EqualsAndHashCode(callSuper = true)
-@ToString(callSuper = true)
-public class Method extends BaseMethod {
+@RequiredArgsConstructor
+public enum UsageMode {
+  /**
+   * Только чтение
+   */
+  READ_ONLY("ReadOnly"),
+  /**
+   * Только запись
+   */
+  WRITE_ONLY("WriteOnly"),
+  /**
+   * Чтение и запись
+   */
+  READ_AND_WRITE("ReadAndWrite");
 
-  boolean isFunction;
+  @Accessors(fluent = true)
+  @Getter
+  private final String value;
 
-  public static Method createMethodFromData(DataFromCollector.Method methodFromData) {
-    var resource = new Resource(methodFromData.getNameRu(), methodFromData.getName());
-    return new Method(resource, methodFromData.getIsFunction());
-  }
-
-  public Method(Resource name, boolean isFunction) {
-    super(name);
-    this.isFunction = isFunction;
+  public static UsageMode valueByName(String name) {
+    for (var value : UsageMode.values()) {
+      if (value.value().equals(name)) {
+        return value;
+      }
+    }
+    throw new IllegalArgumentException();
   }
 }

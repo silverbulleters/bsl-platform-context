@@ -19,30 +19,26 @@
  * You should have received a copy of the GNU Lesser General Public
  * License along with BSL platform context.
  */
-package org.silverbulleters.bsl.platform.context.internal;
+package org.silverbulleters.bsl.platform.context.types;
 
-import lombok.Builder;
-import lombok.Value;
-import org.jetbrains.annotations.NotNull;
-import org.silverbulleters.bsl.platform.context.platform.ContextType;
-import org.silverbulleters.bsl.platform.context.platform.Event;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
-import java.util.List;
+@RequiredArgsConstructor
+public enum ContextTypeKind {
+  ENUM("Enum"), TYPE("Type");
 
-/**
- * Контекст по конкретной версии платформы
- */
-@Value
-@Builder
-public class PlatformContext {
-  /**
-   * Набор типов
-   */
-  @NotNull
-  List<ContextType> types;
-  /**
-   * Набор событий
-   */
-  @NotNull
-  List<Event> events;
+  @Accessors(fluent = true)
+  @Getter
+  private final String value;
+
+  public static ContextTypeKind valueByName(String name) {
+    for (var value : ContextTypeKind.values()) {
+      if (value.value().equals(name)) {
+        return value;
+      }
+    }
+    throw new IllegalArgumentException();
+  }
 }

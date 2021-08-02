@@ -22,6 +22,7 @@
 package org.silverbulleters.bsl.platform.context.internal.data;
 
 import lombok.Data;
+import org.silverbulleters.bsl.platform.context.platform.Method;
 
 import java.util.List;
 
@@ -60,6 +61,26 @@ public class DataFromCollector {
      * Имя типа на английском
      */
     private String nameRu;
+
+    /**
+     * Вид типа
+     */
+    private String kind;
+
+    /**
+     * Методы типа платформы
+     */
+    private List<Method> methods;
+
+    /**
+     * Свойства типа платформы
+     */
+    private List<Property> properties;
+
+    /**
+     * Тип исключен из глобального контекста
+     */
+    private boolean excludeFromGlobalContext;
   }
 
   /**
@@ -79,6 +100,50 @@ public class DataFromCollector {
      * Список типов платформы, у которых есть текущее событие
      */
     private List<String> types;
+  }
+
+  /**
+   * Представление метода
+   */
+  @Data
+  public static class Method {
+
+    /**
+     * Имя метода на английском
+     */
+    private String name;
+
+    /**
+     * Имя метода на русском
+     */
+    private String nameRu;
+
+    /**
+     * Признак, является ли метод функцией
+     */
+    private Boolean isFunction;
+  }
+
+  /**
+   * Представление свойства типа
+   */
+  @Data
+  public static class Property {
+
+    /**
+     * Имя свойства на английском
+     */
+    private String name;
+
+    /**
+     * Имя свойства на русском
+     */
+    private String nameRu;
+
+    /**
+     * Режим использования (строкой)
+     */
+    private String usage;
   }
 
 }

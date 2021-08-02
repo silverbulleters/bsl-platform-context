@@ -23,8 +23,12 @@ package org.silverbulleters.bsl.platform.context.platform;
 
 import lombok.Builder;
 import lombok.Value;
+import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.Resource;
+
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Определение типа платформы
@@ -32,9 +36,36 @@ import org.silverbulleters.bsl.platform.context.types.Resource;
 @Value
 @Builder
 public class ContextType {
+  /**
+   * Имя на двух языках
+   */
   Resource name;
+  /**
+   * Вид типа
+   */
+  @Builder.Default
+  ContextTypeKind kind = ContextTypeKind.TYPE;
+  /**
+   * Ссылка на тип
+   */
   PlatformTypeReference reference;
-  boolean isPrimitive;
-  // свойства
-  // методы
+  /**
+   * Признак примитива
+   */
+  boolean isPrimitive; // FIXME: переименовать
+  /**
+   * Методы типа
+   */
+  @Builder.Default
+  List<Method> methods = Collections.emptyList();
+  /**
+   * Свойства типа
+   */
+  @Builder.Default
+  List<Property> properties = Collections.emptyList();
+  /**
+   * Исключен из глобального контекста
+   */
+  @Builder.Default
+  boolean excludeFromGlobalContext = false;
 }
