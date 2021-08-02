@@ -78,6 +78,11 @@ public class DataFromCollector {
     private List<Property> properties;
 
     /**
+     * Значения типа платформы
+     */
+    private List<TypeValue> values;
+
+    /**
      * Тип исключен из глобального контекста
      */
     private boolean excludeFromGlobalContext;
@@ -146,5 +151,20 @@ public class DataFromCollector {
     private String usage;
   }
 
+  /**
+   * Представление значения типа
+   */
+  @Data
+  public static class TypeValue {
+    /**
+     * Имя свойства на английском
+     */
+    private String name;
+
+    /**
+     * Имя свойства на русском
+     */
+    private String nameRu;
+  }
 }
 
