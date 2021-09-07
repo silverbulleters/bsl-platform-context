@@ -28,6 +28,9 @@ import org.silverbulleters.bsl.platform.context.internal.BaseMethod;
 import org.silverbulleters.bsl.platform.context.internal.data.DataFromCollector;
 import org.silverbulleters.bsl.platform.context.types.Resource;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * Определение метода типа
  */
@@ -35,16 +38,26 @@ import org.silverbulleters.bsl.platform.context.types.Resource;
 @EqualsAndHashCode(callSuper = true)
 @ToString(callSuper = true)
 public class Method extends BaseMethod {
-
+  /**
+   * Признак, что метод является функцией
+   */
   boolean isFunction;
+  /**
+   * Список доступных контекстов выполнения
+   */
+  List<ExecutionContext> executionContexts;
 
   public static Method createMethodFromData(DataFromCollector.Method methodFromData) {
     var resource = new Resource(methodFromData.getNameRu(), methodFromData.getName());
-    return new Method(resource, methodFromData.getIsFunction());
+    var executionContexts = methodFromData.getExecutionContexts().stream()
+      .map(ExecutionContext::valueByName)
+      .collect(Collectors.toUnmodifiableList());
+    return new Method(resource, methodFromData.getIsFunction(), executionContexts);
   }
 
-  public Method(Resource name, boolean isFunction) {
+  public Method(Resource name, boolean isFunction, List<ExecutionContext> executionContexts) {
     super(name);
     this.isFunction = isFunction;
+    this.executionContexts = executionContexts;
   }
 }

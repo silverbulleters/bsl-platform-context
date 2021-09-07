@@ -22,7 +22,6 @@
 package org.silverbulleters.bsl.platform.context.internal.data;
 
 import lombok.Data;
-import org.silverbulleters.bsl.platform.context.platform.Method;
 
 import java.util.List;
 
@@ -127,6 +126,12 @@ public class DataFromCollector {
      * Признак, является ли метод функцией
      */
     private Boolean isFunction;
+
+    /**
+     * Контексты выполнения
+     */
+    private List<String> executionContexts;
+
   }
 
   /**
