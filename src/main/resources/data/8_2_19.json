@@ -70054,7 +70054,592 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Aquamarine",
+"nameRu": "Аквамарин"
+},
+{
+"name": "AliceBlue",
+"nameRu": "АкварельноСиний"
+},
+{
+"name": "AntiqueWhite",
+"nameRu": "АнтикБелый"
+},
+{
+"name": "Beige",
+"nameRu": "Бежевый"
+},
+{
+"name": "Snow",
+"nameRu": "Белоснежный"
+},
+{
+"name": "White",
+"nameRu": "Белый"
+},
+{
+"name": "Turquoise",
+"nameRu": "Бирюзовый"
+},
+{
+"name": "PaleTurquoise",
+"nameRu": "БледноБирюзовый"
+},
+{
+"name": "PaleGreen",
+"nameRu": "БледноЗеленый"
+},
+{
+"name": "PaleGoldenrod",
+"nameRu": "БледноЗолотистый"
+},
+{
+"name": "PaleVioletRed",
+"nameRu": "БледноКрасноФиолетовый"
+},
+{
+"name": "Lavender",
+"nameRu": "БледноЛиловый"
+},
+{
+"name": "BlanchedAlmond",
+"nameRu": "БледноМиндальный"
+},
+{
+"name": "Thistle",
+"nameRu": "БледноСиреневый"
+},
+{
+"name": "CornFlowerBlue",
+"nameRu": "Васильковый"
+},
+{
+"name": "SpringGreen",
+"nameRu": "ВесеннеЗеленый"
+},
+{
+"name": "LightBlue",
+"nameRu": "Голубой"
+},
+{
+"name": "LavenderBlush",
+"nameRu": "ГолубойСКраснымОттенком"
+},
+{
+"name": "LightSteelBlue",
+"nameRu": "ГолубойСоСтальнымОттенком"
+},
+{
+"name": "SlateGray",
+"nameRu": "ГрифельноСерый"
+},
+{
+"name": "SlateBlue",
+"nameRu": "ГрифельноСиний"
+},
+{
+"name": "BurlyWood",
+"nameRu": "Древесный"
+},
+{
+"name": "WhiteSmoke",
+"nameRu": "ДымчатоБелый"
+},
+{
+"name": "YellowGreen",
+"nameRu": "ЖелтоЗеленый"
+},
+{
+"name": "Yellow",
+"nameRu": "Желтый"
+},
+{
+"name": "Moccasin",
+"nameRu": "ЗамшаСветлый"
+},
+{
+"name": "LawnGreen",
+"nameRu": "ЗеленаяЛужайка"
+},
+{
+"name": "Chartreuse",
+"nameRu": "ЗеленоватоЖелтый"
+},
+{
+"name": "Lime",
+"nameRu": "ЗеленоватоЛимонный"
+},
+{
+"name": "GreenYellow",
+"nameRu": "ЗеленоЖелтый"
+},
+{
+"name": "Green",
+"nameRu": "Зеленый"
+},
+{
+"name": "ForestGreen",
+"nameRu": "ЗеленыйЛес"
+},
+{
+"name": "Goldenrod",
+"nameRu": "Золотистый"
+},
+{
+"name": "Gold",
+"nameRu": "Золотой"
+},
+{
+"name": "Indigo",
+"nameRu": "Индиго"
+},
+{
+"name": "IndianRed",
+"nameRu": "Киноварь"
+},
+{
+"name": "FireBrick",
+"nameRu": "Кирпичный"
+},
+{
+"name": "SaddleBrown",
+"nameRu": "КожаноКоричневый"
+},
+{
+"name": "Coral",
+"nameRu": "Коралловый"
+},
+{
+"name": "Brown",
+"nameRu": "Коричневый"
+},
+{
+"name": "RoyalBlue",
+"nameRu": "КоролевскиГолубой"
+},
+{
+"name": "VioletRed",
+"nameRu": "КрасноФиолетовый"
+},
+{
+"name": "Red",
+"nameRu": "Красный"
+},
+{
+"name": "Cream",
+"nameRu": "Кремовый"
+},
+{
+"name": "Azure",
+"nameRu": "Лазурный"
+},
+{
+"name": "LimeGreen",
+"nameRu": "ЛимонноЗеленый"
+},
+{
+"name": "LemonChiffon",
+"nameRu": "Лимонный"
+},
+{
+"name": "Salmon",
+"nameRu": "Лосось"
+},
+{
+"name": "LightSalmon",
+"nameRu": "ЛососьСветлый"
+},
+{
+"name": "DarkSalmon",
+"nameRu": "ЛососьТемный"
+},
+{
+"name": "Linen",
+"nameRu": "Льняной"
+},
+{
+"name": "Crimson",
+"nameRu": "Малиновый"
+},
+{
+"name": "MintCream",
+"nameRu": "МятныйКрем"
+},
+{
+"name": "NavajoWhite",
+"nameRu": "НавахоБелый"
+},
+{
+"name": "DeepSkyBlue",
+"nameRu": "НасыщенноНебесноГолубой"
+},
+{
+"name": "DeepPink",
+"nameRu": "НасыщенноРозовый"
+},
+{
+"name": "SkyBlue",
+"nameRu": "НебесноГолубой"
+},
+{
+"name": "MediumAquaMarine",
+"nameRu": "НейтральноАквамариновый"
+},
+{
+"name": "MediumTurquoise",
+"nameRu": "НейтральноБирюзовый"
+},
+{
+"name": "MediumSpringGreen",
+"nameRu": "НейтральноВесеннеЗеленый"
+},
+{
+"name": "MediumSlateBlue",
+"nameRu": "НейтральноГрифельноСиний"
+},
+{
+"name": "MediumGreen",
+"nameRu": "НейтральноЗеленый"
+},
+{
+"name": "Peru",
+"nameRu": "НейтральноКоричневый"
+},
+{
+"name": "MediumPurple",
+"nameRu": "НейтральноПурпурный"
+},
+{
+"name": "MediumGray",
+"nameRu": "НейтральноСерый"
+},
+{
+"name": "MediumBlue",
+"nameRu": "НейтральноСиний"
+},
+{
+"name": "MediumVioletRed",
+"nameRu": "НейтральноФиолетовоКрасный"
+},
+{
+"name": "Olive",
+"nameRu": "Оливковый"
+},
+{
+"name": "OrangeRed",
+"nameRu": "ОранжевоКрасный"
+},
+{
+"name": "Orange",
+"nameRu": "Оранжевый"
+},
+{
+"name": "Orchid",
+"nameRu": "Орхидея"
+},
+{
+"name": "MediumOrchid",
+"nameRu": "ОрхидеяНейтральный"
+},
+{
+"name": "DarkOrchid",
+"nameRu": "ОрхидеяТемный"
+},
+{
+"name": "Sienna",
+"nameRu": "Охра"
+},
+{
+"name": "SeaShell",
+"nameRu": "Перламутровый"
+},
+{
+"name": "PeachPuff",
+"nameRu": "Персиковый"
+},
+{
+"name": "SandyBrown",
+"nameRu": "ПесочноКоричневый"
+},
+{
+"name": "MidnightBlue",
+"nameRu": "ПолночноСиний"
+},
+{
+"name": "GhostWhite",
+"nameRu": "ПризрачноБелый"
+},
+{
+"name": "Purple",
+"nameRu": "Пурпурный"
+},
+{
+"name": "Wheat",
+"nameRu": "Пшеничный"
+},
+{
+"name": "RosyBrown",
+"nameRu": "РозовоКоричневый"
+},
+{
+"name": "Pink",
+"nameRu": "Розовый"
+},
+{
+"name": "HoneyDew",
+"nameRu": "Роса"
+},
+{
+"name": "Tan",
+"nameRu": "РыжеватоКоричневый"
+},
+{
+"name": "LightSlateGray",
+"nameRu": "СветлоГрифельноСерый"
+},
+{
+"name": "LightSlateBlue",
+"nameRu": "СветлоГрифельноСиний"
+},
+{
+"name": "LightYellow",
+"nameRu": "СветлоЖелтый"
+},
+{
+"name": "LightGoldenRodYellow",
+"nameRu": "СветлоЖелтыйЗолотистый"
+},
+{
+"name": "LightGreen",
+"nameRu": "СветлоЗеленый"
+},
+{
+"name": "LightGoldenRod",
+"nameRu": "СветлоЗолотистый"
+},
+{
+"name": "LightCoral",
+"nameRu": "СветлоКоралловый"
+},
+{
+"name": "Bisque",
+"nameRu": "СветлоКоричневый"
+},
+{
+"name": "LightSkyBlue",
+"nameRu": "СветлоНебесноГолубой"
+},
+{
+"name": "LightPink",
+"nameRu": "СветлоРозовый"
+},
+{
+"name": "LightGray",
+"nameRu": "СветлоСерый"
+},
+{
+"name": "Gainsboro",
+"nameRu": "СеребристоСерый"
+},
+{
+"name": "Silver",
+"nameRu": "Серебряный"
+},
+{
+"name": "CadetBlue",
+"nameRu": "СероСиний"
+},
+{
+"name": "Gray",
+"nameRu": "Серый"
+},
+{
+"name": "DodgerBlue",
+"nameRu": "СинеСерый"
+},
+{
+"name": "BlueViolet",
+"nameRu": "СинеФиолетовый"
+},
+{
+"name": "Blue",
+"nameRu": "Синий"
+},
+{
+"name": "SteelBlue",
+"nameRu": "СинийСоСтальнымОттенком"
+},
+{
+"name": "PowderBlue",
+"nameRu": "СинийСПороховымОттенком"
+},
+{
+"name": "Plum",
+"nameRu": "Сливовый"
+},
+{
+"name": "Ivory",
+"nameRu": "СлоноваяКость"
+},
+{
+"name": "OldLace",
+"nameRu": "СтароеКружево"
+},
+{
+"name": "DarkTurquoise",
+"nameRu": "ТемноБирюзовый"
+},
+{
+"name": "Maroon",
+"nameRu": "ТемноБордовый"
+},
+{
+"name": "DarkSlateGray",
+"nameRu": "ТемноГрифельноСерый"
+},
+{
+"name": "DarkSlateBlue",
+"nameRu": "ТемноГрифельноСиний"
+},
+{
+"name": "DarkGreen",
+"nameRu": "ТемноЗеленый"
+},
+{
+"name": "DarkGoldenRod",
+"nameRu": "ТемноЗолотистый"
+},
+{
+"name": "DarkRed",
+"nameRu": "ТемноКрасный"
+},
+{
+"name": "DarkOliveGreen",
+"nameRu": "ТемноОливковоЗеленый"
+},
+{
+"name": "DarkOrange",
+"nameRu": "ТемноОранжевый"
+},
+{
+"name": "DarkGray",
+"nameRu": "ТемноСерый"
+},
+{
+"name": "DarkBlue",
+"nameRu": "ТемноСиний"
+},
+{
+"name": "DarkViolet",
+"nameRu": "ТемноФиолетовый"
+},
+{
+"name": "HotPink",
+"nameRu": "ТеплоРозовый"
+},
+{
+"name": "Tomato",
+"nameRu": "Томатный"
+},
+{
+"name": "PapayaWhip",
+"nameRu": "ТопленоеМолоко"
+},
+{
+"name": "Olivedrab",
+"nameRu": "ТусклоОливковый"
+},
+{
+"name": "MistyRose",
+"nameRu": "ТусклоРозовый"
+},
+{
+"name": "DimGray",
+"nameRu": "ТусклоСерый"
+},
+{
+"name": "Navy",
+"nameRu": "Ультрамарин"
+},
+{
+"name": "Violet",
+"nameRu": "Фиолетовый"
+},
+{
+"name": "Magenta",
+"nameRu": "Фуксин"
+},
+{
+"name": "DarkMagenta",
+"nameRu": "ФуксинТемный"
+},
+{
+"name": "Fuchsia",
+"nameRu": "Фуксия"
+},
+{
+"name": "Khaki",
+"nameRu": "Хаки"
+},
+{
+"name": "DarkKhaki",
+"nameRu": "ХакиТемный"
+},
+{
+"name": "Seagreen",
+"nameRu": "ЦветМорскойВолны"
+},
+{
+"name": "MediumSeaGreen",
+"nameRu": "ЦветМорскойВолныНейтральный"
+},
+{
+"name": "LightSeaGreen",
+"nameRu": "ЦветМорскойВолныСветлый"
+},
+{
+"name": "DarkSeaGreen",
+"nameRu": "ЦветМорскойВолныТемный"
+},
+{
+"name": "FloralWhite",
+"nameRu": "ЦветокБелый"
+},
+{
+"name": "Cyan",
+"nameRu": "Циан"
+},
+{
+"name": "Aqua",
+"nameRu": "ЦианАкварельный"
+},
+{
+"name": "Teal",
+"nameRu": "ЦианНейтральный"
+},
+{
+"name": "LightCyan",
+"nameRu": "ЦианСветлый"
+},
+{
+"name": "DarkCyan",
+"nameRu": "ЦианТемный"
+},
+{
+"name": "Black",
+"nameRu": "Черный"
+},
+{
+"name": "CornSilk",
+"nameRu": "ШелковыйОттенок"
+},
+{
+"name": "Chocolate",
+"nameRu": "Шоколадный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70064,7 +70649,108 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ActiveBorder",
+"nameRu": "ГраницаАктивногоОкна"
+},
+{
+"name": "InactiveBorder",
+"nameRu": "ГраницаНеактивногоОкна"
+},
+{
+"name": "ActiveTitleBar",
+"nameRu": "ЗаголовокАктивногоОкна"
+},
+{
+"name": "InactiveTitleBar",
+"nameRu": "ЗаголовокНеактивногоОкна"
+},
+{
+"name": "ButtonFace",
+"nameRu": "Кнопка"
+},
+{
+"name": "ButtonHighlight",
+"nameRu": "КнопкаПодсвеченная"
+},
+{
+"name": "Highlight",
+"nameRu": "Подсвеченный"
+},
+{
+"name": "ToolTip",
+"nameRu": "Подсказка"
+},
+{
+"name": "ScrollBar",
+"nameRu": "ПолосаПрокрутки"
+},
+{
+"name": "ApplicationWorkspace",
+"nameRu": "РабочаяОбластьПриложения"
+},
+{
+"name": "Desktop",
+"nameRu": "РабочийСтол"
+},
+{
+"name": "WindowFrame",
+"nameRu": "РамкаОкна"
+},
+{
+"name": "MenuBar",
+"nameRu": "СтрокаМеню"
+},
+{
+"name": "ActiveTitleBarText",
+"nameRu": "ТекстЗаголовкаАктивногоОкна"
+},
+{
+"name": "InactiveTitleBarText",
+"nameRu": "ТекстЗаголовкаНеактивногоОкна"
+},
+{
+"name": "ButtonText",
+"nameRu": "ТекстКнопки"
+},
+{
+"name": "DisabledText",
+"nameRu": "ТекстНедоступный"
+},
+{
+"name": "WindowText",
+"nameRu": "ТекстОкна"
+},
+{
+"name": "HighlightText",
+"nameRu": "ТекстПодсвеченный"
+},
+{
+"name": "ToolTipText",
+"nameRu": "ТекстПодсказки"
+},
+{
+"name": "MenuItemText",
+"nameRu": "ТекстПунктаМеню"
+},
+{
+"name": "ButtonShadow",
+"nameRu": "ТеньКнопки"
+},
+{
+"name": "ButtonLightShadow",
+"nameRu": "ТеньКнопкиСветлая"
+},
+{
+"name": "ButtonDarkShadow",
+"nameRu": "ТеньКнопкиТемная"
+},
+{
+"name": "WindowBackground",
+"nameRu": "ФонОкна"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70074,7 +70760,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ANSIFixedFont",
+"nameRu": "ANSIШрифтМоноширинный"
+},
+{
+"name": "ANSIVariableFont",
+"nameRu": "ANSIШрифтПропорциональный"
+},
+{
+"name": "OEMFixedFont",
+"nameRu": "OEMШрифтМоноширинный"
+},
+{
+"name": "SystemFont",
+"nameRu": "СистемныйШрифт"
+},
+{
+"name": "DefaultGUIFont",
+"nameRu": "ШрифтДиалоговИМеню"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70084,7 +70791,728 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "<Icon name>",
+"nameRu": "<Имя картинки>"
+},
+{
+"name": "ActivateTask",
+"nameRu": "АктивироватьЗадачу"
+},
+{
+"name": "ActiveUsers",
+"nameRu": "АктивныеПользователи"
+},
+{
+"name": "BusinessProcess",
+"nameRu": "БизнесПроцесс"
+},
+{
+"name": "BusinessProcessObject",
+"nameRu": "БизнесПроцессОбъект"
+},
+{
+"name": "InputOnBasis",
+"nameRu": "ВводНаОсновании"
+},
+{
+"name": "CalculationType",
+"nameRu": "ВидРасчета"
+},
+{
+"name": "ExternalDataSource",
+"nameRu": "ВнешнийИсточникДанных"
+},
+{
+"name": "ExternalDataSourceTable",
+"nameRu": "ВнешнийИсточникДанныхТаблица"
+},
+{
+"name": "RestoreValues",
+"nameRu": "ВосстановитьЗначения"
+},
+{
+"name": "Forward",
+"nameRu": "Вперед"
+},
+{
+"name": "DataCompositionSelection",
+"nameRu": "ВыборКомпоновкиДанных"
+},
+{
+"name": "DataCompositionSelectionDisabled",
+"nameRu": "ВыборКомпоновкиДанныхНедоступный"
+},
+{
+"name": "Select",
+"nameRu": "Выбрать"
+},
+{
+"name": "ChooseTopLevel",
+"nameRu": "ВыбратьВерхнийУровень"
+},
+{
+"name": "ChooseValue",
+"nameRu": "ВыбратьЗначение"
+},
+{
+"name": "ChooseType",
+"nameRu": "ВыбратьТип"
+},
+{
+"name": "OutputList",
+"nameRu": "ВывестиСписок"
+},
+{
+"name": "ExecuteTask",
+"nameRu": "ВыполнитьЗадачу"
+},
+{
+"name": "GeographicalSchema",
+"nameRu": "ГеографическаяСхема"
+},
+{
+"name": "GraphicalSchema",
+"nameRu": "ГрафическаяСхема"
+},
+{
+"name": "Debit",
+"nameRu": "Дебет"
+},
+{
+"name": "DebitCredit",
+"nameRu": "ДебетКредит"
+},
+{
+"name": "Dendrogram",
+"nameRu": "Дендрограмма"
+},
+{
+"name": "Chart",
+"nameRu": "Диаграмма"
+},
+{
+"name": "GanttChart",
+"nameRu": "ДиаграммаГанта"
+},
+{
+"name": "AddToFavorites",
+"nameRu": "ДобавитьВИзбранное"
+},
+{
+"name": "Document",
+"nameRu": "Документ"
+},
+{
+"name": "DocumentObject",
+"nameRu": "ДокументОбъект"
+},
+{
+"name": "DocumentJournal",
+"nameRu": "ЖурналДокументов"
+},
+{
+"name": "EventLog",
+"nameRu": "ЖурналРегистрации"
+},
+{
+"name": "EventLogByUser",
+"nameRu": "ЖурналРегистрацииПоПользователю"
+},
+{
+"name": "LoadReportSettings",
+"nameRu": "ЗагрузитьНастройкиОтчета"
+},
+{
+"name": "Task",
+"nameRu": "Задача"
+},
+{
+"name": "TaskObject",
+"nameRu": "ЗадачаОбъект"
+},
+{
+"name": "EndEdit",
+"nameRu": "ЗакончитьРедактирование"
+},
+{
+"name": "Close",
+"nameRu": "Закрыть"
+},
+{
+"name": "Replace",
+"nameRu": "Заменить"
+},
+{
+"name": "Write",
+"nameRu": "Записать"
+},
+{
+"name": "WriteAndClose",
+"nameRu": "ЗаписатьИЗакрыть"
+},
+{
+"name": "WriteChanges",
+"nameRu": "ЗаписатьИзменения"
+},
+{
+"name": "GrayedAll",
+"nameRu": "ЗатенитьФлажки"
+},
+{
+"name": "FixTable",
+"nameRu": "ЗафиксироватьТаблицу"
+},
+{
+"name": "HierarchicalView",
+"nameRu": "ИерархическийПросмотр"
+},
+{
+"name": "Change",
+"nameRu": "Изменить"
+},
+{
+"name": "CustomizeForm",
+"nameRu": "ИзменитьФорму"
+},
+{
+"name": "FilterHistory",
+"nameRu": "ИсторияОтборов"
+},
+{
+"name": "Calendar",
+"nameRu": "Календарь"
+},
+{
+"name": "Calculator",
+"nameRu": "Калькулятор"
+},
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Constant",
+"nameRu": "Константа"
+},
+{
+"name": "QueryWizard",
+"nameRu": "КонструкторЗапроса"
+},
+{
+"name": "DataCompositionSettingsWizard",
+"nameRu": "КонструкторНастроекКомпоновкиДанных"
+},
+{
+"name": "Credit",
+"nameRu": "Кредит"
+},
+{
+"name": "FilterCriterion",
+"nameRu": "КритерийОтбора"
+},
+{
+"name": "Magnifier",
+"nameRu": "Лупа"
+},
+{
+"name": "Back",
+"nameRu": "Назад"
+},
+{
+"name": "Find",
+"nameRu": "Найти"
+},
+{
+"name": "FindInTree",
+"nameRu": "НайтиВДереве"
+},
+{
+"name": "SyncContents",
+"nameRu": "НайтиВСодержании"
+},
+{
+"name": "FindInList",
+"nameRu": "НайтиВСписке"
+},
+{
+"name": "FindByNumber",
+"nameRu": "НайтиПоНомеру"
+},
+{
+"name": "FindPrevious",
+"nameRu": "НайтиПредыдущий"
+},
+{
+"name": "FindNext",
+"nameRu": "НайтиСледующий"
+},
+{
+"name": "CustomizeList",
+"nameRu": "НастроитьСписок"
+},
+{
+"name": "ListSettings",
+"nameRu": "НастройкаСписка"
+},
+{
+"name": "ReportSettings",
+"nameRu": "НастройкиОтчета"
+},
+{
+"name": "DataCompositionNewNestedSchema",
+"nameRu": "НоваяВложеннаяСхемаКомпоновкиДанных"
+},
+{
+"name": "DataCompositionNewGroup",
+"nameRu": "НоваяГруппировкаКомпоновкиДанных"
+},
+{
+"name": "DataCompositionNewChart",
+"nameRu": "НоваяДиаграммаКомпоновкиДанных"
+},
+{
+"name": "DataCompositionNewTable",
+"nameRu": "НоваяТаблицаКомпоновкиДанных"
+},
+{
+"name": "NewWindow",
+"nameRu": "НовоеОкно"
+},
+{
+"name": "Refresh",
+"nameRu": "Обновить"
+},
+{
+"name": "DataProcessor",
+"nameRu": "Обработка"
+},
+{
+"name": "Stop",
+"nameRu": "Остановить"
+},
+{
+"name": "FilterAndSort",
+"nameRu": "ОтборИСортировка"
+},
+{
+"name": "DataCompositionFilter",
+"nameRu": "ОтборКомпоновкиДанных"
+},
+{
+"name": "DataCompositionFilterDisabled",
+"nameRu": "ОтборКомпоновкиДанныхНедоступный"
+},
+{
+"name": "FilterByType",
+"nameRu": "ОтборПоВиду"
+},
+{
+"name": "FilterByCurrentValue",
+"nameRu": "ОтборПоТекущемуЗначению"
+},
+{
+"name": "ClearFilter",
+"nameRu": "ОтключитьОтбор"
+},
+{
+"name": "OpenFile",
+"nameRu": "ОткрытьФайл"
+},
+{
+"name": "UndoPosting",
+"nameRu": "ОтменаПроведения"
+},
+{
+"name": "CancelSearch",
+"nameRu": "ОтменитьПоиск"
+},
+{
+"name": "Report",
+"nameRu": "Отчет"
+},
+{
+"name": "Clear",
+"nameRu": "Очистить"
+},
+{
+"name": "DataCompositionOutputParameters",
+"nameRu": "ПараметрыВыводаКомпоновкиДанных"
+},
+{
+"name": "DataCompositionOutputParametersDisabled",
+"nameRu": "ПараметрыВыводаКомпоновкиДанныхНедоступные"
+},
+{
+"name": "DataCompositionDataParameters",
+"nameRu": "ПараметрыДанныхКомпоновкиДанных"
+},
+{
+"name": "GotoURL",
+"nameRu": "ПерейтиПоНавигационнойСсылке"
+},
+{
+"name": "SwitchActivity",
+"nameRu": "ПереключитьАктивность"
+},
+{
+"name": "MoveUp",
+"nameRu": "ПереместитьВверх"
+},
+{
+"name": "MoveLeft",
+"nameRu": "ПереместитьВлево"
+},
+{
+"name": "MoveDown",
+"nameRu": "ПереместитьВниз"
+},
+{
+"name": "MoveRight",
+"nameRu": "ПереместитьВправо"
+},
+{
+"name": "MoveItem",
+"nameRu": "ПеренестиЭлемент"
+},
+{
+"name": "Enum",
+"nameRu": "Перечисление"
+},
+{
+"name": "Reread",
+"nameRu": "Перечитать"
+},
+{
+"name": "Print",
+"nameRu": "Печать"
+},
+{
+"name": "PrintImmediately",
+"nameRu": "ПечатьСразу"
+},
+{
+"name": "ChartOfCalculationTypes",
+"nameRu": "ПланВидовРасчета"
+},
+{
+"name": "ChartOfCalculationTypesObject",
+"nameRu": "ПланВидовРасчетаОбъект"
+},
+{
+"name": "ChartOfCharacteristicTypes",
+"nameRu": "ПланВидовХарактеристик"
+},
+{
+"name": "ChartOfCharacteristicTypesObject",
+"nameRu": "ПланВидовХарактеристикОбъект"
+},
+{
+"name": "ExchangePlan",
+"nameRu": "ПланОбмена"
+},
+{
+"name": "ExchangePlanObject",
+"nameRu": "ПланОбменаОбъект"
+},
+{
+"name": "ChartOfAccounts",
+"nameRu": "ПланСчетов"
+},
+{
+"name": "ChartOfAccountsObject",
+"nameRu": "ПланСчетовОбъект"
+},
+{
+"name": "ShowData",
+"nameRu": "ПоказатьДанные"
+},
+{
+"name": "GetURL",
+"nameRu": "ПолучитьНавигационнуюСсылку"
+},
+{
+"name": "User",
+"nameRu": "Пользователь"
+},
+{
+"name": "UserWithoutNecessaryProperties",
+"nameRu": "ПользовательБезНеобходимыхСвойств"
+},
+{
+"name": "UserWithAuthentication",
+"nameRu": "ПользовательСАутентификацией"
+},
+{
+"name": "DataCompositionUserFields",
+"nameRu": "ПользовательскиеПоляКомпоновкиДанных"
+},
+{
+"name": "DataCompositionGroupFields",
+"nameRu": "ПоляГруппировкиКомпоновкиДанных"
+},
+{
+"name": "DataCompositionGroupFieldsDisabled",
+"nameRu": "ПоляГруппировкиКомпоновкиДанныхНедоступные"
+},
+{
+"name": "MarkToDelete",
+"nameRu": "ПометитьНаУдаление"
+},
+{
+"name": "DataCompositionOrder",
+"nameRu": "ПорядокКомпоновкиДанных"
+},
+{
+"name": "DataCompositionOrderDisabled",
+"nameRu": "ПорядокКомпоновкиДанныхНедоступный"
+},
+{
+"name": "Previous",
+"nameRu": "Предыдущий"
+},
+{
+"name": "Post",
+"nameRu": "Провести"
+},
+{
+"name": "ViewByOwner",
+"nameRu": "ПросмотрПоВладельцу"
+},
+{
+"name": "ReadChanges",
+"nameRu": "ПрочитатьИзменения"
+},
+{
+"name": "ExpandAll",
+"nameRu": "РазвернутьВсе"
+},
+{
+"name": "AccountingRegister",
+"nameRu": "РегистрБухгалтерии"
+},
+{
+"name": "AccumulationRegister",
+"nameRu": "РегистрНакопления"
+},
+{
+"name": "CalculationRegister",
+"nameRu": "РегистрРасчета"
+},
+{
+"name": "InformationRegister",
+"nameRu": "РегистрСведений"
+},
+{
+"name": "InformationRegisterRecord",
+"nameRu": "РегистрСведенийЗапись"
+},
+{
+"name": "ScheduledJob",
+"nameRu": "РегламентноеЗадание"
+},
+{
+"name": "ScheduledJobs",
+"nameRu": "РегламентныеЗадания"
+},
+{
+"name": "EditInDialog",
+"nameRu": "РедактироватьВДиалоге"
+},
+{
+"name": "ListViewMode",
+"nameRu": "РежимПросмотраСписка"
+},
+{
+"name": "ListViewModeTree",
+"nameRu": "РежимПросмотраСпискаДерево"
+},
+{
+"name": "ListViewModeHierarchicalList",
+"nameRu": "РежимПросмотраСпискаИерархическийСписок"
+},
+{
+"name": "ListViewModeList",
+"nameRu": "РежимПросмотраСпискаСписок"
+},
+{
+"name": "CollapseAll",
+"nameRu": "СвернутьВсе"
+},
+{
+"name": "PivotChart",
+"nameRu": "СводнаяДиаграмма"
+},
+{
+"name": "Char",
+"nameRu": "Символ"
+},
+{
+"name": "CheckSyntax",
+"nameRu": "СинтаксическийКонтроль"
+},
+{
+"name": "CloneObject",
+"nameRu": "СкопироватьОбъект"
+},
+{
+"name": "CloneListItem",
+"nameRu": "СкопироватьЭлементСписка"
+},
+{
+"name": "Next",
+"nameRu": "Следующий"
+},
+{
+"name": "UncheckAll",
+"nameRu": "СнятьФлажки"
+},
+{
+"name": "CreateFolder",
+"nameRu": "СоздатьГруппу"
+},
+{
+"name": "CreateInitialImage",
+"nameRu": "СоздатьНачальныйОбраз"
+},
+{
+"name": "CreateListItem",
+"nameRu": "СоздатьЭлементСписка"
+},
+{
+"name": "SortList",
+"nameRu": "СортироватьСписок"
+},
+{
+"name": "SortListAsc",
+"nameRu": "СортироватьСписокПоВозрастанию"
+},
+{
+"name": "SortListDesc",
+"nameRu": "СортироватьСписокПоУбыванию"
+},
+{
+"name": "Sort",
+"nameRu": "Сортировка"
+},
+{
+"name": "SaveValues",
+"nameRu": "СохранитьЗначения"
+},
+{
+"name": "SaveReportSettings",
+"nameRu": "СохранитьНастройкиОтчета"
+},
+{
+"name": "SaveFile",
+"nameRu": "СохранитьФайл"
+},
+{
+"name": "Help",
+"nameRu": "Справка"
+},
+{
+"name": "Catalog",
+"nameRu": "Справочник"
+},
+{
+"name": "CatalogObject",
+"nameRu": "СправочникОбъект"
+},
+{
+"name": "DataCompositionStandardSettings",
+"nameRu": "СтандартнаяНастройкаКомпоновкиДанных"
+},
+{
+"name": "BusinessProcessStart",
+"nameRu": "СтартБизнесПроцесса"
+},
+{
+"name": "GenerateReport",
+"nameRu": "СформироватьОтчет"
+},
+{
+"name": "SpreadsheetInsertComment",
+"nameRu": "ТабличныйДокументВставитьПримечание"
+},
+{
+"name": "SpreadsheetInsertPageBreak",
+"nameRu": "ТабличныйДокументВставитьРазрывСтраницы"
+},
+{
+"name": "SpreadsheetShowGroups",
+"nameRu": "ТабличныйДокументОтображатьГруппировки"
+},
+{
+"name": "SpreadsheetShowHeaders",
+"nameRu": "ТабличныйДокументОтображатьЗаголовки"
+},
+{
+"name": "SpreadsheetShowComments",
+"nameRu": "ТабличныйДокументОтображатьПримечания"
+},
+{
+"name": "SpreadsheetShowGrid",
+"nameRu": "ТабличныйДокументОтображатьСетку"
+},
+{
+"name": "SpreadsheetReadOnly",
+"nameRu": "ТабличныйДокументТолькоПросмотр"
+},
+{
+"name": "SpreadsheetDeleteComment",
+"nameRu": "ТабличныйДокументУдалитьПримечание"
+},
+{
+"name": "SpreadsheetDeletePageBreak",
+"nameRu": "ТабличныйДокументУдалитьРазрывСтраницы"
+},
+{
+"name": "Delete",
+"nameRu": "Удалить"
+},
+{
+"name": "DeleteDirectly",
+"nameRu": "УдалитьНепосредственно"
+},
+{
+"name": "LevelUp",
+"nameRu": "УровеньВверх"
+},
+{
+"name": "LevelDown",
+"nameRu": "УровеньВниз"
+},
+{
+"name": "DataCompositionConditionalAppearance",
+"nameRu": "УсловноеОформлениеКомпоновкиДанных"
+},
+{
+"name": "DataCompositionConditionalAppearanceDisabled",
+"nameRu": "УсловноеОформлениеКомпоновкиДанныхНедоступное"
+},
+{
+"name": "SetTime",
+"nameRu": "УстановитьВремя"
+},
+{
+"name": "SetDateInterval",
+"nameRu": "УстановитьИнтервал"
+},
+{
+"name": "CheckAll",
+"nameRu": "УстановитьФлажки"
+},
+{
+"name": "Form",
+"nameRu": "Форма"
+},
+{
+"name": "SettingsStorage",
+"nameRu": "ХранилищеНастроек"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70094,7 +71522,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "<Name of style element>",
+"nameRu": "<Имя элемента стиля>"
+},
+{
+"name": "ControlBorder",
+"nameRu": "РамкаЭлементаУправления"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70104,7 +71541,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "CR",
+"nameRu": "ВК"
+},
+{
+"name": "VTab",
+"nameRu": "ВТаб"
+},
+{
+"name": "NBSp",
+"nameRu": "НПП"
+},
+{
+"name": "LF",
+"nameRu": "ПС"
+},
+{
+"name": "FF",
+"nameRu": "ПФ"
+},
+{
+"name": "Tab",
+"nameRu": "Таб"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70114,7 +71576,84 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "<Name of style element>",
+"nameRu": "<Имя элемента стиля>"
+},
+{
+"name": "FieldAlternativeBackColor",
+"nameRu": "АльтернативныйЦветФонаПоля"
+},
+{
+"name": "ReportLineColor",
+"nameRu": "ЦветЛинииОтчета"
+},
+{
+"name": "SpecialTextColor",
+"nameRu": "ЦветОсобогоТекста"
+},
+{
+"name": "NegativeTextColor",
+"nameRu": "ЦветОтрицательногоЧисла"
+},
+{
+"name": "BorderColor",
+"nameRu": "ЦветРамки"
+},
+{
+"name": "FieldSelectedTextColor",
+"nameRu": "ЦветТекстаВыделенияПоля"
+},
+{
+"name": "ButtonTextColor",
+"nameRu": "ЦветТекстаКнопки"
+},
+{
+"name": "ToolTipTextColor",
+"nameRu": "ЦветТекстаПодсказки"
+},
+{
+"name": "FieldTextColor",
+"nameRu": "ЦветТекстаПоля"
+},
+{
+"name": "FormTextColor",
+"nameRu": "ЦветТекстаФормы"
+},
+{
+"name": "FieldSelectionBackColor",
+"nameRu": "ЦветФонаВыделенияПоля"
+},
+{
+"name": "ReportGroup1BackColor",
+"nameRu": "ЦветФонаГруппировкиОтчета1"
+},
+{
+"name": "ReportGroup2BackColor",
+"nameRu": "ЦветФонаГруппировкиОтчета2"
+},
+{
+"name": "ButtonBackColor",
+"nameRu": "ЦветФонаКнопки"
+},
+{
+"name": "ToolTipBackColor",
+"nameRu": "ЦветФонаПодсказки"
+},
+{
+"name": "FieldBackColor",
+"nameRu": "ЦветФонаПоля"
+},
+{
+"name": "FormBackColor",
+"nameRu": "ЦветФонаФормы"
+},
+{
+"name": "ReportHeaderBackColor",
+"nameRu": "ЦветФонаШапкиОтчета"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70124,7 +71663,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "<Name of style element>",
+"nameRu": "<Имя элемента стиля>"
+},
+{
+"name": "TextFont",
+"nameRu": "ШрифтТекста"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70134,7 +71682,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70144,7 +71717,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Always",
+"nameRu": "Всегда"
+},
+{
+"name": "WhenActive",
+"nameRu": "ПриАктивности"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70154,7 +71736,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70164,7 +71763,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Vertical",
+"nameRu": "Вертикальная"
+},
+{
+"name": "InCell",
+"nameRu": "ВЯчейке"
+},
+{
+"name": "Horizontal",
+"nameRu": "Горизонтальная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70174,7 +71786,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Line",
+"nameRu": "Линия"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Margin",
+"nameRu": "Отступ"
+},
+{
+"name": "GroupBox",
+"nameRu": "РамкаГруппы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70184,7 +71813,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "PictureAndText",
+"nameRu": "КартинкаИТекст"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70194,7 +71840,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Hyperlink",
+"nameRu": "Гиперссылка"
+},
+{
+"name": "CommandBarButton",
+"nameRu": "КнопкаКоманднойПанели"
+},
+{
+"name": "UsualButton",
+"nameRu": "ОбычнаяКнопка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70204,7 +71863,76 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "HTMLDocumentField",
+"nameRu": "ПолеHTMLДокумента"
+},
+{
+"name": "InputField",
+"nameRu": "ПолеВвода"
+},
+{
+"name": "GeographicalSchemaField",
+"nameRu": "ПолеГеографическойСхемы"
+},
+{
+"name": "GraphicalSchemaField",
+"nameRu": "ПолеГрафическойСхемы"
+},
+{
+"name": "DendrogramField",
+"nameRu": "ПолеДендрограммы"
+},
+{
+"name": "ChartField",
+"nameRu": "ПолеДиаграммы"
+},
+{
+"name": "GanttChartField",
+"nameRu": "ПолеДиаграммыГанта"
+},
+{
+"name": "ProgressBarField",
+"nameRu": "ПолеИндикатора"
+},
+{
+"name": "CalendarField",
+"nameRu": "ПолеКалендаря"
+},
+{
+"name": "PictureField",
+"nameRu": "ПолеКартинки"
+},
+{
+"name": "LabelField",
+"nameRu": "ПолеНадписи"
+},
+{
+"name": "RadioButtonField",
+"nameRu": "ПолеПереключателя"
+},
+{
+"name": "TrackBarField",
+"nameRu": "ПолеПолосыРегулирования"
+},
+{
+"name": "SpreadsheetDocumentField",
+"nameRu": "ПолеТабличногоДокумента"
+},
+{
+"name": "TextDocumentField",
+"nameRu": "ПолеТекстовогоДокумента"
+},
+{
+"name": "CheckBoxField",
+"nameRu": "ПолеФлажка"
+},
+{
+"name": "FormattedDocumentField",
+"nameRu": "ПолеФорматированногоДокумента"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70214,7 +71942,40 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ButtonGroup",
+"nameRu": "ГруппаКнопок"
+},
+{
+"name": "ColumnGroup",
+"nameRu": "ГруппаКолонок"
+},
+{
+"name": "CommandBar",
+"nameRu": "КоманднаяПанель"
+},
+{
+"name": "ContextMenu",
+"nameRu": "КонтекстноеМеню"
+},
+{
+"name": "UsualGroup",
+"nameRu": "ОбычнаяГруппа"
+},
+{
+"name": "Popup",
+"nameRu": "Подменю"
+},
+{
+"name": "Page",
+"nameRu": "Страница"
+},
+{
+"name": "Pages",
+"nameRu": "Страницы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70224,7 +71985,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Tree",
+"nameRu": "Дерево"
+},
+{
+"name": "HierarchicalList",
+"nameRu": "ИерархическийСписок"
+},
+{
+"name": "List",
+"nameRu": "Список"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70234,7 +72008,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "EndOfWindow",
+"nameRu": "ВКонецОкна"
+},
+{
+"name": "EndOfList",
+"nameRu": "ВКонецСписка"
+},
+{
+"name": "BeforeCurrentRow",
+"nameRu": "ПередТекущейСтрокой"
+},
+{
+"name": "AfterCurrentRow",
+"nameRu": "ПослеТекущейСтроки"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70244,7 +72035,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "MultiRow",
+"nameRu": "Множественный"
+},
+{
+"name": "SingleRow",
+"nameRu": "Одиночный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70254,7 +72054,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Row",
+"nameRu": "Строка"
+},
+{
+"name": "Cell",
+"nameRu": "Ячейка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70264,7 +72073,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Folders",
+"nameRu": "Группы"
+},
+{
+"name": "FoldersAndItems",
+"nameRu": "ГруппыИЭлементы"
+},
+{
+"name": "Items",
+"nameRu": "Элементы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70274,7 +72100,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Vertical",
+"nameRu": "Вертикально"
+},
+{
+"name": "Horizontal",
+"nameRu": "Горизонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70284,7 +72119,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "TabsOnTop",
+"nameRu": "ЗакладкиСверху"
+},
+{
+"name": "TabsOnLeftHorizontal",
+"nameRu": "ЗакладкиСлеваГоризонтально"
+},
+{
+"name": "TabsOnBottom",
+"nameRu": "ЗакладкиСнизу"
+},
+{
+"name": "TabsOnRightHorizontal",
+"nameRu": "ЗакладкиСправаГоризонтально"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70294,7 +72150,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "LockOwnerWindow",
+"nameRu": "БлокироватьОкноВладельца"
+},
+{
+"name": "Independent",
+"nameRu": "Независимый"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70304,7 +72169,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "UseList",
+"nameRu": "ИспользоватьСписок"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70314,7 +72188,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70324,7 +72207,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Vertical",
+"nameRu": "Вертикальная"
+},
+{
+"name": "Horizontal",
+"nameRu": "Горизонтальная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70334,7 +72226,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "LeftNarrowest",
+"nameRu": "ЛевыйОченьУзкий"
+},
+{
+"name": "LeftWidest",
+"nameRu": "ЛевыйОченьШирокий"
+},
+{
+"name": "LeftNarrow",
+"nameRu": "ЛевыйУзкий"
+},
+{
+"name": "LeftWide",
+"nameRu": "ЛевыйШирокий"
+},
+{
+"name": "Equal",
+"nameRu": "Одинаковая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70344,7 +72261,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70354,7 +72288,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Create",
+"nameRu": "Добавление"
+},
+{
+"name": "Update",
+"nameRu": "Изменение"
+},
+{
+"name": "Delete",
+"nameRu": "Удаление"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70364,7 +72311,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70374,7 +72338,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "DontShow",
+"nameRu": "НеОтображать"
+},
+{
+"name": "Show",
+"nameRu": "Отображать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70384,7 +72361,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Label",
+"nameRu": "Надпись"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70394,7 +72380,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70404,7 +72407,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "FormCommandBar",
+"nameRu": "КоманднаяПанельФормы"
+},
+{
+"name": "ActionsPanel",
+"nameRu": "ПанельДействий"
+},
+{
+"name": "NavigationPanel",
+"nameRu": "ПанельНавигации"
+},
+{
+"name": "FormNavigationPanel",
+"nameRu": "ПанельНавигацииФормы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70414,7 +72434,52 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "FormCommandBarImportant",
+"nameRu": "КоманднаяПанельФормыВажное"
+},
+{
+"name": "FormCommandBarCreateBasedOn",
+"nameRu": "КоманднаяПанельФормыСоздатьНаОсновании"
+},
+{
+"name": "ActionsPanelReports",
+"nameRu": "ПанельДействийОтчеты"
+},
+{
+"name": "ActionsPanelTools",
+"nameRu": "ПанельДействийСервис"
+},
+{
+"name": "ActionsPanelCreate",
+"nameRu": "ПанельДействийСоздать"
+},
+{
+"name": "NavigationPanelImportant",
+"nameRu": "ПанельНавигацииВажное"
+},
+{
+"name": "NavigationPanelOrdinary",
+"nameRu": "ПанельНавигацииОбычное"
+},
+{
+"name": "NavigationPanelSeeAlso",
+"nameRu": "ПанельНавигацииСмТакже"
+},
+{
+"name": "FormNavigationPanelImportant",
+"nameRu": "ПанельНавигацииФормыВажное"
+},
+{
+"name": "FormNavigationPanelGoTo",
+"nameRu": "ПанельНавигацииФормыПерейти"
+},
+{
+"name": "FormNavigationPanelSeeAlso",
+"nameRu": "ПанельНавигацииФормыСмТакже"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70424,7 +72489,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Normal",
+"nameRu": "Обычное"
+},
+{
+"name": "Docked",
+"nameRu": "Прикрепленное"
+},
+{
+"name": "Autohide",
+"nameRu": "Прячущееся"
+},
+{
+"name": "Float",
+"nameRu": "Свободное"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70434,7 +72516,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Smooth",
+"nameRu": "Плавный"
+},
+{
+"name": "Broken",
+"nameRu": "Прерывистый"
+},
+{
+"name": "BrokenTilt",
+"nameRu": "ПрерывистыйНаклонный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70444,7 +72539,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Maximized",
+"nameRu": "Максимизированное"
+},
+{
+"name": "Minimized",
+"nameRu": "Минимизированное"
+},
+{
+"name": "Normal",
+"nameRu": "Нормальное"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70454,7 +72562,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "DontOverlapOwner",
+"nameRu": "НеПерекрыватьВладельца"
+},
+{
+"name": "Center",
+"nameRu": "Центрировать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70464,7 +72585,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70474,7 +72612,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Change",
+"nameRu": "Изменять"
+},
+{
+"name": "DontChange",
+"nameRu": "НеИзменять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70484,7 +72631,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Disable",
+"nameRu": "Запретить"
+},
+{
+"name": "Enable",
+"nameRu": "Разрешить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70494,7 +72654,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70504,7 +72673,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Variant",
+"nameRu": "Вариант"
+},
+{
+"name": "Settings",
+"nameRu": "Настройка"
+},
+{
+"name": "Main",
+"nameRu": "Основная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70514,7 +72696,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Enter",
+"nameRu": "Вход"
+},
+{
+"name": "EnterOnInput",
+"nameRu": "ВходПриВводе"
+},
+{
+"name": "Directly",
+"nameRu": "Непосредственно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70524,7 +72719,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Vertical",
+"nameRu": "Вертикально"
+},
+{
+"name": "Horizontal",
+"nameRu": "Горизонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70534,7 +72742,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70544,7 +72765,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Justify",
+"nameRu": "ПоШирине"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70554,7 +72796,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "TitleLeft",
+"nameRu": "ЗаголовокСлева"
+},
+{
+"name": "TitleRight",
+"nameRu": "ЗаголовокСправа"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70564,7 +72815,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70574,7 +72846,44 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WIthoutBorder",
+"nameRu": "БезРамки"
+},
+{
+"name": "Indented",
+"nameRu": "Вдавленная"
+},
+{
+"name": "Embossed",
+"nameRu": "Выпуклая"
+},
+{
+"name": "Double",
+"nameRu": "Двойная"
+},
+{
+"name": "DoubleUnderline",
+"nameRu": "ДвойноеПодчеркивание"
+},
+{
+"name": "Single",
+"nameRu": "Одинарная"
+},
+{
+"name": "Underline",
+"nameRu": "Подчеркивание"
+},
+{
+"name": "Rounded",
+"nameRu": "Скругленная"
+},
+{
+"name": "Overline",
+"nameRu": "ЧертаСверху"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70584,7 +72893,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Choice",
+"nameRu": "Выбор"
+},
+{
+"name": "Copy",
+"nameRu": "Копирование"
+},
+{
+"name": "Cancel",
+"nameRu": "Отмена"
+},
+{
+"name": "Move",
+"nameRu": "Перемещение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70594,7 +72920,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Copy",
+"nameRu": "Копирование"
+},
+{
+"name": "CopyAndMove",
+"nameRu": "КопированиеИПеремещение"
+},
+{
+"name": "DontProcess",
+"nameRu": "НеОбрабатывать"
+},
+{
+"name": "Move",
+"nameRu": "Перемещение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70604,7 +72947,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Interval",
+"nameRu": "Интервал"
+},
+{
+"name": "Multiple",
+"nameRu": "Множественный"
+},
+{
+"name": "Single",
+"nameRu": "Одиночный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70614,7 +72970,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70624,7 +72989,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Text",
+"nameRu": "Надпись"
+},
+{
+"name": "PictureText",
+"nameRu": "НадписьКартинка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70634,7 +73016,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70644,7 +73039,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Action",
+"nameRu": "Действие"
+},
+{
+"name": "Popup",
+"nameRu": "Подменю"
+},
+{
+"name": "Separator",
+"nameRu": "Разделитель"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70654,7 +73062,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Asc",
+"nameRu": "Возр"
+},
+{
+"name": "DontOrder",
+"nameRu": "НеУпорядочивать"
+},
+{
+"name": "Desc",
+"nameRu": "Убыв"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70664,7 +73085,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "UseExtra",
+"nameRu": "ИспользоватьДополнительно"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70674,7 +73108,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70684,7 +73139,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Fast",
+"nameRu": "Быстро"
+},
+{
+"name": "Slow",
+"nameRu": "Медленно"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "Normal",
+"nameRu": "Нормально"
+},
+{
+"name": "VeryFast",
+"nameRu": "ОченьБыстро"
+},
+{
+"name": "VerySlow",
+"nameRu": "ОченьМедленно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70694,7 +73174,60 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "Top",
+"nameRu": "Сверху"
+},
+{
+"name": "TopMultiLine",
+"nameRu": "СверхуМногострочный"
+},
+{
+"name": "TopMultilineTransposition",
+"nameRu": "СверхуМногострочныйСПерестановкой"
+},
+{
+"name": "TopScrolling",
+"nameRu": "СверхуСПрокруткой"
+},
+{
+"name": "LeftVertical",
+"nameRu": "СлеваВертикально"
+},
+{
+"name": "LeftHorizontal",
+"nameRu": "СлеваГоризонтально"
+},
+{
+"name": "Bottom",
+"nameRu": "Снизу"
+},
+{
+"name": "BottomMultiLine",
+"nameRu": "СнизуМногострочный"
+},
+{
+"name": "BottomMultilineTransposition",
+"nameRu": "СнизуМногострочныйСПерестановкой"
+},
+{
+"name": "BottomScrolling",
+"nameRu": "СнизуСПрокруткой"
+},
+{
+"name": "RightVertical",
+"nameRu": "СправаВертикально"
+},
+{
+"name": "RightHorizontal",
+"nameRu": "СправаГоризонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70704,7 +73237,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70714,7 +73268,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Browse",
+"nameRu": "Просмотр"
+},
+{
+"name": "Design",
+"nameRu": "Редактирование"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70724,7 +73287,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Change",
+"nameRu": "Изменять"
+},
+{
+"name": "DontChange",
+"nameRu": "НеИзменять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70734,7 +73306,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AutoUse",
+"nameRu": "ИспользоватьАвтоматически"
+},
+{
+"name": "UseAlways",
+"nameRu": "ИспользоватьВсегда"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70744,7 +73329,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NoExpand",
+"nameRu": "НеРаскрывать"
+},
+{
+"name": "ExpandTopLevel",
+"nameRu": "РаскрыватьВерхнийУровень"
+},
+{
+"name": "ExpandAllLevels",
+"nameRu": "РаскрыватьВсеУровни"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70754,7 +73352,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "End",
+"nameRu": "Конец"
+},
+{
+"name": "Beginning",
+"nameRu": "Начало"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70764,7 +73375,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "SameColumn",
+"nameRu": "ВТойЖеКолонке"
+},
+{
+"name": "OnNextRow",
+"nameRu": "НаСледующейСтроке"
+},
+{
+"name": "NewColumn",
+"nameRu": "НоваяКолонка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70774,7 +73398,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Row",
+"nameRu": "Строка"
+},
+{
+"name": "Cell",
+"nameRu": "Ячейка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70784,7 +73417,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "EndOfWindow",
+"nameRu": "ВКонецОкна"
+},
+{
+"name": "EndOfList",
+"nameRu": "ВКонецСписка"
+},
+{
+"name": "BeforeCurrentRow",
+"nameRu": "ПередТекущейСтрокой"
+},
+{
+"name": "AfterCurrentRow",
+"nameRu": "ПослеТекущейСтроки"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70794,7 +73444,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "MultiLine",
+"nameRu": "Множественный"
+},
+{
+"name": "SingleLine",
+"nameRu": "Одиночный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70804,7 +73463,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "InDialog",
+"nameRu": "ВДиалоге"
+},
+{
+"name": "InList",
+"nameRu": "ВСписке"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70814,7 +73482,96 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Orange",
+"nameRu": "Апельсин"
+},
+{
+"name": "Asphalt",
+"nameRu": "Асфальт"
+},
+{
+"name": "None",
+"nameRu": "БезОформления"
+},
+{
+"name": "Turquoise",
+"nameRu": "Бирюза"
+},
+{
+"name": "Bronze",
+"nameRu": "Бронза"
+},
+{
+"name": "Spring",
+"nameRu": "Весна"
+},
+{
+"name": "Wood",
+"nameRu": "Дерево"
+},
+{
+"name": "Winter",
+"nameRu": "Зима"
+},
+{
+"name": "Interface",
+"nameRu": "Интерфейс"
+},
+{
+"name": "Stone",
+"nameRu": "Камень"
+},
+{
+"name": "Classic",
+"nameRu": "Классика"
+},
+{
+"name": "Classic2",
+"nameRu": "Классика2"
+},
+{
+"name": "Classic3",
+"nameRu": "Классика3"
+},
+{
+"name": "Ice",
+"nameRu": "Лед"
+},
+{
+"name": "Summer",
+"nameRu": "Лето"
+},
+{
+"name": "Copper",
+"nameRu": "Медь"
+},
+{
+"name": "Autumn",
+"nameRu": "Осень"
+},
+{
+"name": "Sand",
+"nameRu": "Песок"
+},
+{
+"name": "Platinum",
+"nameRu": "Платина"
+},
+{
+"name": "Silver",
+"nameRu": "Серебро"
+},
+{
+"name": "Textile",
+"nameRu": "Текстиль"
+},
+{
+"name": "Grass",
+"nameRu": "Трава"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70824,7 +73581,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Group",
+"nameRu": "Группировка"
+},
+{
+"name": "Field",
+"nameRu": "Поле"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70834,7 +73600,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "OnActivate",
+"nameRu": "ПриАктивизации"
+},
+{
+"name": "OnEnterPressed",
+"nameRu": "ПриНажатииEnter"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70844,7 +73619,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "QuickChange",
+"nameRu": "БыстроеИзменение"
+},
+{
+"name": "Normal",
+"nameRu": "Обычный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70854,7 +73638,72 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Value",
+"nameRu": "Значение"
+},
+{
+"name": "ValuePercent",
+"nameRu": "ЗначениеПроцент"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Percent",
+"nameRu": "Процент"
+},
+{
+"name": "Series",
+"nameRu": "Серия"
+},
+{
+"name": "SeriesValue",
+"nameRu": "СерияЗначение"
+},
+{
+"name": "SeriesValuePercent",
+"nameRu": "СерияЗначениеПроцент"
+},
+{
+"name": "SeriesPercent",
+"nameRu": "СерияПроцент"
+},
+{
+"name": "SeriesPoint",
+"nameRu": "СерияТочка"
+},
+{
+"name": "SeriesPointValue",
+"nameRu": "СерияТочкаЗначение"
+},
+{
+"name": "SeriesPointValuePercent",
+"nameRu": "СерияТочкаЗначениеПроцент"
+},
+{
+"name": "SeriesPointPercent",
+"nameRu": "СерияТочкаПроцент"
+},
+{
+"name": "Point",
+"nameRu": "Точка"
+},
+{
+"name": "PointValue",
+"nameRu": "ТочкаЗначение"
+},
+{
+"name": "PointValuePercent",
+"nameRu": "ТочкаЗначениеПроцент"
+},
+{
+"name": "PointPercent",
+"nameRu": "ТочкаПроцент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70864,7 +73713,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NotDefined",
+"nameRu": "НеЗадано"
+},
+{
+"name": "Limited",
+"nameRu": "Ограничено"
+},
+{
+"name": "Percent",
+"nameRu": "Процент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70874,7 +73736,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "SouthEast",
+"nameRu": "ЮгВосток"
+},
+{
+"name": "SouthWest",
+"nameRu": "ЮгЗапад"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70884,7 +73755,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Full",
+"nameRu": "ПолнаяШирина"
+},
+{
+"name": "Half",
+"nameRu": "ПоловинаШирины"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70894,7 +73778,164 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Stock",
+"nameRu": "Биржевая"
+},
+{
+"name": "OpenHighLowClose",
+"nameRu": "БиржеваяСвеча"
+},
+{
+"name": "ConcaveSurface",
+"nameRu": "ВогнутаяПоверхность"
+},
+{
+"name": "Waterfall",
+"nameRu": "Водопад"
+},
+{
+"name": "ConvexSurface",
+"nameRu": "ВыпуклаяПоверхность"
+},
+{
+"name": "Column",
+"nameRu": "Гистограмма"
+},
+{
+"name": "Bar",
+"nameRu": "ГистограммаГоризонтальная"
+},
+{
+"name": "Bar3D",
+"nameRu": "ГистограммаГоризонтальнаяОбъемная"
+},
+{
+"name": "NormalizedColumn",
+"nameRu": "ГистограммаНормированная"
+},
+{
+"name": "NormalizedBar",
+"nameRu": "ГистограммаНормированнаяГоризонтальная"
+},
+{
+"name": "NormalizedBar3D",
+"nameRu": "ГистограммаНормированнаяГоризонтальнаяОбъемная"
+},
+{
+"name": "NormalizedColumn3D",
+"nameRu": "ГистограммаНормированнаяОбъемная"
+},
+{
+"name": "Column3D",
+"nameRu": "ГистограммаОбъемная"
+},
+{
+"name": "StackedColumn",
+"nameRu": "ГистограммаСНакоплением"
+},
+{
+"name": "StackedBar",
+"nameRu": "ГистограммаСНакоплениемГоризонтальная"
+},
+{
+"name": "StackedBar3D",
+"nameRu": "ГистограммаСНакоплениемГоризонтальнаяОбъемная"
+},
+{
+"name": "StackedColumn3D",
+"nameRu": "ГистограммаСНакоплениемОбъемная"
+},
+{
+"name": "Line",
+"nameRu": "График"
+},
+{
+"name": "Step",
+"nameRu": "ГрафикПоШагам"
+},
+{
+"name": "StackedLine",
+"nameRu": "ГрафикСНакоплением"
+},
+{
+"name": "Area",
+"nameRu": "ГрафикСОбластями"
+},
+{
+"name": "StackedArea",
+"nameRu": "ГрафикСОбластямиИНакоплением"
+},
+{
+"name": "NormalizedArea",
+"nameRu": "ГрафикСОбластямиНормированный"
+},
+{
+"name": "ShadedSurface",
+"nameRu": "ЗатененнаяПоверхность"
+},
+{
+"name": "Gauge",
+"nameRu": "Измерительная"
+},
+{
+"name": "BarGraph",
+"nameRu": "Изометрическая"
+},
+{
+"name": "TapeGraph",
+"nameRu": "ИзометрическаяЛента"
+},
+{
+"name": "CeilGraph",
+"nameRu": "ИзометрическаяНепрерывная"
+},
+{
+"name": "PyramidGraph",
+"nameRu": "ИзометрическаяПирамида"
+},
+{
+"name": "WireframeSurface",
+"nameRu": "КаркаснаяПоверхность"
+},
+{
+"name": "Pie",
+"nameRu": "Круговая"
+},
+{
+"name": "Pie3D",
+"nameRu": "КруговаяОбъемная"
+},
+{
+"name": "Surface",
+"nameRu": "Поверхность"
+},
+{
+"name": "RadarLine",
+"nameRu": "РадарныйГрафик"
+},
+{
+"name": "RadarStackedLine",
+"nameRu": "РадарныйГрафикСНакоплением"
+},
+{
+"name": "RadarArea",
+"nameRu": "РадарныйГрафикСОбластями"
+},
+{
+"name": "RadarStackedArea",
+"nameRu": "РадарныйГрафикСОбластямиИНакоплением"
+},
+{
+"name": "RadarNormalizedArea",
+"nameRu": "РадарныйГрафикСОбластямиНормированный"
+},
+{
+"name": "Honeycomb",
+"nameRu": "Сотовая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70904,7 +73945,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Rect",
+"nameRu": "Квадрат"
+},
+{
+"name": "Circle",
+"nameRu": "Круг"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Rhomb",
+"nameRu": "Ромб"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70914,7 +73972,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "НетЛинии"
+},
+{
+"name": "Dashed",
+"nameRu": "Пунктир"
+},
+{
+"name": "DashDotted",
+"nameRu": "ПунктирТочка"
+},
+{
+"name": "DashDottedDotted",
+"nameRu": "ПунктирТочкаТочка"
+},
+{
+"name": "Solid",
+"nameRu": "Сплошная"
+},
+{
+"name": "Dotted",
+"nameRu": "Точечная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70924,7 +74007,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Maximum",
+"nameRu": "Максимум"
+},
+{
+"name": "Minimum",
+"nameRu": "Минимум"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70934,7 +74034,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Edge",
+"nameRu": "Край"
+},
+{
+"name": "EdgeAuto",
+"nameRu": "КрайАвто"
+},
+{
+"name": "EdgeInside",
+"nameRu": "КрайВнутри"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70944,7 +74061,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Circle",
+"nameRu": "Окружность"
+},
+{
+"name": "Polygon",
+"nameRu": "Полигон"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70954,7 +74080,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Sector",
+"nameRu": "Сектор"
+},
+{
+"name": "Needle",
+"nameRu": "Стрелка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70964,7 +74099,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "InsideScale",
+"nameRu": "ВнутриШкалы"
+},
+{
+"name": "AtScale",
+"nameRu": "НаШкале"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70974,7 +74118,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Palette32",
+"nameRu": "Палитра32"
+},
+{
+"name": "Palette8",
+"nameRu": "Палитра8"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70984,7 +74137,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Vertical",
+"nameRu": "Вертикально"
+},
+{
+"name": "Horizontal",
+"nameRu": "Горизонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -70994,7 +74160,40 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Minute",
+"nameRu": "Минута"
+},
+{
+"name": "Week",
+"nameRu": "Неделя"
+},
+{
+"name": "Second",
+"nameRu": "Секунда"
+},
+{
+"name": "Hour",
+"nameRu": "Час"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71004,7 +74203,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71014,7 +74222,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "AllData",
+"nameRu": "ВсеДанные"
+},
+{
+"name": "Period",
+"nameRu": "Период"
+},
+{
+"name": "Fixed",
+"nameRu": "Фиксированная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71024,7 +74249,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "MonthDay",
+"nameRu": "ДеньМесяца"
+},
+{
+"name": "MonthDayWeekDay",
+"nameRu": "ДеньМесяцаДеньНедели"
+},
+{
+"name": "WeekDay",
+"nameRu": "ДеньНедели"
+},
+{
+"name": "WeekDayMonthDay",
+"nameRu": "ДеньНеделиДеньМесяца"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71034,7 +74276,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Gradient",
+"nameRu": "Градиент"
+},
+{
+"name": "ThreeDimensional",
+"nameRu": "Объемный"
+},
+{
+"name": "Flat",
+"nameRu": "Плоский"
+},
+{
+"name": "Rhomb",
+"nameRu": "Ромб"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71044,7 +74303,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "НеРастягивать"
+},
+{
+"name": "StretchRows",
+"nameRu": "РастягиватьСтроки"
+},
+{
+"name": "StretchRowsAndData",
+"nameRu": "РастягиватьСтрокиИДанные"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71054,7 +74326,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "НеОтображать"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71064,7 +74345,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "EndEnd",
+"nameRu": "КонецКонец"
+},
+{
+"name": "EndBegin",
+"nameRu": "КонецНачало"
+},
+{
+"name": "BeginEnd",
+"nameRu": "НачалоКонец"
+},
+{
+"name": "BeginBegin",
+"nameRu": "НачалоНачало"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71074,7 +74372,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71084,7 +74399,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AllItems",
+"nameRu": "ВсеЭлементы"
+},
+{
+"name": "ItemCount",
+"nameRu": "КоличествоЭлементов"
+},
+{
+"name": "MinimumWidth",
+"nameRu": "МинимальнаяШирина"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71094,7 +74422,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AllValues",
+"nameRu": "ВсеЗначения"
+},
+{
+"name": "LastLevelValues",
+"nameRu": "ЗначенияПоследнегоУровня"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71104,7 +74441,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AllValues",
+"nameRu": "ВсеЗначения"
+},
+{
+"name": "ValuesCount",
+"nameRu": "КоличествоЗначений"
+},
+{
+"name": "MinimumWidth",
+"nameRu": "МинимальнаяШирина"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71114,7 +74464,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Column",
+"nameRu": "Гистограмма"
+},
+{
+"name": "Column3D",
+"nameRu": "ГистограммаОбъемная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71124,7 +74483,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "TopLevelsVertical",
+"nameRu": "ВерхниеУровниВертикально"
+},
+{
+"name": "AllLevelsVertical",
+"nameRu": "ВсеУровниВертикально"
+},
+{
+"name": "AllLevelsHorizontal",
+"nameRu": "ВсеУровниГоризонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71134,7 +74506,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Together",
+"nameRu": "Вместе"
+},
+{
+"name": "Separately",
+"nameRu": "Отдельно"
+},
+{
+"name": "SeparatelyAndInTotalsOnly",
+"nameRu": "ОтдельноИТолькоВИтогах"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71144,7 +74529,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Together",
+"nameRu": "Вместе"
+},
+{
+"name": "WithDimensions",
+"nameRu": "ВместеСИзмерениями"
+},
+{
+"name": "Separately",
+"nameRu": "Отдельно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71154,7 +74552,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "НетЛинии"
+},
+{
+"name": "Dashed",
+"nameRu": "Пунктир"
+},
+{
+"name": "DashDotted",
+"nameRu": "ПунктирТочка"
+},
+{
+"name": "DashDottedDotted",
+"nameRu": "ПунктирТочкаТочка"
+},
+{
+"name": "Solid",
+"nameRu": "Сплошная"
+},
+{
+"name": "Dotted",
+"nameRu": "Точечная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71164,7 +74587,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Marker",
+"nameRu": "Маркер"
+},
+{
+"name": "Char",
+"nameRu": "Символ"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71174,7 +74610,44 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Column",
+"nameRu": "Гистограмма"
+},
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Pie",
+"nameRu": "Круговая"
+},
+{
+"name": "SizedPie",
+"nameRu": "КруговаяСРазмером"
+},
+{
+"name": "DontShow",
+"nameRu": "НеОтображать"
+},
+{
+"name": "ShapeColorHue",
+"nameRu": "ОттенокЦветаФигуры"
+},
+{
+"name": "ShapeSize",
+"nameRu": "РазмерФигуры"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+},
+{
+"name": "ShapeColor",
+"nameRu": "ЦветФигуры"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71184,7 +74657,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AtRow",
+"nameRu": "ВСтроке"
+},
+{
+"name": "AtIntersection",
+"nameRu": "НаПересечении"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71194,7 +74676,44 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "LeftTop",
+"nameRu": "ЛевоВерх"
+},
+{
+"name": "LeftBottom",
+"nameRu": "ЛевоНиз"
+},
+{
+"name": "LeftCenter",
+"nameRu": "ЛевоЦентр"
+},
+{
+"name": "RightTop",
+"nameRu": "ПравоВерх"
+},
+{
+"name": "RightBottom",
+"nameRu": "ПравоНиз"
+},
+{
+"name": "RightCenter",
+"nameRu": "ПравоЦентр"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+},
+{
+"name": "CenterTop",
+"nameRu": "ЦентрВерх"
+},
+{
+"name": "CenterBottom",
+"nameRu": "ЦентрНиз"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71204,7 +74723,52 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "BigSquare",
+"nameRu": "БольшойКвадрат"
+},
+{
+"name": "BigCircle",
+"nameRu": "БольшойКруг"
+},
+{
+"name": "BigTriangle",
+"nameRu": "БольшойТреугольник"
+},
+{
+"name": "ExclamationPoint",
+"nameRu": "ВосклицательныйЗнак"
+},
+{
+"name": "Darts",
+"nameRu": "Дартс"
+},
+{
+"name": "QuestionMark",
+"nameRu": "ЗнакВопроса"
+},
+{
+"name": "Pin",
+"nameRu": "Кнопка"
+},
+{
+"name": "LittleSquare",
+"nameRu": "МаленькийКвадрат"
+},
+{
+"name": "LittleCircle",
+"nameRu": "МаленькийКруг"
+},
+{
+"name": "LittleTriangle",
+"nameRu": "МаленькийТреугольник"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71214,7 +74778,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AllData",
+"nameRu": "ВсеДанные"
+},
+{
+"name": "ScaleDefined",
+"nameRu": "ЗадаетсяМасштабом"
+},
+{
+"name": "SpecifiedArea",
+"nameRu": "ЗаданнаяОбласть"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71224,7 +74801,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ImportAll",
+"nameRu": "ИмпортироватьВсе"
+},
+{
+"name": "DontImport",
+"nameRu": "НеИмпортировать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71234,7 +74820,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Included",
+"nameRu": "Включает"
+},
+{
+"name": "IncludedWholly",
+"nameRu": "ВключаетПолностью"
+},
+{
+"name": "Includes",
+"nameRu": "Включают"
+},
+{
+"name": "IncludesWholly",
+"nameRu": "ВключаютПолностью"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71244,7 +74847,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontShow",
+"nameRu": "НеОтображать"
+},
+{
+"name": "ShowByValues",
+"nameRu": "ОтображатьПоЗначениям"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71254,7 +74866,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ShowAsPart",
+"nameRu": "ОтображатьКакДолю"
+},
+{
+"name": "ShowAsValue",
+"nameRu": "ОтображатьКакЗначение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71264,7 +74885,156 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AzimuthalAitoffProjection",
+"nameRu": "АзимутальнаяПроекцияАитофа"
+},
+{
+"name": "AzimuthalWagner7Projection",
+"nameRu": "АзимутальнаяПроекцияВагнера7"
+},
+{
+"name": "AzimuthalWinkelTripelProjection",
+"nameRu": "АзимутальнаяПроекцияВинкеляТрипеля"
+},
+{
+"name": "AzimuthalLambertEqualAreaProjection",
+"nameRu": "АзимутальнаяПроекцияРавныхПлощадейЛамберта"
+},
+{
+"name": "AzimuthalHammerProjection",
+"nameRu": "АзимутальнаяПроекцияХамера"
+},
+{
+"name": "AzimuthalEquidistantProjection",
+"nameRu": "АзимутальнаяРавноудаленнаяПроекция"
+},
+{
+"name": "ConicLambertEqualAreaProjection",
+"nameRu": "КоническаяПроекцияРавныхПлощадейЛамберта"
+},
+{
+"name": "MiscellaneousOrteliusOvalProjection",
+"nameRu": "ПрочаяОвальнаяПроекцияОртелиуса"
+},
+{
+"name": "MiscellaneousVanDerGrinten1Projection",
+"nameRu": "ПрочаяПроекцияВанДерГринтена1"
+},
+{
+"name": "MiscellaneousVanDerGrinten2Projection",
+"nameRu": "ПрочаяПроекцияВанДерГринтена2"
+},
+{
+"name": "MiscellaneousVanDerGrinten3Projection",
+"nameRu": "ПрочаяПроекцияВанДерГринтена3"
+},
+{
+"name": "MiscellaneousApianGlobular1Projection",
+"nameRu": "ПрочаяСотоваяШаровая1Проекция"
+},
+{
+"name": "MiscellaneousBaconGlobularProjection",
+"nameRu": "ПрочаяШароваяПроекцияБекона"
+},
+{
+"name": "MiscellaneousNicolosiGlobularProjection",
+"nameRu": "ПрочаяШароваяПроекцияНиколоси"
+},
+{
+"name": "MiscellaneousAugustEpicycloidalProjection",
+"nameRu": "ПрочаяЭпициклоидальнаяПроекцияАвгуста"
+},
+{
+"name": "PseudoCylindricalBoggsEumorphicProjection",
+"nameRu": "ПсевдоцилиндрическаяНормальнаяПроекцияБоггса"
+},
+{
+"name": "PseudoCylindricalMcBrydeThomasFlatPolarParabolicProjection",
+"nameRu": "ПсевдоцилиндрическаяПлоскоПолярнаяПараболическаяПроекцияМакБрайдаТомаса"
+},
+{
+"name": "PseudoCylindricalMcBrydeThomasFlatPolarQuarticProjection",
+"nameRu": "ПсевдоцилиндрическаяПлоскоПолярнаяПроекцияЧетвертогоПорядкаМакБрайдаТомаса"
+},
+{
+"name": "PseudoCylindricalMcBrydeThomasFlatPolarSinusoidalProjection",
+"nameRu": "ПсевдоцилиндрическаяПлоскоПолярнаяСинусоидальнаяПроекцияМакБрайдаТомаса"
+},
+{
+"name": "PseudoCylindricalWinkel1Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияВинкеля1"
+},
+{
+"name": "PseudoCylindricalLoximutalProjection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЛоксимутала"
+},
+{
+"name": "PseudoCylindricalMollweideProjection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияМолвейда"
+},
+{
+"name": "PseudoCylindricalHatanoAsymetricalEqualAreaProjection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияНесимметричныхРавныхОбластейХатано"
+},
+{
+"name": "PseudoCylindricalPutninP2Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияПутнинаP2"
+},
+{
+"name": "PseudoCylindricalPutninP5Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияПутнинаP5"
+},
+{
+"name": "PseudoCylindricalRobinsonProjection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияРобинсона"
+},
+{
+"name": "PseudoCylindricalEckert1Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЭкерта1"
+},
+{
+"name": "PseudoCylindricalEckert2Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЭкерта2"
+},
+{
+"name": "PseudoCylindricalEckert3Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЭкерта3"
+},
+{
+"name": "PseudoCylindricalEckert4Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЭкерта4"
+},
+{
+"name": "PseudoCylindricalEckert5Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЭкерта5"
+},
+{
+"name": "PseudoCylindricalEckert6Projection",
+"nameRu": "ПсевдоцилиндрическаяПроекцияЭкерта6"
+},
+{
+"name": "PseudoCylindricalSinusoidalProjection",
+"nameRu": "ПсевдоцилиндрическаяСинусоидальнаяПроекция"
+},
+{
+"name": "CylindricalMillerProjection",
+"nameRu": "ЦилиндрическаяПроекцияМиллера"
+},
+{
+"name": "CylindricalLambertEqualAreaProjection",
+"nameRu": "ЦилиндрическаяПроекцияРавныхОбластейЛамберта"
+},
+{
+"name": "CylindricalEquidistantProjection",
+"nameRu": "ЦилиндрическаяРавноудаленнаяПроекция"
+},
+{
+"name": "CylindricalGallStereographicProjection",
+"nameRu": "ЦилиндрическаяСтереографическаяПроекцияГалла"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71274,7 +75044,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontCheck",
+"nameRu": "НеПроверять"
+},
+{
+"name": "FilterMismatchMessage",
+"nameRu": "СообщатьОНесоответствииОтбору"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71284,7 +75063,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71294,7 +75094,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AutoSize",
+"nameRu": "АвтоРазмер"
+},
+{
+"name": "Proportionally",
+"nameRu": "Пропорционально"
+},
+{
+"name": "Stretch",
+"nameRu": "Растянуть"
+},
+{
+"name": "RealSize",
+"nameRu": "РеальныйРазмер"
+},
+{
+"name": "Tile",
+"nameRu": "Черепица"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71304,7 +75125,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Disable",
+"nameRu": "Запретить"
+},
+{
+"name": "Enable",
+"nameRu": "Разрешить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71314,7 +75148,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontShow",
+"nameRu": "НеОтображать"
+},
+{
+"name": "TopLeft",
+"nameRu": "СверхуИлиСлева"
+},
+{
+"name": "BottomRight",
+"nameRu": "СнизуИлиСправа"
+},
+{
+"name": "BothSides",
+"nameRu": "СОбоихСторон"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71324,7 +75175,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Multiple",
+"nameRu": "Множественный"
+},
+{
+"name": "Single",
+"nameRu": "Одиночный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71334,7 +75194,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AllTasks",
+"nameRu": "ВсеЗадачи"
+},
+{
+"name": "ByPerformer",
+"nameRu": "ПоИсполнителю"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71344,7 +75213,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71354,7 +75244,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "FirstSegment",
+"nameRu": "ПервыйСегмент"
+},
+{
+"name": "Middle",
+"nameRu": "СерединаЛинии"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71364,7 +75263,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Lines",
+"nameRu": "Линии"
+},
+{
+"name": "None",
+"nameRu": "НеРисовать"
+},
+{
+"name": "Dots",
+"nameRu": "Точки"
+},
+{
+"name": "Chess",
+"nameRu": "ШахматнаяСетка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71374,7 +75290,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "PageWidth",
+"nameRu": "ПоШиринеСтраницы"
+},
+{
+"name": "Proportionally",
+"nameRu": "Пропорционально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71384,7 +75313,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Filled",
+"nameRu": "Заполненная"
+},
+{
+"name": "Blank",
+"nameRu": "Незаполненная"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71394,7 +75336,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "НетЛинии"
+},
+{
+"name": "Dashed",
+"nameRu": "Пунктир"
+},
+{
+"name": "DashDotted",
+"nameRu": "ПунктирТочка"
+},
+{
+"name": "DashDottedDotted",
+"nameRu": "ПунктирТочкаТочка"
+},
+{
+"name": "Solid",
+"nameRu": "Сплошная"
+},
+{
+"name": "Dotted",
+"nameRu": "Точечная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71404,7 +75371,64 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Block",
+"nameRu": "Блок"
+},
+{
+"name": "Document",
+"nameRu": "Документ"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Folder",
+"nameRu": "Папка"
+},
+{
+"name": "VerticalBrackets",
+"nameRu": "СкобкиВертикальные"
+},
+{
+"name": "BracketsHorizontal",
+"nameRu": "СкобкиГоризонтальные"
+},
+{
+"name": "UpArrow",
+"nameRu": "СтрелкаВверх"
+},
+{
+"name": "UpDownArrow",
+"nameRu": "СтрелкаВверхВниз"
+},
+{
+"name": "LeftArrow",
+"nameRu": "СтрелкаВлево"
+},
+{
+"name": "LeftRightArrow",
+"nameRu": "СтрелкаВлевоВправо"
+},
+{
+"name": "DownArrow",
+"nameRu": "СтрелкаВниз"
+},
+{
+"name": "RightArrow",
+"nameRu": "СтрелкаВправо"
+},
+{
+"name": "File",
+"nameRu": "Файл"
+},
+{
+"name": "Ellipse",
+"nameRu": "Эллипс"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71414,7 +75438,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+},
+{
+"name": "Center",
+"nameRu": "Центр"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71424,7 +75469,44 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "BMP",
+"nameRu": "BMP"
+},
+{
+"name": "EMF",
+"nameRu": "EMF"
+},
+{
+"name": "GIF",
+"nameRu": "GIF"
+},
+{
+"name": "Icon",
+"nameRu": "Icon"
+},
+{
+"name": "JPEG",
+"nameRu": "JPEG"
+},
+{
+"name": "PNG",
+"nameRu": "PNG"
+},
+{
+"name": "TIFF",
+"nameRu": "TIFF"
+},
+{
+"name": "WMF",
+"nameRu": "WMF"
+},
+{
+"name": "UnknownFormat",
+"nameRu": "НеизвестныйФормат"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71434,7 +75516,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontChange",
+"nameRu": "НеИзменять"
+},
+{
+"name": "Clear",
+"nameRu": "Очищать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71444,7 +75535,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71454,7 +75554,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71464,7 +75577,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Irrelevance",
+"nameRu": "Неактуальность"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71474,7 +75596,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "DontShow",
+"nameRu": "НеОтображать"
+},
+{
+"name": "Show",
+"nameRu": "Отображать"
+},
+{
+"name": "ShowOnComposition",
+"nameRu": "ОтображатьПриФормировании"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71484,7 +75623,12 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "SingleWindow",
+"nameRu": "ОтдельноеОкно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71494,7 +75638,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71504,7 +75661,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "OnValueChange",
+"nameRu": "ПриИзмененииЗначения"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71514,7 +75684,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Debit",
+"nameRu": "Дебет"
+},
+{
+"name": "Credit",
+"nameRu": "Кредит"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71524,7 +75703,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Receipt",
+"nameRu": "Приход"
+},
+{
+"name": "Expense",
+"nameRu": "Расход"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71534,7 +75722,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "BasePeriod",
+"nameRu": "БазовыйПериод"
+},
+{
+"name": "ActionPeriod",
+"nameRu": "ПериодДействия"
+},
+{
+"name": "RegistrationPeriod",
+"nameRu": "ПериодРегистрации"
+},
+{
+"name": "ActualActionPeriod",
+"nameRu": "ФактическийПериодДействия"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71544,7 +75749,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ActivePassive",
+"nameRu": "АктивноПассивный"
+},
+{
+"name": "Active",
+"nameRu": "Активный"
+},
+{
+"name": "Passive",
+"nameRu": "Пассивный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71554,7 +75772,44 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "SubBusinessProcess",
+"nameRu": "ВложенныйБизнесПроцесс"
+},
+{
+"name": "Switch",
+"nameRu": "ВыборВарианта"
+},
+{
+"name": "Activity",
+"nameRu": "Действие"
+},
+{
+"name": "End",
+"nameRu": "Завершение"
+},
+{
+"name": "Processing",
+"nameRu": "Обработка"
+},
+{
+"name": "Split",
+"nameRu": "Разделение"
+},
+{
+"name": "Join",
+"nameRu": "Слияние"
+},
+{
+"name": "Start",
+"nameRu": "Старт"
+},
+{
+"name": "Condition",
+"nameRu": "Условие"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71564,7 +75819,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Folders",
+"nameRu": "Группы"
+},
+{
+"name": "FoldersAndItems",
+"nameRu": "ГруппыИЭлементы"
+},
+{
+"name": "Items",
+"nameRu": "Элементы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71574,7 +75842,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "First",
+"nameRu": "Первые"
+},
+{
+"name": "Last",
+"nameRu": "Последние"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71584,7 +75865,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Ask",
+"nameRu": "Запрашивать"
+},
+{
+"name": "Regular",
+"nameRu": "Неоперативный"
+},
+{
+"name": "RealTime",
+"nameRu": "Оперативный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71594,7 +75892,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "First",
+"nameRu": "Первым"
+},
+{
+"name": "Last",
+"nameRu": "Последним"
+},
+{
+"name": "CurrentOrFirst",
+"nameRu": "ТекущееИлиПервым"
+},
+{
+"name": "CurrentOrLast",
+"nameRu": "ТекущееИлиПоследним"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71604,7 +75923,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Write",
+"nameRu": "Запись"
+},
+{
+"name": "UndoPosting",
+"nameRu": "ОтменаПроведения"
+},
+{
+"name": "Posting",
+"nameRu": "Проведение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71614,7 +75946,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Regular",
+"nameRu": "Неоперативный"
+},
+{
+"name": "RealTime",
+"nameRu": "Оперативный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71624,7 +75965,36 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Nonperiodical",
+"nameRu": "Непериодический"
+},
+{
+"name": "HalfYear",
+"nameRu": "Полугодие"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71634,7 +76004,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Always",
+"nameRu": "Всегда"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71644,7 +76023,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Deny",
+"nameRu": "Запретить"
+},
+{
+"name": "Allow",
+"nameRu": "Разрешить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71654,7 +76042,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Greater",
+"nameRu": "Больший"
+},
+{
+"name": "Any",
+"nameRu": "Любой"
+},
+{
+"name": "Next",
+"nameRu": "Очередной"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71664,7 +76065,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Ignore",
+"nameRu": "Игнорировать"
+},
+{
+"name": "Delete",
+"nameRu": "Удалить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71674,7 +76088,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Ignore",
+"nameRu": "Игнорировать"
+},
+{
+"name": "Accept",
+"nameRu": "Принять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71684,7 +76111,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71694,7 +76130,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71704,7 +76149,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Always",
+"nameRu": "Всегда"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71714,7 +76168,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WithoutProcessing",
+"nameRu": "БезОбработки"
+},
+{
+"name": "Row",
+"nameRu": "Строка"
+},
+{
+"name": "Cell",
+"nameRu": "Ячейка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71724,7 +76191,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Parameter",
+"nameRu": "Параметр"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+},
+{
+"name": "Template",
+"nameRu": "Шаблон"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71734,7 +76214,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "НетЛинии"
+},
+{
+"name": "Dashed",
+"nameRu": "Пунктир"
+},
+{
+"name": "DashDotted",
+"nameRu": "ПунктирТочка"
+},
+{
+"name": "DashDottedDotted",
+"nameRu": "ПунктирТочкаТочка"
+},
+{
+"name": "Solid",
+"nameRu": "Сплошная"
+},
+{
+"name": "Dotted",
+"nameRu": "Точечная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71744,7 +76249,36 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "LargeDashed",
+"nameRu": "БольшойПунктир"
+},
+{
+"name": "Double",
+"nameRu": "Двойная"
+},
+{
+"name": "None",
+"nameRu": "НетЛинии"
+},
+{
+"name": "ThinDashed",
+"nameRu": "РедкийПунктир"
+},
+{
+"name": "Solid",
+"nameRu": "Сплошная"
+},
+{
+"name": "Dotted",
+"nameRu": "Точечная"
+},
+{
+"name": "ThickDashed",
+"nameRu": "ЧастыйПунктир"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71754,7 +76288,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WithoutMove",
+"nameRu": "БезПерехода"
+},
+{
+"name": "ByColumns",
+"nameRu": "ПоКолонкам"
+},
+{
+"name": "ByRows",
+"nameRu": "ПоСтрокам"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71764,7 +76311,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Columns",
+"nameRu": "Колонки"
+},
+{
+"name": "Rectangle",
+"nameRu": "Прямоугольник"
+},
+{
+"name": "Rows",
+"nameRu": "Строки"
+},
+{
+"name": "Table",
+"nameRu": "Таблица"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71774,7 +76338,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Always",
+"nameRu": "Всегда"
+},
+{
+"name": "WhenActive",
+"nameRu": "ПриАктивности"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71784,7 +76357,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Block",
+"nameRu": "Забивать"
+},
+{
+"name": "Cut",
+"nameRu": "Обрезать"
+},
+{
+"name": "Wrap",
+"nameRu": "Переносить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71794,7 +76384,60 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "GeographicalSchema",
+"nameRu": "ГеографическаяСхема"
+},
+{
+"name": "Group",
+"nameRu": "Группа"
+},
+{
+"name": "Dendrogram",
+"nameRu": "Дендрограмма"
+},
+{
+"name": "Chart",
+"nameRu": "Диаграмма"
+},
+{
+"name": "GanttChart",
+"nameRu": "ДиаграммаГанта"
+},
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Object",
+"nameRu": "Объект"
+},
+{
+"name": "Comment",
+"nameRu": "Примечание"
+},
+{
+"name": "Line",
+"nameRu": "Прямая"
+},
+{
+"name": "Rectangle",
+"nameRu": "Прямоугольник"
+},
+{
+"name": "PivotChart",
+"nameRu": "СводнаяДиаграмма"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+},
+{
+"name": "Ellipse",
+"nameRu": "Эллипс"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71804,7 +76447,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WithoutShift",
+"nameRu": "БезСмещения"
+},
+{
+"name": "Vertical",
+"nameRu": "ПоВертикали"
+},
+{
+"name": "Horizontal",
+"nameRu": "ПоГоризонтали"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71814,7 +76470,84 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WithoutPattern",
+"nameRu": "БезУзора"
+},
+{
+"name": "Solid",
+"nameRu": "Сплошной"
+},
+{
+"name": "Pattern1",
+"nameRu": "Узор1"
+},
+{
+"name": "Pattern10",
+"nameRu": "Узор10"
+},
+{
+"name": "Pattern11",
+"nameRu": "Узор11"
+},
+{
+"name": "Pattern12",
+"nameRu": "Узор12"
+},
+{
+"name": "Pattern13",
+"nameRu": "Узор13"
+},
+{
+"name": "Pattern14",
+"nameRu": "Узор14"
+},
+{
+"name": "Pattern15",
+"nameRu": "Узор15"
+},
+{
+"name": "Pattern16",
+"nameRu": "Узор16"
+},
+{
+"name": "Pattern17",
+"nameRu": "Узор17"
+},
+{
+"name": "Pattern2",
+"nameRu": "Узор2"
+},
+{
+"name": "Pattern3",
+"nameRu": "Узор3"
+},
+{
+"name": "Pattern4",
+"nameRu": "Узор4"
+},
+{
+"name": "Pattern5",
+"nameRu": "Узор5"
+},
+{
+"name": "Pattern6",
+"nameRu": "Узор6"
+},
+{
+"name": "Pattern7",
+"nameRu": "Узор7"
+},
+{
+"name": "Pattern8",
+"nameRu": "Узор8"
+},
+{
+"name": "Pattern9",
+"nameRu": "Узор9"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71824,7 +76557,64 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ANSITXT",
+"nameRu": "ANSITXT"
+},
+{
+"name": "DOCX",
+"nameRu": "DOCX"
+},
+{
+"name": "HTML",
+"nameRu": "HTML"
+},
+{
+"name": "HTML3",
+"nameRu": "HTML3"
+},
+{
+"name": "HTML4",
+"nameRu": "HTML4"
+},
+{
+"name": "MXL",
+"nameRu": "MXL"
+},
+{
+"name": "MXL7",
+"nameRu": "MXL7"
+},
+{
+"name": "ODS",
+"nameRu": "ODS"
+},
+{
+"name": "PDF",
+"nameRu": "PDF"
+},
+{
+"name": "TXT",
+"nameRu": "TXT"
+},
+{
+"name": "XLS",
+"nameRu": "XLS"
+},
+{
+"name": "XLS95",
+"nameRu": "XLS95"
+},
+{
+"name": "XLS97",
+"nameRu": "XLS97"
+},
+{
+"name": "XLSX",
+"nameRu": "XLSX"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71834,7 +76624,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Landscape",
+"nameRu": "Ландшафт"
+},
+{
+"name": "Portrait",
+"nameRu": "Портрет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71844,7 +76643,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "End",
+"nameRu": "Конец"
+},
+{
+"name": "Begin",
+"nameRu": "Начало"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71854,7 +76666,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Accurate",
+"nameRu": "Точная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71864,7 +76685,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ANSITXT",
+"nameRu": "ANSITXT"
+},
+{
+"name": "HTML",
+"nameRu": "HTML"
+},
+{
+"name": "TXT",
+"nameRu": "TXT"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71874,7 +76708,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "Linefeed",
+"nameRu": "ПереводСтроки"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71884,7 +76731,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ByGroups",
+"nameRu": "ПоГруппировкам"
+},
+{
+"name": "ByGroupsWithHierarchy",
+"nameRu": "ПоГруппировкамСИерархией"
+},
+{
+"name": "Linear",
+"nameRu": "Прямой"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71894,7 +76754,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DetailRecord",
+"nameRu": "ДетальнаяЗапись"
+},
+{
+"name": "GroupTotal",
+"nameRu": "ИтогПоГруппировке"
+},
+{
+"name": "TotalByHierarchy",
+"nameRu": "ИтогПоИерархии"
+},
+{
+"name": "Overall",
+"nameRu": "ОбщийИтог"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71904,7 +76781,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "GroupValues",
+"nameRu": "ЗначенияГруппировок"
+},
+{
+"name": "DontFill",
+"nameRu": "НеЗаполнять"
+},
+{
+"name": "Details",
+"nameRu": "Расшифровка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71914,7 +76804,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Add",
+"nameRu": "Добавлять"
+},
+{
+"name": "DontAdd",
+"nameRu": "НеДобавлять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71924,7 +76823,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Hierarchy",
+"nameRu": "Иерархия"
+},
+{
+"name": "HierarchyOnly",
+"nameRu": "ТолькоИерархия"
+},
+{
+"name": "Items",
+"nameRu": "Элементы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71934,7 +76846,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Header",
+"nameRu": "Заголовок"
+},
+{
+"name": "HeaderAndFooter",
+"nameRu": "ЗаголовокИПодвал"
+},
+{
+"name": "Footer",
+"nameRu": "Подвал"
+},
+{
+"name": "FooterOnly",
+"nameRu": "ТолькоПодвал"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71944,7 +76873,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Hierarchy",
+"nameRu": "Иерархия"
+},
+{
+"name": "HierarchyOnly",
+"nameRu": "ТолькоИерархия"
+},
+{
+"name": "Items",
+"nameRu": "Элементы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71954,7 +76896,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ChooseDirectory",
+"nameRu": "ВыборКаталога"
+},
+{
+"name": "Open",
+"nameRu": "Открытие"
+},
+{
+"name": "Save",
+"nameRu": "Сохранение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71964,7 +76919,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Binary",
+"nameRu": "Двоичное"
+},
+{
+"name": "SpreadsheetDocument",
+"nameRu": "ТабличныйДокумент"
+},
+{
+"name": "TextDocument",
+"nameRu": "ТекстовыйДокумент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71974,7 +76942,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Discrete",
+"nameRu": "Дискретные"
+},
+{
+"name": "Contiguous",
+"nameRu": "Непрерывные"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71984,7 +76961,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NearestNeighbor",
+"nameRu": "БлижняяСвязь"
+},
+{
+"name": "FurthestNeighbor",
+"nameRu": "ДальняяСвязь"
+},
+{
+"name": "KMeans",
+"nameRu": "КСредних"
+},
+{
+"name": "Centroid",
+"nameRu": "ЦентрТяжести"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -71994,7 +76988,84 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "TenDays",
+"nameRu": "Декада"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Minute",
+"nameRu": "Минута"
+},
+{
+"name": "Week",
+"nameRu": "Неделя"
+},
+{
+"name": "HalfYear",
+"nameRu": "Полугодие"
+},
+{
+"name": "Second",
+"nameRu": "Секунда"
+},
+{
+"name": "CurrentTenDays",
+"nameRu": "ТекущаяДекада"
+},
+{
+"name": "CurrentMinute",
+"nameRu": "ТекущаяМинута"
+},
+{
+"name": "CurrentWeek",
+"nameRu": "ТекущаяНеделя"
+},
+{
+"name": "CurrentHalfYear",
+"nameRu": "ТекущееПолугодие"
+},
+{
+"name": "CurrentYear",
+"nameRu": "ТекущийГод"
+},
+{
+"name": "CurrentDay",
+"nameRu": "ТекущийДень"
+},
+{
+"name": "CurrentQuarter",
+"nameRu": "ТекущийКвартал"
+},
+{
+"name": "CurrentMonth",
+"nameRu": "ТекущийМесяц"
+},
+{
+"name": "CurrentHour",
+"nameRu": "ТекущийЧас"
+},
+{
+"name": "Hour",
+"nameRu": "Час"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72004,7 +77075,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AllFields",
+"nameRu": "ВсеПоля"
+},
+{
+"name": "UsedFields",
+"nameRu": "ИспользуемыеПоля"
+},
+{
+"name": "KeyFields",
+"nameRu": "КлючевыеПоля"
+},
+{
+"name": "DontFill",
+"nameRu": "НеЗаполнять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72014,7 +77102,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsBoolean",
+"nameRu": "КакБулево"
+},
+{
+"name": "AsNumeric",
+"nameRu": "КакЧисло"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72024,7 +77121,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Object",
+"nameRu": "Объектный"
+},
+{
+"name": "Event",
+"nameRu": "Событийный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72034,7 +77140,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Input",
+"nameRu": "Входная"
+},
+{
+"name": "NotUsed",
+"nameRu": "НеИспользуемая"
+},
+{
+"name": "Predictable",
+"nameRu": "Прогнозируемая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72044,7 +77163,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Input",
+"nameRu": "Входная"
+},
+{
+"name": "InputAndPredictable",
+"nameRu": "ВходнаяИПрогнозируемая"
+},
+{
+"name": "Key",
+"nameRu": "Ключ"
+},
+{
+"name": "NotUsed",
+"nameRu": "НеИспользуемая"
+},
+{
+"name": "Predictable",
+"nameRu": "Прогнозируемая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72054,7 +77194,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Input",
+"nameRu": "Входная"
+},
+{
+"name": "NotUsed",
+"nameRu": "НеИспользуемая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72064,7 +77213,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NotUsed",
+"nameRu": "НеИспользуемая"
+},
+{
+"name": "Object",
+"nameRu": "Объект"
+},
+{
+"name": "Item",
+"nameRu": "Элемент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72074,7 +77236,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Time",
+"nameRu": "Время"
+},
+{
+"name": "NotUsed",
+"nameRu": "НеИспользуемая"
+},
+{
+"name": "Sequence",
+"nameRu": "Последовательность"
+},
+{
+"name": "Item",
+"nameRu": "Элемент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72084,7 +77263,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Input",
+"nameRu": "Входная"
+},
+{
+"name": "DataSourceColumn",
+"nameRu": "КолонкаИсточникаДанных"
+},
+{
+"name": "Predictable",
+"nameRu": "Прогнозируемая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72094,7 +77286,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Euclidean",
+"nameRu": "ЕвклидоваМетрика"
+},
+{
+"name": "SquaredEuclidean",
+"nameRu": "ЕвклидоваМетрикаВКвадрате"
+},
+{
+"name": "CityBlock",
+"nameRu": "МетрикаГорода"
+},
+{
+"name": "Maximum",
+"nameRu": "МетрикаДоминирования"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72104,7 +77313,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Redundant",
+"nameRu": "Избыточные"
+},
+{
+"name": "Covered",
+"nameRu": "Покрытые"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72114,7 +77332,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DataAnalysisObject",
+"nameRu": "ОбъектАнализаДанных"
+},
+{
+"name": "Field",
+"nameRu": "Поле"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72124,7 +77351,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontStandardize",
+"nameRu": "НеСтандартизировать"
+},
+{
+"name": "Standardize",
+"nameRu": "Стандартизировать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72134,7 +77370,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontSimplify",
+"nameRu": "НеУпрощать"
+},
+{
+"name": "Simplify",
+"nameRu": "Упрощать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72144,7 +77389,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ByConfidence",
+"nameRu": "ПоДостоверности"
+},
+{
+"name": "ByImportance",
+"nameRu": "ПоЗначимости"
+},
+{
+"name": "BySupport",
+"nameRu": "ПоКоличествуСлучаев"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72154,7 +77412,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ByLength",
+"nameRu": "ПоДлине"
+},
+{
+"name": "BySupport",
+"nameRu": "ПоКоличествуСлучаев"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72164,7 +77431,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Implicit",
+"nameRu": "Неявное"
+},
+{
+"name": "Explicit",
+"nameRu": "Явное"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72174,7 +77450,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Default",
+"nameRu": "ПоУмолчанию"
+},
+{
+"name": "Preserve",
+"nameRu": "Сохранять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72184,7 +77469,48 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "CDATA",
+"nameRu": "CDATA"
+},
+{
+"name": "ENTITIES",
+"nameRu": "ENTITIES"
+},
+{
+"name": "ENTITY",
+"nameRu": "ENTITY"
+},
+{
+"name": "ENUMERATION",
+"nameRu": "ENUMERATION"
+},
+{
+"name": "ID",
+"nameRu": "ID"
+},
+{
+"name": "IDREF",
+"nameRu": "IDREF"
+},
+{
+"name": "IDREFS",
+"nameRu": "IDREFS"
+},
+{
+"name": "NMTOKEN",
+"nameRu": "NMTOKEN"
+},
+{
+"name": "NMTOKENS",
+"nameRu": "NMTOKENS"
+},
+{
+"name": "NOTATION",
+"nameRu": "NOTATION"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72194,7 +77520,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "XMLExclusiveCanonicalization",
+"nameRu": "ИсключающийКаноническийXML"
+},
+{
+"name": "XMLExclusiveCanonicalizationWithComments",
+"nameRu": "ИсключающийКаноническийXMLСКомментариями"
+},
+{
+"name": "XMLCanonicalization",
+"nameRu": "КаноническийXML"
+},
+{
+"name": "XMLCanonicalizationWithComments",
+"nameRu": "КаноническийXMLСКомментариями"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72204,7 +77547,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NoValidate",
+"nameRu": "НетПроверки"
+},
+{
+"name": "DocumentTypeDefinition",
+"nameRu": "ОпределениеТипаДокумента"
+},
+{
+"name": "XMLSchema",
+"nameRu": "СхемаXML"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72214,7 +77570,68 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Attribute",
+"nameRu": "Атрибут"
+},
+{
+"name": "ProcessingInstruction",
+"nameRu": "ИнструкцияОбработки"
+},
+{
+"name": "Comment",
+"nameRu": "Комментарий"
+},
+{
+"name": "EndEntity",
+"nameRu": "КонецСущности"
+},
+{
+"name": "EndElement",
+"nameRu": "КонецЭлемента"
+},
+{
+"name": "StartElement",
+"nameRu": "НачалоЭлемента"
+},
+{
+"name": "None",
+"nameRu": "Ничего"
+},
+{
+"name": "Notation",
+"nameRu": "Нотация"
+},
+{
+"name": "XMLDeclaration",
+"nameRu": "ОбъявлениеXML"
+},
+{
+"name": "DocumentTypeDefinition",
+"nameRu": "ОпределениеТипаДокумента"
+},
+{
+"name": "Whitespace",
+"nameRu": "ПробельныеСимволы"
+},
+{
+"name": "CDATASection",
+"nameRu": "СекцияCDATA"
+},
+{
+"name": "EntityReference",
+"nameRu": "СсылкаНаСущность"
+},
+{
+"name": "Entity",
+"nameRu": "Сущность"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72224,7 +77641,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Field",
+"nameRu": "Поле"
+},
+{
+"name": "Selector",
+"nameRu": "Селектор"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72234,7 +77660,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Atomic",
+"nameRu": "Атомарная"
+},
+{
+"name": "Union",
+"nameRu": "Объединение"
+},
+{
+"name": "List",
+"nameRu": "Список"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72244,7 +77683,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Choice",
+"nameRu": "Выбор"
+},
+{
+"name": "Sequence",
+"nameRu": "Последовательность"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72254,7 +77706,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Union",
+"nameRu": "Объединение"
+},
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "List",
+"nameRu": "Список"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72264,7 +77733,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "Extension",
+"nameRu": "Расширение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72274,7 +77756,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Union",
+"nameRu": "Объединение"
+},
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "Extension",
+"nameRu": "Расширение"
+},
+{
+"name": "List",
+"nameRu": "Список"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72284,7 +77787,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "Extension",
+"nameRu": "Расширение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72294,7 +77810,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "Extension",
+"nameRu": "Расширение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72304,7 +77833,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Prohibited",
+"nameRu": "Запрещено"
+},
+{
+"name": "Optional",
+"nameRu": "Необязательно"
+},
+{
+"name": "Required",
+"nameRu": "Обязательно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72314,7 +77856,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Key",
+"nameRu": "Ключ"
+},
+{
+"name": "KeyRef",
+"nameRu": "СсылкаНаКлюч"
+},
+{
+"name": "Unique",
+"nameRu": "Уникальность"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72324,7 +77879,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Not",
+"nameRu": "Кроме"
+},
+{
+"name": "Any",
+"nameRu": "Любое"
+},
+{
+"name": "Set",
+"nameRu": "Набор"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72334,7 +77902,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Simple",
+"nameRu": "Простая"
+},
+{
+"name": "Complex",
+"nameRu": "Составная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72344,7 +77921,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "Extension",
+"nameRu": "Расширение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72354,7 +77940,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Replace",
+"nameRu": "Заменять"
+},
+{
+"name": "Collapse",
+"nameRu": "Сворачивать"
+},
+{
+"name": "Preserve",
+"nameRu": "Сохранять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72364,7 +77963,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Skip",
+"nameRu": "Пропустить"
+},
+{
+"name": "Lax",
+"nameRu": "Слабая"
+},
+{
+"name": "Strict",
+"nameRu": "Строгая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72374,7 +77986,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Default",
+"nameRu": "ПоУмолчанию"
+},
+{
+"name": "Fixed",
+"nameRu": "Фиксированное"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72384,7 +78005,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "All",
+"nameRu": "Все"
+},
+{
+"name": "Restriction",
+"nameRu": "Ограничение"
+},
+{
+"name": "Substitution",
+"nameRu": "Подстановка"
+},
+{
+"name": "Extension",
+"nameRu": "Расширение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72394,7 +78032,136 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Annotation",
+"nameRu": "Аннотация"
+},
+{
+"name": "Include",
+"nameRu": "Включение"
+},
+{
+"name": "ModelGroup",
+"nameRu": "ГруппаМодели"
+},
+{
+"name": "Documentation",
+"nameRu": "Документация"
+},
+{
+"name": "Import",
+"nameRu": "Импорт"
+},
+{
+"name": "AppInfo",
+"nameRu": "ИнформацияПриложения"
+},
+{
+"name": "AttributeUse",
+"nameRu": "ИспользованиеАтрибута"
+},
+{
+"name": "MaxInclusiveFacet",
+"nameRu": "МаксимальноВключающийФасет"
+},
+{
+"name": "MaxExclusiveFacet",
+"nameRu": "МаксимальноИсключающийФасет"
+},
+{
+"name": "Wildcard",
+"nameRu": "Маска"
+},
+{
+"name": "MinInclusiveFacet",
+"nameRu": "МинимальноВключающийФасет"
+},
+{
+"name": "MinExclusiveFacet",
+"nameRu": "МинимальноИсключающийФасет"
+},
+{
+"name": "AttributeDeclaration",
+"nameRu": "ОбъявлениеАтрибута"
+},
+{
+"name": "NotationDeclaration",
+"nameRu": "ОбъявлениеНотации"
+},
+{
+"name": "ElementDeclaration",
+"nameRu": "ОбъявлениеЭлемента"
+},
+{
+"name": "XPathDefinition",
+"nameRu": "ОпределениеXPath"
+},
+{
+"name": "AttributeGroupDefinition",
+"nameRu": "ОпределениеГруппыАтрибутов"
+},
+{
+"name": "ModelGroupDefinition",
+"nameRu": "ОпределениеГруппыМодели"
+},
+{
+"name": "IdentityConstraintDefinition",
+"nameRu": "ОпределениеОграниченияИдентичности"
+},
+{
+"name": "SimpleTypeDefinition",
+"nameRu": "ОпределениеПростогоТипа"
+},
+{
+"name": "ComplexTypeDefinition",
+"nameRu": "ОпределениеСоставногоТипа"
+},
+{
+"name": "Redefine",
+"nameRu": "Переопределение"
+},
+{
+"name": "Schema",
+"nameRu": "Схема"
+},
+{
+"name": "LengthFacet",
+"nameRu": "ФасетДлины"
+},
+{
+"name": "FractionDigitsFacet",
+"nameRu": "ФасетКоличестваРазрядовДробнойЧасти"
+},
+{
+"name": "MaxLengthFacet",
+"nameRu": "ФасетМаксимальнойДлины"
+},
+{
+"name": "MinLengthFacet",
+"nameRu": "ФасетМинимальнойДлины"
+},
+{
+"name": "PatternFacet",
+"nameRu": "ФасетОбразца"
+},
+{
+"name": "TotalDigitsFacet",
+"nameRu": "ФасетОбщегоКоличестваРазрядов"
+},
+{
+"name": "EnumerationFacet",
+"nameRu": "ФасетПеречисления"
+},
+{
+"name": "WhitespaceFacet",
+"nameRu": "ФасетПробельныхСимволов"
+},
+{
+"name": "Particle",
+"nameRu": "Фрагмент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72404,7 +78171,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Qualified",
+"nameRu": "Квалифицированная"
+},
+{
+"name": "Unqualified",
+"nameRu": "Неквалифицированная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72414,7 +78190,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "InsertBefore",
+"nameRu": "ВставитьПеред"
+},
+{
+"name": "InsertAfter",
+"nameRu": "ВставитьПосле"
+},
+{
+"name": "AppendAsChildren",
+"nameRu": "ДобавитьКакДочерние"
+},
+{
+"name": "Replace",
+"nameRu": "Заменить"
+},
+{
+"name": "ReplaceChildren",
+"nameRu": "ЗаменитьДочерние"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72424,7 +78221,60 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ShowAttribute",
+"nameRu": "ОтображатьАтрибут"
+},
+{
+"name": "ShowAll",
+"nameRu": "ОтображатьВсе"
+},
+{
+"name": "ShowDocument",
+"nameRu": "ОтображатьДокумент"
+},
+{
+"name": "ShowProcessingInstruction",
+"nameRu": "ОтображатьИнструкциюОбработки"
+},
+{
+"name": "ShowComment",
+"nameRu": "ОтображатьКомментарий"
+},
+{
+"name": "ShowNotation",
+"nameRu": "ОтображатьНотацию"
+},
+{
+"name": "ShowDocumentType",
+"nameRu": "ОтображатьОпределениеТипаДокумента"
+},
+{
+"name": "ShowCDATASection",
+"nameRu": "ОтображатьСекцииCDATA"
+},
+{
+"name": "ShowEntityReference",
+"nameRu": "ОтображатьСсылкуНаСущность"
+},
+{
+"name": "ShowEntity",
+"nameRu": "ОтображатьСущность"
+},
+{
+"name": "ShowText",
+"nameRu": "ОтображатьТекст"
+},
+{
+"name": "ShowDocumentFragment",
+"nameRu": "ОтображатьФрагментДокумента"
+},
+{
+"name": "ShowElement",
+"nameRu": "ОтображатьЭлемент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72434,7 +78284,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ImplementationSpecific",
+"nameRu": "ЗависитОтРеализации"
+},
+{
+"name": "Disconnected",
+"nameRu": "Отсоединен"
+},
+{
+"name": "Preceding",
+"nameRu": "Предшествует"
+},
+{
+"name": "Following",
+"nameRu": "Следует"
+},
+{
+"name": "Contains",
+"nameRu": "Содержит"
+},
+{
+"name": "ContainedBy",
+"nameRu": "Содержится"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72444,7 +78319,48 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Boolean",
+"nameRu": "Булево"
+},
+{
+"name": "Any",
+"nameRu": "Любой"
+},
+{
+"name": "AnyUnorderedNode",
+"nameRu": "ЛюбойНеупорядоченныйУзел"
+},
+{
+"name": "UnorderedNodeIterator",
+"nameRu": "НеупорядоченныйИтераторУзлов"
+},
+{
+"name": "UnorderedNodeSnapshot",
+"nameRu": "НеупорядоченныйСнимокУзлов"
+},
+{
+"name": "FirstOrderedNode",
+"nameRu": "ПервыйУпорядоченныйУзел"
+},
+{
+"name": "String",
+"nameRu": "Строка"
+},
+{
+"name": "OrderedNodeIterator",
+"nameRu": "УпорядоченныйИтераторУзлов"
+},
+{
+"name": "OrderedNodeSnapshot",
+"nameRu": "УпорядоченныйСнимокУзлов"
+},
+{
+"name": "Number",
+"nameRu": "Число"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72454,7 +78370,60 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Attribute",
+"nameRu": "Атрибут"
+},
+{
+"name": "Document",
+"nameRu": "Документ"
+},
+{
+"name": "ProcessingInstruction",
+"nameRu": "ИнструкцияОбработки"
+},
+{
+"name": "Comment",
+"nameRu": "Комментарий"
+},
+{
+"name": "Notation",
+"nameRu": "Нотация"
+},
+{
+"name": "DocumentType",
+"nameRu": "ОпределениеТипаДокумента"
+},
+{
+"name": "XPathNamespace",
+"nameRu": "ПространствоИменXPath"
+},
+{
+"name": "CDATASection",
+"nameRu": "СекцияCDATA"
+},
+{
+"name": "EntityReference",
+"nameRu": "СсылкаНаСущность"
+},
+{
+"name": "Entity",
+"nameRu": "Сущность"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+},
+{
+"name": "DocumentFragment",
+"nameRu": "ФрагментДокумента"
+},
+{
+"name": "Element",
+"nameRu": "Элемент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72464,7 +78433,56 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Length",
+"nameRu": "Длина"
+},
+{
+"name": "MaxInclusive",
+"nameRu": "МаксВключающее"
+},
+{
+"name": "MaxLength",
+"nameRu": "МаксДлина"
+},
+{
+"name": "MaxExclusive",
+"nameRu": "МаксИсключающее"
+},
+{
+"name": "MinInclusive",
+"nameRu": "МинВключающее"
+},
+{
+"name": "MinLength",
+"nameRu": "МинДлина"
+},
+{
+"name": "MinExclusive",
+"nameRu": "МинИсключающее"
+},
+{
+"name": "Pattern",
+"nameRu": "Образец"
+},
+{
+"name": "Enumeration",
+"nameRu": "Перечисление"
+},
+{
+"name": "Whitespace",
+"nameRu": "ПробельныеСимволы"
+},
+{
+"name": "TotalDigits",
+"nameRu": "РазрядовВсего"
+},
+{
+"name": "FractionDigits",
+"nameRu": "РазрядовДробнойЧасти"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72474,7 +78492,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Attribute",
+"nameRu": "Атрибут"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+},
+{
+"name": "Element",
+"nameRu": "Элемент"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72484,7 +78515,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "In",
+"nameRu": "Входной"
+},
+{
+"name": "InOut",
+"nameRu": "ВходнойВыходной"
+},
+{
+"name": "Out",
+"nameRu": "Выходной"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72494,7 +78538,72 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Greater",
+"nameRu": "Больше"
+},
+{
+"name": "GreaterOrEqual",
+"nameRu": "БольшеИлиРавно"
+},
+{
+"name": "InHierarchy",
+"nameRu": "ВИерархии"
+},
+{
+"name": "InList",
+"nameRu": "ВСписке"
+},
+{
+"name": "InListByHierarchy",
+"nameRu": "ВСпискеПоИерархии"
+},
+{
+"name": "Filled",
+"nameRu": "Заполнено"
+},
+{
+"name": "Less",
+"nameRu": "Меньше"
+},
+{
+"name": "LessOrEqual",
+"nameRu": "МеньшеИлиРавно"
+},
+{
+"name": "NotInHierarchy",
+"nameRu": "НеВИерархии"
+},
+{
+"name": "NotInList",
+"nameRu": "НеВСписке"
+},
+{
+"name": "NotInListByHierarchy",
+"nameRu": "НеВСпискеПоИерархии"
+},
+{
+"name": "NotFilled",
+"nameRu": "НеЗаполнено"
+},
+{
+"name": "NotEqual",
+"nameRu": "НеРавно"
+},
+{
+"name": "NotContains",
+"nameRu": "НеСодержит"
+},
+{
+"name": "Equal",
+"nameRu": "Равно"
+},
+{
+"name": "Contains",
+"nameRu": "Содержит"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72504,7 +78613,36 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "OpenValue",
+"nameRu": "ОткрытьЗначение"
+},
+{
+"name": "Filter",
+"nameRu": "Отфильтровать"
+},
+{
+"name": "ApplyAppearance",
+"nameRu": "Оформить"
+},
+{
+"name": "DrillDown",
+"nameRu": "Расшифровать"
+},
+{
+"name": "Group",
+"nameRu": "Сгруппировать"
+},
+{
+"name": "Order",
+"nameRu": "Упорядочить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72514,7 +78652,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DisableControl",
+"nameRu": "ИзменятьДоступностьПоля"
+},
+{
+"name": "HidePage",
+"nameRu": "СкрыватьСтраницу"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72524,7 +78671,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Asc",
+"nameRu": "Возр"
+},
+{
+"name": "Desc",
+"nameRu": "Убыв"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72534,7 +78690,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Vertically",
+"nameRu": "Вертикально"
+},
+{
+"name": "Horizontally",
+"nameRu": "Горизонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72544,7 +78709,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "End",
+"nameRu": "Конец"
+},
+{
+"name": "Begin",
+"nameRu": "Начало"
+},
+{
+"name": "BeginAndEnd",
+"nameRu": "НачалоИКонец"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72554,7 +78740,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "End",
+"nameRu": "Конец"
+},
+{
+"name": "Begin",
+"nameRu": "Начало"
+},
+{
+"name": "BeginAndEnd",
+"nameRu": "НачалоИКонец"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72564,7 +78767,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Together",
+"nameRu": "Вместе"
+},
+{
+"name": "Separately",
+"nameRu": "Отдельно"
+},
+{
+"name": "SeparatelyAndInTotalsOnly",
+"nameRu": "ОтдельноИТолькоВИтогах"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72574,7 +78790,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Vertically",
+"nameRu": "Вертикально"
+},
+{
+"name": "Together",
+"nameRu": "Вместе"
+},
+{
+"name": "Horizontally",
+"nameRu": "Горизонтально"
+},
+{
+"name": "SpecialColumn",
+"nameRu": "ОтдельнаяКолонка"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72584,7 +78821,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Together",
+"nameRu": "Вместе"
+},
+{
+"name": "WithOwnerField",
+"nameRu": "ВместеСВладельцем"
+},
+{
+"name": "SpecialPosition",
+"nameRu": "ВСпециальнойПозиции"
+},
+{
+"name": "Separately",
+"nameRu": "Отдельно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72594,7 +78848,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Vertically",
+"nameRu": "Вертикально"
+},
+{
+"name": "Horizontally",
+"nameRu": "Горизонтально"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72604,7 +78867,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Debit",
+"nameRu": "Дебет"
+},
+{
+"name": "Credit",
+"nameRu": "Кредит"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72614,7 +78890,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Output",
+"nameRu": "Выводить"
+},
+{
+"name": "DontOutput",
+"nameRu": "НеВыводить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72624,7 +78913,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Hierarchy",
+"nameRu": "Иерархия"
+},
+{
+"name": "HierarchyOnly",
+"nameRu": "ТолькоИерархия"
+},
+{
+"name": "Items",
+"nameRu": "Элементы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72634,7 +78936,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AndGroup",
+"nameRu": "ГруппаИ"
+},
+{
+"name": "OrGroup",
+"nameRu": "ГруппаИли"
+},
+{
+"name": "NotGroup",
+"nameRu": "ГруппаНе"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72644,7 +78959,52 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "None",
+"nameRu": "БезДополнения"
+},
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "TenDays",
+"nameRu": "Декада"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Minute",
+"nameRu": "Минута"
+},
+{
+"name": "Week",
+"nameRu": "Неделя"
+},
+{
+"name": "HalfYear",
+"nameRu": "Полугодие"
+},
+{
+"name": "Second",
+"nameRu": "Секунда"
+},
+{
+"name": "Hour",
+"nameRu": "Час"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72654,7 +79014,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Short",
+"nameRu": "Краткий"
+},
+{
+"name": "Full",
+"nameRu": "Полный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72664,7 +79037,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Vertical",
+"nameRu": "Вертикальный"
+},
+{
+"name": "Horizontal",
+"nameRu": "Горизонтальный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72674,7 +79060,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Header",
+"nameRu": "Заголовок"
+},
+{
+"name": "HierarchicalHeader",
+"nameRu": "ЗаголовокИерархии"
+},
+{
+"name": "OverallHeader",
+"nameRu": "ОбщийИтогЗаголовок"
+},
+{
+"name": "OverallFooter",
+"nameRu": "ОбщийИтогПодвал"
+},
+{
+"name": "Footer",
+"nameRu": "Подвал"
+},
+{
+"name": "HierarchicalFooter",
+"nameRu": "ПодвалИерархии"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72684,7 +79095,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ClosingBalance",
+"nameRu": "КонечныйОстаток"
+},
+{
+"name": "OpeningBalance",
+"nameRu": "НачальныйОстаток"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72694,7 +79118,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Additional",
+"nameRu": "Дополнительный"
+},
+{
+"name": "Main",
+"nameRu": "Основной"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72704,7 +79137,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Overflow",
+"nameRu": "Выступать"
+},
+{
+"name": "Block",
+"nameRu": "Забивать"
+},
+{
+"name": "Cut",
+"nameRu": "Обрезать"
+},
+{
+"name": "Wrap",
+"nameRu": "Переносить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72714,7 +79164,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Outer",
+"nameRu": "Внешняя"
+},
+{
+"name": "Inner",
+"nameRu": "Внутренняя"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72724,7 +79183,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "End",
+"nameRu": "Конец"
+},
+{
+"name": "Begin",
+"nameRu": "Начало"
+},
+{
+"name": "BeginAndEnd",
+"nameRu": "НачалоИКонец"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72734,7 +79206,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Top",
+"nameRu": "Верх"
+},
+{
+"name": "Left",
+"nameRu": "Лево"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+},
+{
+"name": "Bottom",
+"nameRu": "Низ"
+},
+{
+"name": "Right",
+"nameRu": "Право"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72744,7 +79237,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Hierarchy",
+"nameRu": "Иерархия"
+},
+{
+"name": "HierarchyOnly",
+"nameRu": "ТолькоИерархия"
+},
+{
+"name": "Items",
+"nameRu": "Элементы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72754,7 +79260,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "QuickAccess",
+"nameRu": "БыстрыйДоступ"
+},
+{
+"name": "Inaccessible",
+"nameRu": "Недоступный"
+},
+{
+"name": "Normal",
+"nameRu": "Обычный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72764,7 +79287,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "QuickAccess",
+"nameRu": "БыстрыйДоступ"
+},
+{
+"name": "All",
+"nameRu": "Все"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72774,7 +79306,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Enabled",
+"nameRu": "Включен"
+},
+{
+"name": "Disabled",
+"nameRu": "Отключен"
+},
+{
+"name": "DeletedByUser",
+"nameRu": "УдаленПользователем"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72784,7 +79329,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Full",
+"nameRu": "Полное"
+},
+{
+"name": "CheckAvailability",
+"nameRu": "ПроверятьДоступность"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72794,7 +79348,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Directly",
+"nameRu": "Непосредственно"
+},
+{
+"name": "Background",
+"nameRu": "Фоновый"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72804,7 +79371,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Always",
+"nameRu": "Всегда"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72814,7 +79390,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "AfterAllFields",
+"nameRu": "ПослеВсехПолей"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72824,7 +79409,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "AdditionalInformation",
+"nameRu": "ДополнительнаяИнформация"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72834,7 +79428,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Series",
+"nameRu": "Серии"
+},
+{
+"name": "Points",
+"nameRu": "Точки"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72844,7 +79451,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "High",
+"nameRu": "Высокая"
+},
+{
+"name": "Highest",
+"nameRu": "Наивысшая"
+},
+{
+"name": "Lowest",
+"nameRu": "Наименьшая"
+},
+{
+"name": "Low",
+"nameRu": "Низкая"
+},
+{
+"name": "Normal",
+"nameRu": "Обычная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72854,7 +79482,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontProcess",
+"nameRu": "НеОбрабатывать"
+},
+{
+"name": "Process",
+"nameRu": "Обрабатывать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72864,7 +79501,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "CramMD5",
+"nameRu": "CramMD5"
+},
+{
+"name": "Login",
+"nameRu": "Login"
+},
+{
+"name": "Plain",
+"nameRu": "Plain"
+},
+{
+"name": "None",
+"nameRu": "БезАутентификации"
+},
+{
+"name": "Default",
+"nameRu": "ПоУмолчанию"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72874,7 +79532,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "APOP",
+"nameRu": "APOP"
+},
+{
+"name": "CramMD5",
+"nameRu": "CramMD5"
+},
+{
+"name": "General",
+"nameRu": "Обычная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72884,7 +79555,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "MIME",
+"nameRu": "MIME"
+},
+{
+"name": "UUEncode",
+"nameRu": "UUEncode"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72894,7 +79574,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "MIME",
+"nameRu": "MIME"
+},
+{
+"name": "QuotedPrintable",
+"nameRu": "QuotedPrintable"
+},
+{
+"name": "None",
+"nameRu": "БезКодирования"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72904,7 +79597,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "HTML",
+"nameRu": "HTML"
+},
+{
+"name": "PlainText",
+"nameRu": "ПростойТекст"
+},
+{
+"name": "RichText",
+"nameRu": "РазмеченныйТекст"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72914,7 +79620,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "IMAP",
+"nameRu": "IMAP"
+},
+{
+"name": "POP3",
+"nameRu": "POP3"
+},
+{
+"name": "SMTP",
+"nameRu": "SMTP"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72924,7 +79643,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Independent",
+"nameRu": "Независимая"
+},
+{
+"name": "Transactional",
+"nameRu": "Транзакционная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72934,7 +79662,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Committed",
+"nameRu": "Зафиксирована"
+},
+{
+"name": "Unfinished",
+"nameRu": "НеЗавершена"
+},
+{
+"name": "NotApplicable",
+"nameRu": "НетТранзакции"
+},
+{
+"name": "RolledBack",
+"nameRu": "Отменена"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72944,7 +79689,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Information",
+"nameRu": "Информация"
+},
+{
+"name": "Error",
+"nameRu": "Ошибка"
+},
+{
+"name": "Warning",
+"nameRu": "Предупреждение"
+},
+{
+"name": "Note",
+"nameRu": "Примечание"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72954,7 +79716,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "IncludeWholeChain",
+"nameRu": "ВключатьПолнуюЦепочку"
+},
+{
+"name": "IncludeSubjectCertificate",
+"nameRu": "ВключатьСертификатСубъекта"
+},
+{
+"name": "IncludeChainWithoutRoot",
+"nameRu": "ВключатьЦепочкуБезКорневого"
+},
+{
+"name": "DontInclude",
+"nameRu": "НеВключать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72964,7 +79743,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "IgnoreTimeValidity",
+"nameRu": "ИгнорироватьВремяДействия"
+},
+{
+"name": "IgnoreSignatureValidity",
+"nameRu": "ИгнорироватьДействительностьПодписи"
+},
+{
+"name": "IgnoreCertificateRevocationStatus",
+"nameRu": "ИгнорироватьПроверкуВСпискеОтозванныхСертификатов"
+},
+{
+"name": "AllowTestCertificates",
+"nameRu": "РазрешитьТестовыеСертификаты"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72974,7 +79770,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "RootCertificates",
+"nameRu": "КорневыеСертификаты"
+},
+{
+"name": "PersonalCertificates",
+"nameRu": "ПерсональныеСертификаты"
+},
+{
+"name": "RecipientCertificates",
+"nameRu": "СертификатыПолучателей"
+},
+{
+"name": "CertificationAuthorityCertificates",
+"nameRu": "СертификатыУдостоверяющихЦентров"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72984,7 +79797,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ComputerData",
+"nameRu": "ДанныеКомпьютера"
+},
+{
+"name": "OSUserData",
+"nameRu": "ДанныеПользователяОС"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -72994,7 +79816,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Copy",
+"nameRu": "Копирование"
+},
+{
+"name": "Deflate",
+"nameRu": "Сжатие"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73004,7 +79835,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AES128",
+"nameRu": "AES128"
+},
+{
+"name": "AES192",
+"nameRu": "AES192"
+},
+{
+"name": "AES256",
+"nameRu": "AES256"
+},
+{
+"name": "Zip20",
+"nameRu": "Zip20"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73014,7 +79862,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Restore",
+"nameRu": "Восстанавливать"
+},
+{
+"name": "DontRestore",
+"nameRu": "НеВосстанавливать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73024,7 +79881,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontProcess",
+"nameRu": "НеОбрабатывать"
+},
+{
+"name": "ProcessRecursively",
+"nameRu": "ОбрабатыватьРекурсивно"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73034,7 +79900,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontStorePath",
+"nameRu": "НеСохранятьПути"
+},
+{
+"name": "StoreRelativePath",
+"nameRu": "СохранятьОтносительныеПути"
+},
+{
+"name": "StoreFullPath",
+"nameRu": "СохранятьПолныеПути"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73044,7 +79923,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Maximum",
+"nameRu": "Максимальный"
+},
+{
+"name": "Minimum",
+"nameRu": "Минимальный"
+},
+{
+"name": "Optimal",
+"nameRu": "Оптимальный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73054,7 +79946,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Exclusive",
+"nameRu": "Исключительный"
+},
+{
+"name": "Shared",
+"nameRu": "Разделяемый"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73064,7 +79965,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Automatic",
+"nameRu": "Автоматический"
+},
+{
+"name": "Managed",
+"nameRu": "Управляемый"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73074,7 +79984,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Active",
+"nameRu": "Активно"
+},
+{
+"name": "Completed",
+"nameRu": "Завершено"
+},
+{
+"name": "Failed",
+"nameRu": "ЗавершеноАварийно"
+},
+{
+"name": "Canceled",
+"nameRu": "Отменено"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73084,7 +80011,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "BusinessProcessNumber",
+"nameRu": "НомерБизнесПроцесса"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73094,7 +80030,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "English",
+"nameRu": "Английский"
+},
+{
+"name": "Russian",
+"nameRu": "Русский"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73104,7 +80049,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "HierarchyFoldersAndItems",
+"nameRu": "ИерархияГруппИЭлементов"
+},
+{
+"name": "HierarchyOfItems",
+"nameRu": "ИерархияЭлементов"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73114,7 +80068,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Turnovers",
+"nameRu": "Обороты"
+},
+{
+"name": "Balance",
+"nameRu": "Остатки"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73124,7 +80087,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Border",
+"nameRu": "Рамка"
+},
+{
+"name": "Color",
+"nameRu": "Цвет"
+},
+{
+"name": "Font",
+"nameRu": "Шрифт"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73134,7 +80110,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Index",
+"nameRu": "Индексировать"
+},
+{
+"name": "IndexWithAdditionalOrder",
+"nameRu": "ИндексироватьСДопУпорядочиванием"
+},
+{
+"name": "DontIndex",
+"nameRu": "НеИндексировать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73144,7 +80133,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ToFolders",
+"nameRu": "Группам"
+},
+{
+"name": "ToFoldersAndItems",
+"nameRu": "ГруппамИЭлементам"
+},
+{
+"name": "ToItems",
+"nameRu": "Элементам"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73154,7 +80156,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73164,7 +80175,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ForFolder",
+"nameRu": "ДляГруппы"
+},
+{
+"name": "ForFolderAndItem",
+"nameRu": "ДляГруппыИЭлемента"
+},
+{
+"name": "ForItem",
+"nameRu": "ДляЭлемента"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73174,7 +80198,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AutoFill",
+"nameRu": "ЗаполнятьАвтоматически"
+},
+{
+"name": "AutoFillOff",
+"nameRu": "НеЗаполнятьАвтоматически"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73184,7 +80217,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsCode",
+"nameRu": "ВВидеКода"
+},
+{
+"name": "AsDescription",
+"nameRu": "ВВидеНаименования"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73194,7 +80236,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsDescription",
+"nameRu": "ВВидеНаименования"
+},
+{
+"name": "AsNumber",
+"nameRu": "ВВидеНомера"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73204,7 +80255,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NotAutoFree",
+"nameRu": "НеОсвобождатьАвтоматически"
+},
+{
+"name": "AutoFree",
+"nameRu": "ОсвобождатьАвтоматически"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73214,7 +80274,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsCode",
+"nameRu": "ВВидеКода"
+},
+{
+"name": "AsDescription",
+"nameRu": "ВВидеНаименования"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73224,7 +80293,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "Separate",
+"nameRu": "Разделять"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73234,7 +80312,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsCode",
+"nameRu": "ВВидеКода"
+},
+{
+"name": "AsDescription",
+"nameRu": "ВВидеНаименования"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73244,7 +80331,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsCode",
+"nameRu": "ВВидеКода"
+},
+{
+"name": "AsDescription",
+"nameRu": "ВВидеНаименования"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73254,7 +80350,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontMove",
+"nameRu": "НеПеремещать"
+},
+{
+"name": "Move",
+"nameRu": "Перемещать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73264,7 +80369,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Nonperiodical",
+"nameRu": "Непериодический"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73274,7 +80400,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Nonperiodical",
+"nameRu": "Непериодический"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73284,7 +80431,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73294,7 +80458,36 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Nonperiodical",
+"nameRu": "Непериодический"
+},
+{
+"name": "RecorderPosition",
+"nameRu": "ПозицияРегистратора"
+},
+{
+"name": "Second",
+"nameRu": "Секунда"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73304,7 +80497,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Deny",
+"nameRu": "Запретить"
+},
+{
+"name": "Allow",
+"nameRu": "Разрешить"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73314,7 +80516,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Independent",
+"nameRu": "Независимый"
+},
+{
+"name": "RecorderSubordinate",
+"nameRu": "ПодчинениеРегистратору"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73324,7 +80535,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Automatic",
+"nameRu": "Автоматический"
+},
+{
+"name": "AutomaticAndManaged",
+"nameRu": "АвтоматическийИУправляемый"
+},
+{
+"name": "Managed",
+"nameRu": "Управляемый"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73334,7 +80558,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WholeCatalog",
+"nameRu": "ВоВсемСправочнике"
+},
+{
+"name": "WithinSubordination",
+"nameRu": "ВПределахПодчинения"
+},
+{
+"name": "WithinOwnerSubordination",
+"nameRu": "ВПределахПодчиненияВладельцу"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73344,7 +80581,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WholeChartOfAccounts",
+"nameRu": "ВоВсемПланеСчетов"
+},
+{
+"name": "WithinSubordination",
+"nameRu": "ВПределахПодчинения"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73354,7 +80600,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WholeCharacteristicKind",
+"nameRu": "ВоВсемПланеВидовХарактеристик"
+},
+{
+"name": "WithinSubordination",
+"nameRu": "ВПределахПодчинения"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73364,7 +80619,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "QuickChoice",
+"nameRu": "БыстрыйВыбор"
+},
+{
+"name": "FromForm",
+"nameRu": "ИзФормы"
+},
+{
+"name": "BothWays",
+"nameRu": "ОбоимиСпособами"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73374,7 +80642,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "InDialog",
+"nameRu": "ВДиалоге"
+},
+{
+"name": "InList",
+"nameRu": "ВСписке"
+},
+{
+"name": "BothWays",
+"nameRu": "ОбоимиСпособами"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73384,7 +80665,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "String",
+"nameRu": "Строка"
+},
+{
+"name": "Number",
+"nameRu": "Число"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73394,7 +80684,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "String",
+"nameRu": "Строка"
+},
+{
+"name": "Number",
+"nameRu": "Число"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73404,7 +80703,44 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ActiveDocument",
+"nameRu": "ActiveDocument"
+},
+{
+"name": "HTMLDocument",
+"nameRu": "HTMLДокумент"
+},
+{
+"name": "GeographicalSchema",
+"nameRu": "ГеографическаяСхема"
+},
+{
+"name": "GraphicalSchema",
+"nameRu": "ГрафическаяСхема"
+},
+{
+"name": "BinaryData",
+"nameRu": "ДвоичныеДанные"
+},
+{
+"name": "DataCompositionAppearanceTemplate",
+"nameRu": "МакетОформленияКомпоновкиДанных"
+},
+{
+"name": "DataCompositionSchema",
+"nameRu": "СхемаКомпоновкиДанных"
+},
+{
+"name": "SpreadsheetDocument",
+"nameRu": "ТабличныйДокумент"
+},
+{
+"name": "TextDocument",
+"nameRu": "ТекстовыйДокумент"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73414,7 +80750,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "String",
+"nameRu": "Строка"
+},
+{
+"name": "Number",
+"nameRu": "Число"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73424,7 +80769,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "String",
+"nameRu": "Строка"
+},
+{
+"name": "Number",
+"nameRu": "Число"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73434,7 +80788,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "String",
+"nameRu": "Строка"
+},
+{
+"name": "Number",
+"nameRu": "Число"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73444,7 +80807,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AutoDeleteOff",
+"nameRu": "НеУдалятьАвтоматически"
+},
+{
+"name": "AutoDelete",
+"nameRu": "УдалятьАвтоматически"
+},
+{
+"name": "AutoDeleteOnUnpost",
+"nameRu": "УдалятьАвтоматическиПриОтменеПроведения"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73454,7 +80830,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "OnActionPeriod",
+"nameRu": "ПоПериодуДействия"
+},
+{
+"name": "OnRegistrationPeriod",
+"nameRu": "ПоПериодуРегистрации"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73464,7 +80853,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "AsCode",
+"nameRu": "ВВидеКода"
+},
+{
+"name": "AsDescription",
+"nameRu": "ВВидеНаименования"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73474,7 +80872,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Deny",
+"nameRu": "Запретить"
+},
+{
+"name": "Allow",
+"nameRu": "Разрешить"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73484,7 +80891,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "In",
+"nameRu": "Входной"
+},
+{
+"name": "InOut",
+"nameRu": "ВходнойВыходной"
+},
+{
+"name": "Out",
+"nameRu": "Выходной"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73494,7 +80914,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WriteSelected",
+"nameRu": "ЗаписыватьВыбранные"
+},
+{
+"name": "WriteModified",
+"nameRu": "ЗаписыватьМодифицированные"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73504,7 +80933,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DuringRequest",
+"nameRu": "НаВремяВызова"
+},
+{
+"name": "DuringSession",
+"nameRu": "НаВремяСеанса"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73514,7 +80956,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Version8_1",
+"nameRu": "Версия8_1"
+},
+{
+"name": "Version8_2_13",
+"nameRu": "Версия8_2_13"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73524,7 +80979,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73534,7 +81002,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Ordinary",
+"nameRu": "Обычная"
+},
+{
+"name": "Managed",
+"nameRu": "Управляемая"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73544,7 +81021,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73554,7 +81040,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "Separate",
+"nameRu": "Разделять"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73564,7 +81059,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Independently",
+"nameRu": "Независимо"
+},
+{
+"name": "IndependentlyAndSimultaneously",
+"nameRu": "НезависимоИСовместно"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73574,7 +81078,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "Use",
+"nameRu": "Использовать"
+},
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73584,7 +81101,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DontUse",
+"nameRu": "НеИспользовать"
+},
+{
+"name": "Separate",
+"nameRu": "Разделять"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73594,7 +81120,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "NonobjectData",
+"nameRu": "НеобъектныеДанные"
+},
+{
+"name": "ObjectData",
+"nameRu": "ОбъектныеДанные"
+}
+],
 "excludeFromGlobalContext": true
 },
 {
@@ -73604,7 +81139,40 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WithoutRestriction",
+"nameRu": "БезОграничения"
+},
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "SpecificDate",
+"nameRu": "КонкретнаяДата"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Week",
+"nameRu": "Неделя"
+},
+{
+"name": "WorkingDate",
+"nameRu": "РабочаяДата"
+},
+{
+"name": "BeforeAfter",
+"nameRu": "Смещение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73614,7 +81182,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Interval",
+"nameRu": "Интервал"
+},
+{
+"name": "Period",
+"nameRu": "Период"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73624,7 +81201,52 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Year",
+"nameRu": "Год"
+},
+{
+"name": "Day",
+"nameRu": "День"
+},
+{
+"name": "DayFromBegOfYear",
+"nameRu": "ДеньСНачалаГода"
+},
+{
+"name": "DayFromBegOfQuarter",
+"nameRu": "ДеньСНачалаКвартала"
+},
+{
+"name": "DayFromBegOfMonth",
+"nameRu": "ДеньСНачалаМесяца"
+},
+{
+"name": "Quarter",
+"nameRu": "Квартал"
+},
+{
+"name": "QuarterFromBegOfYear",
+"nameRu": "КварталСНачалаГода"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "MonthFromBegOfYear",
+"nameRu": "МесяцСНачалаГода"
+},
+{
+"name": "MonthFromBegOfQuarter",
+"nameRu": "МесяцСНачалаКвартала"
+},
+{
+"name": "AnyInterval",
+"nameRu": "ПроизвольныйИнтервал"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73634,7 +81256,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Including",
+"nameRu": "Включая"
+},
+{
+"name": "Excluding",
+"nameRu": "Исключая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73644,7 +81275,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Absolute",
+"nameRu": "Абсолютная"
+},
+{
+"name": "FromLib",
+"nameRu": "ИзБиблиотеки"
+},
+{
+"name": "Empty",
+"nameRu": "Пустая"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73654,7 +81298,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Absolute",
+"nameRu": "Абсолютная"
+},
+{
+"name": "StyleItem",
+"nameRu": "ЭлементСтиля"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73664,7 +81317,80 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Greater",
+"nameRu": "Больше"
+},
+{
+"name": "GreaterOrEqual",
+"nameRu": "БольшеИлиРавно"
+},
+{
+"name": "InHierarchy",
+"nameRu": "ВИерархии"
+},
+{
+"name": "InList",
+"nameRu": "ВСписке"
+},
+{
+"name": "InListByHierarchy",
+"nameRu": "ВСпискеПоИерархии"
+},
+{
+"name": "Interval",
+"nameRu": "Интервал"
+},
+{
+"name": "IntervalIncludingBounds",
+"nameRu": "ИнтервалВключаяГраницы"
+},
+{
+"name": "IntervalIncludingLowerBound",
+"nameRu": "ИнтервалВключаяНачало"
+},
+{
+"name": "IntervalIncludingUpperBound",
+"nameRu": "ИнтервалВключаяОкончание"
+},
+{
+"name": "Less",
+"nameRu": "Меньше"
+},
+{
+"name": "LessOrEqual",
+"nameRu": "МеньшеИлиРавно"
+},
+{
+"name": "NotInHierarchy",
+"nameRu": "НеВИерархии"
+},
+{
+"name": "NotInList",
+"nameRu": "НеВСписке"
+},
+{
+"name": "NotInListByHierarchy",
+"nameRu": "НеВСпискеПоИерархии"
+},
+{
+"name": "NotEqual",
+"nameRu": "НеРавно"
+},
+{
+"name": "NotContains",
+"nameRu": "НеСодержит"
+},
+{
+"name": "Equal",
+"nameRu": "Равно"
+},
+{
+"name": "Contains",
+"nameRu": "Содержит"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73674,7 +81400,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WebColor",
+"nameRu": "WebЦвет"
+},
+{
+"name": "WindowsColor",
+"nameRu": "WindowsЦвет"
+},
+{
+"name": "Absolute",
+"nameRu": "Абсолютный"
+},
+{
+"name": "AutoColor",
+"nameRu": "АвтоЦвет"
+},
+{
+"name": "StyleItem",
+"nameRu": "ЭлементСтиля"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73684,7 +81431,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WindowsFont",
+"nameRu": "WindowsШрифт"
+},
+{
+"name": "Absolute",
+"nameRu": "Абсолютный"
+},
+{
+"name": "AutoFont",
+"nameRu": "АвтоШрифт"
+},
+{
+"name": "StyleItem",
+"nameRu": "ЭлементСтиля"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73694,7 +81458,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Variable",
+"nameRu": "Переменная"
+},
+{
+"name": "Fixed",
+"nameRu": "Фиксированная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73704,7 +81477,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Any",
+"nameRu": "Любой"
+},
+{
+"name": "Nonnegative",
+"nameRu": "Неотрицательный"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73714,7 +81496,60 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "_0..._9",
+"nameRu": "_0..._9"
+},
+{
+"name": "A...Z",
+"nameRu": "A...Z"
+},
+{
+"name": "BackSpace",
+"nameRu": "BackSpace"
+},
+{
+"name": "Break",
+"nameRu": "Break"
+},
+{
+"name": "F1...F12",
+"nameRu": "F1...F12"
+},
+{
+"name": "Num0...Num9",
+"nameRu": "Num0...Num9"
+},
+{
+"name": "NumAdd",
+"nameRu": "NumAdd"
+},
+{
+"name": "NumDecimal",
+"nameRu": "NumDecimal"
+},
+{
+"name": "NumDivide",
+"nameRu": "NumDivide"
+},
+{
+"name": "NumMultiply",
+"nameRu": "NumMultiply"
+},
+{
+"name": "NumSubtract",
+"nameRu": "NumSubtract"
+},
+{
+"name": "Space",
+"nameRu": "Space"
+},
+{
+"name": "None",
+"nameRu": "Нет"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73724,7 +81559,40 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Yes",
+"nameRu": "Да"
+},
+{
+"name": "No",
+"nameRu": "Нет"
+},
+{
+"name": "OK",
+"nameRu": "ОК"
+},
+{
+"name": "Cancel",
+"nameRu": "Отмена"
+},
+{
+"name": "Retry",
+"nameRu": "Повторить"
+},
+{
+"name": "Abort",
+"nameRu": "Прервать"
+},
+{
+"name": "Ignore",
+"nameRu": "Пропустить"
+},
+{
+"name": "Timeout",
+"nameRu": "Таймаут"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73734,7 +81602,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ANSI",
+"nameRu": "ANSI"
+},
+{
+"name": "OEM",
+"nameRu": "OEM"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73744,7 +81621,28 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ANSI",
+"nameRu": "ANSI"
+},
+{
+"name": "OEM",
+"nameRu": "OEM"
+},
+{
+"name": "UTF16",
+"nameRu": "UTF16"
+},
+{
+"name": "UTF8",
+"nameRu": "UTF8"
+},
+{
+"name": "System",
+"nameRu": "Системная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73754,7 +81652,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Asc",
+"nameRu": "Возр"
+},
+{
+"name": "Desc",
+"nameRu": "Убыв"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73764,7 +81671,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "YesNo",
+"nameRu": "ДаНет"
+},
+{
+"name": "YesNoCancel",
+"nameRu": "ДаНетОтмена"
+},
+{
+"name": "OK",
+"nameRu": "ОК"
+},
+{
+"name": "OKCancel",
+"nameRu": "ОКОтмена"
+},
+{
+"name": "RetryCancel",
+"nameRu": "ПовторитьОтмена"
+},
+{
+"name": "AbortRetryIgnore",
+"nameRu": "ПрерватьПовторитьПропустить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73774,7 +81706,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Round15as10",
+"nameRu": "Окр15как10"
+},
+{
+"name": "Round15as20",
+"nameRu": "Окр15как20"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73784,7 +81725,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Disable",
+"nameRu": "Запретить"
+},
+{
+"name": "Enable",
+"nameRu": "Разрешить"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73794,7 +81744,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "HTMLText",
+"nameRu": "HTMLТекст"
+},
+{
+"name": "XML",
+"nameRu": "XML"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73804,7 +81763,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "UseCurrentDate",
+"nameRu": "ИспользоватьТекущуюДату"
+},
+{
+"name": "Assign",
+"nameRu": "Назначать"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73814,7 +81782,32 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "WithoutStatus",
+"nameRu": "БезСтатуса"
+},
+{
+"name": "Important",
+"nameRu": "Важное"
+},
+{
+"name": "Attention",
+"nameRu": "Внимание"
+},
+{
+"name": "Information",
+"nameRu": "Информация"
+},
+{
+"name": "Ordinary",
+"nameRu": "Обычное"
+},
+{
+"name": "VeryImportant",
+"nameRu": "ОченьВажное"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73824,7 +81817,96 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "BeginningOfLastYear",
+"nameRu": "НачалоПрошлогоГода"
+},
+{
+"name": "BeginningOfLastDay",
+"nameRu": "НачалоПрошлогоДня"
+},
+{
+"name": "BeginningOfLastQuarter",
+"nameRu": "НачалоПрошлогоКвартала"
+},
+{
+"name": "BeginningOfLastMonth",
+"nameRu": "НачалоПрошлогоМесяца"
+},
+{
+"name": "BeginningOfLastHalfYear",
+"nameRu": "НачалоПрошлогоПолугодия"
+},
+{
+"name": "BeginningOfLastTenDays",
+"nameRu": "НачалоПрошлойДекады"
+},
+{
+"name": "BeginningOfLastWeek",
+"nameRu": "НачалоПрошлойНедели"
+},
+{
+"name": "BeginningOfNextYear",
+"nameRu": "НачалоСледующегоГода"
+},
+{
+"name": "BeginningOfNextDay",
+"nameRu": "НачалоСледующегоДня"
+},
+{
+"name": "BeginningOfNextQuarter",
+"nameRu": "НачалоСледующегоКвартала"
+},
+{
+"name": "BeginningOfNextMonth",
+"nameRu": "НачалоСледующегоМесяца"
+},
+{
+"name": "BeginningOfNextHalfYear",
+"nameRu": "НачалоСледующегоПолугодия"
+},
+{
+"name": "BeginningOfNextTenDays",
+"nameRu": "НачалоСледующейДекады"
+},
+{
+"name": "BeginningOfNextWeek",
+"nameRu": "НачалоСледующейНедели"
+},
+{
+"name": "BeginningOfThisYear",
+"nameRu": "НачалоЭтогоГода"
+},
+{
+"name": "BeginningOfThisDay",
+"nameRu": "НачалоЭтогоДня"
+},
+{
+"name": "BeginningOfThisQuarter",
+"nameRu": "НачалоЭтогоКвартала"
+},
+{
+"name": "BeginningOfThisMonth",
+"nameRu": "НачалоЭтогоМесяца"
+},
+{
+"name": "BeginningOfThisHalfYear",
+"nameRu": "НачалоЭтогоПолугодия"
+},
+{
+"name": "BeginningOfThisTenDays",
+"nameRu": "НачалоЭтойДекады"
+},
+{
+"name": "BeginningOfThisWeek",
+"nameRu": "НачалоЭтойНедели"
+},
+{
+"name": "Custom",
+"nameRu": "ПроизвольнаяДата"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73834,7 +81916,204 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Yesterday",
+"nameRu": "Вчера"
+},
+{
+"name": "TillEndOfThisYear",
+"nameRu": "ДоКонцаЭтогоГода"
+},
+{
+"name": "TillEndOfThisQuarter",
+"nameRu": "ДоКонцаЭтогоКвартала"
+},
+{
+"name": "TillEndOfThisMonth",
+"nameRu": "ДоКонцаЭтогоМесяца"
+},
+{
+"name": "TillEndOfThisHalfYear",
+"nameRu": "ДоКонцаЭтогоПолугодия"
+},
+{
+"name": "TillEndOfThisTenDays",
+"nameRu": "ДоКонцаЭтойДекады"
+},
+{
+"name": "TillEndOfThisWeek",
+"nameRu": "ДоКонцаЭтойНедели"
+},
+{
+"name": "Tomorrow",
+"nameRu": "Завтра"
+},
+{
+"name": "Month",
+"nameRu": "Месяц"
+},
+{
+"name": "Last7Days",
+"nameRu": "Последние7Дней"
+},
+{
+"name": "Custom",
+"nameRu": "ПроизвольныйПериод"
+},
+{
+"name": "LastTenDays",
+"nameRu": "ПрошлаяДекада"
+},
+{
+"name": "LastTenDaysTillSameDayNumber",
+"nameRu": "ПрошлаяДекадаДоТакогоЖеНомераДня"
+},
+{
+"name": "LastWeek",
+"nameRu": "ПрошлаяНеделя"
+},
+{
+"name": "LastWeekTillSameWeekDay",
+"nameRu": "ПрошлаяНеделяДоТакогоЖеДняНедели"
+},
+{
+"name": "LastHalfYear",
+"nameRu": "ПрошлоеПолугодие"
+},
+{
+"name": "LastHalfYearTillSameDate",
+"nameRu": "ПрошлоеПолугодиеДоТакойЖеДаты"
+},
+{
+"name": "LastYear",
+"nameRu": "ПрошлыйГод"
+},
+{
+"name": "LastYearTillSameDate",
+"nameRu": "ПрошлыйГодДоТакойЖеДаты"
+},
+{
+"name": "LastQuarter",
+"nameRu": "ПрошлыйКвартал"
+},
+{
+"name": "LastQuarterTillSameDate",
+"nameRu": "ПрошлыйКварталДоТакойЖеДаты"
+},
+{
+"name": "LastMonth",
+"nameRu": "ПрошлыйМесяц"
+},
+{
+"name": "LastMonthTillSameDate",
+"nameRu": "ПрошлыйМесяцДоТакойЖеДаты"
+},
+{
+"name": "Today",
+"nameRu": "Сегодня"
+},
+{
+"name": "NextTenDays",
+"nameRu": "СледующаяДекада"
+},
+{
+"name": "NextTenDaysTillSameDayNumber",
+"nameRu": "СледующаяДекадаДоТакогоЖеНомераДня"
+},
+{
+"name": "NextWeek",
+"nameRu": "СледующаяНеделя"
+},
+{
+"name": "NextWeekTillSameWeekDay",
+"nameRu": "СледующаяНеделяДоТакогоЖеДняНедели"
+},
+{
+"name": "NextHalfYear",
+"nameRu": "СледующееПолугодие"
+},
+{
+"name": "NextHalfYearTillSameDate",
+"nameRu": "СледующееПолугодиеДоТакойЖеДаты"
+},
+{
+"name": "Next7Days",
+"nameRu": "Следующие7Дней"
+},
+{
+"name": "NextYear",
+"nameRu": "СледующийГод"
+},
+{
+"name": "NextYearTillSameDate",
+"nameRu": "СледующийГодДоТакойЖеДаты"
+},
+{
+"name": "NextQuarter",
+"nameRu": "СледующийКвартал"
+},
+{
+"name": "NextQuarterTillSameDate",
+"nameRu": "СледующийКварталДоТакойЖеДаты"
+},
+{
+"name": "NextMonth",
+"nameRu": "СледующийМесяц"
+},
+{
+"name": "NextMonthTillSameDate",
+"nameRu": "СледующийМесяцДоТакойЖеДаты"
+},
+{
+"name": "FromBeginningOfThisYear",
+"nameRu": "СНачалаЭтогоГода"
+},
+{
+"name": "FromBeginningOfThisQuarter",
+"nameRu": "СНачалаЭтогоКвартала"
+},
+{
+"name": "FromBeginningOfThisMonth",
+"nameRu": "СНачалаЭтогоМесяца"
+},
+{
+"name": "FromBeginningOfThisHalfYear",
+"nameRu": "СНачалаЭтогоПолугодия"
+},
+{
+"name": "FromBeginningOfThisTenDays",
+"nameRu": "СНачалаЭтойДекады"
+},
+{
+"name": "FromBeginningOfThisWeek",
+"nameRu": "СНачалаЭтойНедели"
+},
+{
+"name": "ThisTenDays",
+"nameRu": "ЭтаДекада"
+},
+{
+"name": "ThisWeek",
+"nameRu": "ЭтаНеделя"
+},
+{
+"name": "ThisHalfYear",
+"nameRu": "ЭтоПолугодие"
+},
+{
+"name": "ThisYear",
+"nameRu": "ЭтотГод"
+},
+{
+"name": "ThisQuarter",
+"nameRu": "ЭтотКвартал"
+},
+{
+"name": "ThisMonth",
+"nameRu": "ЭтотМесяц"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73844,7 +82123,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "DefaultButton",
+"nameRu": "КнопкаПоУмолчанию"
+},
+{
+"name": "ControlNavigation",
+"nameRu": "ПереходПоЭлементамФормы"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73854,7 +82142,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Time",
+"nameRu": "Время"
+},
+{
+"name": "Date",
+"nameRu": "Дата"
+},
+{
+"name": "DateTime",
+"nameRu": "ДатаВремя"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73864,7 +82165,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "ShowError",
+"nameRu": "ВыдаватьОшибку"
+},
+{
+"name": "DontCheck",
+"nameRu": "НеПроверять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73874,7 +82184,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "OrdinaryApplication",
+"nameRu": "ОбычноеПриложение"
+},
+{
+"name": "ManagedApplication",
+"nameRu": "УправляемоеПриложение"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73884,7 +82207,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Tabs",
+"nameRu": "Закладки"
+},
+{
+"name": "SingleWindows",
+"nameRu": "ОтдельныеОкна"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73894,7 +82226,20 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Picture",
+"nameRu": "Картинка"
+},
+{
+"name": "PictureAndText",
+"nameRu": "КартинкаИТекст"
+},
+{
+"name": "Text",
+"nameRu": "Текст"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73904,7 +82249,24 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Linux_x86",
+"nameRu": "Linux_x86"
+},
+{
+"name": "Linux_x86_64",
+"nameRu": "Linux_x86_64"
+},
+{
+"name": "Windows_x86",
+"nameRu": "Windows_x86"
+},
+{
+"name": "Windows_x86_64",
+"nameRu": "Windows_x86_64"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73914,7 +82276,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "COM",
+"nameRu": "COM"
+},
+{
+"name": "Native",
+"nameRu": "Native"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73924,7 +82295,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Low",
+"nameRu": "Низкая"
+},
+{
+"name": "Normal",
+"nameRu": "Обычная"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73934,7 +82314,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Auto",
+"nameRu": "Авто"
+},
+{
+"name": "DontUpdate",
+"nameRu": "НеОбновлять"
+}
+],
 "excludeFromGlobalContext": false
 },
 {
@@ -73944,7 +82333,16 @@
 "kind": "Enum",
 "methods": [],
 "properties": [],
-"values": [],
+"values": [
+{
+"name": "Disconnected",
+"nameRu": "Отключен"
+},
+{
+"name": "Connected",
+"nameRu": "Подключен"
+}
+],
 "excludeFromGlobalContext": false
 },
 {

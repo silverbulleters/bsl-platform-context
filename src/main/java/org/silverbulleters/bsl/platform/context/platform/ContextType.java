@@ -40,29 +40,41 @@ public class ContextType {
    * Имя на двух языках
    */
   Resource name;
+
   /**
    * Вид типа
    */
   @Builder.Default
   ContextTypeKind kind = ContextTypeKind.TYPE;
+
   /**
    * Ссылка на тип
    */
   PlatformTypeReference reference;
+
   /**
    * Признак примитива
    */
   boolean isPrimitive; // FIXME: переименовать
+
   /**
    * Методы типа
    */
   @Builder.Default
   List<Method> methods = Collections.emptyList();
+
   /**
    * Свойства типа
    */
   @Builder.Default
   List<Property> properties = Collections.emptyList();
+
+  /**
+   * Значения типа
+   */
+  @Builder.Default
+  List<TypeValue> values = Collections.emptyList();
+
   /**
    * Исключен из глобального контекста
    */
