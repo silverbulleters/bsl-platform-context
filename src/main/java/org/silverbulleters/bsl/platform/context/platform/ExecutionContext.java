@@ -27,6 +27,7 @@ import lombok.experimental.Accessors;
 
 /**
  * Контекст доступности "выполнения" для типов, методов, свойств и т.п.
+ * Например {@code Мобильное приложение (клиент)} или {@code Толстый клиент}
  */
 @RequiredArgsConstructor
 public enum ExecutionContext {
@@ -75,6 +76,14 @@ public enum ExecutionContext {
   @Getter
   private final String value;
 
+  /**
+   * Получение элемента {@code ExecutionContext} по его текстовому представлению.
+   * Имя регистрозависимое
+   *
+   * @param name имя контекста выполнения в PascalCase. Например {@code ThickClient}
+   * @return элемент {@code ExecutionContext} в случае успешного поиска. В противном случае выбрасывается {@code IllegalArgumentException}
+   * @throws IllegalArgumentException если по переданному текстовому имени не найдено ни одного элемента
+   */
   public static ExecutionContext valueByName(String name) {
     for (var value : ExecutionContext.values()) {
       if (value.value().equals(name)) {
