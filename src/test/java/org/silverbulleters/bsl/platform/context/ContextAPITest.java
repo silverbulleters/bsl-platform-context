@@ -22,6 +22,7 @@
 package org.silverbulleters.bsl.platform.context;
 
 import org.junit.jupiter.api.Test;
+import org.silverbulleters.bsl.platform.context.platform.ExecutionContext;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
 import org.silverbulleters.bsl.platform.context.types.Resource;
@@ -50,6 +51,27 @@ public class ContextAPITest {
 
     var type = context.getTypeByName(PLATFORM_EDITION, "ЧтотоДругое");
     assertThat(type).isEqualTo(PrimitiveType.UNKNOWN_TYPE);
+  }
+
+  @Test
+  void testMethodExecutionContext() {
+    var context = new BSLPlatformContext(List.of(PLATFORM_EDITION));
+
+    var optionalMethod = context.getGlobalMethodsByPlatform(PLATFORM_EDITION).stream()
+      .filter(value -> value.getName().getNameRu().equalsIgnoreCase("ACos"))
+      .findAny();
+
+    assertThat(optionalMethod).isPresent();
+
+    var method = optionalMethod.get();
+    assertThat(method.getExecutionContexts()).hasSize(7)
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.THIN_CLIENT))
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.WEB_CLIENT))
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.SERVER))
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.THICK_CLIENT))
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.EXTERNAL_CONNECTION))
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.MOBILE_APPLICATION_CLIENT))
+      .anyMatch(executionContext -> executionContext.equals(ExecutionContext.MOBILE_APPLICATION_SERVER));
   }
 
   private static void checkGetTypeByName(BSLPlatformContext context, PlatformEdition edition, Resource names) {

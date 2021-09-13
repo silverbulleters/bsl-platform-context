@@ -22,8 +22,8 @@
 package org.silverbulleters.bsl.platform.context.internal.data;
 
 import lombok.Data;
-import org.silverbulleters.bsl.platform.context.platform.Method;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -34,15 +34,15 @@ public class DataFromCollector {
   /**
    * Версия платформы. Например, `8_3_10`
    */
-  private String platformVersion;
+  private String platformVersion = "";
   /**
    * Список типов платформы
    */
-  private List<Type> types;
+  private List<Type> types = Collections.emptyList();
   /**
    * Список событий типов платформы
    */
-  private List<Event> events;
+  private List<Event> events = Collections.emptyList();
 
   /**
    * Представление типа
@@ -52,40 +52,40 @@ public class DataFromCollector {
     /**
      * Идентификатор типа
      */
-    private String id;
+    private String id = "";
     /**
      * Имя типа на русском
      */
-    private String name;
+    private String name = "";
     /**
      * Имя типа на английском
      */
-    private String nameRu;
+    private String nameRu = "";
 
     /**
      * Вид типа
      */
-    private String kind;
+    private String kind = "";
 
     /**
      * Методы типа платформы
      */
-    private List<Method> methods;
+    private List<Method> methods = Collections.emptyList();
 
     /**
      * Свойства типа платформы
      */
-    private List<Property> properties;
+    private List<Property> properties = Collections.emptyList();
 
     /**
      * Значения типа платформы
      */
-    private List<TypeValue> values;
+    private List<TypeValue> values = Collections.emptyList();
 
     /**
      * Тип исключен из глобального контекста
      */
-    private boolean excludeFromGlobalContext;
+    private boolean excludeFromGlobalContext = false;
   }
 
   /**
@@ -96,15 +96,15 @@ public class DataFromCollector {
     /**
      * Имя события на русском
      */
-    private String name;
+    private String name = "";
     /**
      * Имя события на английском
      */
-    private String nameRu;
+    private String nameRu = "";
     /**
      * Список типов платформы, у которых есть текущее событие
      */
-    private List<String> types;
+    private List<String> types = Collections.emptyList();
   }
 
   /**
@@ -116,17 +116,23 @@ public class DataFromCollector {
     /**
      * Имя метода на английском
      */
-    private String name;
+    private String name = "";
 
     /**
      * Имя метода на русском
      */
-    private String nameRu;
+    private String nameRu = "";
 
     /**
      * Признак, является ли метод функцией
      */
-    private Boolean isFunction;
+    private Boolean isFunction = Boolean.FALSE;
+
+    /**
+     * Контексты выполнения
+     */
+    private List<String> executionContexts = Collections.emptyList();
+
   }
 
   /**
@@ -138,17 +144,17 @@ public class DataFromCollector {
     /**
      * Имя свойства на английском
      */
-    private String name;
+    private String name = "";
 
     /**
      * Имя свойства на русском
      */
-    private String nameRu;
+    private String nameRu = "";
 
     /**
      * Режим использования (строкой)
      */
-    private String usage;
+    private String usage = "";
   }
 
   /**
@@ -159,12 +165,12 @@ public class DataFromCollector {
     /**
      * Имя свойства на английском
      */
-    private String name;
+    private String name = "";
 
     /**
      * Имя свойства на русском
      */
-    private String nameRu;
+    private String nameRu = "";
   }
 }
 
