@@ -17172,8 +17172,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "MD_GRAPH",
-"name": "MDGraph",
+"id": "MD_COLUMN",
+"name": "MDColumn",
 "nameRu": "МДГрафа",
 "kind": "Type",
 "methods": [
@@ -92863,8 +92863,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET",
-"name": "ExternalDataSourceTableRecordSet",
+"id": "EXTERNAL_DATA_SOURCE_RECORD_SET",
+"name": "ExternalDataSourceRecordSet",
 "nameRu": "ВнешнийИсточникДанныхТаблицаНаборЗаписей",
 "kind": "Type",
 "methods": [
@@ -92990,8 +92990,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "EXTERNAL_DATA_SOURCE_TABLE_RECORD",
-"name": "ExternalDataSourceTableRecord",
+"id": "EXTERNAL_DATA_SOURCE_RECORD",
+"name": "ExternalDataSourceRecord",
 "nameRu": "ВнешнийИсточникДанныхТаблицаЗапись",
 "kind": "Type",
 "methods": [],
@@ -97599,7 +97599,7 @@
 {
 "id": "CHART_LABELS_ORIENTATION",
 "name": "ChartLabelsOrientation",
-"nameRu": "ОриентацияПодписейДиаграммы",
+"nameRu": "ОриентацияМетокДиаграммы",
 "kind": "Enum",
 "methods": [],
 "properties": [],
@@ -107086,7 +107086,7 @@
 {
 "id": "I_PORT_RANGE_INFO",
 "name": "IPortRangeInfo",
-"nameRu": "ДиапазонПортов",
+"nameRu": "ДиапазонАдресов",
 "kind": "Type",
 "methods": [],
 "properties": [
