@@ -19009,8 +19009,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "MD_GRAPH",
-"name": "MDGraph",
+"id": "MD_COLUMN",
+"name": "MDColumn",
 "nameRu": "МДГрафа",
 "kind": "Type",
 "methods": [
@@ -71479,8 +71479,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FOR_AN_INPUT_FIELD",
-"name": "TestedFormFieldExtensionForAnInputField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляВвода",
 "kind": "Type",
 "methods": [
@@ -71590,8 +71590,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_CHECK_BOX_FIELD",
-"name": "TestedFormFieldExtensionForACheckBoxField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляФлажка",
 "kind": "Type",
 "methods": [
@@ -71611,8 +71611,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_RADIO_BUTTON_FIELD",
-"name": "TestedFormFieldExtensionForARadioButtonField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляПереключателя",
 "kind": "Type",
 "methods": [
@@ -71632,8 +71632,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_CALENDAR_FIELD",
-"name": "TestedFormFieldExtensionForACalendarField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляКалендаря",
 "kind": "Type",
 "methods": [
@@ -71703,8 +71703,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_LABEL_FIELD",
-"name": "TestedFormFieldExtensionForALabelField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляНадписи",
 "kind": "Type",
 "methods": [
@@ -71724,8 +71724,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_PICTURE_FIELD",
-"name": "TestedFormFieldExtensionForAPictureField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляКартинки",
 "kind": "Type",
 "methods": [
@@ -71745,8 +71745,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_SPREADSHEET_DOCUMENT",
-"name": "TestedFormFieldExtensionForASpreadsheetDocument",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляТабличногоДокумента",
 "kind": "Type",
 "methods": [
@@ -104671,8 +104671,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET",
-"name": "ExternalDataSourceTableRecordSet",
+"id": "EXTERNAL_DATA_SOURCE_RECORD_SET",
+"name": "ExternalDataSourceRecordSet",
 "nameRu": "ВнешнийИсточникДанныхТаблицаНаборЗаписей",
 "kind": "Type",
 "methods": [
@@ -104908,8 +104908,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "EXTERNAL_DATA_SOURCE_TABLE_RECORD",
-"name": "ExternalDataSourceTableRecord",
+"id": "EXTERNAL_DATA_SOURCE_RECORD",
+"name": "ExternalDataSourceRecord",
 "nameRu": "ВнешнийИсточникДанныхТаблицаЗапись",
 "kind": "Type",
 "methods": [],
@@ -112127,7 +112127,7 @@
 {
 "id": "CHART_LABELS_ORIENTATION",
 "name": "ChartLabelsOrientation",
-"nameRu": "ОриентацияПодписейДиаграммы",
+"nameRu": "ОриентацияМетокДиаграммы",
 "kind": "Enum",
 "methods": [],
 "properties": [],
@@ -119943,431 +119943,503 @@
 "id": "CONTACT_DATA_PHONE_NUMBER_TYPE",
 "name": "ContactDataPhoneNumberType",
 "nameRu": "ТипНомераТелефонаДанныхКонтакта",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "iPhone",
-"nameRu": "iPhone"
+"nameRu": "iPhone",
+"usage": "ReadOnly"
 },
 {
 "name": "Home",
-"nameRu": "Домашний"
+"nameRu": "Домашний",
+"usage": "ReadOnly"
 },
 {
 "name": "HomeFax",
-"nameRu": "ДомашнийФакс"
+"nameRu": "ДомашнийФакс",
+"usage": "ReadOnly"
 },
 {
 "name": "Other",
-"nameRu": "Другой"
+"nameRu": "Другой",
+"usage": "ReadOnly"
 },
 {
 "name": "OtherFax",
-"nameRu": "ДругойФакс"
+"nameRu": "ДругойФакс",
+"usage": "ReadOnly"
 },
 {
 "name": "Mobile",
-"nameRu": "Мобильный"
+"nameRu": "Мобильный",
+"usage": "ReadOnly"
 },
 {
 "name": "Main",
-"nameRu": "Основной"
+"nameRu": "Основной",
+"usage": "ReadOnly"
 },
 {
 "name": "Work",
-"nameRu": "Рабочий"
+"nameRu": "Рабочий",
+"usage": "ReadOnly"
 },
 {
 "name": "WorkMobile",
-"nameRu": "РабочийМобильный"
+"nameRu": "РабочийМобильный",
+"usage": "ReadOnly"
 },
 {
 "name": "WorkFax",
-"nameRu": "РабочийФакс"
+"nameRu": "РабочийФакс",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CONTACT_DATA_EMAIL_ADDRESS_TYPE",
 "name": "ContactDataEmailAddressType",
 "nameRu": "ТипАдресаЭлектроннойПочтыДанныхКонтакта",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Home",
-"nameRu": "Домашний"
+"nameRu": "Домашний",
+"usage": "ReadOnly"
 },
 {
 "name": "Other",
-"nameRu": "Другой"
+"nameRu": "Другой",
+"usage": "ReadOnly"
 },
 {
 "name": "Mobile",
-"nameRu": "Мобильный"
+"nameRu": "Мобильный",
+"usage": "ReadOnly"
 },
 {
 "name": "Work",
-"nameRu": "Рабочий"
+"nameRu": "Рабочий",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CONTACT_DATA_ADDRESS_TYPE",
 "name": "ContactDataAddressType",
 "nameRu": "ТипАдресаДанныхКонтакта",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Home",
-"nameRu": "Домашний"
+"nameRu": "Домашний",
+"usage": "ReadOnly"
 },
 {
 "name": "Other",
-"nameRu": "Другой"
+"nameRu": "Другой",
+"usage": "ReadOnly"
 },
 {
 "name": "Work",
-"nameRu": "Рабочий"
+"nameRu": "Рабочий",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CONTACT_DATA_INSTANT_MESSAGING_ADDRESS_TYPE",
 "name": "ContactDataInstantMessagingAddressType",
 "nameRu": "ТипАдресаМгновенныхСообщенийДанныхКонтакта",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Home",
-"nameRu": "Домашний"
+"nameRu": "Домашний",
+"usage": "ReadOnly"
 },
 {
 "name": "Other",
-"nameRu": "Другой"
+"nameRu": "Другой",
+"usage": "ReadOnly"
 },
 {
 "name": "Work",
-"nameRu": "Рабочий"
+"nameRu": "Рабочий",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CONTACT_DATAURL_TYPE",
 "name": "ContactDataURLType",
 "nameRu": "ТипВебАдресаДанныхКонтакта",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "FTP",
-"nameRu": "FTP"
+"nameRu": "FTP",
+"usage": "ReadOnly"
 },
 {
 "name": "Blog",
-"nameRu": "Блог"
+"nameRu": "Блог",
+"usage": "ReadOnly"
 },
 {
 "name": "Home",
-"nameRu": "Домашний"
+"nameRu": "Домашний",
+"usage": "ReadOnly"
 },
 {
 "name": "HomePage",
-"nameRu": "ДомашняяСтраница"
+"nameRu": "ДомашняяСтраница",
+"usage": "ReadOnly"
 },
 {
 "name": "Other",
-"nameRu": "Другой"
+"nameRu": "Другой",
+"usage": "ReadOnly"
 },
 {
 "name": "Profile",
-"nameRu": "Профиль"
+"nameRu": "Профиль",
+"usage": "ReadOnly"
 },
 {
 "name": "Work",
-"nameRu": "Рабочий"
+"nameRu": "Рабочий",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CONTACT_DATA_RELATIONSHIP_TYPE",
 "name": "ContactDataRelationshipType",
 "nameRu": "ТипОтношенийДанныхКонтакта",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Brother",
-"nameRu": "Брат"
+"nameRu": "Брат",
+"usage": "ReadOnly"
 },
 {
 "name": "DomesticPartner",
-"nameRu": "ГражданскийСупруг"
+"nameRu": "ГражданскийСупруг",
+"usage": "ReadOnly"
 },
 {
 "name": "Friend",
-"nameRu": "Друг"
+"nameRu": "Друг",
+"usage": "ReadOnly"
 },
 {
 "name": "Other",
-"nameRu": "Другой"
+"nameRu": "Другой",
+"usage": "ReadOnly"
 },
 {
 "name": "Mother",
-"nameRu": "Мать"
+"nameRu": "Мать",
+"usage": "ReadOnly"
 },
 {
 "name": "Father",
-"nameRu": "Отец"
+"nameRu": "Отец",
+"usage": "ReadOnly"
 },
 {
 "name": "Partner",
-"nameRu": "Партнер"
+"nameRu": "Партнер",
+"usage": "ReadOnly"
 },
 {
 "name": "Assistant",
-"nameRu": "Помощник"
+"nameRu": "Помощник",
+"usage": "ReadOnly"
 },
 {
 "name": "Child",
-"nameRu": "Ребенок"
+"nameRu": "Ребенок",
+"usage": "ReadOnly"
 },
 {
 "name": "Parent",
-"nameRu": "Родитель"
+"nameRu": "Родитель",
+"usage": "ReadOnly"
 },
 {
 "name": "Relative",
-"nameRu": "Родственник"
+"nameRu": "Родственник",
+"usage": "ReadOnly"
 },
 {
 "name": "Manager",
-"nameRu": "Руководитель"
+"nameRu": "Руководитель",
+"usage": "ReadOnly"
 },
 {
 "name": "Sister",
-"nameRu": "Сестра"
+"nameRu": "Сестра",
+"usage": "ReadOnly"
 },
 {
 "name": "Spouse",
-"nameRu": "Супруг"
+"nameRu": "Супруг",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CALENDAR_EVENT_RECURRENCE",
 "name": "CalendarEventRecurrence",
 "nameRu": "ПовторениеСобытияКалендаря",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Weekly",
-"nameRu": "КаждуюНеделю"
+"nameRu": "КаждуюНеделю",
+"usage": "ReadOnly"
 },
 {
 "name": "Yearly",
-"nameRu": "КаждыйГод"
+"nameRu": "КаждыйГод",
+"usage": "ReadOnly"
 },
 {
 "name": "Daily",
-"nameRu": "КаждыйДень"
+"nameRu": "КаждыйДень",
+"usage": "ReadOnly"
 },
 {
 "name": "Monthly",
-"nameRu": "КаждыйМесяц"
+"nameRu": "КаждыйМесяц",
+"usage": "ReadOnly"
 },
 {
 "name": "Once",
-"nameRu": "ОдинРаз"
+"nameRu": "ОдинРаз",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "CALL_LOG_CALL_TYPE",
 "name": "CallLogCallType",
 "nameRu": "ТипЗвонкаЖурналаЗвонков",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Incoming",
-"nameRu": "Входящий"
+"nameRu": "Входящий",
+"usage": "ReadOnly"
 },
 {
 "name": "Outgoing",
-"nameRu": "Исходящий"
+"nameRu": "Исходящий",
+"usage": "ReadOnly"
 },
 {
 "name": "Missed",
-"nameRu": "Пропущенный"
+"nameRu": "Пропущенный",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "BARCODE_TYPE",
 "name": "BarcodeType",
 "nameRu": "ТипШтрихКода",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "All",
-"nameRu": "Все"
+"nameRu": "Все",
+"usage": "ReadOnly"
 },
 {
 "name": "Matrix",
-"nameRu": "Двухмерный"
+"nameRu": "Двухмерный",
+"usage": "ReadOnly"
 },
 {
 "name": "Linear",
-"nameRu": "Линейный"
+"nameRu": "Линейный",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "QUERY_SCHEMA_ORDER_DIRECTION",
 "name": "QuerySchemaOrderDirection",
 "nameRu": "НаправлениеПорядкаСхемыЗапроса",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Ascending",
-"nameRu": "ПоВозрастанию"
+"nameRu": "ПоВозрастанию",
+"usage": "ReadOnly"
 },
 {
 "name": "HierarchyAscending",
-"nameRu": "ПоВозрастаниюИерархии"
+"nameRu": "ПоВозрастаниюИерархии",
+"usage": "ReadOnly"
 },
 {
 "name": "Descending",
-"nameRu": "ПоУбыванию"
+"nameRu": "ПоУбыванию",
+"usage": "ReadOnly"
 },
 {
 "name": "HierarchyDescending",
-"nameRu": "ПоУбываниюИерархии"
+"nameRu": "ПоУбываниюИерархии",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "QUERY_SCHEMA_PERIOD_ADDITION_TYPE",
 "name": "QuerySchemaPeriodAdditionType",
 "nameRu": "ТипДополненияПериодамиСхемыЗапроса",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "NoAddition",
-"nameRu": "БезДополнения"
+"nameRu": "БезДополнения",
+"usage": "ReadOnly"
 },
 {
 "name": "Year",
-"nameRu": "Год"
+"nameRu": "Год",
+"usage": "ReadOnly"
 },
 {
 "name": "TenDays",
-"nameRu": "Декада"
+"nameRu": "Декада",
+"usage": "ReadOnly"
 },
 {
 "name": "Day",
-"nameRu": "День"
+"nameRu": "День",
+"usage": "ReadOnly"
 },
 {
 "name": "Quarter",
-"nameRu": "Квартал"
+"nameRu": "Квартал",
+"usage": "ReadOnly"
 },
 {
 "name": "Month",
-"nameRu": "Месяц"
+"nameRu": "Месяц",
+"usage": "ReadOnly"
 },
 {
 "name": "Minute",
-"nameRu": "Минута"
+"nameRu": "Минута",
+"usage": "ReadOnly"
 },
 {
 "name": "Week",
-"nameRu": "Неделя"
+"nameRu": "Неделя",
+"usage": "ReadOnly"
 },
 {
 "name": "HalfYear",
-"nameRu": "Полугодие"
+"nameRu": "Полугодие",
+"usage": "ReadOnly"
 },
 {
 "name": "Second",
-"nameRu": "Секунда"
+"nameRu": "Секунда",
+"usage": "ReadOnly"
 },
 {
 "name": "Hour",
-"nameRu": "Час"
+"nameRu": "Час",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "QUERY_SCHEMA_TOTAL_CALCULATION_FIELD_TYPE",
 "name": "QuerySchemaTotalCalculationFieldType",
 "nameRu": "ТипКонтрольнойТочкиСхемыЗапроса",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Hierarchy",
-"nameRu": "Иерархия"
+"nameRu": "Иерархия",
+"usage": "ReadOnly"
 },
 {
 "name": "HierarchyOnly",
-"nameRu": "ТолькоИерархия"
+"nameRu": "ТолькоИерархия",
+"usage": "ReadOnly"
 },
 {
 "name": "Items",
-"nameRu": "Элементы"
+"nameRu": "Элементы",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
 "id": "QUERY_SCHEMA_UNION_TYPE",
 "name": "QuerySchemaUnionType",
 "nameRu": "ТипОбъединенияСхемыЗапроса",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Union",
-"nameRu": "Объединить"
+"nameRu": "Объединить",
+"usage": "ReadOnly"
 },
 {
 "name": "UnionAll",
-"nameRu": "ОбъединитьВсе"
+"nameRu": "ОбъединитьВсе",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
@@ -120415,27 +120487,31 @@
 "id": "QUERY_SCHEMA_JOIN_TYPE",
 "name": "QuerySchemaJoinType",
 "nameRu": "ТипСоединенияСхемыЗапроса",
-"kind": "Enum",
+"kind": "Type",
 "methods": [],
-"properties": [],
-"values": [
+"properties": [
 {
 "name": "Inner",
-"nameRu": "Внутреннее"
+"nameRu": "Внутреннее",
+"usage": "ReadOnly"
 },
 {
 "name": "LeftOuter",
-"nameRu": "ЛевоеВнешнее"
+"nameRu": "ЛевоеВнешнее",
+"usage": "ReadOnly"
 },
 {
 "name": "FullOuter",
-"nameRu": "ПолноеВнешнее"
+"nameRu": "ПолноеВнешнее",
+"usage": "ReadOnly"
 },
 {
 "name": "RightOuter",
-"nameRu": "ПравоеВнешнее"
+"nameRu": "ПравоеВнешнее",
+"usage": "ReadOnly"
 }
 ],
+"values": [],
 "excludeFromGlobalContext": false
 },
 {
@@ -121883,7 +121959,7 @@
 "nameRu": "ТаксиРазрешитьВерсия8_2"
 }
 ],
-"excludeFromGlobalContext": false
+"excludeFromGlobalContext": true
 },
 {
 "id": "CLIENT_APPLICATION_FORM_SCALE_VARIANT",
@@ -123450,7 +123526,7 @@
 {
 "id": "I_PORT_RANGE_INFO",
 "name": "IPortRangeInfo",
-"nameRu": "ДиапазонПортов",
+"nameRu": "ДиапазонАдресов",
 "kind": "Type",
 "methods": [],
 "properties": [
@@ -124411,7 +124487,7 @@
 "EXCHANGE_PLAN_OBJECT",
 "NODE_FORM_EXTENSION",
 "EXTERNAL_DATA_SOURCE_TABLE_OBJECT",
-"EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET"
+"EXTERNAL_DATA_SOURCE_RECORD_SET"
 ]
 },
 {
@@ -124961,7 +125037,7 @@
 "RECALCULATION_RECORD_SET",
 "EXCHANGE_PLAN_OBJECT",
 "EXTERNAL_DATA_SOURCE_TABLE_OBJECT",
-"EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET"
+"EXTERNAL_DATA_SOURCE_RECORD_SET"
 ]
 },
 {
@@ -125049,7 +125125,7 @@
 "EXCHANGE_PLAN_OBJECT",
 "NODE_FORM_EXTENSION",
 "EXTERNAL_DATA_SOURCE_TABLE_OBJECT",
-"EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET"
+"EXTERNAL_DATA_SOURCE_RECORD_SET"
 ]
 },
 {
@@ -125140,7 +125216,7 @@
 "INFORMATION_REGISTER_RECORD_SET",
 "EXCHANGE_PLAN_OBJECT",
 "EXTERNAL_DATA_SOURCE_TABLE_OBJECT",
-"EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET"
+"EXTERNAL_DATA_SOURCE_RECORD_SET"
 ]
 },
 {

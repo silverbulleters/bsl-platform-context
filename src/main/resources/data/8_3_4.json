@@ -18639,8 +18639,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "MD_GRAPH",
-"name": "MDGraph",
+"id": "MD_COLUMN",
+"name": "MDColumn",
 "nameRu": "МДГрафа",
 "kind": "Type",
 "methods": [
@@ -70297,8 +70297,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FOR_AN_INPUT_FIELD",
-"name": "TestedFormFieldExtensionForAnInputField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляВвода",
 "kind": "Type",
 "methods": [
@@ -70408,8 +70408,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_CHECK_BOX_FIELD",
-"name": "TestedFormFieldExtensionForACheckBoxField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляФлажка",
 "kind": "Type",
 "methods": [
@@ -70429,8 +70429,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_RADIO_BUTTON_FIELD",
-"name": "TestedFormFieldExtensionForARadioButtonField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляПереключателя",
 "kind": "Type",
 "methods": [
@@ -70450,8 +70450,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_CALENDAR_FIELD",
-"name": "TestedFormFieldExtensionForACalendarField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляКалендаря",
 "kind": "Type",
 "methods": [
@@ -70511,8 +70511,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_LABEL_FIELD",
-"name": "TestedFormFieldExtensionForALabelField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляНадписи",
 "kind": "Type",
 "methods": [
@@ -70532,8 +70532,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_PICTURE_FIELD",
-"name": "TestedFormFieldExtensionForAPictureField",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляПоляКартинки",
 "kind": "Type",
 "methods": [
@@ -70553,8 +70553,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "TESTED_FORM_FIELD_EXTENSION_FORA_SPREADSHEET_DOCUMENT",
-"name": "TestedFormFieldExtensionForASpreadsheetDocument",
+"id": "",
+"name": "",
 "nameRu": "РасширениеТестируемогоПоляФормыДляТабличногоДокумента",
 "kind": "Type",
 "methods": [
@@ -101679,8 +101679,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "EXTERNAL_DATA_SOURCE_TABLE_RECORD_SET",
-"name": "ExternalDataSourceTableRecordSet",
+"id": "EXTERNAL_DATA_SOURCE_RECORD_SET",
+"name": "ExternalDataSourceRecordSet",
 "nameRu": "ВнешнийИсточникДанныхТаблицаНаборЗаписей",
 "kind": "Type",
 "methods": [
@@ -101806,8 +101806,8 @@
 "excludeFromGlobalContext": false
 },
 {
-"id": "EXTERNAL_DATA_SOURCE_TABLE_RECORD",
-"name": "ExternalDataSourceTableRecord",
+"id": "EXTERNAL_DATA_SOURCE_RECORD",
+"name": "ExternalDataSourceRecord",
 "nameRu": "ВнешнийИсточникДанныхТаблицаЗапись",
 "kind": "Type",
 "methods": [],
@@ -106966,7 +106966,7 @@
 {
 "id": "CHART_LABELS_ORIENTATION",
 "name": "ChartLabelsOrientation",
-"nameRu": "ОриентацияПодписейДиаграммы",
+"nameRu": "ОриентацияМетокДиаграммы",
 "kind": "Enum",
 "methods": [],
 "properties": [],
@@ -115946,7 +115946,7 @@
 "nameRu": "ТаксиРазрешитьВерсия8_2"
 }
 ],
-"excludeFromGlobalContext": false
+"excludeFromGlobalContext": true
 },
 {
 "id": "CLIENT_APPLICATION_FORM_SCALE_VARIANT",
@@ -117490,7 +117490,7 @@
 {
 "id": "I_PORT_RANGE_INFO",
 "name": "IPortRangeInfo",
-"nameRu": "ДиапазонПортов",
+"nameRu": "ДиапазонАдресов",
 "kind": "Type",
 "methods": [],
 "properties": [
