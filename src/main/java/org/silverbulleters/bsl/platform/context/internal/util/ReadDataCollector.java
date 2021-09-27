@@ -33,6 +33,7 @@ import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.Method;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.platform.Property;
+import org.silverbulleters.bsl.platform.context.platform.TypeValue;
 import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
@@ -143,6 +144,7 @@ public class ReadDataCollector {
       var typeName = new Resource(typeFromData.getNameRu(), typeFromData.getName());
       var typeMethods = createMethodsFromData(typeFromData.getMethods());
       var typeProperties = createPropertiesFromData(typeFromData.getProperties());
+      var typeValues = createTypeValuesFromData(typeFromData.getValues());
       var type = ContextType.builder()
         .reference(reference)
         .name(typeName)
@@ -150,6 +152,7 @@ public class ReadDataCollector {
         .isPrimitive(false)
         .methods(typeMethods)
         .properties(typeProperties)
+        .values(typeValues)
         .excludeFromGlobalContext(typeFromData.isExcludeFromGlobalContext())
         .build();
       types.add(type);
@@ -173,6 +176,10 @@ public class ReadDataCollector {
 
   private static List<Property> createPropertiesFromData(List<DataFromCollector.Property> properties) {
     return properties.stream().map(Property::createPropertyFromData).collect(Collectors.toList());
+  }
+
+  private static List<TypeValue> createTypeValuesFromData(List<DataFromCollector.TypeValue> values) {
+    return values.stream().map(TypeValue::createFromData).collect(Collectors.toList());
   }
 
   private Optional<InputStream> getDataInputStream(String version) {

@@ -27,9 +27,11 @@ import org.silverbulleters.bsl.platform.context.internal.util.ReadDataCollector;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.types.ContextTypeKind;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
+import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -84,6 +86,23 @@ class BSLPlatformContextTest {
 
     contextType = context.getTypeByName(PlatformEdition.VERSION_8_3_10, "WebЦвета");
     assertThat(contextType.getKind()).isEqualTo(ContextTypeKind.ENUM);
+  }
+
+  @Test
+  void testTypeValue() {
+    var edition = PlatformEdition.VERSION_8_3_10;
+    var context = new BSLPlatformContext(List.of(edition));
+    var enumWithoutValues = context.getTypesByPlatform(edition).stream()
+      .filter(contextType -> contextType.getKind() == ContextTypeKind.ENUM)
+      .filter(contextType -> contextType.getValues().isEmpty())
+      .collect(Collectors.toList());
+    assertThat(enumWithoutValues).isEmpty();
+
+    var contextType = context.getTypeByName(edition, "WebЦвета");
+    assertThat(contextType).isNotEqualTo(PrimitiveType.UNKNOWN_TYPE);
+    assertThat(contextType.getValues()).isNotEmpty()
+      .anyMatch(typeValue -> typeValue.getName().getNameRu().equals("Серебряный")
+        && typeValue.getName().getNameEn().equals("Silver"));
   }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
