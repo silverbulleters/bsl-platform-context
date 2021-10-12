@@ -27,6 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContext;
 import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.internal.data.DataFromCollector;
+import org.silverbulleters.bsl.platform.context.internal.data.DataGlobalMethodsCollector;
 import org.silverbulleters.bsl.platform.context.internal.data.DataIdentifierCollector;
 import org.silverbulleters.bsl.platform.context.platform.ContextType;
 import org.silverbulleters.bsl.platform.context.platform.Event;
@@ -45,7 +46,9 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -120,6 +123,23 @@ public class ReadDataCollector {
     }
   }
 
+  @SneakyThrows
+  public Map<String, List<PlatformEdition>> readToGlobalMethods() {
+    try (var stream = ReadDataCollector.class.getResourceAsStream("/global-methods.json")) {
+      var mapper = ObjectMapperFactory.getObjectMapper();
+      var data = mapper.readValue(stream, DataGlobalMethodsCollector.class);
+
+      var methods = new HashMap<String, List<PlatformEdition>>();
+      data.getGlobalMethods().forEach(globalMethodInfo -> {
+        methods.put(globalMethodInfo.getName().toUpperCase(Locale.ENGLISH), globalMethodInfo.getPlatformVersions());
+        methods.put(globalMethodInfo.getNameRu().toUpperCase(Locale.ENGLISH), globalMethodInfo.getPlatformVersions());
+      });
+
+      return methods;
+    }
+  }
+
+
   private List<Event> fillPlatformEvents(Map<String, PlatformTypeReference> typeRefs, DataFromCollector data,
                                          PlatformTypeReference unknownType) {
 
@@ -146,6 +166,7 @@ public class ReadDataCollector {
       var typeName = new Resource(typeFromData.getNameRu(), typeFromData.getName());
       var typeMethods = createMethodsFromData(typeFromData.getMethods());
       var typeProperties = createPropertiesFromData(typeFromData.getProperties());
+
       var typeValues = createTypeValuesFromData(typeFromData.getValues());
       if (reference.getValue().equals(PlatformTypeIdentifier.KEY.value())) {
         typeValues = unfoldKeyData(typeValues);

@@ -31,6 +31,7 @@ import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 
 import java.util.Collections;
 import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -49,6 +50,9 @@ public class PlatformContextStorage {
    */
   @Getter
   private final Map<String, PlatformTypeReference> typeRefs;
+
+  @Getter
+  private final Map<String, List<PlatformEdition>> globalMethodsWithPlatformEditions = new HashMap<>();
 
   public PlatformContextStorage() {
     typeRefs = ReadDataCollector.readPlatformTypeReference();

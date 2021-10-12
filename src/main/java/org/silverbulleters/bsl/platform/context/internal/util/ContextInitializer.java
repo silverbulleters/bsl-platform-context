@@ -38,6 +38,10 @@ public class ContextInitializer {
     }
   }
 
+  public void loadGlobalMethods(PlatformContextStorage storage) {
+    storage.getGlobalMethodsWithPlatformEditions().putAll(ReadDataCollector.readToGlobalMethods());
+  }
+
   private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {
     var platformContext = ReadDataCollector.readToPlatformContext(edition, storage.getTypeRefs());
     if (platformContext.isEmpty()) {
