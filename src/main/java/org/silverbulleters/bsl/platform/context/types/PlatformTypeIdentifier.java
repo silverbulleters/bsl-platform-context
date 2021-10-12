@@ -87,7 +87,7 @@ public enum PlatformTypeIdentifier {
   NUMBER("NUMBER"),
   UNKNOWN("UNKNOWN"),
   // Перечисления
-  ENUM_KEY("KEY");
+  KEY("KEY");
 
   @Accessors(fluent = true)
   @Getter

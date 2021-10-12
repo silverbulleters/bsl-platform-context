@@ -48,7 +48,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -58,9 +57,6 @@ import java.util.stream.IntStream;
 @UtilityClass
 @Slf4j
 public class ReadDataCollector {
-
-  private static final Pattern ENUM_KEY_PATTERN = Pattern.compile("Key|Клавиша",
-    Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
 
   /**
    * Прочитать внешние данные о контексте в объект
@@ -151,7 +147,7 @@ public class ReadDataCollector {
       var typeMethods = createMethodsFromData(typeFromData.getMethods());
       var typeProperties = createPropertiesFromData(typeFromData.getProperties());
       var typeValues = createTypeValuesFromData(typeFromData.getValues());
-      if (ENUM_KEY_PATTERN.matcher(typeFromData.getName()).matches()) {
+      if (reference.getValue().equals(PlatformTypeIdentifier.KEY.value())) {
         typeValues = unfoldKeyData(typeValues);
       }
       var type = ContextType.builder()
@@ -214,7 +210,7 @@ public class ReadDataCollector {
 
   private Collection<TypeValue> generateKeys(int start, int end, String prefix) {
     return IntStream.rangeClosed(start, end)
-      .mapToObj(num -> prefix + num)
+      .mapToObj(number -> prefix + number)
       .map(numValue -> new TypeValue(new Resource(numValue, numValue)))
       .collect(Collectors.toList());
   }
