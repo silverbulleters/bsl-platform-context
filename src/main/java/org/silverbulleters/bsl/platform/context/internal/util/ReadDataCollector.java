@@ -43,11 +43,14 @@ import org.silverbulleters.bsl.platform.context.types.Resource;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * Служебный класс для чтения внешних данных о контексте платформы
@@ -56,13 +59,16 @@ import java.util.stream.Collectors;
 @Slf4j
 public class ReadDataCollector {
 
+  private static final Pattern ENUM_KEY_PATTERN = Pattern.compile("Key|Клавиша",
+    Pattern.CASE_INSENSITIVE | Pattern.UNICODE_CASE);
+
   /**
    * Прочитать внешние данные о контексте в объект
    *
    * @param edition  - версия платформы
    * @param typeRefs - соответствие идентификаторов и ссылок на типы
    *                 из {@link PlatformContextStorage#getTypesByPlatform}
-   * @return
+   * @return опциональное значение контекста платформы, с заполненной информацией
    */
   public Optional<PlatformContext> readToPlatformContext(PlatformEdition edition, Map<String, PlatformTypeReference> typeRefs) {
     var dataStreamOptional = getDataInputStream(edition.getVersion());
@@ -145,6 +151,9 @@ public class ReadDataCollector {
       var typeMethods = createMethodsFromData(typeFromData.getMethods());
       var typeProperties = createPropertiesFromData(typeFromData.getProperties());
       var typeValues = createTypeValuesFromData(typeFromData.getValues());
+      if (ENUM_KEY_PATTERN.matcher(typeFromData.getName()).matches()) {
+        typeValues = unfoldKeyData(typeValues);
+      }
       var type = ContextType.builder()
         .reference(reference)
         .name(typeName)
@@ -168,6 +177,46 @@ public class ReadDataCollector {
     types.add(PrimitiveType.NUMBER_TYPE);
 
     return types;
+  }
+
+  private List<TypeValue> unfoldKeyData(List<TypeValue> oldValues) {
+    var newValues = new ArrayList<TypeValue>();
+    for (var typeValue : oldValues) {
+      var typeValueName = typeValue.getName().getNameEn();
+      if (!typeValueName.contains("...")) {
+        newValues.add(typeValue);
+        continue;
+      }
+
+      if (typeValueName.startsWith("_0")) {
+        newValues.addAll(generateKeys(0, 9, "_"));
+      } else if (typeValueName.startsWith("F1")) {
+        newValues.addAll(generateKeys(1, 12, "F"));
+      } else if (typeValueName.startsWith("Num0")) {
+        newValues.addAll(generateKeys(0, 9, "Num"));
+      } else {
+        newValues.addAll(generateCharacterKeys());
+      }
+    }
+
+    return newValues;
+  }
+
+  private Collection<TypeValue> generateCharacterKeys() {
+    var capitalAChar = "A".charAt(0);
+    var capitalZChar = "Z".charAt(0);
+    return IntStream.rangeClosed(capitalAChar, capitalZChar)
+      .mapToObj(intValue -> (char) intValue) // NOSONAR
+      .map(String::valueOf)
+      .map(value -> new TypeValue(new Resource(value, value)))
+      .collect(Collectors.toList());
+  }
+
+  private Collection<TypeValue> generateKeys(int start, int end, String prefix) {
+    return IntStream.rangeClosed(start, end)
+      .mapToObj(num -> prefix + num)
+      .map(numValue -> new TypeValue(new Resource(numValue, numValue)))
+      .collect(Collectors.toList());
   }
 
   private static List<Method> createMethodsFromData(List<DataFromCollector.Method> methods) {
