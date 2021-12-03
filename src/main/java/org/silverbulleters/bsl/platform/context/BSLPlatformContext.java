@@ -33,7 +33,9 @@ import org.silverbulleters.bsl.platform.context.types.PlatformTypeIdentifier;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 import org.silverbulleters.bsl.platform.context.types.PrimitiveType;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
 /**
@@ -46,7 +48,7 @@ public class BSLPlatformContext {
   private final PlatformContextStorage storage = new PlatformContextStorage();
 
   public BSLPlatformContext(@NotNull List<PlatformEdition> platformEditions) {
-    initialize(platformEditions);
+    initializeStorage(platformEditions);
   }
 
   /**
@@ -76,7 +78,7 @@ public class BSLPlatformContext {
 
   /**
    * @param edition - версия платформы
-   * @return список свойств глобального контекста, доступных в переденной версии платформы
+   * @return список свойств глобального контекста, доступных в переданной версии платформы
    */
   @NotNull
   public List<Property> getGlobalPropertiesByPlatform(@NotNull PlatformEdition edition) {
@@ -128,7 +130,19 @@ public class BSLPlatformContext {
       .findAny().orElse(PrimitiveType.UNKNOWN_TYPE);
   }
 
-  private void initialize(List<PlatformEdition> platformEditions) {
+  /**
+   * Получить список версий платформы, на которых существует глобальный метод
+   *
+   * @param name имя глобального метода
+   * @return если глобальный метод не найден, то вернется пустой список
+   */
+  public List<PlatformEdition> getPlatformEditionsByGlobalMethodName(@NotNull String name) {
+    return storage.getGlobalMethodsWithPlatformEditions()
+      .getOrDefault(name.toUpperCase(Locale.ENGLISH), Collections.emptyList());
+  }
+
+  private void initializeStorage(List<PlatformEdition> platformEditions) {
+    ContextInitializer.loadGlobalMethods(storage);
     ContextInitializer.initializeContext(storage, platformEditions);
   }
 

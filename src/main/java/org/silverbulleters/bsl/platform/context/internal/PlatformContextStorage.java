@@ -34,6 +34,7 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.TreeMap;
 
 /**
  * Внутреннее API над контекстами платформы
@@ -49,6 +50,10 @@ public class PlatformContextStorage {
    */
   @Getter
   private final Map<String, PlatformTypeReference> typeRefs;
+
+  @Getter
+  private final Map<String, List<PlatformEdition>> globalMethodsWithPlatformEditions =
+    new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
 
   public PlatformContextStorage() {
     typeRefs = ReadDataCollector.readPlatformTypeReference();
