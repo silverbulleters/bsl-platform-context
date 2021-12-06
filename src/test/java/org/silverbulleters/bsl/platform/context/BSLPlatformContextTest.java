@@ -105,6 +105,13 @@ class BSLPlatformContextTest {
         && typeValue.getName().getNameEn().equals("Silver"));
   }
 
+  @Test
+  void testGlobalMethods() {
+    var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_10));
+    var editions = context.getPlatformEditionsByGlobalMethodName("стрнайти");
+    assertThat(editions).isNotEmpty();
+  }
+
   private void checkDataVersion(PlatformEdition platformEdition) {
     var contextStorage = new PlatformContextStorage();
     var data = ReadDataCollector.readToPlatformContext(platformEdition, contextStorage.getTypeRefs());
