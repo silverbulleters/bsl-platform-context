@@ -142,20 +142,12 @@ public class BSLPlatformContext {
   }
 
   /**
-   * Получить список глобальных асинхронных методов *Асинх
+   * Получить список имен глобальных асинхронных методов *Асинх
    *
-   * @param edition версия платформы
-   * @return список асинхронных методов
+   * @return список имен асинхронных методов, в верхнем регистре
    */
-  public List<Method> getAsyncMethods(@NotNull PlatformEdition edition) {
-    var globalContextReference = new PlatformTypeReference(PlatformTypeIdentifier.GLOBAL_CONTEXT.value());
-
-    return storage.getTypesByPlatform(edition).stream()
-      .filter(contextType -> contextType.getReference().equals(globalContextReference))
-      .flatMap(contextType -> contextType.getMethods().stream())
-      .filter(method -> method.getName().getNameRu().endsWith("Асинх"))
-      .collect(Collectors.toList());
-
+  public List<String> getAsyncMethods() {
+    return storage.getAsyncMethods();
   }
 
   private void initializeStorage(List<PlatformEdition> platformEditions) {

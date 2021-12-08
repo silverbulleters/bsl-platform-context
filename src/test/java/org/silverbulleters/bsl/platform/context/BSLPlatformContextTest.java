@@ -68,8 +68,8 @@ class BSLPlatformContextTest {
   void testReadingAsyncMethodsFromFile() {
     var context = new BSLPlatformContext(List.of(PlatformEdition.VERSION_8_3_18));
 
-    var asyncMethods = context.getAsyncMethods(PlatformEdition.VERSION_8_3_18);
-    assertThat(asyncMethods).hasSize(32);
+    var asyncMethods = context.getAsyncMethods();
+    assertThat(asyncMethods).hasSize(64);
   }
 
   @Test
