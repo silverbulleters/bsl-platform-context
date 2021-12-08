@@ -27,6 +27,7 @@ import org.silverbulleters.bsl.platform.context.internal.PlatformContextStorage;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @UtilityClass
 @Slf4j
@@ -39,7 +40,13 @@ public class ContextInitializer {
   }
 
   public void loadGlobalMethods(PlatformContextStorage storage) {
+    var globalMethods = ReadDataCollector.readToGlobalMethods();
+    var asyncGlobalMethods = globalMethods.keySet().stream()
+      .filter(methodName -> methodName.endsWith("АСИНХ") || methodName.endsWith("ASYNC"))
+      .collect(Collectors.toList());
+
     storage.getGlobalMethodsWithPlatformEditions().putAll(ReadDataCollector.readToGlobalMethods());
+    storage.getAsyncMethods().addAll(asyncGlobalMethods);
   }
 
   private void loadContextByEdition(PlatformContextStorage storage, PlatformEdition edition) {

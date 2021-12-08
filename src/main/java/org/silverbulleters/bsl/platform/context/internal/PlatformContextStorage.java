@@ -29,6 +29,7 @@ import org.silverbulleters.bsl.platform.context.platform.Event;
 import org.silverbulleters.bsl.platform.context.platform.PlatformEdition;
 import org.silverbulleters.bsl.platform.context.types.PlatformTypeReference;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.EnumMap;
 import java.util.List;
@@ -54,6 +55,12 @@ public class PlatformContextStorage {
   @Getter
   private final Map<String, List<PlatformEdition>> globalMethodsWithPlatformEditions =
     new TreeMap<>(String.CASE_INSENSITIVE_ORDER);
+
+  /**
+   * Имена, в верхнем регистре, глобальных асинхронных методов с суффиксом Асинх/Async.
+   */
+  @Getter
+  private final List<String> asyncMethods = new ArrayList<>();
 
   public PlatformContextStorage() {
     typeRefs = ReadDataCollector.readPlatformTypeReference();

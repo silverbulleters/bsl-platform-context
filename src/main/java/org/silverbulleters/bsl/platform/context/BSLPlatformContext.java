@@ -141,6 +141,15 @@ public class BSLPlatformContext {
       .getOrDefault(name.toUpperCase(Locale.ENGLISH), Collections.emptyList());
   }
 
+  /**
+   * Получить список имен глобальных асинхронных методов *Асинх
+   *
+   * @return список имен асинхронных методов, в верхнем регистре
+   */
+  public List<String> getAsyncMethods() {
+    return storage.getAsyncMethods();
+  }
+
   private void initializeStorage(List<PlatformEdition> platformEditions) {
     ContextInitializer.loadGlobalMethods(storage);
     ContextInitializer.initializeContext(storage, platformEditions);
