@@ -119,6 +119,13 @@ class BSLPlatformContextTest {
     var editions = context.getPlatformEditionsByGlobalMethodName("стрнайти");
     assertThat(editions).isNotEmpty();
   }
+  
+  @Test
+  void testPlatformEditionLatest() {
+    PlatformEdition[] values = PlatformEdition.values();
+    assertThat(values.length).isEqualTo(Arrays.stream(values).distinct().count());
+    assertThat(values[values.length-1]).isEqualTo(PlatformEdition.latest());
+  }
 
   private void checkDataVersion(PlatformEdition platformEdition) {
     var contextStorage = new PlatformContextStorage();

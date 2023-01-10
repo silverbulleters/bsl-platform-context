@@ -51,4 +51,8 @@ public enum PlatformEdition {
 
   @Getter
   private final String version;
+  
+  public static PlatformEdition latest() {
+    return VERSION_8_3_20;
+  }
 }
